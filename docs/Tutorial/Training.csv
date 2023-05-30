@@ -1,0 +1,47 @@
+﻿Name,Course,Lesson,Status,Video,Tags,Last edited by,Created time,Last edited time,Created by,Instructor
+Landing page - video  (30 sec marketing video),Marketing,,Not started,,,Peter Jung,"January 15, 2023 11:09 AM","February 6, 2023 1:38 AM",Peter Jung,Peter Jung
+API AutoFlow Concepts,Engineer,1,Done,,,Peter Jung,"January 12, 2023 7:19 PM","May 2, 2023 5:41 PM",Peter Jung,Peter Jung
+Installation,Engineer,2,Done,,,Peter Jung,"February 16, 2023 12:21 AM","May 2, 2023 5:41 PM",Peter Jung,Peter Jung
+Product Layout and Navigation,Engineer,3,Not started,,,Peter Jung,"May 17, 2023 2:57 PM","May 17, 2023 2:58 PM",Peter Jung,
+Creating the Server APIs,Engineer,3,Done,,,Peter Jung,"January 25, 2023 2:44 PM","May 2, 2023 5:41 PM",Peter Jung,Peter Jung
+Applying API Query Parameters,Engineer,4,Done,,,Peter Jung,"January 12, 2023 7:19 PM","May 2, 2023 5:41 PM",Peter Jung,Peter Jung
+Integrating with Database,Engineer,5,Done,,,Peter Jung,"January 12, 2023 7:38 PM","May 2, 2023 5:41 PM",Peter Jung,Peter Jung
+Abstracting Data Flow using Services,Engineer,6,Done,,,Peter Jung,"January 12, 2023 7:39 PM","May 2, 2023 5:41 PM",Peter Jung,Peter Jung
+Normalizing Service using Intent,Engineer,7,Not started,,,Peter Jung,"January 12, 2023 7:39 PM","April 30, 2023 9:53 PM",Peter Jung,Peter Jung
+How to call other services using API,Engineer,8,Not started,,,Peter Jung,"January 12, 2023 7:39 PM","April 30, 2023 9:53 PM",Peter Jung,David Jung
+Debugging,Engineer,9,Waiting,,,Peter Jung,"January 12, 2023 7:39 PM","May 2, 2023 3:40 PM",Peter Jung,Jason Monroe
+Using Data Simulation for Easier Development,Engineer,10,Waiting,,,Peter Jung,"January 12, 2023 8:13 PM","April 30, 2023 9:53 PM",Peter Jung,Peter Jung
+Web development basics,Full Stack,1,Not started,,,Peter Jung,"January 12, 2023 7:56 PM","February 12, 2023 12:38 AM",Peter Jung,Peter Jung
+Frontend development basics,Full Stack,2,Not started,,,Peter Jung,"January 12, 2023 7:58 PM","February 12, 2023 12:38 AM",Peter Jung,Peter Jung
+Backend development basics,Full Stack,3,Not started,,,Peter Jung,"January 12, 2023 7:58 PM","February 12, 2023 12:38 AM",Peter Jung,Peter Jung
+"API development basics using API Autoflow Pro (Clients, Servers, APIs)",Full Stack,4,Not started,,,Peter Jung,"January 12, 2023 7:58 PM","February 12, 2023 12:38 AM",Peter Jung,Peter Jung
+API Autoflow Pro를 이용한 API 개발 응용,Full Stack,5,Not started,,,Peter Jung,"January 12, 2023 7:58 PM","February 12, 2023 12:38 AM",Peter Jung,Peter Jung
+"Forum project using API Autoflow Pro (1) - Project and frontend planning, DB schema",Full Stack,6,Not started,,,Peter Jung,"January 12, 2023 7:58 PM","February 12, 2023 12:39 AM",Peter Jung,Peter Jung
+Forum project using API Autoflow Pro (2) - API definition,Full Stack,7,Not started,,,Peter Jung,"January 12, 2023 7:58 PM","February 12, 2023 12:39 AM",Peter Jung,Peter Jung
+Forum project using API Autoflow Pro - (3) - Integrate Frontend with the API,Full Stack,8,Not started,,,Peter Jung,"January 12, 2023 7:59 PM","February 12, 2023 12:39 AM",Peter Jung,Peter Jung
+Forum project using API Autoflow Pro (4) - User Authentication,Full Stack,9,Not started,,,Peter Jung,"January 12, 2023 7:59 PM","February 12, 2023 12:39 AM",Peter Jung,Peter Jung
+"API Autoflow Pro Advance - Intents, Services, APIs with Open API",Full Stack,10,Not started,,,Peter Jung,"January 12, 2023 7:59 PM","February 6, 2023 1:39 AM",Peter Jung,Peter Jung
+Forum project using API Autoflow Pro (5) - Final wrapper,Full Stack,11,Not started,,,Peter Jung,"January 12, 2023 7:59 PM","February 6, 2023 1:39 AM",Peter Jung,Peter Jung
+Data Capture,In-depth,,Not started,,,Peter Jung,"May 17, 2023 3:22 PM","May 17, 2023 3:22 PM",Peter Jung,
+Workflow,In-depth,,Script Written,,,Peter Jung,"May 2, 2023 5:54 PM","May 2, 2023 6:53 PM",Peter Jung,Peter Jung
+Log,In-depth,,Script Written,,,Peter Jung,"May 2, 2023 5:53 PM","May 2, 2023 5:54 PM",Peter Jung,Peter Jung
+Error handling,In-depth,,Not started,,,Peter Jung,"February 13, 2023 5:53 PM","February 13, 2023 5:53 PM",Peter Jung,Jason Monroe
+Database in depth,In-depth,,Not started,,,Peter Jung,"February 3, 2023 11:36 PM","February 6, 2023 3:42 PM",Peter Jung,Jun Beom Kim
+Value Type Selector,In-depth,,Not started,,,Peter Jung,"January 12, 2023 8:33 PM","February 22, 2023 3:35 PM",Peter Jung,Jason Monroe
+TLS,In-depth,,Not started,,,Peter Jung,"January 12, 2023 8:31 PM","February 6, 2023 3:42 PM",Peter Jung,Jun Beom Kim
+Server Security,In-depth,,Not started,,,Peter Jung,"January 12, 2023 8:31 PM","February 6, 2023 3:42 PM",Peter Jung,David Jung
+Actions,In-depth,,Not started,,,Peter Jung,"January 12, 2023 8:27 PM","February 6, 2023 3:41 PM",Peter Jung,David Jung
+Versioning,In-depth,,Not started,,,Peter Jung,"January 12, 2023 8:26 PM","February 15, 2023 3:01 PM",Peter Jung,Jason Monroe
+"Scopes, Environment Variable, and data reference",In-depth,,Not started,,,Peter Jung,"January 12, 2023 8:13 PM","February 22, 2023 3:36 PM",Peter Jung,Jason Monroe
+How to use webhook,In-depth,,Not started,,,Peter Jung,"January 12, 2023 7:39 PM","February 6, 2023 3:40 PM",Peter Jung,David Jung
+Master Iteration Loop to Create Complex Solutions,In-depth,,Not started,,,Peter Jung,"January 12, 2023 7:38 PM","February 6, 2023 3:41 PM",Peter Jung,David Jung
+Build Your First Flow using Conditionals,In-depth,,Not started,,,Peter Jung,"January 12, 2023 7:38 PM","May 4, 2023 10:55 AM",Peter Jung,David Jung
+LDAP,Use Case,,Not started,,,Peter Jung,"February 2, 2023 2:22 PM","February 6, 2023 3:42 PM",Peter Jung,David Jung
+Scaling your solution,Use Case,,Not started,,,Peter Jung,"January 28, 2023 6:30 PM","February 6, 2023 3:43 PM",Peter Jung,Jason Monroe
+Docker and Kubernetes deployment,Use Case,,Not started,,,Peter Jung,"January 28, 2023 6:29 PM","February 6, 2023 3:43 PM",Peter Jung,Jason Monroe
+How to use Keyvault,Use Case,,Not started,,,Peter Jung,"January 27, 2023 4:31 PM","February 6, 2023 3:43 PM",Peter Jung,David Jung
+What is API,Prerequisites,1,Done,,,Peter Jung,"January 12, 2023 8:58 PM","February 6, 2023 1:39 AM",Peter Jung,Peter Jung
+Understanding HTTP,Prerequisites,2,Done,,,Peter Jung,"January 12, 2023 8:58 PM","February 6, 2023 1:39 AM",Peter Jung,Peter Jung
+Understanding data types,Prerequisites,3,Script Written,,,Peter Jung,"January 12, 2023 8:25 PM","May 2, 2023 6:08 PM",Peter Jung,Peter Jung
+OpenAPI,Prerequisites,4,Not started,,,Peter Jung,"January 12, 2023 8:25 PM","February 17, 2023 11:51 PM",Peter Jung,Peter Jung
+JSON Schema,Prerequisites,5,Not started,,,Peter Jung,"January 12, 2023 8:36 PM","February 13, 2023 5:53 PM",Peter Jung,"Peter Jung, Jason Monroe"

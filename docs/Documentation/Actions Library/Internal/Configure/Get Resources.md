@@ -1,0 +1,3 @@
+# Get Resources
+
+No Content
