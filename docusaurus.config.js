@@ -61,9 +61,32 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'mySidebar',
+            sidebarId: 'documentation',
             position: 'left',
-            label: 'My Sidebar',
+            label: 'Documentation',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'community',
+            position: 'left',
+            label: 'Community',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'support',
+            position: 'left',
+            label: 'Support',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorial',
+            position: 'left',
+            label: 'Tutorial',
+          },
+          {
+            position: 'right',
+            label: 'Quick Demo',
+            to: 'docs/Quick Demo'
           },
         ],
       },

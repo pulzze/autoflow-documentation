@@ -21,7 +21,7 @@ There are many types of iteration actions to choose from. Below is a table of th
 
 ## Table of Contents
 
-[All are True](All%20are%20True)
+[All are True](action-iteration-all-are-true)
 
 [Any are True](Any%20are%20True)
 

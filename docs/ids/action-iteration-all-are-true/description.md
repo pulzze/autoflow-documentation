@@ -1,5 +1,3 @@
-# All are True
-
 Returns true if all elements in array are truthy.
 
 When an element has a falsy value (false or nil) iteration stops immediately and false is returned. In all other cases true is returned.
