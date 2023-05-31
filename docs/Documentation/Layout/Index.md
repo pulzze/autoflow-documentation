@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Layout
 
 API Autoflow is divided into three sections. From left to right, the **toolbar** is used to navigate between sections.  The center **workspace** is where the configuration is one.  The **right panel** is where you can find useful information that helps with your configuration 

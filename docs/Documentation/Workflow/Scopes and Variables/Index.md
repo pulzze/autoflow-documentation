@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Scopes and Variables
 
 There are three levels of scope that the data can be stored and accessed.

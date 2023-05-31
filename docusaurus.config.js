@@ -67,9 +67,14 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'community',
+            sidebarId: 'tutorial',
             position: 'left',
-            label: 'Community',
+            label: 'Tutorial',
+          },
+          {
+            position: 'left',
+            label: 'Quick Demo',
+            to: 'docs/Quick Demo'
           },
           {
             type: 'docSidebar',
@@ -78,15 +83,25 @@ const config = {
             label: 'Support',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorial',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Templates',
+            to: 'docs/Template'
+          },
+          {
+            position: 'left',
+            label: 'Release Notes',
+            to: 'docs/Release Note'
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'community',
+            position: 'left',
+            label: 'Community',
           },
           {
             position: 'right',
-            label: 'Quick Demo',
-            to: 'docs/Quick Demo'
+            label: 'interactor.com',
+            to: 'https://www.interactor.com'
           },
         ],
       },

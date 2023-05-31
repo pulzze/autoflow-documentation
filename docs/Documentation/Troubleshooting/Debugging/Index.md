@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Debugging
 
 API AutoFlow has a robust debugging features that help the developer quickly identify, analyze, and resolve issues or bugs in the configuration. Debugging involves investigating and fixing errors, unexpected behaviors, or malfunctions that occur during the execution of the configuration.

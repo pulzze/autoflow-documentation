@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
-# Getting Started (Level 100)
+# Product in-depth (Level 200)
 
 This is a selection of our most popular curriculum. To see content specific to your stage, sign up!
 
@@ -9,7 +9,7 @@ This is a selection of our most popular curriculum. To see content specific to y
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### What is API AutoFlow  **`101`**
+### Value Type Selector  **`203`**
 
 Some description
 
@@ -21,7 +21,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Key concept, Installation, and Hello World **`102`**
+### Caching and Storage  **`203`**
 
 Some description
 
@@ -33,7 +33,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Product Layout and Navigation  **`103`**
+### Data Referencing  **`201`**
 
 Some description
 
@@ -45,7 +45,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Understanding Workflow and Automation **`104`**
+### Mastering Service & Intent  **`201`**
 
 Some description
 
@@ -57,7 +57,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### HTTP Request Simulator **`105`**
+### Debugging Your Application  **`203`**
 
 Some description
 
@@ -69,7 +69,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### API URL Parameters **`105`**
+### Versioning  **`203`**
 
 Some description
 
@@ -81,7 +81,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Integrating Database **`106`**
+### Server Level Security, TLS, HTTPS  **`204`**
 
 Some description
 
@@ -93,7 +93,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Integrating API **`107`**
+### API Level Security  **`204`**
 
 Some description
 
@@ -105,7 +105,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Abstracting Workflow with Service and Intent **`108`**
+### Mapping HTTP Response Status Code
 
 Some description
 
@@ -117,7 +117,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### API AutoFlow Administrative Features **`109`**
+### Rate Limiting  **`205`**
 
 Some description
 
@@ -126,3 +126,26 @@ Some description
 4*0 mins . 5 lessons . All Level*
 
 ---
+
+[how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
+
+### MQTT Publish and Subscribe  **`101`**
+
+Some description
+
+**Peter Jung**
+
+4*0 mins . 5 lessons . All Level*
+
+---
+
+[how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
+
+### Redis  **`101`**
+
+Some description
+
+**Peter Jung**
+
+4*0 mins . 5 lessons . All Level*
+

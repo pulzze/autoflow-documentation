@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Certification Program
 
 [https://www.interactor.com/support/certifications](../https://www.interactor.com/support/certifications)

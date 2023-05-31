@@ -1,3 +1,6 @@
+---
+sidebar_position: 6
+---
 # Template
 
 The template feature is under development

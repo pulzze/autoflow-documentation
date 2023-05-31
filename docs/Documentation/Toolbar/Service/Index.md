@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Service
 
 ## What is a Service?

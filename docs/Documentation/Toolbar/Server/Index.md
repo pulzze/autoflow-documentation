@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Server
 
 ## What is a **Server**

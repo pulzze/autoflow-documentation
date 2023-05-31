@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # API Level Security
 
 ## OpenAPI based API security

@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Data Simulation
 
 Data simulation is a mock HTTP request data simulated for the purpose of testing a server, service during development.  By simulating the data, developers can visualize the expected response as the actions are applied.

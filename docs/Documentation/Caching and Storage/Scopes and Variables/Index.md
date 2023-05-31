@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Scopes and Variables
 
 A scope refers to the portion of a configuration where a particular variable, function, or other named entity is visible or accessible. It determines the area of the configuration where a variable can be referenced, modified, or used. Scope helps in organizing and controlling the visibility and lifetime of variables, preventing naming conflicts, and facilitating modular programming.

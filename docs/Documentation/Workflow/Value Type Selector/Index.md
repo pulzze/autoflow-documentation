@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Value Type Selector
 
 Value type selectors are how you define the data.  For example, you can define a data with a simple data type such as string, array, or object.  You can also reference data from a variable or HTTP request.

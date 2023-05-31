@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Capture
 
 API AutoFlow provides a convenient way to capture the incoming data to the server endpoints and service operations.

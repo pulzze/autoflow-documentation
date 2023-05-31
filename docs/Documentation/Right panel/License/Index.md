@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # License
 
 The License pane displays the applied license type and status.

@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Exception (Error) Handling
 
 Exception (Error) handling manages and handles unexpected or exceptional situations that occur during the execution. These exceptional situations, known as exceptions, can be errors, faults, or other exceptional events that disrupt the normal flow of program execution.

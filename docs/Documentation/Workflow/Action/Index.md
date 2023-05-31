@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Action
 
 Actions are the basic building blocks of a workflow, with a few hundred available to choose from. These actions are grouped into three similar features.

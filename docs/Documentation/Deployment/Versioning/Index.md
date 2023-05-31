@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Versioning
 
 API AutoFlow provides versioning for each of the following sections:

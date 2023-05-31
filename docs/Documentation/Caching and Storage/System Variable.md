@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # System Variable
 
 [Home](../../Documentation) &gt; [Getting Started](https://www.notion.so/Getting-Started-6788b61843fb43ce9b7f643afa372d22)

@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Help Center
 
 [https://www.interactor.com/support](https://www.interactor.com/support)

@@ -1,3 +1,6 @@
+---
+sidebar_position: 11
+---
 # Troubleshooting
 
 ## Key Features

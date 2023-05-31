@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # CI/CD
 
 Implementing Continuous Integration and Continuous Deployment (CI/CD) for API AutoFlow requires automating the processes of building, testing, and deploying API AutoFlow configuration changes along with application code changes. The CI/CD process for configuration-based products, like API AutoFlow, shares many similarities with schema-based products, such as databases. Both are managed alongside application code, and are tested and deployed on their respective products.

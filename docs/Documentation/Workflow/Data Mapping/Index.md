@@ -1,3 +1,6 @@
+---
+sidebar_position: 5
+---
 # Data Mapping
 
 The data stored in the scopes can be mapped throughout the product, which is why there is no specific page for data mapping.  Use the Data Reference to map data between different workflows and actions.

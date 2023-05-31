@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Rate Limiting
 
 [Server based rate limiting](Server%20based%20rate%20limiting)

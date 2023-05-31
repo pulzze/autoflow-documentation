@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Support
 
 [https://www.interactor.com/support](../https://www.interactor.com/support)
