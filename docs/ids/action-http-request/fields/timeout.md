@@ -1,0 +1,1 @@
+Returns an error if the result does not progress within 'Timeout'.

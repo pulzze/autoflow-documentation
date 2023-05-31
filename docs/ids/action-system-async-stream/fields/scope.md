@@ -1,0 +1,1 @@
+The scope to store the value. Both index and value will be provided in this scope.

@@ -1,0 +1,1 @@
+Write authorization to decode.

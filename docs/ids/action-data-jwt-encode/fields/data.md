@@ -1,0 +1,1 @@
+Write data to encode in JWT

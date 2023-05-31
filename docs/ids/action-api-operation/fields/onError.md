@@ -1,0 +1,1 @@
+This will be performed only if there is a protocol related error such as connectivity issues or timeouts. The 'error' scope will include type and message. The result of this handler will replace the error result of this action.

@@ -1,0 +1,1 @@
+This will be performed only if the operation fails with an error. Execution will continue afterward.

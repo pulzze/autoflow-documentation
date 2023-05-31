@@ -1,0 +1,1 @@
+Write type to auth encode digest.

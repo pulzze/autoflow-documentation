@@ -1,0 +1,1 @@
+value to check is string or not

@@ -1,0 +1,1 @@
+Determines how the remaining elements are handled at the end of the chunk.

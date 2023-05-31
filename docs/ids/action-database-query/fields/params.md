@@ -1,2 +1,3 @@
 Query Parameters Array
 
+Parameters to be used in query string with $1 syntax where $1 will be replaced with the first parameter.

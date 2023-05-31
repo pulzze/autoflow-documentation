@@ -1,0 +1,1 @@
+string, a regular expression, or a compiled pattern.

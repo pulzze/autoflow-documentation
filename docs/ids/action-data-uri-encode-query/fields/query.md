@@ -1,0 +1,1 @@
+Write query object to encode.

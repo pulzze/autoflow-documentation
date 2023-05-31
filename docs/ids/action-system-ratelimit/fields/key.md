@@ -1,0 +1,1 @@
+A key to categorize triggers. Limits apply to triggers with the same key.

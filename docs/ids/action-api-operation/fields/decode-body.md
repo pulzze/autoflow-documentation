@@ -1,0 +1,1 @@
+Select whether the body has a decode or not.

@@ -1,0 +1,1 @@
+Include full info: binary, string, type

@@ -1,0 +1,1 @@
+This will determine whether the execution should stop after a status code outside the 200 suite. This will raise an error with a simple HTTP error message.

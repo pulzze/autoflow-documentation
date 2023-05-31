@@ -1,2 +1,3 @@
 dividend
 
+divisor number

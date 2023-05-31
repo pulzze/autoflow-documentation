@@ -1,0 +1,1 @@
+The value that determines the size of the subarray.

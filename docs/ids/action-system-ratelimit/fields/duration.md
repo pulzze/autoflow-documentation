@@ -1,0 +1,1 @@
+Duration of the limit in seconds (3600 seconds is 1 hour).

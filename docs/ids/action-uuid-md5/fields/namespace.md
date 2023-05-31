@@ -1,0 +1,1 @@
+Valid values are one of [dns, url, oid, x500, nil] or a valid UUID

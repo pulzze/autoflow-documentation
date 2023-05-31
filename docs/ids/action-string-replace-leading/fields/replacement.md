@@ -1,0 +1,1 @@
+May be a string or number that receives the matched pattern and must return the replacement as a string.

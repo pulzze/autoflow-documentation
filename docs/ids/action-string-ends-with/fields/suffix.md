@@ -1,0 +1,1 @@
+The part that checks whether it is a string included in the end of the string.

@@ -1,0 +1,1 @@
+This will be performed only if the response status code is not in the 200 suite. The 'error' scope will include the http response. The result of this handler will replace the error result of this action.

@@ -1,0 +1,1 @@
+Whether the result should be ordered or not. Non-ordered results are faster.

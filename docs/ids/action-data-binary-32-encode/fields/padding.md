@@ -1,0 +1,1 @@
+true : pad the output string to the nearest multiple of 8 <p> false : omit padding from the output string

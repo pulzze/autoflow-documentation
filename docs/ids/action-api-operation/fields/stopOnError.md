@@ -1,0 +1,1 @@
+This will determine whether the execution should stop after a protocol related error. This will effectively reraise the original error after any onError handler.

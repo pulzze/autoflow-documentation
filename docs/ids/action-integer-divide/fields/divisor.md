@@ -1,2 +1,3 @@
 Divisor
 
+Write divisor number

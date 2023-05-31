@@ -1,0 +1,1 @@
+Drop number of elements from Array.

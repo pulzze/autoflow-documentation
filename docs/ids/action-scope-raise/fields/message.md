@@ -1,0 +1,1 @@
+The message to describe the exception.

@@ -1,0 +1,1 @@
+upper : uses upper case characters <p> lower : uses lower case characters

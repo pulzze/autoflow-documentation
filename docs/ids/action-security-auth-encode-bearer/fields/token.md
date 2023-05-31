@@ -1,0 +1,1 @@
+Write token to encode bearer.

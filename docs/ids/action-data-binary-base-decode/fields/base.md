@@ -1,0 +1,1 @@
+Accepts an option to specify the base number from 2 to 36.

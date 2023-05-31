@@ -1,0 +1,1 @@
+Encodes a binary string into a base 32 encoded string with an extended hexadecimal alphabet.

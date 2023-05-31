@@ -1,0 +1,1 @@
+Number of triggers allowed in the duration.

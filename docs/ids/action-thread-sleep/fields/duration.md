@@ -1,0 +1,1 @@
+The duration in milliseconds to sleep.

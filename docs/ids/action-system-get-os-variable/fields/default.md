@@ -1,0 +1,1 @@
+A default value if the variable does not exist.

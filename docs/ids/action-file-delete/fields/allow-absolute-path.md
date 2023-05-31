@@ -1,0 +1,1 @@
+yes :if you want to allow absolute path. <p> no : if you don't want to allow absolute path.

@@ -1,0 +1,1 @@
+value to check is non empty string or not

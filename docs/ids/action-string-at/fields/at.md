@@ -1,0 +1,1 @@
+Want to get index of string

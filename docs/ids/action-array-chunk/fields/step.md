@@ -1,0 +1,1 @@
+The interval between each chunk when splitting the array.

@@ -1,0 +1,1 @@
+A valid namespace value. E.g. for dns namespace, my.domain.com

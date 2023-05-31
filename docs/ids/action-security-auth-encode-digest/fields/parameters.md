@@ -1,0 +1,1 @@
+Write parameters to auth encode digest.
