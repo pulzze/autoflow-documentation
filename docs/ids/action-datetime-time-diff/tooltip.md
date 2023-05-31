@@ -1,0 +1,1 @@
+Compares two times.

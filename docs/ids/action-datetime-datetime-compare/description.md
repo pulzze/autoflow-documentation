@@ -1,0 +1,2 @@
+Compares two datetimes.
+Returns integer 1 if first datetime is later than the second and integer -1 for vice versa. If the two datetimes are equal integer 0 is returned.

@@ -1,0 +1,1 @@
+Decode an authorization token

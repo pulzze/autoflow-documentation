@@ -1,0 +1,1 @@
+Only a single value can be deleted per attribute

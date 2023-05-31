@@ -1,0 +1,1 @@
+Returns byte size of data provided

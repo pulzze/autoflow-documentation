@@ -1,0 +1,1 @@
+Stops all configured clients.
