@@ -11,12 +11,12 @@ sidebar_position: 10
 
 Click the + Actions button to add an action.
 
-![Untitled](Untitled.png)
+![Action HightLight](action_highlight.png)
 
 Select an action
 
 Use string/join action to join two strings.
 
-![Untitled](Untitled%201.png)
+![Action Modal](action_modal.png)
 
 [Site Map](../https://www.notion.so/Site-Map-16e9115ac8e947f5bf2c9dc1318ff912)

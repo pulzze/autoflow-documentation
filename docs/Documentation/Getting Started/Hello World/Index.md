@@ -98,13 +98,13 @@ g. Add an action(s) to the operation
 
 Click the + Actions button to add an action.
 
-![Untitled](../../Actions%20Library/Untitled.png)
+![Untitled](../../Actions%20Library/action_modal.png)
 
 h. Select an action
 
 Use string/join action to join two strings.
 
-![Untitled](../../Actions%20Library/Untitled%201.png)
+![Untitled](../../Actions%20Library/action_highlight.png)
 
 i. Add array of string with a delimiter
 
