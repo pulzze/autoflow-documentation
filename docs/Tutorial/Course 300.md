@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: (300) Production Readiness
 ---
 # Production Ready Development (Level 300)
 
@@ -7,7 +8,10 @@ This is a selection of our most popular curriculum. To see content specific to y
 
 ---
 
-[how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
+
+
+[![Video](https://img.youtube.com/vi/DaA8mubcoJE/0.jpg)](https://www.youtube.com/watch?v=DaA8mubcoJE)
+
 
 ### Understanding No-code CI/CD  **`205`**
 

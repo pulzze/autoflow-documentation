@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Windows
 
 Unzip by double clicking the downloaded file

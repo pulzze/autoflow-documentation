@@ -51,12 +51,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/api_autoflow_logo.png',
       navbar: {
         // title: 'API AutoFlow',
         logo: {
           alt: 'API AutoFlow Logo',
           src: 'img/api_autoflow_logo.png',
+          srcDark: 'img/api_autoflow_logo_white.png',
         },
         items: [
           {

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Video Tutorial
 
-![Untitled](../Key%20Concepts/Untitled.png)
+![Untitled](@site/docs/Documentation/Getting Started/Key Concepts/Untitled.png)
 
 Topics covered
 

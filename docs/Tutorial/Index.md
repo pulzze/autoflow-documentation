@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: (100) Getting Started
 ---
 # Getting Started (Level 100)
 
