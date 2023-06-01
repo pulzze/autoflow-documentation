@@ -16,15 +16,15 @@ For example, HTTP(S) server is configured with a port number and TLS for secured
 
 ### Create a new Server
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%206.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%206.png)
 
 Create an ID for the server.
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%207.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%207.png)
 
 Start the server
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%208.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%208.png)
 
 ### **Define the Server Info**
 
@@ -39,7 +39,7 @@ Start the server
 
 Now that you have lined the server with the API, you can start creating the operations for each of the paths.
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%2011.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2011.png)
 
 ### Add an action(s)
 
@@ -56,25 +56,25 @@ Refer to the [Action section](../https://www.notion.so/Actions-1645af0f140945e89
 
 For us to test on the web browser, let’s put the string/join action’s output in the HTTP response body.
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%2013.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2013.png)
 
 Select **Reference / Data** from the data elements
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%2014.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2014.png)
 
 Change the **variables** reference
 
 The **string/join** action’s output was output, so we need to change the **reference data** from variable *result* to *output*
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%2015.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2015.png)
 
 Change the **Path** from *result* to *output*
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%2016.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2016.png)
 
 ## How to call a server
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%2017.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2017.png)
 
 Enable Log (Server)
 

@@ -41,6 +41,6 @@ By turning on the toggle button, all the operations in both the server and servi
 
 ### Operation Specific
 
-![Untitled](Untitled%202.png)
+![Untitled](@site/static/img/roadmap.png)
 
 In the roadmap, feature to access the data directly from the individual operations

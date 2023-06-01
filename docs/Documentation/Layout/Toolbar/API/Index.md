@@ -37,11 +37,11 @@ This would be your cloud vendor APIs. For example Gmail API
 
 ### Create a new API
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled.png)
 
 ### Create an ID for the API - Upload OpenAPI document
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%201.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%201.png)
 
 &lt;aside&gt;
 💡 For the Hello World example, we will be using the API AutoFlow provided OpenAPI builder.  However, you can use your own OpenAPI document using the upload feature.
@@ -56,21 +56,21 @@ Enter the API title and description
 
 Go to the newly created hello_world API and create a new path
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%202.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%202.png)
 
 Enter a name for the path
 
 The path you create will be `/hello`
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%203.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%203.png)
 
 ### Add a field
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%204.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%204.png)
 
 g. Select the GET method
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%205.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%205.png)
 
 ## How to use an API
 
@@ -82,13 +82,13 @@ Refer to how to create a server
 
 b. Go to the newly created hello_world_server and press the edit button
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%209.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%209.png)
 
 c. Press the **Link API** button and select the **hello_world_api**.
 
     Change the port number to **1234**
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%2010.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2010.png)
 
 &lt;aside&gt;
 💡 The server instantly gets hosted on the new port number.
@@ -99,7 +99,7 @@ d Add the API operation
 
 Now that you have lined the server with the API, you can start creating the operations for each of the paths.
 
-![Untitled](../../Getting%20Started/Hello%20World/Untitled%2011.png)
+![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2011.png)
 
 ### in a Service
 

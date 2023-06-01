@@ -19,7 +19,7 @@ Reproducing the issue is also important when getting help.  Unless the issue can
 
 **Error indication**
 
-![Untitled](../../Workflow/Data%20Simulation/Untitled%203.png)
+![Untitled](@site/docs/Documentation/Toolbar/Workflow/Data Simulation/Untitled%203.png)
 
 **Trace Error Message**
 
