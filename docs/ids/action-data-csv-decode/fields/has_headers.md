@@ -1,1 +1,3 @@
-true : it has header <p> false : it doesn't have header
+true : it has header
+
+false : it doesn't have header

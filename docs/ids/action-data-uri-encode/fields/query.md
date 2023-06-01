@@ -1,1 +1,3 @@
-Write query here <p> ```Ex) name=eric```
+Write query here
+
+```Ex) name=eric```
