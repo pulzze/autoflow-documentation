@@ -3,6 +3,9 @@ sidebar_position: 10
 ---
 # Actions Library
 
+Download [Action Cheat Sheet](@site/static/file/api_autoflow_action_cheatsheet.pdf)
+
+
 [External](External)
 
 [Internal](Internal)
