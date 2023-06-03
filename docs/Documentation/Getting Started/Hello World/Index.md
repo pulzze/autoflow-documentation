@@ -35,7 +35,7 @@ Let’s walk through the steps of creating a “Hello World” API. Refer to bel
 
 b. Create an ID for the API.
 
-![Untitled](Untitled%201.png)
+![Untitled](PIC 1%201.png)
 
 &lt;aside&gt;
 💡 For the Hello World example, we will be using the API AutoFlow provided OpenAPI builder.  However, you can use your own OpenAPI document using the upload feature.
