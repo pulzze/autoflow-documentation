@@ -53,50 +53,40 @@ c. Go to the newly created hello_world API and add a new path
 
 ### Step 2. Create a Server
 
-1. Create a new Server
+a. Create a new Server
 
-![Untitled](Untitled%206.png)
+![Untitled](PIC%203.png)
 
-b. Create an ID for the server.
+1. Create an ID for the server.
+2. The portnumber by default is 8080, this is customizable. 
+💡 The server instantly gets hosted on the port number.
+3. Press the **Link API** button and select the **hello_world_api**.
+![Untitled](PIC%204.png)
+![Untitled](PIC%204.1.png)
 
-![Untitled](Untitled%207.png)
 
-c. Start the server
+b. Go to the newly created hello_world_server 
 
-![Untitled](Untitled%208.png)
+![Untitled](PIC%205.png)
 
-d. Go to the newly created hello_world_server and press the edit button
 
-![Untitled](Untitled%209.png)
-
-e. Press the **Link API** button and select the **hello_world_api**.
-
-    Change the port number to **1234**
-
-![Untitled](Untitled%2010.png)
-
-&lt;aside&gt;
-💡 The server instantly gets hosted on the new port number.
-
-&lt;/aside&gt;
-
-f. Add the API operation
+c. Add the API operation
 
 Now that you have lined the server with the API, you can start creating the operations for each of the paths.
 
-![Untitled](Untitled%2011.png)
+![Untitled](PIC%206.png)
+![Untitled](PIC%207.png)
 
-g. Add an action(s) to the operation
+d. Add an action(s) to the operation
 
 Click the + Actions button to add an action.
+![Untitled](PIC%208.png)
 
-![Untitled](../../Actions%20Library/action_modal.png)
-
-h. Select an action
+e. Select an action
 
 Use string/join action to join two strings.
 
-![Untitled](../../Actions%20Library/action_highlight.png)
+![Untitled](PIC%209.png)
 
 i. Add array of string with a delimiter
 
