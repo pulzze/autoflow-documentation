@@ -30,7 +30,7 @@ Let’s walk through the steps of creating a “Hello World” API. Refer to bel
 
 1. Create a new API
 
-![Untitled](PIC 1.png)
+![Untitled](PIC1.png)
 
 b. Create an ID for the API.
 
