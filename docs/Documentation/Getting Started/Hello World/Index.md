@@ -88,7 +88,7 @@ Use string/join action to join two strings.
 
 ![Untitled](PIC%209.png)
 
-i. Add array of string with a delimiter
+f. Add array of string with a delimiter
 
 In our example, we will include to strings **Hello** and **World**, with a space a delimiter
 
@@ -103,21 +103,13 @@ j. Map data to HTTP response body
 
 For us to test on the web browser, let’s put the string/join action’s output in the HTTP response body.
 
-![Untitled](Untitled%2013.png)
-
 k. Select **Reference / Data** from the data elements
 
-![Untitled](Untitled%2014.png)
+![Untitled](PIC%2011.0.png)
 
-l. Change the **variables** reference
 
-The **string/join** action’s output was output, so we need to change the **reference data** from variable *result* to *output*
+💡Make sure that the **string/join** and the **reference data** have the same variable name, in this case it's "output".
 
-![Untitled](Untitled%2015.png)
-
-m. Change the **Path** from *result* to *output*
-
-![Untitled](Untitled%2016.png)
 
 ### Step 3. Test the API
 
