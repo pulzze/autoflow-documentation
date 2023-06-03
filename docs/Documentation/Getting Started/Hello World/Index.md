@@ -42,9 +42,10 @@ b. Create an ID for the API.
 
 &lt;/aside&gt;
 
-c. Go to the newly created hello_world API and create a new path
+c. Go to the newly created hello_world API and add a new path
+![Untitled](PIc%203.0.png)
 
-    1) Enter a name for the path, The path you create will be `/hello`
+    1) Enter a name for the path, the path you add will be /hello
     2) Add a method, select the GET method
 
 ![Untitled](PIC%203.1.png)
