@@ -115,7 +115,7 @@ k. Select **Reference / Data** from the data elements
 
 Congratulations! You have just created a new API server!
 
-![Untitled](Untitled%2017.png)
+![Untitled](PIC%20last.png)
 
 &gt; **Download Configuration**
 &gt; 
