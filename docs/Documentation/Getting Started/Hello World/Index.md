@@ -44,21 +44,11 @@ b. Create an ID for the API.
 
 c. Go to the newly created hello_world API and create a new path
 
-![Untitled](Untitled%202.png)
+    1) Enter a name for the path, The path you create will be `/hello`
+    2) Add a method, select the GET method
 
-d. Enter a name for the path
+![Untitled](PIC%203.1.png)
 
-The path you create will be `/hello`
-
-![Untitled](Untitled%203.png)
-
-e. Add a field
-
-![Untitled](Untitled%204.png)
-
-f. Select the GET method
-
-![Untitled](Untitled%205.png)
 
 ### Step 2. Create a Server
 
