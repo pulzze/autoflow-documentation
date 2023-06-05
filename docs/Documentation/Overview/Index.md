@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 import TutorialOverview from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
+import ApiAutoflowValueImg from '@site/docs/documentation/overview/api-autoflow-value.png';
 
 # Overview
 
@@ -47,7 +48,9 @@ Unlike traditional no-code platforms that are made for creating mobile apps and 
 
 ### **API AutoFlow simplifies the overall API development**
 
-![Untitled](Untitled%201.png)
+<div style={{width: 100 + '%', textAlign: 'center'}}>
+    <img src={ApiAutoflowValueImg} alt="API AutoFlow simplifies the overall API development" style={{ maxWidth: 30 + 'em' }} />
+</div>
 
 ### Drag-and-drop no-code user interface
 
@@ -80,7 +83,7 @@ In many projects, ROI is realized in &lt; 6 months
 
 ## Use Cases
 
-![Untitled](Untitled.png)
+![API AutoFlow Use Cases](use-cases.png)
 
 ### 1. Dealing with constant changes with the backend
 

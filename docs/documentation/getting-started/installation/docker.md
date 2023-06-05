@@ -24,18 +24,19 @@ docker run -dit \
   interactor/api-interactor:latest
 ```
 
-&lt;aside&gt;
-💡 Note that ports 8080, 1111 and 2222 are opened to be used as part of the solution you create.
-Port 4000 is used by the API AutoFlow UI.
 
-&lt;/aside&gt;
+> 💡 Note that ports _8080_, _1111_ and _2222_ are opened to be used as part of the solution you create.
+>
+> 💡 Port **4000** is used by the API AutoFlow UI.
+
 
 If you would like to use a specific docker image, you can replace the word `latest` with the desired tag name. Also, you can add/remove ports using the `-p` flag and you may also change the container name by replacing `-name api-interactor`
 
 Once the container is made it will start immediately. You can stop and start it using:
 
-`docker stop api-interactor
-docker start api-interactor`
+`docker stop api-interactor`
+
+`docker start api-interactor`
 
 If you would like to remove the container:
 

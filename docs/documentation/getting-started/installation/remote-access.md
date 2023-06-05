@@ -7,8 +7,7 @@ sidebar_position: 5
 
 Open up the browser and go to URL
 
-&gt; http://**[server_ip_address]**:4000
-&gt; 
+http://**[server_ip_address]**:4000
 
 ### Firewall blocking the connection
 
