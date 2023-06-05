@@ -11,7 +11,7 @@ This is a selection of our most popular curriculum. To see content specific to y
 
 [![Video](https://img.youtube.com/vi/DaA8mubcoJE/0.jpg)](https://www.youtube.com/watch?v=DaA8mubcoJE)
 
-### Mastering Conditional Actions
+### **`201`** Mastering Conditional Actions
 
 Some description
 
@@ -23,7 +23,20 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Mastering Iteration Actions
+### **`202`** Mastering Iteration Actions
+
+Some description
+
+**Peter Jung**
+
+4*0 mins . 5 lessons . All Level*
+
+
+---
+
+[how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
+
+### **`203`** Value Type Selector  
 
 Some description
 
@@ -35,7 +48,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Redis
+###  **`204`** Scope and Variables
 
 Some description
 
@@ -47,7 +60,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Value Type Selector  **`203`**
+### **`205`** Data Referencing
 
 Some description
 
@@ -59,7 +72,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Caching and Storage  **`203`**
+### **`206`** Mastering Service & Intent
 
 Some description
 
@@ -71,7 +84,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Data Referencing  **`201`**
+### **`207`** Versioning
 
 Some description
 
@@ -83,7 +96,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Mastering Service & Intent  **`201`**
+### **`208`** Debugging Your Application
 
 Some description
 
@@ -95,7 +108,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Debugging Your Application  **`203`**
+### **`209`** Server Level Security, TLS, HTTPS
 
 Some description
 
@@ -107,7 +120,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Versioning  **`203`**
+###  **`210`** API Level Security
 
 Some description
 
@@ -119,7 +132,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Server Level Security, TLS, HTTPS  **`204`**
+### **`211`** Mapping HTTP Response Status Code
 
 Some description
 
@@ -131,7 +144,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### API Level Security  **`204`**
+### **`212`** Rate Limiting
 
 Some description
 
@@ -143,7 +156,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Mapping HTTP Response Status Code
+###  **`213`** MQTT Publish and Subscribe
 
 Some description
 
@@ -155,31 +168,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Rate Limiting  **`205`**
-
-Some description
-
-**Peter Jung**
-
-4*0 mins . 5 lessons . All Level*
-
----
-
-[how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
-
-### MQTT Publish and Subscribe  **`101`**
-
-Some description
-
-**Peter Jung**
-
-4*0 mins . 5 lessons . All Level*
-
----
-
-[how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
-
-### Redis  **`101`**
+### **`214`** Redis
 
 Some description
 

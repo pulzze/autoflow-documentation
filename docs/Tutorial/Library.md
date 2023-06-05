@@ -68,6 +68,19 @@ Some description
 ## Advanced
 
 
+
+[![HTTP Response Status Code](https://img.youtube.com/vi/wJa5CTIFj7U/0.jpg)](https://www.youtube.com/watch?v=wJa5CTIFj7U)
+
+### [HTTP Response Status Code](../https://www.youtube.com/watch?v=wJa5CTIFj7U)
+
+Building a web application or API is not an easy task, especially to do it correctly. One of the things that makes this process difficult is HTTP status codes. In this video I will be breaking down and explaining every single HTTP status code that you need to know in order to get started building the perfect web application or API. We will be covering everything from the most basic 200 status codes to the more complex 403 and 304 status codes.
+
+**Web Dev Simplified**
+
+10.12 mins . All Levels
+
+---
+
 [![Understanding OpenAPI](https://img.youtube.com/vi/InE6Odx--xo/0.jpg)](https://www.youtube.com/watch?v=InE6Odx--xo)
 
 ### [Understanding OpenAPI](../https://www.youtube.com/watch?v=InE6Odx--xo)

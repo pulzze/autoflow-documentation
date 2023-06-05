@@ -1,5 +1,7 @@
 ---
 sidebar_position: 5
+title: Intent
+description: Intent helps the server by standardizing the INPUT and OUTPUT of common services.  
 ---
 # Intent (Service Abstraction)
 

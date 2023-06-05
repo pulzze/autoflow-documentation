@@ -10,7 +10,7 @@ This is a selection of our most popular curriculum. To see content specific to y
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### What is API AutoFlow  **`101`**
+### **`101`** What is API AutoFlow  
 
 Some description
 
@@ -22,7 +22,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Key concept, Installation, and Hello World **`102`**
+### **`102`** Key concept, Installation, and Hello World 
 
 Some description
 
@@ -34,7 +34,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Product Layout and Navigation  **`103`**
+### **`103`** Product Layout and Navigation  
 
 Some description
 
@@ -46,7 +46,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Understanding Workflow and Automation **`104`**
+### **`104`** Understanding Workflow and Automation 
 
 Some description
 
@@ -58,7 +58,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### HTTP Request Simulator **`105`**
+### **`105`** HTTP Request Simulator 
 
 Some description
 
@@ -70,7 +70,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### API URL Parameters **`105`**
+### **`106`** API URL Parameters 
 
 Some description
 
@@ -82,7 +82,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Integrating Database **`106`**
+### **`107`** Integrating Database 
 
 Some description
 
@@ -94,7 +94,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Integrating API **`107`**
+### **`108`** Integrating API 
 
 Some description
 
@@ -106,7 +106,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### Abstracting Workflow with Service and Intent **`108`**
+### **`109`** Abstracting Workflow with Service and Intent 
 
 Some description
 
@@ -118,7 +118,7 @@ Some description
 
 [how_to_become_a_software_engineer.avif](how_to_become_a_software_engineer.avif)
 
-### API AutoFlow Administrative Features **`109`**
+### **`110`** API AutoFlow Administrative Features 
 
 Some description
 

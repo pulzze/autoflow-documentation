@@ -1,5 +1,7 @@
 ---
 sidebar_position: 4
+title: Exception
+description: Exception (Error) handling manages and handles unexpected or exceptional situations that occur during the execution
 ---
 # Exception (Error) Handling
 

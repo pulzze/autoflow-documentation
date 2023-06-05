@@ -1,31 +1,9 @@
 ---
 sidebar_position: 1
-title: Live Chat
-description: Live chat
+title: Question Board
+description: API AutoFlow questions and answers
 ---
 
-# Live Chat
+# Ask your questions
 
-Slack
-
-SWIT
-
-WhatsApp
-
-Facebook Messenger
-
-Google Chat
-
-WeChat
-
-Telegram
-
-Line
-
-KakaoTalk
-
-
-
-[Experts](Experts)
-
-[Forum](Forum)
+### Community driven question and answers

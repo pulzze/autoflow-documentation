@@ -1,5 +1,7 @@
 ---
 sidebar_position: 10
+title: Service
+description: A service helps the server by taking out commonly used actions into a reusable group.
 ---
 # Service (Workflow Abstraction)
 
