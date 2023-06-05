@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-import TutorialInstallation from '@site/static/img/tutorial_what_is_apiautoflow.jpg';
+import TutorialInstallation from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
 
 # Installation
 

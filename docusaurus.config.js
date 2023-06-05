@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://www.interactor.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'API AutoFlow Interactor', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -51,13 +51,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/api_autoflow_logo.png',
+      image: 'img/api-autoflow-logo.png',
       navbar: {
         // title: 'API AutoFlow',
         logo: {
           alt: 'API AutoFlow Logo',
-          src: 'img/api_autoflow_logo.png',
-          srcDark: 'img/api_autoflow_logo_white.png',
+          src: 'img/api-autoflow-logo.png',
+          srcDark: 'img/api-autoflow-logo-white.png',
         },
         items: [
           {
@@ -75,7 +75,7 @@ const config = {
           {
             position: 'left',
             label: 'Quick Demo',
-            to: 'docs/Quick Demo'
+            to: 'docs/quick-demo'
           },
           {
             type: 'docSidebar',
@@ -86,12 +86,12 @@ const config = {
           {
             position: 'left',
             label: 'Templates',
-            to: 'docs/Template'
+            to: 'docs/templates'
           },
           {
             position: 'left',
             label: 'Release Notes',
-            to: 'docs/Release Note'
+            to: 'docs/release-note'
           },
           {
             type: 'docSidebar',

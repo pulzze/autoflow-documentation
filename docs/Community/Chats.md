@@ -3,15 +3,15 @@ sidebar_position: 2
 title: Helpline
 description: API AutoFlow Helplines
 ---
-import SlackIcon from '@site/static/img/slack_icon.png';
-import DiscordIcon from '@site/static/img/discord_icon.png';
-import WhatsappIcon from '@site/static/img/whatsapp_icon.png';
-import FacebookIcon from '@site/static/img/facebook_icon.png';
-import GooglechatIcon from '@site/static/img/googlechat_icon.png';
-import WechatIcon from '@site/static/img/wechat_icon.png';
-import TelegramIcon from '@site/static/img/telegram_icon.png';
-import LineIcon from '@site/static/img/line_icon.png';
-import KakaotalkIcon from '@site/static/img/kakaotalk_icon.png';
+import SlackIcon from '@site/static/img/slack-icon.png';
+import DiscordIcon from '@site/static/img/discord-icon.png';
+import WhatsappIcon from '@site/static/img/whatsapp-icon.png';
+import FacebookIcon from '@site/static/img/facebook-icon.png';
+import GooglechatIcon from '@site/static/img/googlechat-icon.png';
+import WechatIcon from '@site/static/img/wechat-icon.png';
+import TelegramIcon from '@site/static/img/telegram-icon.png';
+import LineIcon from '@site/static/img/line-icon.png';
+import KakaotalkIcon from '@site/static/img/kakaotalk-icon.png';
 
 # Helpline
 

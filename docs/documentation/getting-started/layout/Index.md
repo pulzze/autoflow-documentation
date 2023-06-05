@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Layout
 
-import TutorialHelloWorld from '@site/static/img/tutorial_what_is_apiautoflow.jpg';
+import TutorialHelloWorld from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
 
 # Hello World
 

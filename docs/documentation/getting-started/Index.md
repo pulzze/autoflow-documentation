@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-import TutorialKeyConcept from '@site/static/img/tutorial_what_is_apiautoflow.jpg';
+import TutorialKeyConcept from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
 
 # Getting Started
 ## Key Concepts

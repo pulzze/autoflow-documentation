@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-import TutorialOverview from '@site/static/img/tutorial_what_is_apiautoflow.jpg';
+import TutorialOverview from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
 
 # Overview
 

@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Hello World
 description:  Hands on hello world documentation
 ---
-import TutorialHelloWorld from '@site/static/img/tutorial_what_is_apiautoflow.jpg';
+import TutorialHelloWorld from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
 
 # Hello World
 
