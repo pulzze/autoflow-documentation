@@ -1,26 +1,36 @@
 ---
 sidebar_position: 2
 ---
+import TutorialKeyConcept from '@site/static/img/tutorial_what_is_apiautoflow.jpg';
+
 # Getting Started
 ## Key Concepts
 
 ### Video Tutorial
+<div class="videoBlock">
+    <div class="videoLeft">
+        <div class="videoWrapper">
+            <a href="../../../docs/Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialKeyConcept} /></a>
+        </div>
+    </div>
+    <div class="videoRight">
+        <div class="videoText">
+            <h2><code>102</code> Key Concept</h2>
+            <p>Topics covered</p>
+                <ul>
+                    <li>Define the APIs</li>
+                    <li>Create servers to host the APIs</li>
+                    <li>All other features in the product are to support the server</li>
+                </ul>
+            <p>Duration:  3 mins</p>
+        </div>
+    </div>
+    <div class="videoClearer"></div>
+</div>
 
-![Untitled](Untitled.png)
 
-Topics covered
-
-- Define the APIs
-- Create servers to host the APIs
-- All other features in the product are to support the server
-
-Duration:  3 mins
-
-&lt;aside&gt;
-💡 If there’s only one thing that you need to remember, 
-**it’s how to create and configure the Server.**
-
-&lt;/aside&gt;
+> 💡 If there’s only one thing that you need to remember, 
+> **it’s how to create and configure the Server.**
 
 #### Everything in API AutoFlow evolves around the Server.
 

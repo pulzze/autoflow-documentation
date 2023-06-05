@@ -1,18 +1,33 @@
 ---
 sidebar_position: 3
+title: Hello World
+description:  Hands on hello world documentation
 ---
+import TutorialHelloWorld from '@site/static/img/tutorial_what_is_apiautoflow.jpg';
+
 # Hello World
 
 ## Video Tutorial
 
-![Untitled](@site/docs/Documentation/Getting Started/Key Concepts/Untitled.png)
-
-Topics covered
-
-- Define API
-- Create a Server
-
-Duration:  3 mins
+<div class="videoBlock">
+    <div class="videoLeft">
+        <div class="videoWrapper">
+            <a href="../../../../docs/Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialHelloWorld} /></a>
+        </div>
+    </div>
+    <div class="videoRight">
+        <div class="videoText">
+            <a href="../../../../docs/Tutorial/#102-key-concept-installation-and-hello-world"><h2><code>102</code> Hello World</h2></a>
+            <p>Topics covered</p>
+                <ul>
+                    <li>Define API</li>
+                    <li>Create a Server</li>
+                </ul>
+            <p>Duration:  3 mins</p>
+        </div>
+    </div>
+    <div class="videoClearer"></div>
+</div>
 
 ## First two steps
 

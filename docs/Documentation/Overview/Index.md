@@ -1,6 +1,9 @@
 ---
 sidebar_position: 1
 ---
+
+import TutorialOverview from '@site/static/img/tutorial_what_is_apiautoflow.jpg';
+
 # Overview
 
 Welcome to API AutoFlow!
@@ -11,16 +14,27 @@ Unlike traditional no-code platforms that are made for creating mobile apps and 
 
 ## Video Tutorial
 
-![Untitled](Untitled.png)
-
-Topics covered
-
-- Basic concept
-- Use Cases
-- Benefits for Engineers
-- Benefits for Business
-
-Duration:  3 mins
+<div class="videoBlock">
+    <div class="videoLeft">
+        <div class="videoWrapper">
+            <a href="../../../docs/Tutorial/#101-what-is-api-autoflow"><img src={TutorialOverview} /></a>
+        </div>
+    </div>
+    <div class="videoRight">
+        <div class="videoText">
+            <h2><code>101</code> Overview</h2>
+            <p>Topics covered</p>
+                <ul>
+                    <li>Basic concept</li>
+                    <li>Use Cases</li>
+                    <li>Benefits for Engineers</li>
+                    <li>Benefits for Business</li>
+                </ul>
+            <p>Duration:  3 mins</p>
+        </div>
+    </div>
+    <div class="videoClearer"></div>
+</div>
 
 ## What is API AutoFlow?
 

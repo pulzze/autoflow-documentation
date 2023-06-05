@@ -28,3 +28,54 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/* Video Column */
+.videoLeft {
+  float: left;
+  width: 50%;
+
+}
+.videoRight {
+  float: right;
+  width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .videoLeft, 
+  .videoRight {
+      float: none;
+      width: auto;
+  }
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoBlock{
+
+  height: 100%;
+  min-height:100%;
+  position: relative;
+}
+
+.videoText{
+  padding: 0 0 0 104px;   
+}
+
+.videoText p{
+  padding-right:70px;
+}
+.videoClearer {
+  clear: both;
+}

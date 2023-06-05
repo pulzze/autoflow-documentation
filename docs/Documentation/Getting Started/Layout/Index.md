@@ -1,7 +1,33 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 # Layout
+
+import TutorialHelloWorld from '@site/static/img/tutorial_what_is_apiautoflow.jpg';
+
+# Hello World
+
+## Video Tutorial
+
+<div class="videoBlock">
+    <div class="videoLeft">
+        <div class="videoWrapper">
+            <a href="../../../../docs/Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialHelloWorld} /></a>
+        </div>
+    </div>
+    <div class="videoRight">
+        <div class="videoText">
+            <a href="../../../../docs/Tutorial/#103-product-layout-and-navigation"><h2><code>103</code> Product layout and Navigation</h2></a>
+            <p>Topics covered</p>
+                <ul>
+                    <li>Define API</li>
+                    <li>Create a Server</li>
+                </ul>
+            <p>Duration:  3 mins</p>
+        </div>
+    </div>
+    <div class="videoClearer"></div>
+</div>
 
 API Autoflow is divided into three sections. From left to right, the **toolbar** is used to navigate between sections.  The center **workspace** is where the configuration is one.  The **right panel** is where you can find useful information that helps with your configuration 
 
