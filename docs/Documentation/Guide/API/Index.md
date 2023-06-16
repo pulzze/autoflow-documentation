@@ -75,7 +75,11 @@ Field refers to the API method. As shown in the picture above, the chosen field 
 
 a. Create a Server.  
 
-[See file](Server/Index.md)      ###continute from here
+
+### Continue from here and also dont forget to fix the link below
+
+[See file](Server/Index.md)
+
 
 b. Go to the newly created hello_world_server and press the edit button
 
