@@ -39,12 +39,12 @@ This would be your cloud vendor APIs. For example Gmail API
 
 ![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled.png)
 
-### Create an ID for the API - Upload OpenAPI document
+### Create an ID for the API or Upload OpenAPI document
 
 ![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%201.png)
 
 &lt;aside&gt;
-💡 For the Hello World example, we will be using the API AutoFlow provided OpenAPI builder.  However, you can use your own OpenAPI document using the upload feature.
+💡 For this example, we will be using the API AutoFlow provided OpenAPI builder.  However, you can use your own OpenAPI document using the upload feature.
 
 &lt;/aside&gt;
 
@@ -54,7 +54,7 @@ Enter the API title and description
 
 ### Create a Path
 
-Go to the newly created hello_world API and create a new path
+Go to the newly created test API and create a new path
 
 ![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%202.png)
 
@@ -66,11 +66,8 @@ The path you create will be `/hello`
 
 ### Add a field
 
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%204.png)
+Field refers to the API method. As shown in the picture above, the chosen field for this API is a GET method. 
 
-g. Select the GET method
-
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%205.png)
 
 ## How to use an API
 
@@ -78,7 +75,7 @@ g. Select the GET method
 
 a. Create a Server.  
 
-Refer to how to create a server
+[See file](Server/Index.md)      ###continute from here
 
 b. Go to the newly created hello_world_server and press the edit button
 
