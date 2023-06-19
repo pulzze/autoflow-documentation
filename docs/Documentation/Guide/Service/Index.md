@@ -19,15 +19,16 @@ For example, a service to get email from a GMAIL API can be reused by many serve
 
 ### Create a new Service
 
-![Untitled](Untitled 1.png)
+![pic 1](https://github.com/pulzze/autoflow-documentation/assets/85649767/81db14c2-3e99-4d3d-9962-f6ee091acaf1)
+
 
 Create an ID for the Service.
 
-![Untitled](Untitled 2.png)
+![pic 2](https://github.com/pulzze/autoflow-documentation/assets/85649767/a625bd5b-3012-4eaa-97d8-165d7dadb0fb)
 
 ### Add a new operation
 
-![Untitled](Untitled 3.png)
+![pic 3](https://github.com/pulzze/autoflow-documentation/assets/85649767/d2c072bf-20d5-44a2-ad5c-1aecfefa949d)
 
 ### Define the input and output
 
