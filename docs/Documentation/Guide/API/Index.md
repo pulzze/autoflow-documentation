@@ -59,8 +59,6 @@ Go to the newly created test API and create a new path, choose a proper name for
 ### pic 6
 
 
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%203.png)
-
 ### Add a field
 
 Field refers to the API method. As shown in the picture above, the chosen field for this API is a GET method. 
@@ -76,32 +74,33 @@ a. Create a Server.
 ### Continue from here and also dont forget to fix the link below
 
 [Link to Server Guide](../Server/Index.md)
+![pic 3](https://github.com/pulzze/autoflow-documentation/assets/85649767/6ecf9ac3-8ff1-4979-90c1-68a6f6fc212f)
 
 
 b. Go to the newly created hello_world_server and press the edit button
 
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%209.png)
-
+### pic 7
 c. Press the **Link API** button and select the **hello_world_api**.
 
     Change the port number to **1234**
 
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2010.png)
+### pic 8
 
 &lt;aside&gt;
 💡 The server instantly gets hosted on the new port number.
 
 &lt;/aside&gt;
 
-d Add the API operation
+d. Add the API operation
 
 Now that you have lined the server with the API, you can start creating the operations for each of the paths.
 
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2011.png)
+### pic 9
 
 ### in a Service
 
-Create a Service.  Refer to how to create a service
+Create a Service.  
+[Link to the Service guide](.../Service/index.md)
 
 In the example below, we have created
 
