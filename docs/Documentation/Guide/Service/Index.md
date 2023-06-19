@@ -63,7 +63,7 @@ Refer to Actions section on how to use Actions
 ![Untitled](Untitled%206.png)
 
 &lt;aside&gt;
-💡 The data stored in the scope **variable** path *output* is being mapped to the service’s output parameter **name_filtered**
+💡 The data stored in the scope **variable** path *output* is being mapped to the service’s output 
 
 &lt;/aside&gt;
 
