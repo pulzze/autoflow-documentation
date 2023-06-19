@@ -13,9 +13,8 @@ Press the Download button to save the configuration on your computer. The defaul
 
 Press the **Upload** button to save the configuration on your computer.
 
-You can choose the parts you want to upload by selecting the checkboxes.
+![pic 1](https://github.com/pulzze/autoflow-documentation/assets/85649767/7d3ba7eb-607a-4816-af7e-a9432d479890)
 
-![Untitled](Untitled%201.png)
 
 ## System Environment
 
