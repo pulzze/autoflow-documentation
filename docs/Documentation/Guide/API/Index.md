@@ -10,7 +10,7 @@ An [API](../notion://www.notion.so/Main-Concept-c4e952b2621349408d60b75788032f48
 &gt; **A Server is configured to perform what is defined in the API.**
 &gt; 
 
-![Untitled](Untitled.png)
+### PIC 1
 
 Read more about [OpenAPI specifications](../https://swagger.io/docs/specification/about/) (previously [Swagger](../https://swagger.io/))
 
@@ -37,11 +37,11 @@ This would be your cloud vendor APIs. For example Gmail API
 
 ### Create a new API
 
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled.png)
+### pic 2
 
 ### Create an ID for the API or Upload OpenAPI document
 
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%201.png)
+### pic 3
 
 &lt;aside&gt;
 💡 For this example, we will be using the API AutoFlow provided OpenAPI builder.  However, you can use your own OpenAPI document using the upload feature.
@@ -50,17 +50,14 @@ This would be your cloud vendor APIs. For example Gmail API
 
 Enter the API title and description
 
-![Untitled](Untitled%201.png)
+### pic 4
 
 ### Create a Path
 
-Go to the newly created test API and create a new path
+Go to the newly created test API and create a new path, choose a proper name for the path. The path you create will be `/hello`
 
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%202.png)
+### pic 6
 
-Enter a name for the path
-
-The path you create will be `/hello`
 
 ![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%203.png)
 
@@ -78,7 +75,7 @@ a. Create a Server.
 
 ### Continue from here and also dont forget to fix the link below
 
-[See file](Server/Index.md)
+[See file](https://github.com/pulzze/autoflow-documentation/blob/main/docs/Documentation/Guide/Server/Index.md)
 
 
 b. Go to the newly created hello_world_server and press the edit button
