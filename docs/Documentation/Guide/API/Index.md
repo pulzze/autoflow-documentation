@@ -75,7 +75,7 @@ a. Create a Server.
 
 ### Continue from here and also dont forget to fix the link below
 
-[See file](https://github.com/pulzze/autoflow-documentation/blob/main/docs/Documentation/Guide/Server/Index.md)
+[Link to Server Guide](../Server/Index.md)
 
 
 b. Go to the newly created hello_world_server and press the edit button
