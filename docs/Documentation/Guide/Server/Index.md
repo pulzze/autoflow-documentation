@@ -56,21 +56,14 @@ Refer to the [Action section](../https://www.notion.so/Actions-1645af0f140945e89
 
 For us to test on the web browser, let’s put the string/join action’s output in the HTTP response body.
 
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2013.png)
+![pic 1](https://github.com/pulzze/autoflow-documentation/assets/85649767/755c11ad-48b3-4950-bae1-6ad55cd32a91)
+
 
 Select **Reference / Data** from the data elements
 
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2014.png)
+![pic 2](https://github.com/pulzze/autoflow-documentation/assets/85649767/45205d6a-3f34-4f43-9e7a-0807d1829b21)
 
 Change the **variables** reference
-
-The **string/join** action’s output was output, so we need to change the **reference data** from variable *result* to *output*
-
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2015.png)
-
-Change the **Path** from *result* to *output*
-
-![Untitled](@site/docs/Documentation/Getting Started/Hello World/Untitled%2016.png)
 
 ## How to call a server
 
