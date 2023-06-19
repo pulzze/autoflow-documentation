@@ -1,6 +1,6 @@
 # Trace
 
-A trace is a detailed record of the execution a certain stage of the workflow. It captures the available `data` and their corresponding output `result` or values as it runs. Tracing is often used as a debugging and diagnostic technique to understand and analyze the behavior of a workflow during runtime.
+A trace is a detailed record of the execution a certain stage of the workflow. It captures the available `data` and their corresponding `output` or values as it runs. Tracing is often used as a debugging and diagnostic technique to understand and analyze the behavior of a workflow during runtime.
 
 Traces are particularly useful when diagnosing complex issues, understanding the data at each point of the workflow, and identifying logic errors or unexpected behavior. By examining the trace output, developers can gain insights into the workflow's runtime behavior, locate bugs, and make informed decisions on how to fix or improve the code.
 
