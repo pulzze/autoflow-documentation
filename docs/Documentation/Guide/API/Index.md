@@ -10,7 +10,8 @@ An [API](../notion://www.notion.so/Main-Concept-c4e952b2621349408d60b75788032f48
 &gt; **A Server is configured to perform what is defined in the API.**
 &gt; 
 
-### PIC 1
+![General API](https://github.com/pulzze/autoflow-documentation/assets/85649767/4a3a9b1d-467b-4766-abeb-2ade00e4fbed)
+
 
 Read more about [OpenAPI specifications](../https://swagger.io/docs/specification/about/) (previously [Swagger](../https://swagger.io/))
 
@@ -37,11 +38,11 @@ This would be your cloud vendor APIs. For example Gmail API
 
 ### Create a new API
 
-### pic 2
+![pic 2](https://github.com/pulzze/autoflow-documentation/assets/85649767/074ef2ae-45c1-46b6-844d-ed9d422a084d)
 
 ### Create an ID for the API or Upload OpenAPI document
 
-### pic 3
+![pic 3](https://github.com/pulzze/autoflow-documentation/assets/85649767/685c9656-9277-4c8a-8ec0-e1664e54fc71)
 
 &lt;aside&gt;
 💡 For this example, we will be using the API AutoFlow provided OpenAPI builder.  However, you can use your own OpenAPI document using the upload feature.
@@ -50,13 +51,15 @@ This would be your cloud vendor APIs. For example Gmail API
 
 Enter the API title and description
 
-### pic 4
+![pic 4](https://github.com/pulzze/autoflow-documentation/assets/85649767/782d1c7a-7f13-4497-a0cf-5c7b61c07bc2)
+
 
 ### Create a Path
 
 Go to the newly created test API and create a new path, choose a proper name for the path. The path you create will be `/hello`
 
-### pic 6
+![pic 6](https://github.com/pulzze/autoflow-documentation/assets/85649767/af5164ea-835b-48c4-8b3f-90a7b687dd98)
+
 
 
 ### Add a field
@@ -70,21 +73,19 @@ Field refers to the API method. As shown in the picture above, the chosen field 
 
 a. Create a Server.  
 
-
-### Continue from here and also dont forget to fix the link below
-
 [Link to Server Guide](../Server/Index.md)
-![pic 3](https://github.com/pulzze/autoflow-documentation/assets/85649767/6ecf9ac3-8ff1-4979-90c1-68a6f6fc212f)
 
 
 b. Go to the newly created hello_world_server and press the edit button
 
-### pic 7
+![pic 7](https://github.com/pulzze/autoflow-documentation/assets/85649767/2f56606a-4dc4-486e-a048-3c74788e4eb6)
+
 c. Press the **Link API** button and select the **hello_world_api**.
 
     Change the port number to **1234**
 
-### pic 8
+![pic 8](https://github.com/pulzze/autoflow-documentation/assets/85649767/43a5f237-0ef5-4149-b64f-fd151822f3f6)
+
 
 &lt;aside&gt;
 💡 The server instantly gets hosted on the new port number.
