@@ -1,23 +1,28 @@
-Division of numbers. This function returns Quotient.
-Decimal points are round down.
+Calculate mathematical expression.
+This Action calculate expression using variables.
+
 <br/>
 **[Example]**
 *Ex01)*
 ```
-[dividend]
-  > number : 10
-[divisor]
-  > number : 2
+[expression]
+  > string : a && b
+[variables]
+  > object
+    > a : true
+    > b : false
 ----------------------------
-  -> return : 5
+  -> return : false
 ```
 *Ex02)*
 ```
-[dividend]
-  > number : 10
-[divisor]
-  > number : 3
+[expression]
+  > string : a + b
+[variables]
+  > object
+    > a : 2
+    > b : 5
 ----------------------------
-  -> return : 3
+  -> return : 7
 ```
 
