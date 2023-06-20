@@ -4,20 +4,20 @@ Returns query object.
 
 **[percent Example]**
 ```
-[type]
-  > string : percent
 [query]
   > string : https%3A%2F%2Felixir-lang.org
+[type]
+  > enum : percent
 --------------------------------------------------------------------
 -> return :
 "https://elixir-lang.org"
 ```
 **[www-form Example]**
 ```
-[type]
-  > string : www-form
 [query]
   > string : foo=1&bar=2
+[type]
+  > enum : www-form
 --------------------------------------------------------------------
 -> return :
 {
@@ -27,10 +27,10 @@ Returns query object.
 ```
 **[rfc3986 Example]**
 ```
-[type]
-  > string : rfc3986
 [query]
   > string : percent=oh+yes%21
+[type]
+  > enum : rfc3986
 --------------------------------------------------------------------
 -> return :
 {"percent": "oh+yes!"}
