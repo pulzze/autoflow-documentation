@@ -9,7 +9,7 @@ import ApiAutoflowValueImg from '@site/docs/documentation/overview/api-autoflow-
 
 Welcome to API AutoFlow!
 
-Whether you’re building APIs for databases, web service, or network infrastructure, API AutoFlow helps you create and integrate APIs that matter to you.  You decide what your APIs have to do by building the perfect data and automation [services](../https://www.notion.so/Service-936e49b6f28d41558944966f4d3f8474) for your needs.
+Whether you’re building APIs for databases, web service, or network infrastructure, API AutoFlow helps you create and integrate APIs that matter to you.  You decide what your APIs have to do by building the perfect data and automation [services](../Guide/Service) for your needs.
 
 Unlike traditional no-code platforms that are made for creating mobile apps and websites, API AutoFlow gives you the power to create and host your own super-flexible application backend for all your API needs.
 

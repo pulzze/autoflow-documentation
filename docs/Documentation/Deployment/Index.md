@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 # Deployment
 
-[CI/CD](CI%20CD)
+[CI/CD](cicd)
 
 [Scaling](Scaling)
 

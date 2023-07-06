@@ -78,4 +78,4 @@ By configuring the connection with the database credentials and the server infor
 
 [Installation](Installation)
 
-[Hello World](Hello%20World)
+[Hello World](hello-world)

@@ -8,7 +8,7 @@ description: A service helps the server by taking out commonly used actions into
 ## What is a Service?
 
 - A service helps the server by taking out commonly used actions into a reusable group.
-- A service performs set of operations and its’ [action](../https://www.notion.so/Actions-1645af0f140945e89931d7a261a30437)s.
+- A service performs set of operations and its’ [action](../../actions-library)s.
 - A service has an INPUT and an OUTPUT similar to functions in a programming language.
 
 For example, a service to get email from a GMAIL API can be reused by many servers, where the service has multiple actions to accomplish the get email task.
@@ -33,7 +33,7 @@ Create an ID for the Service.
 ### Define the input and output
 
 &lt;aside&gt;
-💡 Behind the scene, [JSON Schema](../https://json-schema.org/understanding-json-schema/) used to perform the input and output validation
+💡 Behind the scene, [JSON Schema](https://json-schema.org/understanding-json-schema/) used to perform the input and output validation
 
 &lt;/aside&gt;
 
@@ -44,7 +44,7 @@ Create Input and Output arguments
 ![Untitled](Untitled%205.png)
 
 &lt;aside&gt;
-💡 Arguments are the keys for the [JSON Schema](../https://json-schema.org/understanding-json-schema/) properties
+💡 Arguments are the keys for the [JSON Schema](https://json-schema.org/understanding-json-schema/) properties
 For example, for the below JSON, username and password are the arguments
 
 ```json

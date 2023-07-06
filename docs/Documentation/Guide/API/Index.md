@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## OpenAPI model
 
-An [API](../notion://www.notion.so/Main-Concept-c4e952b2621349408d60b75788032f48#_6adccgfb6552) in API AutoFlow is simply an OpenAPI model.   You don’t need to be an expert in OpenAPI.  API AutoFlow provides an easy-to-use graphic-based API builder.
+An [API](./Index.md) in API AutoFlow is simply an OpenAPI model.   You don’t need to be an expert in OpenAPI.  API AutoFlow provides an easy-to-use graphic-based API builder.
 
 &gt; **A Server is configured to perform what is defined in the API.**
 &gt; 
@@ -13,7 +13,7 @@ An [API](../notion://www.notion.so/Main-Concept-c4e952b2621349408d60b75788032f48
 ![General API](https://github.com/pulzze/autoflow-documentation/assets/85649767/4a3a9b1d-467b-4766-abeb-2ade00e4fbed)
 
 
-Read more about [OpenAPI specifications](../https://swagger.io/docs/specification/about/) (previously [Swagger](../https://swagger.io/))
+Read more about [OpenAPI specifications](https://swagger.io/docs/specification/about/) (previously [Swagger](https://swagger.io/))
 
 The API is used by many features in the API AutoFlow.  But, it always plays the same role as an API describing the format for REST APIs and validating the API calls.
 
@@ -73,7 +73,7 @@ Field refers to the API method. As shown in the picture above, the chosen field 
 
 a. Create a Server.  
 
-[Link to Server Guide](../Server/Index.md)
+[Link to Server Guide](../Server)
 
 
 b. Go to the newly created hello_world_server and press the edit button
@@ -101,7 +101,7 @@ Now that you have lined the server with the API, you can start creating the oper
 ### in a Service
 
 Create a Service.  
-[Link to the Service guide](.../Service/index.md)
+[Link to the Service guide](../Service)
 
 In the example below, we have created
 

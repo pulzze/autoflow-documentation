@@ -28,7 +28,7 @@ Create an ID for the Intent.
 ### Define the input and output
 
 &lt;aside&gt;
-💡 Behind the scene, [JSON Schema](../https://json-schema.org/understanding-json-schema/) used to perform the input and output validation
+💡 Behind the scene, [JSON Schema](https://json-schema.org/understanding-json-schema/) used to perform the input and output validation
 
 &lt;/aside&gt;
 
@@ -39,7 +39,7 @@ Create Input and Output arguments
 ![Untitled](Untitled%204.png)
 
 &lt;aside&gt;
-💡 Arguments are the keys for the [JSON Schema](../https://json-schema.org/understanding-json-schema/) properties
+💡 Arguments are the keys for the [JSON Schema](https://json-schema.org/understanding-json-schema/) properties
 For example, for the below JSON, username and password are the arguments
 
 ```json
@@ -93,7 +93,7 @@ Store the value in the **variable** scope for use
 
 ## Using Intent from the Server
 
-When [selecting the Service operation](../Service) from the Server, you now have to option to use the intent with the service.
+When [selecting the Service operation](../../Guide/Service) from the Server, you now have to option to use the intent with the service.
 
 ![Untitled](Untitled%2012.png)
 

@@ -33,7 +33,7 @@ Start the server
 - Port:		Port number (note that the port number gets applied in real-time)
 - Linked API:	Link the API that was created in the API Section
 
-[https://lh4.googleusercontent.com/Rv0aH28V0JrgPWjTN1HoSFL0PKVqQYfAt2vjEJpwHz3hvjV52iBN00bSc6CSeUvGkno4n1IO2R9ZGfrEyNMxmqnGMCY-619HwQDPdSTerltChxlkgSgBRF31VFOXlaYWDQBN1-6OE5IHMlJ-pRmXRX8H6NE-8tx30H0EbV5ma25sLqN3nxHiWoY5NQ](../https://lh4.googleusercontent.com/Rv0aH28V0JrgPWjTN1HoSFL0PKVqQYfAt2vjEJpwHz3hvjV52iBN00bSc6CSeUvGkno4n1IO2R9ZGfrEyNMxmqnGMCY-619HwQDPdSTerltChxlkgSgBRF31VFOXlaYWDQBN1-6OE5IHMlJ-pRmXRX8H6NE-8tx30H0EbV5ma25sLqN3nxHiWoY5NQ)
+[https://lh4.googleusercontent.com/Rv0aH28V0JrgPWjTN1HoSFL0PKVqQYfAt2vjEJpwHz3hvjV52iBN00bSc6CSeUvGkno4n1IO2R9ZGfrEyNMxmqnGMCY-619HwQDPdSTerltChxlkgSgBRF31VFOXlaYWDQBN1-6OE5IHMlJ-pRmXRX8H6NE-8tx30H0EbV5ma25sLqN3nxHiWoY5NQ](https://lh4.googleusercontent.com/Rv0aH28V0JrgPWjTN1HoSFL0PKVqQYfAt2vjEJpwHz3hvjV52iBN00bSc6CSeUvGkno4n1IO2R9ZGfrEyNMxmqnGMCY-619HwQDPdSTerltChxlkgSgBRF31VFOXlaYWDQBN1-6OE5IHMlJ-pRmXRX8H6NE-8tx30H0EbV5ma25sLqN3nxHiWoY5NQ)
 
 ### Add API operations
 
@@ -43,7 +43,7 @@ Now that you have lined the server with the API, you can start creating the oper
 
 ### Add an action(s)
 
-Refer to the [Action section](../https://www.notion.so/Actions-1645af0f140945e89931d7a261a30437) on how to use Actions
+Refer to the [Action section](../../actions-library) on how to use Actions
 
 ![Untitled](Untitled.png)
 

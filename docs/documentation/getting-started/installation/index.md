@@ -35,4 +35,4 @@ import TutorialInstallation from '@site/static/img/tutorial-what-is-apiautoflow.
 
 [Windows](Windows)
 
-[Remote Access](Remote%20Access)
+[Remote Access](remote-access)

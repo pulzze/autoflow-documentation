@@ -7,7 +7,7 @@ The main 2 components needed to deploy API AutoFlow in Kubernetes is a deploymen
 - **Service** : Provides the nodes the ability to connect to pods directly (required for deployment to work)
 - **Deployment** : Maintains the API AutoFlow nodes (**NOTE: the cluster requires a minimum of 2 nodes to begin operating**)
 - **Config Map** : (optional) This can include several useful files
-    - [API AutoFlow System Variables](../../Caching%20and%20Storage/System%20Variable)
+    - [API AutoFlow System Variables](../../advanced-guide/system-variable)
     - Solution Files : typically acquired through exporting existing configuration
     - License File : product license
     - Additional Files : any files the solution might depend on

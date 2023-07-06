@@ -3,12 +3,12 @@ sidebar_position: 2
 ---
 # Support
 
-[https://www.interactor.com/support](../https://www.interactor.com/support)
+[https://www.interactor.com/support](https://www.interactor.com/support)
 
-[Help Center](Help%20Center)
+[Help Center](help-center)
 
-[Maintenance Services](Maintenance%20Services)
+[Maintenance Services](professional-services)
 
-[Certification Program](Certification%20Program)
+[Certification Program](certification-program)
 
-[Live Training](Live%20Training)
+[Live Training](live-training)

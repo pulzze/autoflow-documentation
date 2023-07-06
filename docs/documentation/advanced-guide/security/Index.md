@@ -3,8 +3,8 @@ sidebar_position: 6
 ---
 # Security
 
-[API Level Security](API%20Level%20Security)
+[API Level Security](api-level-security)
 
-[Server Level Security](Server%20Level%20Security)
+[Server Level Security](server-level-security)
 
-[Rate Limiting](Rate%20Limiting)
+[Rate Limiting](rate-limiting)
