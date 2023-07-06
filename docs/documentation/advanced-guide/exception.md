@@ -13,8 +13,6 @@ Exception (Error) handling manages and handles unexpected or exceptional situati
 
 ### Complete List
 
-![Untitled](Capture/Untitled%201.png)
-
 A complete list of all captured exceptions can be found in the Settings section.
 
 ### Capture All Exceptions
