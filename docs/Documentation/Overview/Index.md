@@ -83,8 +83,6 @@ In many projects, ROI is realized in &lt; 6 months
 
 ## Use Cases
 
-![API AutoFlow Use Cases](use-cases.png)
-
 ### 1. Dealing with constant changes with the backend
 
 **Pain Point**
