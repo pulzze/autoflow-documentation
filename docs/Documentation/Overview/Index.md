@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 import TutorialOverview from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
-import ApiAutoflowValueImg from '@site/docs/documentation/overview/api-autoflow-value.png';
+import ApiAutoflowValueImg from '@site/docs/Documentation/Overview/api-autoflow-value.png';
 
 # Overview
 
