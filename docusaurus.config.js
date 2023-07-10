@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'API AutoFlow',
-  tagline: 'API AutoFlow Official Documentations',
+  title: 'Interactor API AutoFlow',
+  tagline: 'Interactor API AutoFlow Official Documentations',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'API AutoFlow Interactor', // Usually your repo name.
+  organizationName: 'Interactor', // Usually your GitHub org/user name.
+  projectName: 'Interactor API AutoFlow', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -55,7 +55,7 @@ const config = {
       navbar: {
         // title: 'API AutoFlow',
         logo: {
-          alt: 'API AutoFlow Logo',
+          alt: 'Interactor API AutoFlow Logo',
           src: 'img/api-autoflow-logo.png',
           srcDark: 'img/api-autoflow-logo-white.png',
         },

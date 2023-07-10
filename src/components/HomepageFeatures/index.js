@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Documentation',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/main_page_documentations_icon.svg').default,
     description: (
       <>
         ABCDE
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Tutorial',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/main_page_tutorial_icon.svg').default,
     description: (
       <>
         abc
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Templates',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/main_page_template_icon.svg').default,
     description: (
       <>
         abc
@@ -35,7 +35,7 @@ const FeatureList = [
   },
   {
     title: 'Support',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/main_page_support_icon.svg').default,
     description: (
       <>
         abc
@@ -45,7 +45,7 @@ const FeatureList = [
   },
   {
     title: 'Release Notes',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/main_page_release_note_icon.svg').default,
     description: (
       <>
         abc
@@ -55,7 +55,7 @@ const FeatureList = [
   },
   {
     title: 'Community',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/main_page_community_icon.svg').default,
     description: (
       <>
         abc
