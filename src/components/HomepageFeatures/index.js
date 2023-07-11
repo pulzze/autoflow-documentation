@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/main_page_documentations_icon.svg').default,
     description: (
       <>
-        ABCDE
+        This is a test again
       </>
     ),
     link: 'docs/documentation/overview'
