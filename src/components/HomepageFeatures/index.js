@@ -38,7 +38,7 @@ const FeatureList = [
     Svg: require('@site/static/img/main_page_support_icon.svg').default,
     description: (
       <>
-        abc this is a change
+        abc 
       </>
     ),
     link: 'docs/support/help-center'
