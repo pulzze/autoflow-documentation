@@ -55,7 +55,7 @@ const config = {
       navbar: {
         // title: 'API AutoFlow',
         logo: {
-          alt: 'Interactor API AutoFlow Logo',
+          alt: 'Interactor API AutoFlow',
           src: 'img/api-autoflow-logo.png',
           srcDark: 'img/api-autoflow-logo-white.png',
         },
