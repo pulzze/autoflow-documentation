@@ -19,29 +19,30 @@ Benefit from the efficiency of our proprietary technology, API AutoFlow. Our rob
 
 
 
-<div style="overflow-x:auto;">
-<table style="width:100%; border-collapse:collapse; border:1px solid #ddd;">
-    <tr style="background-color:#f2f2f2;">
-        <th style="border:1px solid #ddd; padding:8px;">&nbsp;</th>
-        <th style="border:1px solid #ddd; padding:8px;"><b>New Project</b></th>
-        <th style="border:1px solid #ddd; padding:8px;"><b>Ongoing</b></th>
+<div style={{ overflowX: 'auto' }}>
+  <table style={{ width: '100%', borderCollapse: 'collapse', border: '1px solid #ddd' }}>
+    <tr style={{ backgroundColor: '#f2f2f2' }}>
+      <th style={{ border: '1px solid #ddd', padding: '8px' }}>&nbsp;</th>
+      <th style={{ border: '1px solid #ddd', padding: '8px' }}><b>New Project</b></th>
+      <th style={{ border: '1px solid #ddd', padding: '8px' }}><b>Ongoing</b></th>
     </tr>
     <tr>
-        <td style="border:1px solid #ddd; padding:8px;"><b>API AutoFlow</b></td>
-        <td style="border:1px solid #ddd; padding:8px;">Onboarding services<br/>Training</td>
-        <td style="border:1px solid #ddd; padding:8px;"><i>Product Support</i></td>
+      <td style={{ border: '1px solid #ddd', padding: '8px' }}><b>API AutoFlow</b></td>
+      <td style={{ border: '1px solid #ddd', padding: '8px' }}>Onboarding services<br/>Training</td>
+      <td style={{ border: '1px solid #ddd', padding: '8px' }}><i>Product Support</i></td>
     </tr>
     <tr>
-        <td style="border:1px solid #ddd; padding:8px;"><b>Your Application</b></td>
-        <td style="border:1px solid #ddd; padding:8px;">App development<br/>Handover and Training</td>
-        <td style="border:1px solid #ddd; padding:8px;"><i>Maintenance Support</i></td>
+      <td style={{ border: '1px solid #ddd', padding: '8px' }}><b>Your Application</b></td>
+      <td style={{ border: '1px solid #ddd', padding: '8px' }}>App development<br/>Handover and Training</td>
+      <td style={{ border: '1px solid #ddd', padding: '8px' }}><i>Maintenance Support</i></td>
     </tr>
-</table>
+  </table>
 </div>
 
 
 
-<!-->
+
+
 <table>
     <tr>
         <th></th>
@@ -63,7 +64,7 @@ Benefit from the efficiency of our proprietary technology, API AutoFlow. Our rob
         <td></td>
     </tr>
 </table> 
-<!-->
+
 
 
 ### Comprehensive Services for Complete Support:
