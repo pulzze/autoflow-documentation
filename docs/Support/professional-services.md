@@ -19,23 +19,22 @@ Benefit from the efficiency of our proprietary technology, API AutoFlow. Our rob
 
 
 
-
 <div style={{ overflowX: 'auto' }}>
-  <table style={{ width: '55%', borderCollapse: 'collapse', border: '1px solid #ddd' }}>
+  <table style={{ width: '55%', borderCollapse: 'collapse', border: '1px solid #00FF00' }}>
     <tr style={{ backgroundColor: '#f2f2f2' }}>
-      <th style={{ border: '1px solid #ddd', padding: '8px' }}>&nbsp;</th>
-      <th style={{ border: '1px solid #ddd', padding: '8px' }}><b>New Project</b></th>
-      <th style={{ border: '1px solid #ddd', padding: '8px' }}><b>Ongoing</b></th>
+      <th style={{ border: '1px solid #00FF00', padding: '8px' }}> </th>
+      <th style={{ border: '1px solid #00FF00', padding: '8px' }}><b>New Project</b></th>
+      <th style={{ border: '1px solid #00FF00', padding: '8px' }}><b>Ongoing</b></th>
     </tr>
     <tr>
-      <td style={{ border: '1px solid #ddd', padding: '8px' }}><b>API AutoFlow</b></td>
-      <td style={{ border: '1px solid #ddd', padding: '8px' }}>Onboarding services<br/>Training</td>
-      <td style={{ border: '1px solid #ddd', padding: '8px' }}><i>Product Support</i></td>
+      <td style={{ border: '1px solid #00FF00', padding: '8px' }}><b>API AutoFlow</b></td>
+      <td style={{ border: '1px solid #00FF00', padding: '8px' }}>Onboarding services<br/>Training</td>
+      <td style={{ border: '1px solid #00FF00', padding: '8px' }}><i>Product Support</i></td>
     </tr>
     <tr>
-      <td style={{ border: '1px solid #ddd', padding: '8px' }}><b>Your Application</b></td>
-      <td style={{ border: '1px solid #ddd', padding: '8px' }}>App development<br/>Handover and Training</td>
-      <td style={{ border: '1px solid #ddd', padding: '8px' }}><i>Maintenance Support</i></td>
+      <td style={{ border: '1px solid #00FF00', padding: '8px' }}><b>Your Application</b></td>
+      <td style={{ border: '1px solid #00FF00', padding: '8px' }}>App development<br/>Handover and Training</td>
+      <td style={{ border: '1px solid #00FF00', padding: '8px' }}><i>Maintenance Support</i></td>
     </tr>
   </table>
 </div>
@@ -72,31 +71,70 @@ We recognize the classic 'chicken or egg' dilemma in startup funding, where reso
 
 
 
+  <div class="row">
+    <div class="col col--6">
+      <div class="col-demo">
+                  <div style={{height: '30px'}}></div>
+      <h2>Every Established Company Originated as a Startup</h2>
 
-<img src="https://www.interactor.com/images/support/every.png" width="400" style={{float: 'center'}}/>
-
-[Engage with our Startup Program Today](https://www.interactor.com/contactus)
-
-## Accelerate Product Development at Minimal Costs
-
-For startups at the concept stage or companies that have secured Series A funding and are seeking rapid expansion, we offer solutions tailored to your unique objectives and circumstances.
-<img src="https://www.interactor.com/images/support/cost.png" width="350" style={{float: ''}}/>
-
-
-[Consult with our Startup Specialist](https://www.interactor.com/contactus)
-
-
-
-## API AutoFlow: Your Launch Timeline Seized
-
-Our API AutoFlow solution expedites your launch timeline without compromising quality:
-<img src="https://www.interactor.com/images/index/main_middle_image.png" width="500" style={{float: 'right'}}/>
+<p>We recognize the classic 'chicken or egg' dilemma in startup funding, where resources and the product are interdependent. Our team is equipped with the skills and experience to guide you through this complex process.</p>
+<div style={{height: '30px'}}></div>
+<div>
+  <a class="button button--primary" href="https://www.interactor.com/contactus" role="button">Engage with our Startup Program Today</a>
+</div>
+      </div>
+    </div>
+    <div class="col col--6">
+      <div class="col-demo"><img src="https://www.interactor.com/images/support/every.png" width="420" style={{float: 'left', margin: '10px', borderRadius: '10px', border: '1px solid #ddd', boxShadow: '5px 5px 15px #888888'}}/></div></div>
+  </div>
 
 
-- **Build a Prototype within 1 Month**: Begin your journey with a strong foundation.
-Our team will help you build a high-quality prototype within a month.
+<div style={{height: '60px'}}></div>
 
-- **Develop an MVP and Raise Seed Fund in an Additional 2 Months**: Transition smoothly from prototype to Minimum Viable Product (MVP), and attract seed funding within two months.
+<div class="row">
+    <div class="col col--6">
+        <div class="col-demo">
+            <img src="https://www.interactor.com/images/support/cost.png" width="410" style={{float: 'left', margin: '10px', borderRadius: '10px', border: '1px solid #ddd', boxShadow: '5px 5px 15px #888888'}}/>
+        </div>
+    </div>
+    <div class="col col--6">
+        <div class="col-demo">
+            <div style={{height: '70px'}}></div>
+            <h2>Accelerate Product Development at Minimal Costs</h2>
+            <p>
+                For startups at the concept stage or companies that have secured Series A funding and are seeking rapid expansion, we offer solutions tailored to your unique objectives and circumstances.
+            </p>
+            <div style={{height: '30px'}}></div>
+            <a class="button button--primary" href="https://www.interactor.com/contactus" role="button">Consult with our Startup Specialist</a>
+        </div>
+    </div>
+</div>
 
-- **Launch and Secure Series A Funding within 6 Months from Project Initiation**: 
-Reach your milestones timely and efficiently. Our strategic guidance and support aim to secure Series A funding within six months of project initiation.
+
+
+<div style={{height: '130px'}}></div>
+
+
+<div class="row">
+    <div class="col col--6">
+      <div class="col-demo">
+      <div class="col-demo">
+      <h2>API AutoFlow: Your Launch Timeline Seized</h2>
+
+<p>Our API AutoFlow solution fast-tracks your launch timeline while maintaining quality:</p>
+<p><b>Build a Prototype in 1 Month:</b> With our help, you can create a high-quality prototype within a month.</p>
+
+<p><b>Develop an MVP and Secure Seed Fund in 2 More Months:</b> Seamlessly transition from prototype to MVP and secure seed funding.</p>
+
+<p><b>Secure Series A Funding within 6 Months of Initiation:</b> With our support, aim to secure Series A funding within half a year from the project's start.</p>
+
+</div>
+</div>
+    </div>
+    <div class="col col--6">
+  <div class="col-demo">
+  <div style={{height: '75px'}}></div>
+    <img src="https://www.interactor.com/images/index/main_middle_image.png" width="450" style={{float: 'right', margin: '10px', borderRadius: '10px', border: '1px solid #ddd', boxShadow: '5px 5px 15px #888888'}}/>
+  </div>
+</div>
+</div>
