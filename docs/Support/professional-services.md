@@ -17,6 +17,31 @@ Benefit from the efficiency of our proprietary technology, API AutoFlow. Our rob
 
 
 
+
+
+<div style="overflow-x:auto;">
+<table style="width:100%; border-collapse:collapse; border:1px solid #ddd;">
+    <tr style="background-color:#f2f2f2;">
+        <th style="border:1px solid #ddd; padding:8px;">&nbsp;</th>
+        <th style="border:1px solid #ddd; padding:8px;"><b>New Project</b></th>
+        <th style="border:1px solid #ddd; padding:8px;"><b>Ongoing</b></th>
+    </tr>
+    <tr>
+        <td style="border:1px solid #ddd; padding:8px;"><b>API AutoFlow</b></td>
+        <td style="border:1px solid #ddd; padding:8px;">Onboarding services<br/>Training</td>
+        <td style="border:1px solid #ddd; padding:8px;"><i>Product Support</i></td>
+    </tr>
+    <tr>
+        <td style="border:1px solid #ddd; padding:8px;"><b>Your Application</b></td>
+        <td style="border:1px solid #ddd; padding:8px;">App development<br/>Handover and Training</td>
+        <td style="border:1px solid #ddd; padding:8px;"><i>Maintenance Support</i></td>
+    </tr>
+</table>
+</div>
+
+
+
+<!-->
 <table>
     <tr>
         <th></th>
@@ -25,7 +50,7 @@ Benefit from the efficiency of our proprietary technology, API AutoFlow. Our rob
     </tr>
     <tr>
         <td><b>API AutoFlow</b></td>
-        <td rowspan="2"><i>Onboarding services<br>Training</i></td>
+        <td>Onboarding services<br/>Training</td>
         <td><i>Product Support</i></td>
     </tr>
     <tr>
@@ -34,10 +59,11 @@ Benefit from the efficiency of our proprietary technology, API AutoFlow. Our rob
     </tr>
     <tr>
         <td></td>
-        <td rowspan="2"><i>App development<br>Handover and Training</i></td>
+        <td rowspan="2">App development<br/>Handover and Training</td>
         <td></td>
     </tr>
-</table>
+</table> 
+<!-->
 
 
 ### Comprehensive Services for Complete Support:
