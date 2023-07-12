@@ -7,6 +7,7 @@ sidebar_position: 3
 
 # Tailored, Specialized Support: Achieving Your Objectives
 
+
 Focus on your core business and entrust your App Marketplace development needs to our team of experts. Our services are designed to seamlessly integrate with your processes, ensuring you don't have to allocate vital resources to this non-core yet resource-intensive function.
 
 
@@ -20,7 +21,7 @@ Benefit from the efficiency of our proprietary technology, API AutoFlow. Our rob
 
 
 <div style={{ overflowX: 'auto' }}>
-  <table style={{ width: '100%', borderCollapse: 'collapse', border: '1px solid #ddd' }}>
+  <table style={{ width: '55%', borderCollapse: 'collapse', border: '1px solid #ddd' }}>
     <tr style={{ backgroundColor: '#f2f2f2' }}>
       <th style={{ border: '1px solid #ddd', padding: '8px' }}>&nbsp;</th>
       <th style={{ border: '1px solid #ddd', padding: '8px' }}><b>New Project</b></th>
@@ -40,30 +41,6 @@ Benefit from the efficiency of our proprietary technology, API AutoFlow. Our rob
 </div>
 
 
-
-
-
-<table>
-    <tr>
-        <th></th>
-        <th><b>New Project</b></th>
-        <th><b>Ongoing</b></th>
-    </tr>
-    <tr>
-        <td><b>API AutoFlow</b></td>
-        <td>Onboarding services<br/>Training</td>
-        <td><i>Product Support</i></td>
-    </tr>
-    <tr>
-        <td><b>Your Application</b></td>
-        <td><i>Maintenance Support</i></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td rowspan="2">App development<br/>Handover and Training</td>
-        <td></td>
-    </tr>
-</table> 
 
 
 
@@ -93,26 +70,33 @@ Our team of seasoned professionals are committed to effectively managing all sta
 
 We recognize the classic 'chicken or egg' dilemma in startup funding, where resources and the product are interdependent. Our team is equipped with the skills and experience to guide you through this complex process.
 
-![https://www.interactor.com/images/support/every.png](https://www.interactor.com/images/support/every.png)
+
+
+
+<img src="https://www.interactor.com/images/support/every.png" width="400" style={{float: 'center'}}/>
 
 [Engage with our Startup Program Today](https://www.interactor.com/contactus)
 
 ## Accelerate Product Development at Minimal Costs
 
 For startups at the concept stage or companies that have secured Series A funding and are seeking rapid expansion, we offer solutions tailored to your unique objectives and circumstances.
+<img src="https://www.interactor.com/images/support/cost.png" width="350" style={{float: ''}}/>
+
 
 [Consult with our Startup Specialist](https://www.interactor.com/contactus)
 
-![https://www.interactor.com/images/support/cost.png](https://www.interactor.com/images/support/cost.png)
+
 
 ## API AutoFlow: Your Launch Timeline Seized
 
 Our API AutoFlow solution expedites your launch timeline without compromising quality:
+<img src="https://www.interactor.com/images/index/main_middle_image.png" width="500" style={{float: 'right'}}/>
 
-- **Build a Prototype within 1 Month**: Begin your journey with a strong foundation. Our team will help you build a high-quality prototype within a month.
+
+- **Build a Prototype within 1 Month**: Begin your journey with a strong foundation.
+Our team will help you build a high-quality prototype within a month.
 
 - **Develop an MVP and Raise Seed Fund in an Additional 2 Months**: Transition smoothly from prototype to Minimum Viable Product (MVP), and attract seed funding within two months.
 
-- **Launch and Secure Series A Funding within 6 Months from Project Initiation**: Reach your milestones timely and efficiently. Our strategic guidance and support aim to secure Series A funding within six months of project initiation.
-
-![https://www.interactor.com/images/index/main_middle_image.png](https://www.interactor.com/images/index/main_middle_image.png)
+- **Launch and Secure Series A Funding within 6 Months from Project Initiation**: 
+Reach your milestones timely and efficiently. Our strategic guidance and support aim to secure Series A funding within six months of project initiation.
