@@ -69,7 +69,7 @@ Our team of seasoned professionals are committed to effectively managing all sta
 
 We recognize the classic 'chicken or egg' dilemma in startup funding, where resources and the product are interdependent. Our team is equipped with the skills and experience to guide you through this complex process.
 
-
+<div style={{height: '60px'}}></div>
 
   <div class="row">
     <div class="col col--6">
@@ -85,16 +85,16 @@ We recognize the classic 'chicken or egg' dilemma in startup funding, where reso
       </div>
     </div>
     <div class="col col--6">
-      <div class="col-demo"><img src="https://www.interactor.com/images/support/every.png" width="420" style={{float: 'left', margin: '10px', borderRadius: '10px', border: '1px solid #ddd', boxShadow: '5px 5px 15px #888888'}}/></div></div>
+      <div class="col-demo"><img src="https://www.interactor.com/images/support/every.png" width="420" style={{float: 'left'}}/></div></div>
   </div>
 
 
-<div style={{height: '60px'}}></div>
+<div style={{height: '110px'}}></div>
 
 <div class="row">
     <div class="col col--6">
         <div class="col-demo">
-            <img src="https://www.interactor.com/images/support/cost.png" width="410" style={{float: 'left', margin: '10px', borderRadius: '10px', border: '1px solid #ddd', boxShadow: '5px 5px 15px #888888'}}/>
+            <img src="https://www.interactor.com/images/support/cost.png" width="410" style={{float: 'left'}}/>
         </div>
     </div>
     <div class="col col--6">
@@ -112,7 +112,7 @@ We recognize the classic 'chicken or egg' dilemma in startup funding, where reso
 
 
 
-<div style={{height: '130px'}}></div>
+<div style={{height: '110px'}}></div>
 
 
 <div class="row">
@@ -134,7 +134,7 @@ We recognize the classic 'chicken or egg' dilemma in startup funding, where reso
     <div class="col col--6">
   <div class="col-demo">
   <div style={{height: '75px'}}></div>
-    <img src="https://www.interactor.com/images/index/main_middle_image.png" width="450" style={{float: 'right', margin: '10px', borderRadius: '10px', border: '1px solid #ddd', boxShadow: '5px 5px 15px #888888'}}/>
+    <img src="https://www.interactor.com/images/index/main_middle_image.png" width="450" style={{float: 'right'}}/>
   </div>
 </div>
 </div>
