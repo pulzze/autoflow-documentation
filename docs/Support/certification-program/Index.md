@@ -11,7 +11,8 @@ sidebar_position: 4
       <h2>Certifications</h2>
       <p>Employers perceive professional certifications as integral markers of an IT professional's competence and value. Pursuing a certification with Interactor not only provides you with a credible entry point into the industry but also enables you to chart a career path that aligns with your professional aspirations. Armed with such a credential, you stand poised to emerge as a sought-after expert in API solutions, providing assurance to prospective employers about your capabilities.</p>
       <div style={{height: '20px'}}></div>
-      <div><button class="button button--success">Apply to be certified</button>
+      <div>
+      <a class="button button--success" href="https://www.interactor.com/contactus" role="button">Apply to be certified</a>
       </div>
       </div>
     </div>
