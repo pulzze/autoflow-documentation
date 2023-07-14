@@ -258,9 +258,11 @@ Book a lesson</h3>
         <div class="col-demo"><img src="https://www.interactor.com/images/solutions/want_more.png"/></div>
         </div>
         <div class="col col--6">
-        <div class="col-demo"><p>fill this place with text</p></div>
+        <div class="col-demo">
+        <h3 class="text-white pt-6 font-open font-bold">Want to know more?</h3>
+        <a class="button" role="button" href="https://www.interactor.com/support/live">Click here to visit our website</a>
+        </div>
         </div>
     </div>
 </div>
-
 

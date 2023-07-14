@@ -135,6 +135,6 @@ Congratulations! You have just created a new API server!
 &gt; **Download Configuration**
 &gt; 
 
-The above example is available for your reference.  Simply download the configuration from below and upload it to your API AutoFlow.
+The below example is available for your reference.  Simply download the configuration from below and upload it to your API AutoFlow.
 
 [hello_world_config.json](hello_world_config.json)
