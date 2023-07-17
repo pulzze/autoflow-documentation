@@ -47,6 +47,6 @@ You can version the Connection for easier rollback and management.
 
 Press the Add Version to create a new version
 
-![Untitled](Untitled%206.png)
+![Untitled](Untitled6.png)
 
 Click on the trash icon to delete the version.

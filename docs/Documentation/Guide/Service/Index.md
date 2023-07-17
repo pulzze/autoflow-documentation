@@ -60,28 +60,28 @@ Refer to Actions section on how to use Actions
 
 ### Map the Action’s output with the Service operation output
 
-![Untitled](Untitled%206.png)
+![Untitled](Untitled6.png)
 
 &lt;aside&gt;
 💡 The data stored in the scope **variable** path *output* is being mapped to the service’s output 
 
 &lt;/aside&gt;
 
-## How to use a Service
+### How to use a Service
 
-### Add Service / Operation action
+## Add Service / Operation action
 
 ![Untitled](Untitled%207.png)
 
-### Choose a Service Operation
+## Choose a Service Operation
 
 ![Untitled](Untitled%208.png)
 
-### Select the Service operations
+## Select the Service operations
 
 ![Untitled](Untitled%209.png)
 
-### Set the data to insert into the service INPUT
+## Set the data to insert into the service INPUT
 
 ![Untitled](Untitled%2010.png)
 
@@ -89,16 +89,16 @@ Refer to Actions section on how to use Actions
 
 You can version the Service for easier rollback and management.
 
-### Add new version
+## Add new version
 
 Press the Add Version to create a new version
 
-![Untitled](@site/docs/Documentation/Guide/Clients/Untitled 6.png)
+![Untitled](../../Guide/Clients/Untitled6.png)
 
 Click on the trash icon to delete the version.
 
 ## Service Data Simulation
 
-Refer to the [Data Simulation](../../Workflow/Data Simulation) section for how to use the simulation feature.
+Refer to the [Data Simulation](../../Guide/Workflow/data-simulation) section for how to use the simulation feature.
 
 ![Untitled](Untitled%2011.png)
