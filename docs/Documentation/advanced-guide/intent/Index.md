@@ -59,7 +59,7 @@ Go to the Server page
 
 Select the intent to use
 
-![Untitled](Untitled%206.png)
+![Untitled](Untitled6.png)
 
 ### Map the Service input and output with Intent
 
@@ -103,6 +103,6 @@ You can version the Service for easier rollback and management.
 
 ### Add new version
 
-Press the Add Version to create a new version
+Press the plus button next to "Version" to create a new version
 
-![Untitled](@site/docs/Documentation/Guide/Clients/Untitled 6.png)
+![Untitled](VersionAdd.png)
