@@ -13,6 +13,12 @@ To document your API effectively within API AutoFlow, follow these steps:
 
 2. **Upload Your Own OpenAPI Document**: If you already have existing APIs with OpenAPI documentation, you can upload these documents directly into API AutoFlow. This feature allows you to manage multiple APIs within the platform, even those developed outside of API AutoFlow. To upload, navigate to the documentation section and select 'Upload OpenAPI Document'. After uploading, ensure to review the imported information for accuracy.
 
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mgiprRCbJYU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+</div>
+
+
 3. **Enrich the Information Section**: The `info` section of your OpenAPI document provides an overview of your API. Enhance the `title`, `version`, and `description` to make them informative and engaging. Include critical details about the API's function, target users, and usage instructions.
 
 4. **Outline the Server Information**: The `servers` section of your OpenAPI document specifies where users can access your API. Ensure this section accurately references your API's endpoints.
