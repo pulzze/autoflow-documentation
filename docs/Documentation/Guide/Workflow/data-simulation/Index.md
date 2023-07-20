@@ -21,7 +21,7 @@ The simulation button appears when the three dots at the end of the operation is
 
 Once simulated, a simulation section will appear on the right pane.
 
-![Untitled](Untitled%201.png)
+![Untitled](Untitled1.png)
 
 - Use the thunder icon to run the simulations
 - Use the Add button to create more simulations when multiple mock data are required for testing
