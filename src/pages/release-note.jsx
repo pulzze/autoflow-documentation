@@ -40,7 +40,6 @@ function ReleaseNotes() {
           <h2>{note.release}</h2>
           <p style={dateStyle}>Release date : {note.date}</p>
           <div style={{ height: '25px' }} />
-          <h4>Changes made:</h4>
           <p>{note.detail.split("\r\n").map((item, key) => {
             return <span key={key}>{item}<br/></span>
           })}</p>
