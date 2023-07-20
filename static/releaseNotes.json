@@ -1,0 +1,181 @@
+[{
+    "date": "2023-04-24",
+    "detail": "- UI Changes in upload/download\r\n- Service/Service level logging",
+    "id": 100726554,
+    "release": "3.0.25",
+    "type": "Official"
+}, {
+    "date": "2023-04-20",
+    "detail": "\r\n- Reset url on clear configuration\r\n- JSON schema UI enhancement\r\n- Option for Textarea UI for String \r\n- Action remove popup menu once menu item has been selected\r\n- Add ability to collapse schema text component.\r\n",
+    "id": 100271993,
+    "release": "3.0.24",
+    "type": "Official"
+}, {
+    "date": "2023-04-05",
+    "detail": "UI changes",
+    "id": 98128249,
+    "release": "3.0.23",
+    "type": "Official"
+}, {
+    "date": "2023-03-21",
+    "detail": "Fixes for MQTT simulation and File default directory",
+    "id": 96283136,
+    "release": "3.0.22",
+    "type": "Official"
+}, {
+    "date": "2023-03-20",
+    "detail": "Added zipped configuration upload/download",
+    "id": 96255234,
+    "release": "3.0.21",
+    "type": "Official"
+}, {
+    "date": "2023-03-16",
+    "detail": "- Added YamlEditor to Service Operation page\r\n- Added iteration/filter action \r\n- Added services/aws/operation action\r\n- Added search bar and pagination on service operation\r\n- Added error handling to data/json actions\r\n- Added data/binary/byte-size action\r\n- Added UI enhancement for data reference selection to be more intuitive\r\n- Added ability to paste action in add action chooser\r\n- Added more configuration guidance\r\n- Added file/list options\r\n- Added support for MQTT client\r\n- Added additional logging for HTTP \r\n- Added syslog udp action\r\n- Added Basic file management support\r\n- Changed default file directory for file actions\r\n",
+    "id": 95822626,
+    "release": "3.0.20",
+    "type": "Official"
+}, {
+    "date": "2023-02-27",
+    "detail": "- Added UI banner support\r\n- Added UI required schema value information\r\n- Added media type select\r\n- Enhanced api/operation\r\n- Added array intersection, not-in and union actions",
+    "id": 93854325,
+    "release": "3.0.19",
+    "type": "Official"
+}, {
+    "date": "2023-02-23",
+    "detail": "\r\n- Added ability to edit simulation data\r\n- Fixed version removal issue during configuration import\r\n- Client TLS enhancements\r\n- Added deepObject query style support\r\n- UI enhancements\r\n- Added JSON formatted log message support\r\n- Enhanced YAML editor support for Schema definitions\r\n- Enhanced UUID action\r\n- Added reduced data type chooser options based on schema\r\n- Added database select, insert, delete, update actions\r\n",
+    "id": 93506048,
+    "release": "3.0.18",
+    "type": "Official"
+}, {
+    "date": "2023-02-10",
+    "detail": "- Added DB error message improvements\r\n- Added Simulation improvements\r\n- Added cors support",
+    "id": 92088052,
+    "release": "3.0.17",
+    "type": "Official"
+}, {
+    "date": "2023-02-06",
+    "detail": "Improved database error handling and status messages",
+    "id": 91481907,
+    "release": "3.0.16",
+    "type": "Official"
+}, {
+    "date": "2023-02-02",
+    "detail": "- Add Base DN to LDAP Client configuration\r\n- ldap/bind action",
+    "id": 91169616,
+    "release": "3.0.15",
+    "type": "Official"
+}, {
+    "date": "2023-02-01",
+    "detail": "- UI changes\r\n- Improved data/binary actions\r\n- Ability to return error for database/query action instead of raising exception\r\n",
+    "id": 90933392,
+    "release": "3.0.14",
+    "type": "Official"
+}, {
+    "date": "2023-01-28",
+    "detail": "UI updates",
+    "id": 90539965,
+    "release": "3.0.13",
+    "type": "Official"
+}, {
+    "date": "2023-01-06",
+    "detail": "",
+    "id": 88088610,
+    "release": "3.0.12",
+    "type": "Official"
+}, {
+    "date": "2023-01-05",
+    "detail": "Version numbering fix",
+    "id": 88038265,
+    "release": "3.0.11",
+    "type": "Official"
+}, {
+    "date": "2023-01-05",
+    "detail": "Fix SOLO installation bootup issue",
+    "id": 88035798,
+    "release": "3.0.10",
+    "type": "Official"
+}, {
+    "date": "2023-01-05",
+    "detail": "Future enhancements",
+    "id": 87998239,
+    "release": "3.0.9",
+    "type": "Official"
+}, {
+    "date": "2022-12-15",
+    "detail": "Miscellaneous bug fixes",
+    "id": 86104603,
+    "release": "3.0.8",
+    "type": "Official"
+}, {
+    "date": "2022-12-14",
+    "detail": "Minor bug fixes and internal test updates",
+    "id": 85959731,
+    "release": "3.0.7",
+    "type": "Official"
+}, {
+    "date": "2022-12-13",
+    "detail": "Splitting of Process Table into Server and Client Tables\r\nLicense updates",
+    "id": 85953939,
+    "release": "3.0.6",
+    "type": "Official"
+}, {
+    "date": "2022-12-10",
+    "detail": "",
+    "id": 85611178,
+    "release": "3.0.5",
+    "type": "Official"
+}, {
+    "date": "2022-12-02",
+    "detail": "",
+    "id": 84797451,
+    "release": "3.0.4",
+    "type": "Official"
+}, {
+    "date": "2022-11-21",
+    "detail": "New UI for API AutoFlow Pro",
+    "id": 83809267,
+    "release": "3.0.3",
+    "type": "Official"
+}, {
+    "date": "2022-11-16",
+    "detail": "",
+    "id": 83187091,
+    "release": "3.0.3-beta.5",
+    "type": "Beta"
+}, {
+    "date": "2022-11-02",
+    "detail": "",
+    "id": 81867133,
+    "release": "3.0.3-beta.2",
+    "type": "Beta"
+}, {
+    "date": "2022-11-01",
+    "detail": "API Interactor new release beta-1",
+    "id": 81723635,
+    "release": "3.0.3-beta.1",
+    "type": "Beta"
+}, {
+    "date": "2022-07-08",
+    "detail": "Following changes are included\r\n- UI improvements\r\n- Login redirect fix\r\n- Web socket server support\r\n",
+    "id": 71565782,
+    "release": "3.0.2",
+    "type": "Official"
+}, {
+    "date": "2022-06-17",
+    "detail": "Following changes are included\r\n- Fixed Dark mode invisible text issue\r\n- Added binary schema hex value type\r\n- Added URL variables for HTTP actions\r\n",
+    "id": 69691177,
+    "release": "3.0.1",
+    "type": "Official"
+}, {
+    "date": "2022-06-09",
+    "detail": "Following changes are included\r\n- New UI and infrastructure\r\n- Handle Content-Type header for HTTP response decode\r\n- Add URL variable parameter to HTTP actions",
+    "id": 69018223,
+    "release": "3.0.0",
+    "type": "Official"
+}, {
+    "date": "2022-05-18",
+    "detail": "",
+    "id": 67143714,
+    "release": "2.3.1",
+    "type": "Official"
+}]

@@ -29,7 +29,7 @@ You can duplicate the content from an existing version.
 
 ## How to delete a version
 
-Click the trash button next to the version number
+Click the  button next to the version number
 
 ![Untitled](Untitled%202.png)
 

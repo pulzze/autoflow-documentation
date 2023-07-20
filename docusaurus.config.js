@@ -91,7 +91,7 @@ const config = {
           {
             position: 'left',
             label: 'Release Notes',
-            to: 'docs/release-note'
+            to: 'release-note'
           },
           {
             type: 'docSidebar',
@@ -103,7 +103,8 @@ const config = {
             position: 'right',
             label: 'interactor.com',
             to: 'https://www.interactor.com'
-          },
+          }
+
         ],
       },
       // footer: {
@@ -159,3 +160,6 @@ const config = {
 };
 
 module.exports = config;
+
+
+

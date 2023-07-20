@@ -38,7 +38,7 @@ const FeatureList = [
     Svg: require('@site/static/img/main_page_support_icon.svg').default,
     description: (
       <>
-        abc 
+        Get Support 
       </>
     ),
     link: 'docs/support/help-center'
@@ -51,8 +51,8 @@ const FeatureList = [
         abc
       </>
     ),
-    link: 'docs/release-note'
-  },
+    link: 'release-note'
+  },  
   {
     title: 'Community',
     Svg: require('@site/static/img/main_page_community_icon.svg').default,

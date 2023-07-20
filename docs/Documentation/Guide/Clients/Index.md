@@ -49,4 +49,4 @@ Press the Add Version to create a new version
 
 ![Untitled](Untitled6.png)
 
-Click on the trash icon to delete the version.
+Click on the  icon to delete the version.
