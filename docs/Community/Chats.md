@@ -21,13 +21,13 @@ import KakaotalkIcon from '@site/static/img/kakaotalk-icon.png';
 
 <br/>
 
-<a href="https://discord.gg/nzZzGY6KdV" target="_blank"> <img src={DiscordIcon} width="20" /> Interactor Discord Community</a>
+<!-- <a href="https://discord.gg/nzZzGY6KdV" target="_blank"> <img src={DiscordIcon} width="20" /> Interactor Discord Community</a> -->
 
 
 
 ## Interactor Support
 
-<a href="" target="_blank"> <img src={WhatsappIcon} width="20" /> WhatsApp Interactor Channel</a>
+<!-- <a href="" target="_blank"> <img src={WhatsappIcon} width="20" /> WhatsApp Interactor Channel</a>
 
 <br/>
 
@@ -51,4 +51,4 @@ import KakaotalkIcon from '@site/static/img/kakaotalk-icon.png';
 
 <br/>
 
-<a href="" target="_blank"> <img src={KakaotalkIcon} width="20" /> KakaoTalk Interactor Channel</a>
+<a href="" target="_blank"> <img src={KakaotalkIcon} width="20" /> KakaoTalk Interactor Channel</a> -->

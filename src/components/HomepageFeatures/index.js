@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/main_page_documentations_icon.svg').default,
     description: (
       <>
-        
+        Read the documentation
       </>
     ),
     link: 'docs/documentation/overview'
@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/main_page_tutorial_icon.svg').default,
     description: (
       <>
-        abc
+        Watch Turotials
       </>
     ),
     link: 'docs/tutorial'
@@ -28,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/main_page_template_icon.svg').default,
     description: (
       <>
-        abc
+        learn about templates
       </>
     ),
     link: 'docs/templates'
@@ -48,7 +48,7 @@ const FeatureList = [
     Svg: require('@site/static/img/main_page_release_note_icon.svg').default,
     description: (
       <>
-        abc
+        See the release notes
       </>
     ),
     link: 'release-note'
@@ -58,10 +58,10 @@ const FeatureList = [
     Svg: require('@site/static/img/main_page_community_icon.svg').default,
     description: (
       <>
-        abc
+        Ask questions
       </>
     ),
-    link: 'docs/community'
+    link: 'Forum'
   },
 ];
 
