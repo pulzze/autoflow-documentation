@@ -137,7 +137,7 @@ function ThreadPage() {
       ))}
         {thread.comments && thread.comments.slice().reverse().map((comment, index) => (
   <Comment key={index}>{comment.attributes.Content}</Comment>
-))}
+        ))}
 
         <CommentForm onSubmit={handleSubmit}>
         <CommentInput
