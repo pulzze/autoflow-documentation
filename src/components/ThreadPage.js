@@ -81,16 +81,12 @@ function ThreadPage() {
     fetch(`http://localhost:1337/api/threads/${id}`)
       .then(response => response.json())
       .then(data => {
-        console.log('Fetched thread data:', data);  // Log the raw data
         const threadData = data.data;
         if (!Array.isArray(threadData.comments)) {
           threadData.comments = [];
         }
-        console.log('Processed thread data:', threadData);  // Log the processed data
+        console.log('Fetched thread data:', threadData);  // Log the fetched thread data
         setThread(threadData);
-      })
-      .catch(() => {
-        setThread({});
       });
   }, [id]);
   
@@ -113,15 +109,19 @@ function ThreadPage() {
         }
       }),
     })
-      .then(response => response.json())
-      .then(data => {
-        console.log('Fetched comment data:', data);  // Log the raw data
-        setThread(prevThread => ({
-            ...prevThread,
-            comments: [...prevThread.comments, data.attributes],
-          }));          
-        setComment('');
-      });
+    .then(response => response.json())
+    .then(data => {
+      const newComment = {
+        ...data.data,
+        thread: id,
+      };
+      setThread(prevThread => ({
+        ...prevThread,
+        comments: [...prevThread.comments, newComment],
+      }));
+      setComment('');
+    });
+    
   };
 
   console.log(thread); // logging thread to console for debugging purposes
@@ -136,8 +136,9 @@ function ThreadPage() {
         <Post key={post.id} post={post} />
       ))}
         {thread.comments && thread.comments.slice().reverse().map((comment, index) => (
-        <Comment key={index}>{comment.data.attributes.Content}</Comment>
-        ))}
+  <Comment key={index}>{comment.attributes.Content}</Comment>
+))}
+
         <CommentForm onSubmit={handleSubmit}>
         <CommentInput
           value={comment}
