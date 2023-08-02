@@ -68,6 +68,7 @@ function NewThreadPage() {
     formData.append('content', content);
     formData.append('file', file);
 
+    // here is where you need to include the authorization data
     const response = await fetch('http://localhost:1337/api/threads', {
       method: 'POST',
       body: formData,
