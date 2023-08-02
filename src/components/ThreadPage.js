@@ -62,41 +62,69 @@ border-radius: 5px;
 border: none;
 cursor: pointer;
 `;
+const Comment = styled.p`
+  color: #333;
+  font-size: 16px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+`;
+
 
 function ThreadPage() {
   const { id } = useParams();
   const [thread, setThread] = useState(null);
   const [comment, setComment] = useState('');
 
+
+
   useEffect(() => {
     fetch(`http://localhost:1337/api/threads/${id}`)
       .then(response => response.json())
-      .then(data => setThread(data.data));
+      .then(data => {
+        console.log('Fetched thread data:', data);  // Log the raw data
+        const threadData = data.data;
+        if (!Array.isArray(threadData.comments)) {
+          threadData.comments = [];
+        }
+        console.log('Processed thread data:', threadData);  // Log the processed data
+        setThread(threadData);
+      })
+      .catch(() => {
+        setThread({});
+      });
   }, [id]);
-
+  
   const handleSubmit = (event) => {
     event.preventDefault();
-
+  
+    if(!comment.trim()){
+        return;
+    }
+  
     fetch(`http://localhost:1337/api/comments`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        content: comment,
-        thread: id,
-        // Add any other fields required by your Strapi setup
+        data: {
+          Content: comment,
+          thread: id,
+        }
       }),
     })
       .then(response => response.json())
       .then(data => {
+        console.log('Fetched comment data:', data);  // Log the raw data
         setThread(prevThread => ({
-          ...prevThread,
-          comments: [...prevThread.comments, data],
-        }));
+            ...prevThread,
+            comments: [...prevThread.comments, data.attributes],
+          }));          
         setComment('');
       });
   };
+
+  console.log(thread); // logging thread to console for debugging purposes
 
   return thread ? (
     <Container>
@@ -107,7 +135,10 @@ function ThreadPage() {
       {thread.posts && thread.posts.map(post => (
         <Post key={post.id} post={post} />
       ))}
-      <CommentForm onSubmit={handleSubmit}>
+        {thread.comments && thread.comments.slice().reverse().map((comment, index) => (
+        <Comment key={index}>{comment.data.attributes.Content}</Comment>
+        ))}
+        <CommentForm onSubmit={handleSubmit}>
         <CommentInput
           value={comment}
           onChange={(event) => setComment(event.target.value)}
