@@ -89,8 +89,21 @@ function ThreadList() {
   useEffect(() => {
     fetch('http://localhost:1337/api/threads')
       .then(response => response.json())
-      .then(data => setThreads(data.data));
+      .then(data => {
+        const threadsData = data.data;
+        const promises = threadsData.map(thread =>
+          fetch(`http://localhost:1337/api/comments?thread=${thread.id}`)
+            .then(response => response.json())
+            .then(commentsData => {
+              // Add the comments count to the thread data
+              thread.commentsCount = commentsData.data.length;
+              return thread;
+            })
+        );
+        Promise.all(promises).then(setThreads);
+      });
   }, []);
+  
 
   const handleAddPostClick = (event) => {
     event.preventDefault();
@@ -120,7 +133,7 @@ function ThreadList() {
                 <ThreadContent>{thread.attributes.Description}</ThreadContent>
               </TableCell>
               <TableCell>0</TableCell> {/* Replace with actual Votes count when available */}
-              <TableCell>0</TableCell> {/* Replace with actual Comments count when available */}
+              <TableCell>{thread.commentsCount}</TableCell>
               <TableCell>0</TableCell> {/* Replace with actual Views count when available */}
             </TableRow>
           ))}
