@@ -23,16 +23,16 @@ const FeatureList = [
     ),
     link: 'docs/tutorial'
   },
-  {
-    title: 'Templates',
-    Svg: require('@site/static/img/main_page_template_icon.svg').default,
-    description: (
-      <>
-        learn about templates
-      </>
-    ),
-    link: 'docs/templates'
-  },
+  // {
+  //   title: 'Templates',
+  //   Svg: require('@site/static/img/main_page_template_icon.svg').default,
+  //   description: (
+  //     <>
+  //       learn about templates
+  //     </>
+  //   ),
+  //   link: 'docs/templates'
+  // },
   {
     title: 'Support',
     Svg: require('@site/static/img/main_page_support_icon.svg').default,

@@ -34,45 +34,21 @@ function ReleaseNotes() {
 
   return (
     <Layout title="Release Notes">
-      <h1>Release Notes</h1>
-      {releaseNotesData.map((note, index) => (
-        <div key={index} style={noteStyle}>
-          <h2>{note.release}</h2>
-          <p style={dateStyle}>Release date : {note.date}</p>
-          <div style={{ height: '25px' }} />
-          <p>{note.detail.split("\r\n").map((item, key) => {
-            return <span key={key}>{item}<br/></span>
-          })}</p>
-        </div>
-      ))}
+      <div className='container padding-top--md padding-bottom--lg'>
+        <h1>Release Notes</h1>
+        {releaseNotesData.map((note, index) => (
+          <div key={index} style={noteStyle}>
+            <h2>{note.release}</h2>
+            <p style={dateStyle}>Release date : {note.date}</p>
+            <div style={{ height: '25px' }} />
+            <p>{note.detail.split("\r\n").map((item, key) => {
+              return <span key={key}>{item}<br/></span>
+            })}</p>
+          </div>
+        ))}
+      </div>
     </Layout>
   );
 }
 
 export default ReleaseNotes;
-
-
-
-
-
-
-
-// This is how the response is supposed to look like:
-
-                    // Release Notes
-
-                    // 3.0.25 - April 24, 2023 - Official
-                    // - UI Changes in upload/download
-                    // - Service/Service level logging
-
-                    // 3.0.24 - April 20, 2023 - Official
-                    // - Reset url on clear configuration
-                    // - JSON schema UI enhancement
-                    // - Option for Textarea UI for String 
-                    // - Action remove popup menu once menu item has been selected
-                    // - Add ability to collapse schema text component.
-
-                    // ...
-
-                    // 2.3.1 - May 18, 2022 - Official
-Hello

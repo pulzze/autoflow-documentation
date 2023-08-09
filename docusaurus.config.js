@@ -72,22 +72,22 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {
-            position: 'left',
-            label: 'Quick Demo',
-            to: 'docs/quick-demo'
-          },
+          // {
+          //   position: 'left',
+          //   label: 'Quick Demo',
+          //   to: 'docs/quick-demo'
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'support',
             position: 'left',
             label: 'Support',
           },
-          {
-            position: 'left',
-            label: 'Templates',
-            to: 'docs/templates'
-          },
+          // {
+          //   position: 'left',
+          //   label: 'Templates',
+          //   to: 'docs/templates'
+          // },
           {
             position: 'left',
             label: 'Release Notes',
