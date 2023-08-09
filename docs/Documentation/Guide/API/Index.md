@@ -8,8 +8,7 @@ sidebar_position: 2
 
 An [API](./Index.md) in API AutoFlow is simply an OpenAPI model.   You don’t need to be an expert in OpenAPI.  API AutoFlow provides an easy-to-use graphic-based API builder.
 
-&gt; **A Server is configured to perform what is defined in the API.**
-&gt; 
+**A Server is configured to perform what is defined in the API.**
 
 ![General API](https://github.com/pulzze/autoflow-documentation/assets/85649767/4a3a9b1d-467b-4766-abeb-2ade00e4fbed)
 
@@ -31,10 +30,7 @@ The OpenAPI is used to make API calls.
 For example, Google published OpenAPI for their cloud services.  API AutoFlow provides a convenient way to upload the OpenAPI doc an automatically populate the API call parameters.
 
 
-&lt;aside&gt;
-💡 At a high level, you can understand that OpeanAPIs are used both for external and internal API calls.
-
-&lt;/aside&gt;
+> 💡 At a high level, you can understand that OpeanAPIs are used both for external and internal API calls.
 
 ## Configuring the API
 
