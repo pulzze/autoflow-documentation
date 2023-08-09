@@ -3,7 +3,8 @@ sidebar_position: 1
 ---
 
 import TutorialOverview from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
-import ApiAutoflowValueImg from '@site/docs/Documentation/Overview/api-autoflow-value.png';
+import ApiAutoflowValueImg from '@site/static/img/api-autoflow-value.png';
+import UseCasesImg from '@site/static/img/use-cases.png';
 
 # Overview
 
@@ -11,9 +12,9 @@ Welcome to API AutoFlow!
 
 Whether you’re building APIs for databases, web service, or network infrastructure, API AutoFlow helps you create and integrate APIs that matter to you.  You decide what your APIs have to do by building the perfect data and automation [services](../Guide/Service) for your needs.
 
-Unlike traditional no-code platforms that are made for creating mobile apps and websites, API AutoFlow gives you the power to create and host your own super-flexible application backend for all your API needs.
+Unlike traditional no-code platforms that are made for creating mobile apps and websites, API AutoFlow gives you the power to create and host your own flexible application backend for all your API needs.
 
-## Video Tutorial
+## Learn with Video Tutorial
 
 <div class="videoBlock">
     <div class="videoLeft">
@@ -82,6 +83,10 @@ Enhanced data access and interoperability empowers developers to do more with le
 In many projects, ROI is realized in &lt; 6 months
 
 ## Use Cases
+
+<div style={{width: 100 + '%', textAlign: 'center'}}>
+    <img src={UseCasesImg} alt="API AutoFlow use cases"/>
+</div>
 
 ### 1. Dealing with constant changes with the backend
 

@@ -9,6 +9,7 @@ keywords:
   - Product Readiness
 image: ../static/img/tutorial-what-is-apiautoflow.jpg
 draft: true
+sidebar_class_name: hidden
 ---
 
 # Production Readiness (Level 300)

@@ -33,9 +33,8 @@ import TutorialHelloWorld from '@site/static/img/tutorial-what-is-apiautoflow.jp
 
 There are numerous ways to configure API AutoFlow.  But there are the first two things that you need to do every time you create a new solution.
 
-&gt; 1. Create an **API**
-2. Create a **Server** to host the API
-&gt; 
+1. Create an **API**
+2. Create a **Server** to host the API 
 
 ## Hello World!
 
@@ -52,10 +51,9 @@ b. Create an ID for the API.
 
 ![Untitled](PIC%202.png)
 
-&lt;aside&gt;
-💡 For the Hello World example, we will be using the API AutoFlow provided OpenAPI builder.  However, you can use your own OpenAPI document using the upload feature.
 
-&lt;/aside&gt;
+> 💡 For the Hello World example, we will be using the API AutoFlow provided OpenAPI builder.  However, you can use your own OpenAPI document using the upload feature.
+
 
 c. Go to the newly created hello_world API and add a new path
 ![Untitled](PIc%203.0.png)
@@ -74,8 +72,10 @@ a. Create a new Server
 
 1. Create an ID for the server.
 2. The portnumber by default is 8080, this is customizable. 
-💡 The server instantly gets hosted on the port number.
+> 💡 The server instantly gets hosted on the port number.
+
 3. Press the **Link API** button and select the **hello_world_api**.
+
 ![Untitled](PIC%204.png)
 ![Untitled](PIC%204.1.png)
 
@@ -109,10 +109,8 @@ In our example, we will include to strings **Hello** and **World**, with a space
 
 ![Untitled](Untitled%2012.png)
 
-&lt;aside&gt;
-💡 Note that the OUTPUT of the action is stored in a **variable** called *output*
+> 💡 Note that the OUTPUT of the action is stored in a **variable** called *output*
 
-&lt;/aside&gt;
 
 j. Map data to HTTP response body
 
@@ -123,7 +121,7 @@ k. Select **Reference / Data** from the data elements
 ![Untitled](PIC%2011.0.png)
 
 
-💡Make sure that the **string/join** and the **reference data** have the same variable name, in this case it's "output".
+> 💡Make sure that the **string/join** and the **reference data** have the same variable name, in this case it's "output".
 
 
 ### Step 3. Test the API
@@ -132,8 +130,7 @@ Congratulations! You have just created a new API server!
 
 ![Untitled](PIC%20last.png)
 
-&gt; **Download Configuration**
-&gt; 
+**Download Configuration**
 
 The below example is available for your reference.  Simply download the configuration from below and upload it to your API AutoFlow.
 

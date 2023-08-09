@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+sidebar_class_name: hidden
 ---
 # 4. Document the API
 

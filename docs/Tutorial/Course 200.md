@@ -9,6 +9,7 @@ keywords:
   - Product in-depth
 image: ../static/img/tutorial-what-is-apiautoflow.jpg
 draft: true
+sidebar_class_name: hidden
 ---
 # Product in-depth (Level 200)
 

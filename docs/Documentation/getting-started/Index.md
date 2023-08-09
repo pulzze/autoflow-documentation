@@ -6,7 +6,7 @@ import TutorialKeyConcept from '@site/static/img/tutorial-what-is-apiautoflow.jp
 # Getting Started
 ## Key Concepts
 
-### Video Tutorial
+### Learn with Video Tutorial
 <div class="videoBlock">
     <div class="videoLeft">
         <div class="videoWrapper">
@@ -73,9 +73,3 @@ Instead of the server calling the email services with different inputs and outpu
 **Connections** are connectors to a database and other systems.  For example, API AutoFlow provides a connector to popular databases such as Maria DB, MS SQL, Oracle, and more.
 
 By configuring the connection with the database credentials and the server information, you can issue any SQL commands to work directly with the database.
-
-#### 5. Templates
-
-[Installation](Installation)
-
-[Hello World](hello-world)

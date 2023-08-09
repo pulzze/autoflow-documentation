@@ -23,9 +23,3 @@ Actions as the name implies are the actions you want to take.  For example, acti
 Details about each action are located in the [Actions](../../../actions-library) section of the manual.
 
 ![Untitled](Untitled%201.png)
-
-**[Flow Actions](../../../actions-library/flow)**
-
-**[Call Actions](../../../actions-library/call)**
-
-**[Data Actions](../../../actions-library/data)**

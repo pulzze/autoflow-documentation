@@ -62,4 +62,6 @@
   clear: both;
 }
 
-
+.hidden {
+  display: none !important;
+}

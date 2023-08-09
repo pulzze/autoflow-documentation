@@ -3,12 +3,6 @@ sidebar_position: 5
 ---
 # Live Training
 
-[https://www.interactor.com/support/live](https://www.interactor.com/support/live)
-
-
-
-
-
 <div class="row">
     <div class="col col--6">
       <div class="col-demo">

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# 2. Serve the API
+# Server
 
 ## What is a **Server**
 
@@ -47,9 +47,9 @@ Refer to the [Action section](../../actions-library) on how to use Actions
 
 ![Untitled](Untitled.png)
 
-<aside>
-💡 Note that the OUTPUT of the action is stored in a **variable** called *output*
-</aside>
+
+> 💡 Note that the OUTPUT of the action is stored in a **variable** called *output*
+
 
 ### Map data to HTTP response body
 
@@ -73,7 +73,7 @@ For instance, in our “Hello World” example, we assigned the port number 1234
 
 
 
-Continued reading on this topic includes: 
+<!-- Continued reading on this topic includes: 
 
 Enable Log (Server)
 
@@ -85,4 +85,4 @@ Server Operations:
 
 Exceptions
 
-Server Security
+Server Security -->

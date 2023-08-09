@@ -1,7 +1,8 @@
 ---
 sidebar_position: 2
 ---
-# 1. Plan the API
+
+# API
 
 ## OpenAPI model
 
@@ -17,20 +18,21 @@ Read more about [OpenAPI specifications](https://swagger.io/docs/specification/a
 
 The API is used by many features in the API AutoFlow.  But, it always plays the same role as an API describing the format for REST APIs and validating the API calls.
 
-### **When used by a Server**
+### **When used to receive API calls**
 
-API describes how the server would receive the API calls
+The OpenAPI is used to determine how to receive the API calls
 
-This would be your server APIs
+For example, the server you create will have various endpoints and parameters.  You would first define that in the OpenAPI and the create a server for each of the endpoint operations.
 
-### **When used by a Service**
+### **When used to make API calls**
 
-API describes how the service would receive the API calls
+The OpenAPI is used to make API calls.
 
-This would be your cloud vendor APIs. For example Gmail API
+For example, Google published OpenAPI for their cloud services.  API AutoFlow provides a convenient way to upload the OpenAPI doc an automatically populate the API call parameters.
+
 
 &lt;aside&gt;
-💡 At a high level, you can understand that API used in the [Server](../Server) is for external access and the [Service](../Service) is for internal access.
+💡 At a high level, you can understand that OpeanAPIs are used both for external and internal API calls.
 
 &lt;/aside&gt;
 
