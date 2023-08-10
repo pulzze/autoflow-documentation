@@ -1,4 +1,4 @@
-This Action returns an array that is a value converted from the value of the integer to numeral system base on base.
+This Action returns 'String' that is a value converted from the value of the 'Integer' to numeral system 'Base'.
 
 <br/>
 
@@ -7,18 +7,12 @@ This Action returns an array that is a value converted from the value of the int
 *Ex01)*
 [integer] : 123
 [base] : 10
--------------
--> return : 123
+-----------------
+-> return : "123"
 
 *Ex02)*
-[integer] : 123
+[integer] : 321
 [base] : 2
--------------
--> return : 1111011
-
-*Ex03)*
-[integer] : 123
-[base] : 8
--------------
--> return : 173
+-----------------
+-> return : "101000001"
 ```
