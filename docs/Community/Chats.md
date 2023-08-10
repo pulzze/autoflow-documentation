@@ -2,6 +2,7 @@
 sidebar_position: 2
 title: Helpline
 description: API AutoFlow Helplines
+sidebar_class_name: hidden
 ---
 import SlackIcon from '@site/static/img/slack-icon.png';
 import DiscordIcon from '@site/static/img/discord-icon.png';
