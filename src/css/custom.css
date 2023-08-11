@@ -65,3 +65,7 @@
 .hidden {
   display: none !important;
 }
+
+.opacity-50 {
+  opacity: 50%;
+}
