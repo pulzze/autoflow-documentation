@@ -13,7 +13,9 @@ To map data to the HTTP response, insert the data in the HTTP Response located a
 
 By default, each operation provides a HTTP response mapping feature.  You can use the data from the workflow to populate each field.
 
-![Untitled](Untitled.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/data-mapping/http_response.png" alt="HTTP Response" class="myResponsiveImg"/>
+</div>
 
 ### Response Mapping
 
@@ -21,4 +23,6 @@ API needs to respond with different data for each status code.
 
 Throughout the workflow, an object with `body`, `header`, and `status_code` is create and mapped to the operation’s HTTP Response.
 
-![Untitled](Untitled%201.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/data-mapping/response_mapping.png" alt="Response Mapping" class="myResponsiveImg"/>
+</div>

@@ -44,31 +44,45 @@ Let’s walk through the steps of creating a “Hello World” API. Refer to bel
 
 1. Create a new API
 
-![picture 1](PIC%201.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/create_api.png" alt="Creating A New API" class = "myResponsiveImg"/>
+</div>
 
 
 b. Create an ID for the API.
 
-![Untitled](PIC%202.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/create_id.png" alt="Creating An ID" class = "myResponsiveImg"/>
+</div>
 
 
 > 💡 For the Hello World example, we will be using the API AutoFlow provided OpenAPI builder.  However, you can use your own OpenAPI document using the upload feature.
 
 
 c. Go to the newly created hello_world API and add a new path
-![Untitled](PIc%203.0.png)
+
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/create_path.png" alt="Creating A Path" class = "myResponsiveImg"/>
+</div>
+
 
 1. Enter a name for the path, the path you add will be /hello
 2. Add a method, select the GET method
 
-![Untitled](PIC%203.1.png)
+
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/add_path_info.png" alt="Adding Path Info" class = "myResponsiveImg"/>
+</div>
 
 
 ### Step 2. Create a Server
 
 a. Create a new Server
 
-![Untitled](PIC%203.png)
+
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/create_new_server.png" alt="Creating A New Server" class = "myResponsiveImg"/>
+</div>
 
 1. Create an ID for the server.
 2. The portnumber by default is 8080, this is customizable. 
@@ -76,38 +90,62 @@ a. Create a new Server
 
 3. Press the **Link API** button and select the **hello_world_api**.
 
-![Untitled](PIC%204.png)
-![Untitled](PIC%204.1.png)
+
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/add_server_info.png" alt="Adding Server Info" class = "myResponsiveImg"/>
+</div>
+
+
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/link_api.png" alt="Linking API" class = "myResponsiveImg"/>
+</div>
 
 
 b. Go to the newly created hello_world_server 
 
-![Untitled](PIC%205.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/hello_world_server.png" alt="Hello World Server" class = "myResponsiveImg"/>
+</div>
+
 
 
 c. Add the API operation
 
 Now that you have lined the server with the API, you can start creating the operations for each of the paths.
 
-![Untitled](PIC%206.png)
-![Untitled](PIC%207.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/add_api_operation.png" alt="Adding API Operation" class = "myResponsiveImg"/>
+</div>
+
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/api_operation.png" alt="API Operation" class = "myResponsiveImg"/>
+</div>
+
 
 d. Add an action(s) to the operation
 
 Click the + Actions button to add an action.
-![Untitled](PIC%208.png)
+
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/add_action.png" alt="Adding Action" class = "myResponsiveImg"/>
+</div>
 
 e. Select an action
 
 Use string/join action to join two strings.
 
-![Untitled](PIC%209.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/join_string.png" alt="Joining Two Strings" class = "myResponsiveImg"/>
+</div>
 
 f. Add array of string with a delimiter
 
 In our example, we will include to strings **Hello** and **World**, with a space a delimiter
 
-![Untitled](Untitled%2012.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/add_string.png" alt="Adding String" class = "myResponsiveImg"/>
+</div>
+
 
 > 💡 Note that the OUTPUT of the action is stored in a **variable** called *output*
 
@@ -118,7 +156,9 @@ For us to test on the web browser, let’s put the string/join action’s output
 
 k. Select **Reference / Data** from the data elements
 
-![Untitled](PIC%2011.0.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/select_data.png" alt="Selecting Data" class = "myResponsiveImg"/>
+</div>
 
 
 > 💡Make sure that the **string/join** and the **reference data** have the same variable name, in this case it's "output".
@@ -128,7 +168,9 @@ k. Select **Reference / Data** from the data elements
 
 Congratulations! You have just created a new API server!
 
-![Untitled](PIC%20last.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Hello_world/test_api.png" alt="Testing API" class = "myResponsiveImg"/>
+</div>
 
 **Download Configuration**
 

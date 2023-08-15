@@ -22,7 +22,10 @@ Call is an incoming HTTP call.  The call is counted each time the server receive
 
 When the call limit approaches, the license pane will display alerts to notify when the product will reach the limit.
 
-![Untitled](Untitled.png)
+
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/License/alerts_and_notifications.png" alt="Alerts And Notifications" class = "myResponsiveImg"/>
+</div>
 
 ## What happens when the call limit is reached?
 

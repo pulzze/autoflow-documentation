@@ -7,18 +7,23 @@ sidebar_position: 13
 
 Press the Download button to save the configuration on your computer. The default file name is config.json.
 
-![Untitled](Untitled.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Settings/download_configuration.png" alt="Download Configuration" class="myResponsiveImg"/>
+</div>
 
 ### **Upload Configuration**
 
 Press the **Upload** button to save the configuration on your computer.
 
-![pic 1](https://github.com/pulzze/autoflow-documentation/assets/85649767/7d3ba7eb-607a-4816-af7e-a9432d479890)
-
+<div class="myResponsiveImg">
+    <img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/7d3ba7eb-607a-4816-af7e-a9432d479890" alt="Upload Configuration" class="myResponsiveImg"/>
+</div>
 
 ## System Environment
 
-![Untitled](Untitled%202.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Settings/system_environment.png" alt="System Environment" class="myResponsiveImg"/>
+</div>
 
 ### Assign **Name to API AutoFlow**
 
@@ -30,7 +35,9 @@ for the API AutoFlow is by default `4000`.  You can change the port but need to 
 
 ## Users
 
-![Untitled](Untitled%203.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Settings/users.png" alt="Users" class="myResponsiveImg"/>
+</div>
 
 ### Separate workspace
 
@@ -50,22 +57,30 @@ for the API AutoFlow is by default `4000`.  You can change the port but need to 
 
 ### Enter the license number.
 
-![Untitled](Untitled%204.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Settings/enter_license.png" alt="Enter License" class="myResponsiveImg"/>
+</div>
 
 ### Change License Server Address
 
 If installed behind a firewall and a proxy need to be used
 
-![Untitled](Untitled%205.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Settings/change_license_address.png" alt="Change License Address" class="myResponsiveImg"/>
+</div>
 
 ## Dark Mode
 
 Turn the Dark Theme on and off
 
-![Untitled](Untitled%206.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Settings/dark_mode.png" alt="Dark Mode" class="myResponsiveImg"/>
+</div>
 
 ## Feedback Info
 
 Interactor support team may ask you to download the usage info.
 
-![Untitled](Untitled%207.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Settings/feedback_info.png" alt="Feedback Info" class="myResponsiveImg"/>
+</div>

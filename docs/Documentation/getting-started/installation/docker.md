@@ -5,6 +5,12 @@ sidebar_position: 4
 
 This section will demonstrate how to launch a single docker instance from a shell terminal using a folder to upload configuration options and store data. In order to maintain persistent configuration changes, you will need to mount a folder from your file system. Make sure to add a folder somewhere and open a terminal and navigate to that folder.
 
+You may **optionally** add the following files to that folder:
+
+1. `autoflow.conf` details for this file can be found [here](https://github.com/pulzze/api-interactor/wiki/API-AutoFlow-System-Variables)
+2. `config.json` this is an exported configuration
+3. `license.json` this is your license file
+
 In order to create a docker container for API AutoFlow, you can use the following command.
 
 ```bash
@@ -26,13 +32,11 @@ docker run -dit \
 
 If you would like to use a specific docker image, you can replace the word `latest` with the desired tag name. Also, you can add/remove ports using the `-p` flag and you may also change the container name by replacing `-name api-interactor`
 
----
-
-Once the container is made it will start immediately. You can start and stop it using:
-
-`docker start api-interactor`
+Once the container is made it will start immediately. You can stop and start it using:
 
 `docker stop api-interactor`
+
+`docker start api-interactor`
 
 If you would like to remove the container:
 
@@ -41,11 +45,3 @@ If you would like to remove the container:
 If you would like to attach to the running console:
 
 `docker attach api-interactor`
-
----
-
-You may **optionally** add the following files to that folder:
-
-1. `autoflow.conf` details for this file can be found [here](https://github.com/pulzze/api-interactor/wiki/API-AutoFlow-System-Variables)
-2. `config.json` this is an exported configuration
-3. `license.json` this is your license file

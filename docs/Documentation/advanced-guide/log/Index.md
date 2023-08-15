@@ -30,7 +30,9 @@ API AutoFlow provides flexible way to access the logs
 
 ### Download Logs
 
-![Untitled](Untitled.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/log/download_logs.png" alt="Download Logs" class="myResponsiveImg"/>
+</div>
 
 From the right panel, press the `Download Logs` button to download the logs
 
@@ -38,11 +40,15 @@ From the right panel, press the `Download Logs` button to download the logs
 
 Access the file directly from the logs folder
 
-![Untitled](Untitled%201.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/log/access_file.png" alt="Access File" class="myResponsiveImg"/>
+</div>
 
 ### Use File Action for automation
 
-![Untitled](Untitled%202.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/log/file_action_automation.png" alt="File Action Automation" class="myResponsiveImg"/>
+</div>
 
 Create a workflow to extract logs using `file/read`  action.
 
@@ -59,25 +65,31 @@ There are several ways logs can be captured.
 
 ### Server Log
 
-![Untitled](Untitled%203.png)
-
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/log/server_log.png" alt="Server Log" class="myResponsiveImg"/>
+</div>
 Server logs can be enabled from the server page list view kebab button.
 
 ### Service Log
 
-![Untitled](Untitled%204.png)
-
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/log/service_log.png" alt="Service Log" class="myResponsiveImg"/>
+</div>
 Service logs can be enabled from the service page list view kebab button.
 
 ### Operation Log
 
-![Untitled](Untitled%205.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/log/operation_log.png" alt="Operation Log" class="myResponsiveImg"/>
+</div>
 
 Operation logs can be enabled from the server or service details page list view kebab button.
 
 ### Action Log
 
-![Untitled](Untitled%206.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/log/action_log.png" alt="Action Log" class="myResponsiveImg"/>
+</div>
 
 Action logs can be enabled from the actions’s information modal.
 
@@ -85,8 +97,9 @@ Action logs can be enabled from the actions’s information modal.
 
 The log action can be placed anywhere in the workflow to capture the data at that moment of the data flow.
 
-![Untitled](Untitled%207.png)
-
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/log/system_log_action.png" alt="System Log Action" class="myResponsiveImg"/>
+</div>
 - **Label**:  Puts a label on the log.  In the below example, the label is `Test`
 - **Level**:  Log level setting.
     
@@ -96,8 +109,9 @@ The log action can be placed anywhere in the workflow to capture the data at tha
 
 ## Log Levels
 
-![Untitled](Untitled%208.png)
-
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/log/log_levels.png" alt="Log Levels" class="myResponsiveImg"/>
+</div>
 There are four log level.  Log levels can be used as severity based filters.
 
 - debug

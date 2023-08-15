@@ -10,28 +10,33 @@ Typically, a developer would insert code to print logs to capture, view, and che
 API AutoFlow's simulation feature allows developers to capture data and use it throughout the workflow. This makes it easy to add actions that achieve the operation's functions.
 
 ## Capturing the incoming data
-
-The capture feature can be turn on/off from the server and service operation. 
+The capture feature can be turn on/off from the server and service operation.
 
 ### Capturing from the Server Operation
 
-Press the kebab button on the right of the server operation.
-
-![Untitled](Untitled.png)
+<div class="ResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/capture/server_operation_capture.png" alt="Server Operation Capture"  width = "200px" height= "00px"/>
+</div>
 
 ### Capturing from the Service Operation
 
-Press the kebab button on the right of the service operation.
-
-![Untitled](Untitled.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/capture/service_operation_capture.png" alt="Service Operation Capture" class="myResponsiveImg"/>
+</div>
 
 ## Accessing the data
 
+... (Content truncated for brevity)
+
 ### Complete List
 
-![Untitled](Untitled%201.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/capture/complete_list.png" alt="Complete List" class="myResponsiveImg"/>
+</div>
 
 A complete list of all captured data can be found in the Settings section.
+
+
 
 ### Capture All Operations
 
@@ -39,8 +44,13 @@ By turning on the toggle button, all the operations in both the server and servi
 
 **WARNING!**  Capturing all the data can be extremely compute intensive.
 
+
 ### Operation Specific
 
-![Untitled](@site/static/img/roadmap.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/advanced-guide/capture/operation_specific.png" alt="Operation Specific" class="myResponsiveImg"/>
+</div>
 
 In the roadmap, feature to access the data directly from the individual operations
+
+

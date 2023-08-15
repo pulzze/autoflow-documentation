@@ -15,13 +15,17 @@ API AutoFlow provides versioning for each of the following sections:
 
 Version is located at the top of each section’s page.
 
-![Untitled](Untitled.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/deployment/versioning/version_location.png" alt="Version Location" class="myResponsiveImg"/>
+</div>
 
 ## How to create a new version
 
 Click the + button next to the version number.
 
-![Untitled](Untitled%201.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/deployment/versioning/create_new_version.png" alt="Create New Version" class="myResponsiveImg"/>
+</div>
 
 Create a new version number.
 
@@ -29,23 +33,29 @@ You can duplicate the content from an existing version.
 
 ## How to delete a version
 
-Click the  button next to the version number
+Click the trash button next to the version number.
 
-![Untitled](Untitled%202.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/deployment/versioning/delete_version.png" alt="Delete Version" class="myResponsiveImg"/>
+</div>
 
 A confirmation popup will appear before deleting.
 
 ## Currently running version
 
-&gt; **IMPORTANT**:  The version that you are working on may be different to the currently running version.
+&gt; **IMPORTANT**:  The version that you are working on may be different from the currently running version.
 &gt; 
 
-![Untitled](Untitled%203.png)
+<div class="ResponsiveImg">
+    <img src="/apiautoflow/img/deployment/versioning/currently_running_version.png" alt="Currently Running Version" width="300px" height="auto"/>
+</div>
 
 Currently running version is denoted with a check mark.
 
 When the check mark is BLUE, you are working on the currently running version of the configuration
 
-![Untitled](Untitled%204.png)
+<div class="ResponsiveImg">
+    <img src="/apiautoflow/img/deployment/versioning/version_check_blue.png" alt="Version Check Blue" width="300px" height="auto"/>
+</div>
 
 When a version that’s not currently running is selected, the check turns GREY.

@@ -1,41 +1,47 @@
 # Simulation Remote
 
-Simulation happens as part of the selected.  However, there are times when you need to execute simulation from another section of the product.
+Simulation happens as part of the selected. However, there are times when you need to execute simulation from another section of the product. That’s when you would use the Simulation Remote.
 
-That’s when you would use the Simulation Remote.
-
-Data simulation
+## Data simulation
 
 ### Simulation button
 
-The simulation button appears when the three dots at the end of the operation is clicked.
+The simulation button appears when the three dots at the end of the operation are clicked.
 
-![Untitled](Untitled.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/data-simulation/simulation_button.png" alt="Simulation Button" class="myResponsiveImg"/>
+</div>
 
 ### Simulation section
 
 Once simulated, a simulation section will appear on the right pane.
 
-![Untitled](Untitled1.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/data-simulation/simulation_section.png" alt="Simulation Section" class="myResponsiveImg"/>
+</div>
 
-- Use the thunder icon to run the simulations
-- Use the Add button to create more simulations when multiple mock data are required for testing
+- Use the thunder icon to run the simulations.
+- Use the Add button to create more simulations when multiple mock data are required for testing.
 
 ### Color indication
 
-Notice that when the test goes through successfully, the actions and response will turn green.
-
-![Alt text](image.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/data-simulation/color_indication_success.png" alt="Color Indication Success" class="myResponsiveImg"/>
+</div>
 
 However, when any part of the operation fails, it will indicate in red.
 
-![Alt text](image-1.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/data-simulation/color_indication_failure.png" alt="Color Indication Failure" class="myResponsiveImg"/>
+</div>
 
 ### Trace
 
 The trace shows the data at a certain state as it passes through the chain of actions.
 
-![Alt text](image-2.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/data-simulation/trace.png" alt="Trace" class="myResponsiveImg"/>
+</div>
 
 ([Click here to read more on trace](../Trace/Index.md))
 
@@ -43,7 +49,9 @@ The trace shows the data at a certain state as it passes through the chain of ac
 
 When the trace button is clicked, the trace result appears on the right-bottom pane.
 
-![Untitled](Untitled%204.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/data-simulation/action_data.png" alt="Action's Data" class="myResponsiveImg"/>
+</div>
 
 ### Result
 
@@ -51,7 +59,4 @@ The resulting data of the action.
 
 ### Data
 
-the data that the action has received.
-
-
-
+The data that the action has received.

@@ -3,9 +3,11 @@ sidebar_position: 4
 ---
 # Value Type Selector
 
-Value type selectors are how you define the data.  For example, you can define a data with a simple data type such as string, array, or object.  You can also reference data from a variable or HTTP request.
+Value type selectors are how you define the data. For example, you can define data with a simple data type such as string, array, or object. You can also reference data from a variable or HTTP request.
 
-![Untitled](Untitled.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/value-type-selector/value_type_overview.png" alt="Value Type Overview" class="myResponsiveImg"/>
+</div>
 
 ## Most commonly used
 
@@ -53,6 +55,6 @@ The comparison value type compares two sets of data and outputs a boolean value.
 
 ## Execution
 
-Execution value type is used to provide ways to execute flow of actions.
+Execution value type is used to provide ways to execute the flow of actions.
 
 - action

@@ -5,7 +5,9 @@ sidebar_position: 1
 
 Actions are the basic building blocks of a workflow, with a few hundred available to choose from. These actions are grouped into three similar features.
 
-![Untitled](Untitled.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Action/action_overview.png" alt="Action Overview" class="myResponsiveImg"/>
+</div>
 
 **Flow**: Actions that creates the flow such as IF condition, LOOP iteration, and more
 
@@ -22,4 +24,6 @@ Actions as the name implies are the actions you want to take.  For example, acti
 
 Details about each action are located in the [Actions](../../../actions-library) section of the manual.
 
-![Untitled](Untitled%201.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Action/actions_detail.png" alt="Actions Detail" class="myResponsiveImg"/>
+</div>

@@ -12,30 +12,36 @@ By configuring the connection with the database credentials and the server infor
 ## Configuring the Clinet
 
 ### Create a new Intent
-
-![Untitled](Untitled.png)
+<div class= "myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Clients/creating_new_intent.png" alt="Creating New Intent"/>
+</div>
 
 Create an ID for the connection
-
-![Untitled](Untitled%201.png)
+<div class= "myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Clients/creating_id.png" alt="Creating an ID"/>
+</div>
 
 ## Start the database connection
-
-![Untitled](Untitled%202.png)
-
+<div class= "myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Clients/enter_database_information.png" alt="Enter dabase information"/>
+</div>
 ## Enter the database credential information
 
-![Untitled](Untitled%203.png)
+<div class= "myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Clients/adding_server.png" alt="Adding a server"/>
+</div>
 
 ## Add a connection Server
 
 Press the Add Server button
-
-![Untitled](Untitled%204.png)
+<div class= "myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Clients/adding_server.png" alt="Adding a server"/>
+</div>
 
 ### Enter the connection information
-
-![Untitled](Untitled%205.png)
+<div class= "myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Clients/entering_connection_information.png" alt="Entering Connection information"/>
+</div>
 
 ## Event
 
@@ -46,7 +52,8 @@ You can version the Connection for easier rollback and management.
 ### Add new version
 
 Press the Add Version to create a new version
-
-![Untitled](Untitled6.png)
+<div class= "myResponsiveImg">
+    <img src="/apiautoflow/img/Guide/Clients/add_new_version.png" alt="Add a new version"/>
+</div>
 
 Click on the  icon to delete the version.
