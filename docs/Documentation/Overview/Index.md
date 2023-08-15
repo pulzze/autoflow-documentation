@@ -10,9 +10,30 @@ import UseCasesImg from '@site/static/img/use-cases.png';
 
 Welcome to API AutoFlow!
 
-Whether you’re building APIs for databases, web service, or network infrastructure, API AutoFlow helps you create and integrate APIs that matter to you.  You decide what your APIs have to do by building the perfect data and automation [services](../Guide/Service) for your needs.
 
-Unlike traditional no-code platforms that are made for creating mobile apps and websites, API AutoFlow gives you the power to create and host your own flexible application backend for all your API needs.
+
+API AutoFlow is a no-code **_integration_** and **_automation_** platform for enterprise and telecom use cases.
+
+<div class="hero shadow--lw padding-vert--sm margin-vert--lg">
+  <div class="container">
+    <p class="hero__subtitle">
+    Integration + Automation = <strong>Interaction</strong></p>
+  </div>
+</div>
+
+Enterprise and telecom have unique interaction needs.  Whether interacting with industry specific protocols, abstracting and normalizing the data, or automating certain processes, API AutoFlow provides the features needed to quickly and easily connect and generate workflows for each use cases.
+
+### Best of both worlds
+
+- **Intuitiveness of no-code**: The user experience is based on popular no-code tools. Configuring is by drag-and-drop and data-driven guided inputs.
+
+- **Customizable granular control**: Ability to apply code level customization without coding. It is made possible through granular control provided on each features. 
+
+
+Whether you are looking for a way to easily and quickly handle data or automation a process using an intuitive industry standard workflow user experiences, API AutoFlow provides the best of both worlds.
+
+Unlike traditional no-code platforms that are made for simple prototyping, API AutoFlow is built on micro-service architecture that ensures high reliability and performance.  
+
 
 ## Learn with Video Tutorial
 
@@ -40,14 +61,15 @@ Unlike traditional no-code platforms that are made for creating mobile apps and 
 
 ## What is API AutoFlow?
 
-&gt; At a high level, API AutoFlow is a configurable API Server.
-&gt; 
+At a high level, API AutoFlow is a configurable integration and automation tool based on API Server.
+
 - API AutoFlow is commonly used in application development to enable developers to build applications that can interact with external services, databases, or other software components. It provides workflow with large library of actions and protocols for how client applications can request and access data or services from the server.
 - API AutoFlow allows you to create and expose a set of endpoints or URLs that client applications can send requests to. These endpoints are defined by the API server and represent specific functionalities or resources that can be accessed and defined by drag-and-drop workflows. The server receives the requests, processes them, and returns the appropriate responses back to the client.
 - API AutoFlow supports various protocols such as HTTP, MQTT, TCP, and more. It incorporates authentication and authorization mechanisms to control access to the exposed resources and ensure secure communication between the client and server.
 - By providing a standardized interface for accessing and manipulating data or services, API servers enable developers to create applications that can leverage the data and functionalities of other systems or components without needing to understand the underlying implementation details. This promotes interoperability, scalability, and modular development in software systems.
 
-### **API AutoFlow simplifies the overall API development**
+### Why API AutoFlow
+**The value of API AutoFlow is it comes with all the things that are needed for production ready integration and automation.**
 
 <div style={{width: 100 + '%', textAlign: 'center'}}>
     <img src={ApiAutoflowValueImg} alt="API AutoFlow simplifies the overall API development" style={{ maxWidth: 30 + 'em' }} />
@@ -94,11 +116,22 @@ In many projects, ROI is realized in &lt; 6 months
 
 Changes in backend data or services, even as small as adding a field in the database, can force all the applications to update.
 
-**Solution: API Abstraction Layer**
+**Solution: Data Abstraction Layer**
 
 API AutoFlow decouples the applications from the system layer and allows the applications and systems to change and update without affecting each other.
 
-### 2. Need to expand and add new applications
+
+### 2. Normalizing data for common use
+
+**Pain Point**
+
+Data come from disparate sources with different formats.  There's a common need for the data to be normalized for the applications to access and utilize quickly and easily.
+
+**Solution: No-code data normalization**
+
+API AutoFlow provides a drag-and-drop workflow that captures input and output data.  The developer can easily apply actions to the input data.  The actions performs the data transformation and makes the normalized data available in the output.  API AutoFlow provides server hosting feature to create APIs for each departments' data needs.
+
+### 3. Need to expand and add new applications
 
 **Pain Point**
 
