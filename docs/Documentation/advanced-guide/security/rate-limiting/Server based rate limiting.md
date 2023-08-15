@@ -24,7 +24,7 @@ Autoflow, the API management service, provides built-in action for rate limiting
 
 The rate limiting action is shown in the picture below: 
 
-![rate-limiting](rate-limiting.PNG)
+![rate-limiting](rate-limiting.png)
 
 API AutoFlow categorizes triggers using a “key” attribute. Rate limits are applied to triggers that share the same key. To implement rate limiting, you can add an action at the beginning of the flow that checks the current usage against the defined limits. Based on the result of this check, you can use a conditional statement to control the subsequent flow of execution.
 

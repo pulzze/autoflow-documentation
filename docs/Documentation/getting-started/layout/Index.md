@@ -43,7 +43,7 @@ The toolbar is used to navigate between different sections of API AutoFlow.  The
 
 ## Workspace
 
-The workspace is where the [workflow](@site/docs/Documentation/Guide/Workflow/index.md) is configuration.  
+The workspace is where the [workflow](@site/docs/Documentation/Guide/Workflow/Index.md) is configuration.  
 
 ![Untitled](Untitled%202.png)
 
