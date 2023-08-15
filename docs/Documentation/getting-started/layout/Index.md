@@ -32,13 +32,17 @@ import TutorialHelloWorld from '@site/static/img/tutorial-what-is-apiautoflow.jp
 ## Layout
 API Autoflow is divided into three sections. From left to right, the **toolbar** is used to navigate between sections.  The center **workspace** is where the configuration is one.  The **right panel** is where you can find useful information that helps with your configuration 
 
-![Untitled](Untitled.png)
+<div class="myResponsiveImg">
+    <img src="/apiautoflow/img/deployment/versioning/version_location.png" alt="Version Location" class="myResponsiveImg"/>
+</div>
+
+![API AutoFlow Lay out](layout_api_autoflow.png)
 
 ## Toolbar
 
 The toolbar is used to navigate between different sections of API AutoFlow.  The toolbar can be expanded to see the name of each section.
 
-![Untitled](Untitled%201.png)
+![Untitled](layout_toolbar.png)
 
 
 ## Workspace
