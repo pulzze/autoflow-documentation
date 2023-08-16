@@ -2,7 +2,8 @@
 sidebar_position: 1
 ---
 
-import Trace from '@site/static/img/advanced-guide/debugging/trace.png';
+import TraceMessage from '@site/static/img/advanced-guide/debugging/trace-message.png';
+import ErrorIndication from '@site/static/img/advanced-guide/debugging/error-indication.png';
 
 # Debugging Basics
 
@@ -22,13 +23,14 @@ Below are some strategies that you can take:
 
 **Error indication**
 
-<!-- TODO -->
-<!-- ![Untitled](@site/docs/Documentation/Toolbar/Workflow/Data Simulation/Untitled%203.png) -->
+<div class="myResponsiveImg">
+    <img src={ErrorIndication} alt="Version Location" class="myResponsiveImg"/>
+</div>
 
 **Trace Error Message**
 
 <div class="myResponsiveImg">
-    <img src={Trace} alt="Version Location" class="myResponsiveImg"/>
+    <img src={TraceMessage} alt="Version Location" class="myResponsiveImg"/>
 </div>
 
 - **Examining the Configuration**: Debugging involves carefully examining the configuration related to the issue. This can include reviewing each action and tracing that directly produces the error or exploring related call that the actions make to identify potential causes. For example, the database that’s being called by the action can be the cause of the issue. Analyzing the configuration helps in understanding how it is functioning and identifying logical or setting errors, incorrect assumptions, or missing edge cases.
