@@ -5,10 +5,10 @@ description: API AutoFlow user interface layout
 ---
 
 import TutorialHelloWorld from '@site/static/img/tutorial-layout.png';
-import LayoutAutoflow from '@site/static/img/getting-started/layout/layout_api_autoflow.png';
-import LayoutToobar from '@site/static/img/getting-started/layout/layout_toolbar.png';
+import LayoutAutoflow from '@site/static/img/getting-started/layout/layout-api-autoflow.png';
+import LayoutToobar from '@site/static/img/getting-started/layout/layout-toolbar.png';
 import WorkSpace from '@site/static/img/getting-started/layout/workspace.png';
-import RightPanel from '@site/static/img/getting-started/layout/right_panel.png';
+import RightPanel from '@site/static/img/getting-started/layout/right-panel.png';
 
 # Layout
 
