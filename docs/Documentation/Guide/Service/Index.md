@@ -4,6 +4,30 @@ title: Service
 description: A service helps the server by taking out commonly used actions into a reusable group.
 ---
 # Service (Workflow Abstraction)
+import TutorialService from '@site/static/img/tutorial-services.png';
+
+## Video Tutorial
+
+<div class="videoBlock">
+    <div class="videoLeft">
+        <div class="videoWrapper">
+            <a href="../../../Tutorial/#108-abstracting-workflow-with-service-and-intent"><img src={TutorialService} /></a>
+        </div>
+    </div>
+    <div class="videoRight">
+        <div class="videoText">
+            <a href="../../../Tutorial/#108-abstracting-workflow-with-service-and-intent"><h2><code>108</code> Service (Workflow Abstraction)</h2></a>
+            <p>Topics covered</p>
+                <ul>
+                    <li>Understanding Service</li>
+                    <li>Creating Workflow</li>
+                    <li>Input and Output schemas</li>
+                </ul>
+            <p>Duration:  3 mins</p>
+        </div>
+    </div>
+    <div class="videoClearer"></div>
+</div>
 
 ## What is a Service?
 

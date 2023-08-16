@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Hello World
 description:  Hands on hello world documentation
 ---
-import TutorialHelloWorld from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
+import TutorialHelloWorld from '@site/static/img/tutorial-hello-world.png';
 
 # Hello World
 
@@ -12,12 +12,12 @@ import TutorialHelloWorld from '@site/static/img/tutorial-what-is-apiautoflow.jp
 <div class="videoBlock">
     <div class="videoLeft">
         <div class="videoWrapper">
-            <a href="../../../../docs/Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialHelloWorld} /></a>
+            <a href="../../../Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialHelloWorld} /></a>
         </div>
     </div>
     <div class="videoRight">
         <div class="videoText">
-            <a href="../../../../docs/Tutorial/#102-key-concept-installation-and-hello-world"><h2><code>102</code> Hello World</h2></a>
+            <a href="../../../Tutorial/#102-key-concept-installation-and-hello-world"><h2><code>102</code> Hello World</h2></a>
             <p>Topics covered</p>
                 <ul>
                     <li>Define API</li>

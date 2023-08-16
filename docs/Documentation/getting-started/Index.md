@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-import TutorialKeyConcept from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
+import TutorialKeyConcept from '@site/static/img/tutorial-key-concepts.png';
 
 # Getting Started
 ## Key Concepts
@@ -10,7 +10,7 @@ import TutorialKeyConcept from '@site/static/img/tutorial-what-is-apiautoflow.jp
 <div class="videoBlock">
     <div class="videoLeft">
         <div class="videoWrapper">
-            <a href="../../../docs/Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialKeyConcept} /></a>
+            <a href="../../Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialKeyConcept} /></a>
         </div>
     </div>
     <div class="videoRight">

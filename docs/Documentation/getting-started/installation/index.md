@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-import TutorialInstallation from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
+import TutorialInstallation from '@site/static/img/tutorial-installation.png';
 
 # Installation
 
@@ -11,7 +11,7 @@ import TutorialInstallation from '@site/static/img/tutorial-what-is-apiautoflow.
 <div class="videoBlock">
     <div class="videoLeft">
         <div class="videoWrapper">
-            <a href="docs/Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialInstallation} /></a>
+            <a href="../../../Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialInstallation} /></a>
         </div>
     </div>
     <div class="videoRight">

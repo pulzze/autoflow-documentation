@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-import TutorialOverview from '@site/static/img/tutorial-what-is-apiautoflow.jpg';
+import TutorialOverview from '@site/static/img/tutorial-what-is-apiautoflow.png';
 import ApiAutoflowValueImg from '@site/static/img/api-autoflow-value.png';
 import UseCasesImg from '@site/static/img/use-cases.png';
 
@@ -40,7 +40,7 @@ Unlike traditional no-code platforms that are made for simple prototyping, API A
 <div class="videoBlock">
     <div class="videoLeft">
         <div class="videoWrapper">
-            <a href="../../../docs/Tutorial/#101-what-is-api-autoflow"><img src={TutorialOverview} /></a>
+            <a href="../../Tutorial/#101-what-is-api-autoflow"><img src={TutorialOverview} /></a>
         </div>
     </div>
     <div class="videoRight">
