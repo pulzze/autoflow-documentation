@@ -3,10 +3,10 @@ sidebar_position: 3
 ---
 
 import TestApi from "@site/static/img/Hello_world/test_api.png"
-import VariableOutput from "@site/static/img/Guide/Server/variable_output.png"
+import VariableOutput from "@site/static/img/Guide/Server/variable-output.png"
 import ApiOperation from "@site/static/img/Hello_world/api_operation.png"
 import AddServerInfo from "@site/static/img/Hello_world/add_server_info.png"
-import CreateNewServer from "@site/static/img/Guide/Server/create_new_server.png"
+import CreateNewServer from "@site/static/img/Guide/Server/create-new-server.png"
 
 # Server
 

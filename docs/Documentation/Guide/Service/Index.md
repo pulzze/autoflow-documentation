@@ -4,20 +4,18 @@ title: Service
 description: A service helps the server by taking out commonly used actions into a reusable group.
 ---
 
-import ServiceDataSimulation from "@site/static/img/Guide/Service/service_data_simulation.png"
-import SetDataServiceInput from "@site/static/img/Guide/Service/set_data_service_input.png"
-import SelectServiceOperations from "@site/static/img/Guide/Service/select_service_operations.png"
-import ChooseServiceOperation from "@site/static/img/Guide/Service/choose_service_operation.png"
-import AddServiceOperation from "@site/static/img/Guide/Service/add_service_operation.png"
-import MapActionOutput from "@site/static/img/Guide/Service/map_action_output.png"
-import CreateInputOutputArgs from "@site/static/img/Guide/Service/create_input_output_args.png"
-
-<!-- import DefineInputOutput from "@site/static/img/Guide/Service/define_input_output.png" -->
-
-import AddNewOperation from "@site/static/img/Guide/Service/add_new_operation.png"
-import CreateServiceId from "@site/static/img/Guide/Service/create_service_id.png"
-import CreateNewService from "@site/static/img/Guide/Service/create_new_service.png"
-import ServiceOverview from "@site/static/img/Guide/Service/service_overview.png"
+import ServiceDataSimulation from "@site/static/img/Guide/Service/service-data-simulation.png"
+import SetDataServiceInput from "@site/static/img/Guide/Service/set-data-service-input.png"
+import SelectServiceOperations from "@site/static/img/Guide/Service/select-service-operations.png"
+import ChooseServiceOperation from "@site/static/img/Guide/Service/choose-service-operation.png"
+import AddServiceOperation from "@site/static/img/Guide/Service/add-service-operation.png"
+import MapActionOutput from "@site/static/img/Guide/Service/map-action-output.png"
+import CreateInputOutputArgs from "@site/static/img/Guide/Service/create-input-output-args.png"
+import DefineInputOutput from "@site/static/img/Guide/Service/define-input-output.png"
+import AddNewOperation from "@site/static/img/Guide/Service/add-new-operation.png"
+import CreateServiceId from "@site/static/img/Guide/Service/create-service-id.png"
+import CreateNewService from "@site/static/img/Guide/Service/create-new-service.png"
+import ServiceOverview from "@site/static/img/Guide/Service/service-overview.png"
 
 # Service (Workflow Abstraction)
 
@@ -83,7 +81,7 @@ For example, a service to get email from a GMAIL API can be reused by many serve
 💡 Behind the scene, [JSON Schema](https://json-schema.org/understanding-json-schema/) is used to perform the input and output validation.
 
 <div class="myResponsiveImg">
-    <img src="/apiAutoflow/img/Guide/Service/define_input_output.png" alt="Defining Input and Output" class="myResponsiveImg"/>
+    <img src={DefineInputOutput} alt="Defining Input and Output" class="myResponsiveImg"/>
 </div>
 
 ### Create Input and Output arguments

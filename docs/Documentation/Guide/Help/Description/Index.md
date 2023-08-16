@@ -1,5 +1,5 @@
-import FullDescription from "@site/static/img/Guide/Description/full_description.png"
-import ShortDescription from "@site/static/img/Guide/Description/short_description.png"
+import FullDescription from "@site/static/img/Guide/Description/full-description.png"
+import ShortDescription from "@site/static/img/Guide/Description/short-description.png"
 
 # Description
 
