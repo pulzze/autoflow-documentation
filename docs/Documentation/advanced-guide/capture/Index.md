@@ -1,6 +1,11 @@
 ---
 sidebar_position: 3
 ---
+
+import ServerOperation from '@site/static/img/advanced-guide/capture/server_operation_capture.png';
+import CompleteList from '@site/static/img/advanced-guide/capture/complete_list.png';
+import OperationSpecific from '@site/static/img/advanced-guide/capture/operation_specific.png';
+
 # Capture
 
 API AutoFlow provides a convenient way to capture the incoming data to the server endpoints and service operations.
@@ -10,18 +15,13 @@ Typically, a developer would insert code to print logs to capture, view, and che
 API AutoFlow's simulation feature allows developers to capture data and use it throughout the workflow. This makes it easy to add actions that achieve the operation's functions.
 
 ## Capturing the incoming data
+
 The capture feature can be turn on/off from the server and service operation.
 
 ### Capturing from the Server Operation
 
 <div class="ResponsiveImg">
-    <img src="/apiautoflow/img/advanced-guide/capture/server_operation_capture.png" alt="Server Operation Capture"  width = "200px" height= "00px"/>
-</div>
-
-### Capturing from the Service Operation
-
-<div class="myResponsiveImg">
-    <img src="/apiautoflow/img/advanced-guide/capture/service_operation_capture.png" alt="Service Operation Capture" class="myResponsiveImg"/>
+    <img src={ServerOperation} alt="Server Operation Capture"  width = "200px" height= "00px"/>
 </div>
 
 ## Accessing the data
@@ -31,26 +31,21 @@ The capture feature can be turn on/off from the server and service operation.
 ### Complete List
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/advanced-guide/capture/complete_list.png" alt="Complete List" class="myResponsiveImg"/>
+    <img src={CompleteList} alt="Complete List" class="myResponsiveImg"/>
 </div>
 
 A complete list of all captured data can be found in the Settings section.
-
-
 
 ### Capture All Operations
 
 By turning on the toggle button, all the operations in both the server and service will be captured.
 
-**WARNING!**  Capturing all the data can be extremely compute intensive.
-
+**WARNING!** Capturing all the data can be extremely compute intensive.
 
 ### Operation Specific
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/advanced-guide/capture/operation_specific.png" alt="Operation Specific" class="myResponsiveImg"/>
+    <img src={OperationSpecific} alt="Operation Specific" class="myResponsiveImg"/>
 </div>
 
 In the roadmap, feature to access the data directly from the individual operations
-
-

@@ -2,6 +2,11 @@
 sidebar_position: 2
 ---
 
+import CreateNewAction from '@site/static/img/Guide/API/create_new_action.png';
+import SelectNewOperation from '@site/static/img/Guide/API/select_new_operation.png';
+import AddPath from '@site/static/img/Guide/API/add_path.png';
+import ApiOperationOverview from '@site/static/img/Guide/API/api_operation_overview.png';
+
 # API
 
 ## OpenAPI model
@@ -104,25 +109,25 @@ In the example below, we have created
 a. Add a new Action
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/API/create_new_action.png" alt="Creating a New Action"/>
+    <img src={CreateNewAction} alt="Creating a New Action"/>
 </div>
 
 c. Select the API Operations Action
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/API/select_new_operation.png" alt="Selecting New Operation"/>
+    <img src={SelectNewOperation} alt="Selecting New Operation"/>
 </div>
 
 d. Click the **Choose an API Operation** button and select the **path**
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/API/add_path.png" alt="Adding a Path"/>
+    <img src={AddPath} alt="Adding a Path"/>
 </div>
 
 e. The parameters will auto-populate based on the information in the OpenAPI. But you can always overwrite the information.
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/API/api_operation_overview.png" alt="API Operation Overview"/>
+    <img src={ApiOperationOverview} alt="API Operation Overview"/>
 </div>
 
-💡 Note that the result of the API call will get stored in a **variable** called *output.* Click the button labeled [**variable** *output*] to change where you would like to store the data.
+💡 Note that the result of the API call will get stored in a **variable** called _output._ Click the button labeled [**variable** *output*] to change where you would like to store the data.
