@@ -1,6 +1,15 @@
 ---
 sidebar_position: 13
 ---
+
+import FeedbackInfo from "@site/static/img/Guide/Settings/feedback_info.png"
+import DarkMode from "@site/static/img/Guide/Settings/dark_mode.png"
+import ChangeLicenseAddress from "@site/static/img/Guide/Settings/change_license_address.png"
+import EnterLicense from "@site/static/img/Guide/Settings/enter_license.png"
+import Users from "@site/static/img/Guide/Settings/users.png"
+import SystemEnvironment from "@site/static/img/Guide/Settings/system_environment.png"
+import DownloadConfiguration from "@site/static/img/Guide/Settings/download_configuration.png"
+
 # Settings
 
 ## **Configuration Management**
@@ -8,7 +17,7 @@ sidebar_position: 13
 Press the Download button to save the configuration on your computer. The default file name is config.json.
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/Settings/download_configuration.png" alt="Download Configuration" class="myResponsiveImg"/>
+    <img src={DownloadConfiguration} alt="Download Configuration" class="myResponsiveImg"/>
 </div>
 
 ### **Upload Configuration**
@@ -22,7 +31,7 @@ Press the **Upload** button to save the configuration on your computer.
 ## System Environment
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/Settings/system_environment.png" alt="System Environment" class="myResponsiveImg"/>
+    <img src={SystemEnvironment} alt="System Environment" class="myResponsiveImg"/>
 </div>
 
 ### Assign **Name to API AutoFlow**
@@ -31,12 +40,12 @@ the API AutoFlow for running multiple instances
 
 ### Change **Port** number
 
-for the API AutoFlow is by default `4000`.  You can change the port but need to restart API AutoFlow to take effect.
+for the API AutoFlow is by default `4000`. You can change the port but need to restart API AutoFlow to take effect.
 
 ## Users
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/Settings/users.png" alt="Users" class="myResponsiveImg"/>
+    <img src={Users} alt="Users" class="myResponsiveImg"/>
 </div>
 
 ### Separate workspace
@@ -58,7 +67,7 @@ for the API AutoFlow is by default `4000`.  You can change the port but need to 
 ### Enter the license number.
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/Settings/enter_license.png" alt="Enter License" class="myResponsiveImg"/>
+    <img src={EnterLicense} alt="Enter License" class="myResponsiveImg"/>
 </div>
 
 ### Change License Server Address
@@ -66,7 +75,7 @@ for the API AutoFlow is by default `4000`.  You can change the port but need to 
 If installed behind a firewall and a proxy need to be used
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/Settings/change_license_address.png" alt="Change License Address" class="myResponsiveImg"/>
+    <img src={ChangeLicenseAddress} alt="Change License Address" class="myResponsiveImg"/>
 </div>
 
 ## Dark Mode
@@ -74,7 +83,7 @@ If installed behind a firewall and a proxy need to be used
 Turn the Dark Theme on and off
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/Settings/dark_mode.png" alt="Dark Mode" class="myResponsiveImg"/>
+    <img src={DarkMode} alt="Dark Mode" class="myResponsiveImg"/>
 </div>
 
 ## Feedback Info
@@ -82,5 +91,5 @@ Turn the Dark Theme on and off
 Interactor support team may ask you to download the usage info.
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/Settings/feedback_info.png" alt="Feedback Info" class="myResponsiveImg"/>
+    <img src={FeedbackInfo} alt="Feedback Info" class="myResponsiveImg"/>
 </div>

@@ -1,6 +1,9 @@
 ---
 sidebar_position: 13
 ---
+
+import AlertsAndNotifications from "@site/static/img/Guide/License/alerts_and_notifications.png"
+
 # License
 
 The License pane displays the applied license type and status.
@@ -16,15 +19,14 @@ Startup and enterprise license provides features that are needed for production.
 
 ## What’s a Call and how is it counted
 
-Call is an incoming HTTP call.  The call is counted each time the server receives an API call.
+Call is an incoming HTTP call. The call is counted each time the server receives an API call.
 
 ## Alerts and notification
 
 When the call limit approaches, the license pane will display alerts to notify when the product will reach the limit.
 
-
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/Guide/License/alerts_and_notifications.png" alt="Alerts And Notifications" class = "myResponsiveImg"/>
+    <img src={AlertsAndNotifications} alt="Alerts And Notifications" class = "myResponsiveImg"/>
 </div>
 
 ## What happens when the call limit is reached?
