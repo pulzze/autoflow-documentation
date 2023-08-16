@@ -3,7 +3,12 @@ sidebar_position: 2
 title: Layout
 description: API AutoFlow user interface layout
 ---
+
 import TutorialHelloWorld from '@site/static/img/tutorial-layout.png';
+import LayoutAutoflow from '@site/static/img/gettingStarted/layout/layout_api_autoflow.png';
+import LayoutToobar from '@site/static/img/gettingStarted/layout/layout_toolbar.png';
+import WorkSpace from '@site/static/img/gettingStarted/layout/workspace.png';
+import RightPanel from '@site/static/img/gettingStarted/layout/right_panel.png';
 
 # Layout
 
@@ -30,30 +35,35 @@ import TutorialHelloWorld from '@site/static/img/tutorial-layout.png';
 </div> -->
 
 ## Layout
-API Autoflow is divided into three sections. From left to right, the **toolbar** is used to navigate between sections.  The center **workspace** is where the configuration is one.  The **right panel** is where you can find useful information that helps with your configuration 
+
+API Autoflow is divided into three sections. From left to right, the **toolbar** is used to navigate between sections. The center **workspace** is where the configuration is one. The **right panel** is where you can find useful information that helps with your configuration
 
 <div class="myResponsiveImg">
-    <img src="/apiautoflow/img/deployment/versioning/version_location.png" alt="Version Location" class="myResponsiveImg"/>
+    <img src={LayoutAutoflow} alt="Version Location" class="myResponsiveImg"/>
 </div>
 
-![API AutoFlow Lay out](layout_api_autoflow.png)
+<!-- ![API AutoFlow Lay out](layout_api_autoflow.png) -->
 
 ## Toolbar
 
-The toolbar is used to navigate between different sections of API AutoFlow.  The toolbar can be expanded to see the name of each section.
+The toolbar is used to navigate between different sections of API AutoFlow. The toolbar can be expanded to see the name of each section.
 
-![Untitled](layout_toolbar.png)
-
+<div class="toolbarimg">
+    <img src={LayoutToobar} alt="Version Location" class="myResponsiveImg"/>
+</div>
 
 ## Workspace
 
-The workspace is where the [workflow](@site/docs/Documentation/Guide/Workflow/Index.md) is configuration.  
+The workspace is where the [workflow](@site/docs/Documentation/Guide/Workflow/Index.md) is configuration.
 
-![Untitled](Untitled%202.png)
-
+<div class="myResponsiveImg">
+    <img src={WorkSpace} alt="Version Location" class="myResponsiveImg"/>
+</div>
 
 ## Right Panel
 
-The right panel is where you will find helpful information during the configuration such as logs, traced data, and more.  Right panel is divided into upper and lower panes. 
+The right panel is where you will find helpful information during the configuration such as logs, traced data, and more. Right panel is divided into upper and lower panes.
 
-![Untitled](Untitled%203.png)
+<div class="myResponsiveImg">
+    <img src={RightPanel} alt="Version Location" class="myResponsiveImg"/>
+</div>
