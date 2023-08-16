@@ -4,8 +4,8 @@ sidebar_position: 6
 
 # Actions Library
 
-import ActionHighlight from '@site/static/img/actcion-library/action_highlight.png';
-import ActionModal from '@site/static/img/actcion-library/action_modal.png';
+import ActionHighlight from '@site/static/img/actcion-library/action-highlight.png';
+import ActionModal from '@site/static/img/actcion-library/action-modal.png';
 
 Download [Action Cheat Sheet](@site/static/file/api_autoflow_action_cheatsheet.pdf)
 
