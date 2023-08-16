@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-import ServerOperation from '@site/static/img/advanced-guide/capture/server_operation_capture.png';
-import CompleteList from '@site/static/img/advanced-guide/capture/complete_list.png';
-import OperationSpecific from '@site/static/img/advanced-guide/capture/operation_specific.png';
+import ServerOperation from '@site/static/img/advanced-guide/capture/server-operation-capture.png';
+import CompleteList from '@site/static/img/advanced-guide/capture/complete-list.png';
+import OperationSpecific from '@site/static/img/advanced-guide/capture/operation-specific.png';
 
 # Capture
 
@@ -46,6 +46,7 @@ By turning on the toggle button, all the operations in both the server and servi
 
 <div class="myResponsiveImg">
     <img src={OperationSpecific} alt="Operation Specific" class="myResponsiveImg"/>
+    <img src="/apiautoflow/img/advanced-guide/capture/operation-specific.png" alt="Operation Specific" class="myResponsiveImg"/>
 </div>
 
 In the roadmap, feature to access the data directly from the individual operations

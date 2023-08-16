@@ -1,12 +1,16 @@
 ---
 sidebar_position: 2
 ---
+
 import TutorialKeyConcept from '@site/static/img/tutorial-key-concepts.png';
+import ApiAutoflow from "@site/static/img/Guide/getting-started/ApiAutoflow.png";
 
 # Getting Started
+
 ## Key Concepts
 
 ### Learn with Video Tutorial
+
 <div class="videoBlock">
     <div class="videoLeft">
         <div class="videoWrapper">
@@ -28,17 +32,18 @@ import TutorialKeyConcept from '@site/static/img/tutorial-key-concepts.png';
     <div class="videoClearer"></div>
 </div>
 
-
-> 💡 If there’s only one thing that you need to remember, 
+> 💡 If there’s only one thing that you need to remember,
 > **it’s how to create and configure the Server.**
 
 #### Everything in API AutoFlow evolves around the Server.
 
-![Picture1.png](Picture1.png)
+<div class="myResponsiveImg">
+    <img src={ApiAutoflow} alt="Api Autoflow" class="myResponsiveImg"/>
+</div>
 
 ### Server
 
-A server hosts the API and performs set of operations.  A server has a port number and set of security rules before it performs set of workflows for the application.  A server can utilize all the features in the product including database, files, clients, and more
+A server hosts the API and performs set of operations. A server has a port number and set of security rules before it performs set of workflows for the application. A server can utilize all the features in the product including database, files, clients, and more
 
 Everything else in the product are there to support the Server.
 
@@ -62,14 +67,14 @@ For example, a service to get an email from a GMAIL API can be reused by many se
 
 #### 3. Intents
 
-**Intent** helps the server by standardizing the INPUT and OUTPUT of common services.  
+**Intent** helps the server by standardizing the INPUT and OUTPUT of common services.
 
-For example, getting an email is a common intent for all email services. 
+For example, getting an email is a common intent for all email services.
 
 Instead of the server calling the email services with different inputs and outputs, the services can adopt the intent’s input and output to standardize the call for the servers.
 
 #### 4. Connections
 
-**Connections** are connectors to a database and other systems.  For example, API AutoFlow provides a connector to popular databases such as Maria DB, MS SQL, Oracle, and more.
+**Connections** are connectors to a database and other systems. For example, API AutoFlow provides a connector to popular databases such as Maria DB, MS SQL, Oracle, and more.
 
 By configuring the connection with the database credentials and the server information, you can issue any SQL commands to work directly with the database.
