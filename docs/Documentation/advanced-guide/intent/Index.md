@@ -29,9 +29,7 @@ For example, getting an email is a common intent for all email services.
 
 Instead of the server calling the email services with different inputs and outputs, the services can adopt the intent’s input and output to standardize the call for the servers.
 
-<div class="myResponsiveImg">
-    <img src={IntentOverview} alt="Intent Overview" class="myResponsiveImg"/>
-</div>
+<img src={IntentOverview} alt="Intent Overview" />
 
 ## Configuring the Intent
 

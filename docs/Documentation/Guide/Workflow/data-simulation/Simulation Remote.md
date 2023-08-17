@@ -32,15 +32,11 @@ Once simulated, a simulation section will appear on the right pane.
 
 ### Color indication
 
-<div class="myResponsiveImg">
-    <img src={ColorIndicationSuccess} alt="Color Indication Success" class="myResponsiveImg"/>
-</div>
+<img src={ColorIndicationSuccess} alt="Color Indication Success" />
 
 However, when any part of the operation fails, it will indicate in red.
 
-<div class="myResponsiveImg">
-    <img src={ColorIndicationFailure} alt="Color Indication Failure" class="myResponsiveImg"/>
-</div>
+<img src={ColorIndicationFailure} alt="Color Indication Failure" />
 
 ### Trace
 

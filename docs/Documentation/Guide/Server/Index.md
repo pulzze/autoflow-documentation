@@ -39,9 +39,7 @@ For example, HTTP(S) server is configured with a port number and TLS for secured
 - Port: Port number (note that the port number gets applied in real-time)
 - Linked API: Link the API that was created in the API Section
 
-<div class="myResponsiveImg">
-    <img src="https://lh4.googleusercontent.com/Rv0aH28V0JrgPWjTN1HoSFL0PKVqQYfAt2vjEJpwHz3hvjV52iBN00bSc6CSeUvGkno4n1IO2R9ZGfrEyNMxmqnGMCY-619HwQDPdSTerltChxlkgSgBRF31VFOXlaYWDQBN1-6OE5IHMlJ-pRmXRX8H6NE-8tx30H0EbV5ma25sLqN3nxHiWoY5NQ" alt="Defining Server Info" class = "myResponsiveImg"/>
-</div>
+<img src="https://lh4.googleusercontent.com/Rv0aH28V0JrgPWjTN1HoSFL0PKVqQYfAt2vjEJpwHz3hvjV52iBN00bSc6CSeUvGkno4n1IO2R9ZGfrEyNMxmqnGMCY-619HwQDPdSTerltChxlkgSgBRF31VFOXlaYWDQBN1-6OE5IHMlJ-pRmXRX8H6NE-8tx30H0EbV5ma25sLqN3nxHiWoY5NQ" alt="Defining Server Info" class = "myResponsiveImg"/>
 
 ### Add API operations
 
@@ -55,10 +53,7 @@ Now that you have lined the server with the API, you can start creating the oper
 
 Refer to the [Action section](../../actions-library) on how to use Actions
 
-<div class="myResponsiveImg">
-    <img src={VariableOutput} alt="Storing Output" class = "myResponsiveImg"/>
-</div>
-![Untitled](Untitled.png)
+<img src={VariableOutput} alt="Storing Output" />
 
 > 💡 Note that the OUTPUT of the action is stored in a **variable** called _output_
 
@@ -66,15 +61,11 @@ Refer to the [Action section](../../actions-library) on how to use Actions
 
 For us to test on the web browser, let’s put the string/join action’s output in the HTTP response body.
 
-<div class="myResponsiveImg">
-    <img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/755c11ad-48b3-4950-bae1-6ad55cd32a91" alt="Select Data" class = "myResponsiveImg"/>
-</div>
+<img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/755c11ad-48b3-4950-bae1-6ad55cd32a91" alt="Select Data" class = "myResponsiveImg"/>
 
 Select **Reference / Data** from the data elements
 
-<div class="myResponsiveImg">
-    <img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/45205d6a-3f34-4f43-9e7a-0807d1829b21" alt="Variables" class = "myResponsiveImg"/>
-</div>
+<img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/45205d6a-3f34-4f43-9e7a-0807d1829b21" alt="Variables" class = "myResponsiveImg"/>
 
 Change the **variables** reference
 

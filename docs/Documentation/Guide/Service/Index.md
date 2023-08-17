@@ -52,9 +52,7 @@ import TutorialService from '@site/static/img/tutorial-services.png';
 
 For example, a service to get email from a GMAIL API can be reused by many servers, where the service has multiple actions to accomplish the get email task.
 
-<div class="myResponsiveImg">
-    <img src={ServiceOverview} alt="Service Overview" class="myResponsiveImg"/>
-</div>
+![API Autoflow Overview](@site/static/img/Guide/getting-started/ApiAutoflow.png)
 
 ## Configuring a Service
 
@@ -103,9 +101,7 @@ Refer to the Actions section on how to use Actions.
 
 ### Map the Action’s output with the Service operation output
 
-<div class="myResponsiveImg">
-    <img src={MapActionOutput} alt="Mapping Action Output" class="myResponsiveImg"/>
-</div>
+<img src={MapActionOutput} alt="Mapping Action Output" />
 
 💡 The data stored in the scope variable path output is being mapped to the service’s output
 

@@ -38,9 +38,11 @@ import RightPanel from '@site/static/img/getting-started/layout/right-panel.png'
 
 API Autoflow is divided into three sections. From left to right, the **toolbar** is used to navigate between sections. The center **workspace** is where the configuration is one. The **right panel** is where you can find useful information that helps with your configuration
 
-<div class="myResponsiveImg">
+<!-- <div class="myResponsiveImg">
     <img src={LayoutAutoflow} alt="Version Location" class="myResponsiveImg"/>
-</div>
+</div> -->
+
+![API Autoflow layout](@site/static/img/getting-started/layout/layout-api-autoflow.png)
 
 <!-- ![API AutoFlow Lay out](layout_api_autoflow.png) -->
 

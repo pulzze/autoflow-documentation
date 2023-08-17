@@ -40,13 +40,9 @@ Once simulated, a simulation section will appear on the right pane.
 
 Notice that when the test goes through successfully, the actions and response will turn green. However, when any part of the operation fails, it will indicate in red.
 
-<div class="myResponsiveImg">
-    <img src={ColorIndicationSuccess} alt="Color Indication Success" class="myResponsiveImg"/>
-</div>
+<img src={ColorIndicationSuccess} alt="Color Indication Success" />
 
-<div class="myResponsiveImg">
-    <img src={ColorIndicationFailure} alt="Color Indication Failure" class="myResponsiveImg"/>
-</div>
+<img src={ColorIndicationFailure} alt="Color Indication Failure" />
 
 ### Trace
 

@@ -27,6 +27,4 @@ Actions as the name implies are the actions you want to take. For example, actio
 
 Details about each action are located in the [Actions](../../../actions-library) section of the manual.
 
-<div class="myResponsiveImg">
-    <img src={ActionsDetail} alt="Actions Detail" class="myResponsiveImg"/>
-</div>
+<img src={ActionsDetail} alt="Actions Detail"/>

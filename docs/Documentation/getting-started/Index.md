@@ -37,9 +37,11 @@ import ApiAutoflow from "@site/static/img/Guide/getting-started/ApiAutoflow.png"
 
 #### Everything in API AutoFlow evolves around the Server.
 
-<div class="myResponsiveImg">
+<!-- <div class="myResponsiveImg">
     <img src={ApiAutoflow} alt="Api Autoflow" class="myResponsiveImg"/>
-</div>
+</div> -->
+
+![API Autoflow Overview](@site/static/img/Guide/getting-started/ApiAutoflow.png)
 
 ### Server
 

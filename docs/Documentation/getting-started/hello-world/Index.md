@@ -60,9 +60,11 @@ Let’s walk through the steps of creating a “Hello World” API. Refer to bel
 
 1. Create a new API
 
-<div class="myResponsiveImg">
+<!-- <div class="myResponsiveImg">
     <img src={CreateApi} alt="Creating A New API" class = "myResponsiveImg"/>
-</div>
+</div> -->
+
+![Create API](@site/static/img/Hello_world/create_api.png)
 
 b. Create an ID for the API.
 
@@ -89,9 +91,11 @@ c. Go to the newly created hello_world API and add a new path
 
 a. Create a new Server
 
-<div class="myResponsiveImg">
+<!-- <div class="myResponsiveImg">
     <img src={CreateNewServer} alt="Creating A New Server" class = "myResponsiveImg"/>
-</div>
+</div> -->
+
+![Create Server](@site/static/img/Hello_world/create_new_server.png)
 
 1. Create an ID for the server.
 2. The portnumber by default is 8080, this is customizable.
@@ -110,17 +114,21 @@ a. Create a new Server
 
 b. Go to the newly created hello_world_server
 
-<div class="myResponsiveImg">
+<!-- <div class="myResponsiveImg">
     <img src={HelloWorldServer} alt="Hello World Server" class = "myResponsiveImg"/>
-</div>
+</div> -->
+
+![Create new Hello World Server](@site/static/img/Hello_world/hello_world_server.png)
 
 c. Add the API operation
 
 Now that you have lined the server with the API, you can start creating the operations for each of the paths.
 
-<div class="myResponsiveImg">
+<!-- <div class="myResponsiveImg">
     <img src={AddApiOperation} alt="Adding API Operation" class = "myResponsiveImg"/>
-</div>
+</div> -->
+
+![Add API Operation](@site/static/img/Hello_world/add_api_operation.png)
 
 <div class="myResponsiveImg">
     <img src={ApiOperation} alt="API Operation" class = "myResponsiveImg"/>
@@ -130,9 +138,11 @@ d. Add an action(s) to the operation
 
 Click the + Actions button to add an action.
 
-<div class="myResponsiveImg">
+<!-- <div class="myResponsiveImg">
     <img src={AddAction} alt="Adding Action" class = "myResponsiveImg"/>
-</div>
+</div> -->
+
+![Add Action](@site/static/img/Hello_world/add_action.png)
 
 e. Select an action
 

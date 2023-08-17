@@ -80,16 +80,12 @@ a. Create a Server.
 
 b. Go to the newly created hello_world_server and press the edit button
 
-<div class="myResponsiveImg">
-    <img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/2f56606a-4dc4-486e-a048-3c74788e4eb6" alt="Editing the API"/>
-</div>
+<img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/2f56606a-4dc4-486e-a048-3c74788e4eb6" alt="Editing the API"/>
 
 c. Press the **Link API** button and select the **hello_world_api**.
 Change the port number to **1234**
 
-<div class="myResponsiveImg">
-    <img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/43a5f237-0ef5-4149-b64f-fd151822f3f6" alt="Linking the API"/>
-</div>
+<img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/43a5f237-0ef5-4149-b64f-fd151822f3f6" alt="Linking the API"/>
 
 💡 The server instantly gets hosted on the new port number.
 

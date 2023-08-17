@@ -15,4 +15,3 @@ The `roll forward` is in the roadmap.
 <div class="myResponsiveImg">
     <img src={ActionHighlight} alt="Version Location" class="myResponsiveImg"/>
 </div>
-![Untitled](Untitled.png)
