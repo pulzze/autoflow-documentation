@@ -2,15 +2,15 @@
 
 Try and/or Retry the “do” flow with rescue and if fail, perform “catch” flow.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **retry**:                       Number of retries if flow fails
 
 **retry-delay**:           Number or String Delay between retries
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 Retry delay can be configured to be fixed or to be dynamic.
 

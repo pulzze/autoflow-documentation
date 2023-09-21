@@ -2,15 +2,15 @@
 
 Checks if string matches the given regular expression.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to match against
 
 **Regex**:                     Regex expression to compare
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

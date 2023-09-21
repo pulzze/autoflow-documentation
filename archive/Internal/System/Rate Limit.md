@@ -2,8 +2,8 @@
 
 Check whether configured rate limit has been hit or not and return a boolean value.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **key**:                          Rate limit key. Key can be customized to create rate limits per user, per client, or per application
 
@@ -11,8 +11,8 @@ Check whether configured rate limit has been hit or not and return a boolean val
 
 **duration**:                 Duration in seconds for which rate limit is applied to
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 Output-location: Location to store the output data
 

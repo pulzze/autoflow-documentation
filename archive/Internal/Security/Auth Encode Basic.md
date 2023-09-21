@@ -2,13 +2,13 @@
 
 Adds the word “Bearer” to the token
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Token**:                   token to be used
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

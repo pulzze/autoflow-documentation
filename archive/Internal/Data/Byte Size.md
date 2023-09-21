@@ -2,12 +2,12 @@
 
 Calculates number of bytes in value. Outputs a number value.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **value**:                      Location or value to calculate number of bytes of
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **output-location**: Location to store the output data

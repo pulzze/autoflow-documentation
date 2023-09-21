@@ -2,8 +2,8 @@
 
 Parse binary data using a binary schema. If target packet is not provided, it tries to match any packet type in a given schema.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Value**:                     Location of the value to check
 
@@ -13,13 +13,13 @@ Parse binary data using a binary schema. If target packet is not provided, it tr
 
 **value**:                      The value to parse
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 
-&gt; **Sample Configuration**
-&gt; 
+ **Sample Configuration**
+ 
 
 {
 

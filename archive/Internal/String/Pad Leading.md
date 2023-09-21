@@ -2,8 +2,8 @@
 
 Pads the leading part of the string.  Makes the total string length equal to count and inserts padding in the front. Returns a new string padded with a leading filler which is made of elements from the padding.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to work on
 
@@ -11,8 +11,8 @@ Pads the leading part of the string.  Makes the total string length equal to co
 
 **Padding**:                 Value to insert in front of the string
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

@@ -36,5 +36,5 @@ Tracing can be done by clicking the Trace button at specific points in the workf
    <img src={DataAfterExecution} alt="Data After Execution" class="myResponsiveImg"/>
    </div>
 
-&gt; **Error messages**: If an error or exception occurs during execution, the trace can provide information about the error message, stack trace, and relevant contextual details to aid in debugging and troubleshooting.
-&gt;
+ **Error messages**: If an error or exception occurs during execution, the trace can provide information about the error message, stack trace, and relevant contextual details to aid in debugging and troubleshooting.
+

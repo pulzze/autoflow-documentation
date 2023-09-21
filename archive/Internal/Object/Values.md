@@ -2,12 +2,12 @@
 
 Returns just the values from map.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Object**:        Location of the object to take the value from
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

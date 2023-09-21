@@ -2,7 +2,7 @@
 
 Returns the current operating system time
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: The location to store the timestamp

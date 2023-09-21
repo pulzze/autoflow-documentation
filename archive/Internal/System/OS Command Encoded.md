@@ -2,13 +2,13 @@
 
 Single-line Operating System (OS) command with string encode.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Command**:           operating system command
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

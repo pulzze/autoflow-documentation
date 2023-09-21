@@ -2,15 +2,15 @@
 
 Returns the integer represented by the ordered digits. An optional base value may be provided representing the radix for the digits.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of the array to undigit
 
 **Base**:                       Digit base E.g. Digit ‘2’ will convert the integer into binary
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**:     Location to store the output data
 

@@ -2,8 +2,8 @@
 
 Replaces the suffix with the characters. Replaces suffix in string by replacement if it matches match.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to work on
 
@@ -11,8 +11,8 @@ Replaces the suffix with the characters. Replaces suffix in string by replacemen
 
 **Replacement**:         Value to replace with
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

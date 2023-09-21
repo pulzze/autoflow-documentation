@@ -2,8 +2,8 @@
 
 Increment a Table data. Data has to be an integer.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Table-id**:                 Select an existing table. Table may be created by clicing on Table navigation on the left.
 
@@ -11,8 +11,8 @@ Increment a Table data. Data has to be an integer.
 
 **Amount**:                 Amount of Increment to be applied.
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 Output-location: Location to store the output data
 

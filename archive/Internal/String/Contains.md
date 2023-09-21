@@ -2,15 +2,15 @@
 
 Checks if strings contains a given string. Checks if string contains any of the given contents.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string
 
 **Contents**:    Content to make the comparison with
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

@@ -5,8 +5,8 @@ If condition in API AutoFlow works similar to the if statement in programming la
 1. First start by setting condition properties
 2. Next drag and drop actions to be executed for TRUE and FALSE conditions
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Variables**:               Conditions to apply
 
@@ -18,7 +18,7 @@ If condition in API AutoFlow works similar to the if statement in programming la
 
 **Expression**:            Elixir expression on the condition
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 Using the **Variable**, IF the **Target** meets the **Condition** of **Value**

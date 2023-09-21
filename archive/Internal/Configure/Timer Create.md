@@ -2,8 +2,8 @@
 
 Creates a timer with the provided configuration.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **timer-name**:            The name given to the timer
 
@@ -11,7 +11,7 @@ Creates a timer with the provided configuration.
 
 **flow-id**:        The flow to handle the execution for the timer
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 output-location: Location to store the configured timer ID

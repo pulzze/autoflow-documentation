@@ -2,13 +2,13 @@
 
 A match condition checks if a specified condition is true.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Target**:        The data to match against.
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 Let’s say we want to execute different actions based on the condition that userID is greater than 100.
 

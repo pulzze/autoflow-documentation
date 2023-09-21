@@ -2,13 +2,13 @@
 
 Converts a list of strings into a single string.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of the list to convert into a string
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

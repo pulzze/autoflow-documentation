@@ -2,18 +2,18 @@
 
 Wraps term in a list if this is not listed. If term is already a list, it returns the list. If term is nil, it returns an empty list.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Element**:     the value to turn into an array
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 String “hello” will output [“hello”]
 

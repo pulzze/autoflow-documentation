@@ -2,8 +2,8 @@
 
 Returns a list with value inserted at the specified index.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of the list to add the value
 
@@ -11,7 +11,7 @@ Returns a list with value inserted at the specified index.
 
 **Value**:                     The value to add
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

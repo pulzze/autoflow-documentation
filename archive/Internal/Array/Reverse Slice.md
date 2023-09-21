@@ -2,8 +2,8 @@
 
 Switches the index of the two elements.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of the list to reverse the index
 
@@ -11,7 +11,7 @@ Switches the index of the two elements.
 
 **Count**:                     Index of the second value
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

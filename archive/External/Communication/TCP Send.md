@@ -2,8 +2,8 @@
 
 TCP Send action sends data to the address:port and the response is stored in the response-target.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Data**:                       Data to send
 
@@ -11,7 +11,7 @@ TCP Send action sends data to the address:port and the response is stored in the
 
 **Port**:                        Destination Port Number
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

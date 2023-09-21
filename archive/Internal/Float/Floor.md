@@ -2,8 +2,8 @@
 
 Rounds a float down to the largest integer less than or equal to the number. Precision is the decimal place.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Float**:                      Location of the number to round
 
@@ -11,8 +11,8 @@ Rounds a float down to the largest integer less than or equal to the number. Pre
 
 E.g ‘1’ for rounding to the tenths decimal
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

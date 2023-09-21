@@ -2,13 +2,13 @@
 
 String URI URL Decode. Decodes string as “x-www-form-urlencoded”.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to decode
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

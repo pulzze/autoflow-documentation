@@ -2,15 +2,15 @@
 
 Find the first occurrence of a value in an array.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of an array that you are iterating over
 
 **Condition**:              Condition to match against
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 Output-location: The location for the found value to be saved
 

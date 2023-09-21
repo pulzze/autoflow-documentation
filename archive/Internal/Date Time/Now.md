@@ -2,13 +2,13 @@
 
 Returns the current date and time in UTC.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Time-unit**:   Select from second, millisecond, microsecond
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: The location to store the timestamp
 

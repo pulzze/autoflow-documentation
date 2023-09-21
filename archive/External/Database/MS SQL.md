@@ -1,7 +1,7 @@
 # MS SQL
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Query**:         SQL query. For example SELECT * FROM public.table
 
@@ -19,7 +19,7 @@
 
                      [raw] data in raw format
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Response from the database

@@ -4,13 +4,13 @@ Returns true if ANY elements in array are truthy.
 
 When none of the element has a truthy value false is returned. In all other cases true is returned.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Source array to find value from 
 
-&gt; Output
-&gt; 
+ Output
+ 
 
 **index-location**:        The location each index is stored
 

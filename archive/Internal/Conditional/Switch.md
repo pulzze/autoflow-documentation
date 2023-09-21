@@ -2,13 +2,13 @@
 
 Like the switch statements in a programming language, a switch condition checks for matching value.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 Target:        The data to match against
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 Let’s say we want to execute different actions based on user status.
 

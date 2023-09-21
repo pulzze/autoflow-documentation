@@ -2,15 +2,15 @@
 
 The file is opened for writing. It is created if it does not exist. If the file does exist, the previous contents are overwritten.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **File**:             The file location to write the data
 
                     E.g. /Users/{user_name}/Documents/sample.txt
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

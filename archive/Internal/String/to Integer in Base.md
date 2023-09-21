@@ -2,15 +2,15 @@
 
 Returns an integer whose text representation is string in a selected base.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                    Location of the string to convert into integer
 
 **Base**:                      Digit base E.g. Digit ‘2’ will convert the integer into binary
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

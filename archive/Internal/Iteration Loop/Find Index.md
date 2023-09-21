@@ -2,13 +2,13 @@
 
 Find Value iteratively applies the values to the actions (inside the iteration) while the resulting iteration value is false and returns the value found.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Source array to find value from
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **index-location**:             The location each index is stored
 

@@ -2,13 +2,13 @@
 
 Downcase ALL characters.  Converts all characters in the given string to lowercase according to mode.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to downcase
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

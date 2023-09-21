@@ -2,8 +2,8 @@
 
 Send SMTP message (email).
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **from**:                       Email from object with properties
 
@@ -31,7 +31,7 @@ Send SMTP message (email).
 
 **port**:                         SMTP server port
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **output-location**: Location to store the output data

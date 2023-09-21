@@ -2,12 +2,12 @@
 
 Returns the current date in UTC.
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: The location to store the timestamp
 
-&gt; **Format**
-&gt; 
+ **Format**
+ 
 
 YYYY-MM-DD (eg 1997-07-16)

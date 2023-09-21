@@ -2,8 +2,8 @@
 
 Returns a substring starting at the offset start, and of given length.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to work on
 
@@ -11,8 +11,8 @@ Returns a substring starting at the offset start, and of given length.
 
 **Length**:                   The length of the new string
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

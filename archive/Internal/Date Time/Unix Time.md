@@ -2,13 +2,13 @@
 
 Returns the current time of the Unix System.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Time-unit**:   Select from second, millisecond, microsecond, nanosecond
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: The location to store the timestamp
 

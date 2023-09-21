@@ -2,8 +2,8 @@
 
 Make HTTP multipart request.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **url**:                           Address for the Request to be sent
 
@@ -33,7 +33,7 @@ Make HTTP multipart request.
 
 **timeout**:                  Duration to make attempt
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **output-location**: Location to store the output data

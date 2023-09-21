@@ -2,8 +2,8 @@
 
 Serialize into binary data using a binary schema.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Value**:                      Location of the value to check
 
@@ -13,13 +13,13 @@ Serialize into binary data using a binary schema.
 
 **value**:                      The value object to serialize with
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 
-&gt; **Example binary schema configuration**
-&gt; 
+ **Example binary schema configuration**
+ 
 
 {
 

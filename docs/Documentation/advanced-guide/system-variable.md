@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # System Variable
 
-[Home](../../Documentation/Overview) &gt; [Getting Started](../getting-started)
+[Home](../../Documentation/Overview)  [Getting Started](../getting-started)
 
 These system variables are configurable in 3 ways.
 

@@ -2,20 +2,20 @@
 
 Inserts separator between the elements of the list.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 Array:                      Location of the list to add the value
 
 Element:     The value to add between the elements
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 Output-location: Location to store the output data
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 Let’s say we have below a list
 

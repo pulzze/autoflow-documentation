@@ -8,20 +8,20 @@ HH:MM:SS
 
 with – date = output. Where “0” is true and “1” is false
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Date**:                       Location of the first time
 
 **With**:                       The second time to check against
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: The location to store the output
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 date: 12:03:12
 

@@ -2,8 +2,8 @@
 
 Returns whether the given key exists in the given map.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Object**:                   Location of the object to check whether the key exists
 
@@ -11,7 +11,7 @@ Returns whether the given key exists in the given map.
 
 **Any**:                        Select true if checking for any of the object has the specified key, or false if checking to see all of the objects has the specified key
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 Output-location: Location to store the output data

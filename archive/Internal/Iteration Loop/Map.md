@@ -2,13 +2,13 @@
 
 MAP iterates over the array and replaces the value. Hence actions that change the value are commonly used inside the Iteration Map action.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      The location of the array that’s been iterated over
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Index-location**:         The location to store each index
 

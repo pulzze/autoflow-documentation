@@ -2,15 +2,15 @@
 
 Computes the modulo remainder of an integer division.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Integer**:         Location of the integer to divide
 
 **Divided-by**:  The denominator. Number to divide by.
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

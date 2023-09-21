@@ -2,8 +2,8 @@
 
 RFC3164 is “the old format” of Syslog.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Message**:                Syslog message
 
@@ -19,7 +19,7 @@ RFC3164 is “the old format” of Syslog.
 
 **Process-name**:       A process name to be used for the Syslog message
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **output-location**: Location to store the output data

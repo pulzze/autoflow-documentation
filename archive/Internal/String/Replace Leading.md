@@ -2,8 +2,8 @@
 
 Replaces the leading character.  Replaces all leading occurrences of the match by replacement of match in the string. Returns the string untouched if there are no occurrences.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to work on
 
@@ -11,8 +11,8 @@ Replaces the leading character.  Replaces all leading occurrences of the match 
 
 **Replacement**:         Value to replace with
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

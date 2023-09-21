@@ -2,8 +2,8 @@
 
 RFC5424 is “the new format” of Syslog.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Message**:                Syslog message
 
@@ -25,7 +25,7 @@ RFC5424 is “the new format” of Syslog.
 
 Structured-data: Add structured data to Syslog message. Must be an array of objects with keys “element-id” and “parameter” (a single layer object with string key/values)
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

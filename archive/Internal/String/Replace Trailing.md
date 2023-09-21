@@ -2,8 +2,8 @@
 
 Replaces all trailing occurrences of match by replacement in string.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to work on
 
@@ -11,8 +11,8 @@ Replaces all trailing occurrences of match by replacement in string.
 
 **Replacement**:         Value to replace with
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

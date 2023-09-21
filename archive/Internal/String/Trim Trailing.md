@@ -2,13 +2,13 @@
 
 Returns a string where all trailing Unicode whitespaces has been removed.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to trim
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

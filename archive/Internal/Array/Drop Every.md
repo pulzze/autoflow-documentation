@@ -2,8 +2,8 @@
 
 Drops every nth element from the array and returns the remaining elements.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of the list to drop the element from
 
@@ -11,7 +11,7 @@ Drops every nth element from the array and returns the remaining elements.
 
 E.g ‘2’ would remove values from index 0, 2, 4, etc
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

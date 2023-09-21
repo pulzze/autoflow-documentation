@@ -2,14 +2,14 @@
 
 Splits the list at a given index.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of the list to split
 
 **Count**:                     Index to make the split (index starts from zero)
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

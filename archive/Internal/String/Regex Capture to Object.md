@@ -2,15 +2,15 @@
 
 Receives a regex, a binary and a replacement, returns a new binary where all matches are replaced by the replacement.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to match against
 
 **Regex**:                     Regex expression to compare
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 
@@ -20,4 +20,4 @@ When the replacement is a function, the function may have arity N where each arg
 
 **Example**
 
-A string abcadc is applied regex of ~r/a(b|d)c/ with replacement value of fn _ and option of x -&gt; “[#{x}]” end. The return will be [b][d]
+A string abcadc is applied regex of ~r/a(b|d)c/ with replacement value of fn _ and option of x - “[#{x}]” end. The return will be [b][d]

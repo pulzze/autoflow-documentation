@@ -2,13 +2,13 @@
 
 forEach iterates over the array and apply the values to the actions (inside the iteration).
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **array**:                      The location of an array that you are iterating over
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **index-location**:        The location each index is stored
 
@@ -24,7 +24,7 @@ fruits.forEach(myFunction);
 
 function myFunction(value, index) {
 
-document.getElementById("demo").innerHTML += index + ":" + value + "&lt;br&gt;";
+document.getElementById("demo").innerHTML += index + ":" + value + "&lt;br";
 
 }
 

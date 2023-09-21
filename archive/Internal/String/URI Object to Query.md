@@ -2,13 +2,13 @@
 
 Encodes an enumerable into a query string.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Object**:        Location of the enumerable to encode into a query string
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 
@@ -16,4 +16,4 @@ Takes an enumerable that enumerates as a list of two-element objects (for instan
 
 **Example**
 
-URI query of “{“key” =&gt; “value with spaces”}” will return “key=value+with+spaces”
+URI query of “{“key” = “value with spaces”}” will return “key=value+with+spaces”

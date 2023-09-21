@@ -2,13 +2,13 @@
 
 Capitalizes the ALL characters in the string.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     The string that’s been worked on.
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

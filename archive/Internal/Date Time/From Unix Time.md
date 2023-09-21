@@ -2,14 +2,14 @@
 
 Converts the given Unix time to DateTime (UTC).
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Unix-time**:   Location of the UNIX Time
 
 **Time-unit**:   Select from second, millisecond, microsecond, nanosecond
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: The location to store the timestamp

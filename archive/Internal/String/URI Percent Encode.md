@@ -2,13 +2,13 @@
 
 URI Percent Encode. Percent-escapes all characters that require escaping in string.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the URI to encode
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

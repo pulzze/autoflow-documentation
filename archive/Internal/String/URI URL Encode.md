@@ -2,13 +2,13 @@
 
 String URI URL Encode. Encodes string as “x-www-form-urlencoded”.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to encode
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

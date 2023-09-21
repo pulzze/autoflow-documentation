@@ -2,8 +2,8 @@
 
 Path is an array of keys. So, if you have a complex array with hierarchy of keys, you can give it a path so that it is ordered by the specific key value within the array of objects.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of the list to sort
 
@@ -13,13 +13,13 @@ Path is an array of keys. So, if you have a complex array with hierarchy of keys
 
 **Value Type**:            Assign the correct data type to assess
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 Let’s say you have an array
 

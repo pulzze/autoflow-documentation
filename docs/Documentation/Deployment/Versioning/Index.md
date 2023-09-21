@@ -56,8 +56,8 @@ A confirmation popup will appear before deleting.
 
 ## Currently running version
 
-&gt; **IMPORTANT**: The version that you are working on may be different from the currently running version.
-&gt;
+ **IMPORTANT**: The version that you are working on may be different from the currently running version.
+
 
 <div class="ResponsiveImg">
     <img src={CurrentlyRunningVersion} alt="Currently Running Version" width="300px" height="auto"/>

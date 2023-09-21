@@ -2,8 +2,8 @@
 
 Decrement a Table data. Data has to be an integer.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Table-id**:                 Select an existing table. Table may be created by clicking on Table navigation on the left.
 
@@ -11,8 +11,8 @@ Decrement a Table data. Data has to be an integer.
 
 **Amount**:                  Amount of decrement to be applied.
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

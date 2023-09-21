@@ -2,15 +2,15 @@
 
 Split at a given position of string into array.  Splits a string into two at the specified offset. When the offset is given is negative, the location is counted from the end of the string.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to split
 
 **Position**:                 String position to start the slice
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

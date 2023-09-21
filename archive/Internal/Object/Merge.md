@@ -2,14 +2,14 @@
 
 Merges two maps into one.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Object**:                      Location of the first object
 
 **Another-object**:       The second object to merge into the first
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

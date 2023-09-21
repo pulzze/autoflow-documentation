@@ -2,18 +2,18 @@
 
 Encodes a given value to a string using YAML 1.2 block syntax.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Data**:                       Location of the data
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: The location to store the output data
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 Below data will be encoded
 

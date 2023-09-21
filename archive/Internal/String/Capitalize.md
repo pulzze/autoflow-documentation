@@ -2,13 +2,13 @@
 
 Capitalizes the first character.  Converts the first character in the given string to uppercase and the remainder to lowercase according to mode.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**: The string that’s been worked on.
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

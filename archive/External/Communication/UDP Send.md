@@ -2,8 +2,8 @@
 
 UDP Send actions send data to the address:port and the response is stored in the response-target.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Data**:                       Data to send
 
@@ -11,13 +11,13 @@ UDP Send actions send data to the address:port and the response is stored in the
 
 **Port**:                        Destination Port Number
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 
-&gt; **Sample Configuration**
-&gt; 
+ **Sample Configuration**
+ 
 
 Click to learn how to paste configuration into your solution.
 
@@ -49,8 +49,8 @@ Click to learn how to paste configuration into your solution.
 
 }
 
-&gt; **TEST THE ACTION**
-&gt; 
+ **TEST THE ACTION**
+ 
 
 Resulting in the following packet being sent out.
 
@@ -59,5 +59,5 @@ $ sudo tcpdump -i lo0 udp port 14000 -vvv -X
 
 tcpdump: listening on lo0, link-type NULL (BSD loopback), capture size 262144 bytes
 
-17:02:05.256998 IP localhost.27674 &gt; localhost.14000: UDP, length 7
+17:02:05.256998 IP localhost.27674  localhost.14000: UDP, length 7
 ```

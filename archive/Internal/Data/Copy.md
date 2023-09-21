@@ -2,17 +2,17 @@
 
 Action for copying data from one source to another
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **From-location**:        Copy from location
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **To-location**: Write to location
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 Copying data from the request (input) body to the response (out) body.

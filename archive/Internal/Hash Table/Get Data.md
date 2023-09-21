@@ -2,15 +2,15 @@
 
 Reads a Table entry.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Table-id**:                Select an existing table. Table may be created by clicing on Table navigation on the left.
 
 **Key**:                        Table key to read.
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 Output-location: Location to store the output data
 

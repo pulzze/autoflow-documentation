@@ -2,20 +2,20 @@
 
 Gets binary schema structure object for a given schema and target packet
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Schema ID**:     Location or value of binary schema. Schema-id can be selected from drop down, or dynamically referenced by saving the Schema-id at the time of creation.
 
 **Target**:        Location or value of target parcket within the binary schema
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **output-location**: Location to store the output data
 
-&gt; **Example binary schema configuration**
-&gt; 
+ **Example binary schema configuration**
+ 
 
 {
 

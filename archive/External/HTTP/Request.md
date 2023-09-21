@@ -2,8 +2,8 @@
 
 Makes HTTP request to APIs from the flow.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **url**:                        Address for the Request to be sent
 
@@ -21,7 +21,7 @@ Makes HTTP request to APIs from the flow.
 
 **timeout**:                Duration to make the attempt
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

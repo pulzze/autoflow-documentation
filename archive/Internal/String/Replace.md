@@ -2,8 +2,8 @@
 
 Find text patterns or formats in a string and replace all occurrences of a pattern or format to replacement value.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     The field from the Flow data that’s been worked on.
 
@@ -11,8 +11,8 @@ Find text patterns or formats in a string and replace all occurrences of a patte
 
 **Replacement**:         The value that is being replaced with
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

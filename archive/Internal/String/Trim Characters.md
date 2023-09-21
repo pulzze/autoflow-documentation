@@ -2,15 +2,15 @@
 
 Trim Characters from front and back of the string. Returns a string where all leading and trailing characters have been removed.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to trim
 
 **Characters**:             Character to remove from front and back of the string
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

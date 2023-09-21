@@ -2,12 +2,12 @@
 
 Only used in TCP server/connection receive endpoint flow. TCP Respond action sends data back on TCP connection.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **payload**:      Data to send
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **output-location**: Location to store the output data

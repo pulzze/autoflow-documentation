@@ -2,8 +2,8 @@
 
 Action to log the data at a given point in the flow. It leaves a log message that can be seen in the Log pane on the right hand side. The value is the log, and you can provide log level or log label.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Value**:                     Value to loga
 

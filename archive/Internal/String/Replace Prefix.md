@@ -2,8 +2,8 @@
 
 Replaces prefix with characters.  Replaces prefix in string by replacement if it matches.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to work on
 
@@ -11,8 +11,8 @@ Replaces prefix with characters.  Replaces prefix in string by replacement if i
 
 **Replacement**:         Value to replace with
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

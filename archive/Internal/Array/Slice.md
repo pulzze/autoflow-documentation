@@ -2,8 +2,8 @@
 
 Returns the elements starting at the given index and ends after ‘n’ count.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of the list to slice
 
@@ -11,7 +11,7 @@ Returns the elements starting at the given index and ends after ‘n’ count.
 
 **Count**:                     The number of consecutive values to return
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

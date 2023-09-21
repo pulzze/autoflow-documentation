@@ -2,14 +2,14 @@
 
 Validates data against a schema.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **data**:                       Data to validate
 
 **schema**:                 Schema definition to validate against
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

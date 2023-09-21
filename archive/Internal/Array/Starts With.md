@@ -2,14 +2,14 @@
 
 Returns true if list starts with the given prefix-list; otherwise returns false.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of the existing list
 
 **List**:                         Prefix list
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

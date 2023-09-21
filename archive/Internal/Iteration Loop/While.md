@@ -2,13 +2,13 @@
 
 While iteratively apply the values to the actions (inside the iteration) while resulting iteration value is true.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Max**:                        Maximum number of times to iterate
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **index-location**:         The location each index is stored
 

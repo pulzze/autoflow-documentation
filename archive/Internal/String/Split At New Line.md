@@ -4,8 +4,8 @@ Splits a string at the new line into set number of parts.
 
 Note: Pasting text directly into the property string removes the “new line”. To test the action, use the sample configuration below or read the text directly from the file.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to work on
 
@@ -13,8 +13,8 @@ Note: Pasting text directly into the property string removes the “new line”.
 
 **trim**:
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

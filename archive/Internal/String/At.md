@@ -4,15 +4,15 @@ Retrieves the character at the nth position.
 
 Returns the grapheme at the position of the given UTF-8 string. If position is greater than string length, then it returns nil.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to retrieve the character from
 
 **At**:                            Position of the character to retrieve (Position starts from 0)
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

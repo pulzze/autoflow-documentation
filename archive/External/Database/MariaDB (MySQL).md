@@ -1,7 +1,7 @@
 # MariaDB (MySQL)
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Query**:          SQL query. For example SELECT * FROM public.table
 

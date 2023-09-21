@@ -2,19 +2,19 @@
 
 Action for decrementing a value by a given value.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Value**:                     Value to decrement
 
 **Amount**:                 Integer amount to decrement by
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Write to location
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 If the value is 10 and amount is 1, the output is 9. (10-1=9)

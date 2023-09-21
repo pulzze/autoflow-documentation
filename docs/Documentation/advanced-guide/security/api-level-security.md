@@ -11,8 +11,8 @@ Here are some commonly used security features that can be incorporated into an A
 
 - **Authentication**: OpenAPI allows you to define authentication methods for your API. You can specify authentication schemes such as API keys, OAuth 2.0, JWT (JSON Web Tokens), or basic authentication. These authentication schemes can be documented and enforced through OpenAPI.
     
-    &gt; Refer to Server Level Security documentations to learn how to configure server authentication
-    &gt; 
+     Refer to Server Level Security documentations to learn how to configure server authentication
+     
     
     Example
     
@@ -77,8 +77,8 @@ This OpenAPI specification demonstrates how to integrate OAuth 2.0 authenticatio
 
 - **Authorization**: OpenAPI enables you to describe and document the authorization mechanisms supported by your API. You can define scopes, roles, or permissions associated with specific API operations, and document how clients can request and obtain the necessary authorization to access protected resources.
     
-    &gt; Refer to Server Level Security documentations to learn how to configure server authorization
-    &gt; 
+     Refer to Server Level Security documentations to learn how to configure server authorization
+     
     
     Example
     
@@ -168,20 +168,20 @@ This OpenAPI specification demonstrates how to integrate OAuth 2.0 authenticatio
 
 - **Security Definitions**: OpenAPI allows you to define security schemes and security requirements at the API level or specific operation level. Security schemes can include API keys, OAuth 2.0 flows (e.g., authorization code, client credentials), or other custom authentication methods. Security requirements define the schemes that need to be satisfied for accessing certain API endpoints.
     
-    &gt; Refer to Server Level Security documentations to learn how to configure server security schema
-    &gt; 
+     Refer to Server Level Security documentations to learn how to configure server security schema
+     
 1. **Token-based Security**: OpenAPI supports token-based security mechanisms like OAuth 2.0 and JWT. You can document the token endpoints, scopes, and token formats required for authentication and authorization. OpenAPI also allows you to specify the location and format of tokens in requests, such as in headers, query parameters, or cookies.
     
-    &gt; Refer to Server Level Security documentations to learn how to configure server Token-based security
-    &gt; 
+     Refer to Server Level Security documentations to learn how to configure server Token-based security
+     
 2. **Security Extensions**: OpenAPI provides extension points that allow you to include custom security-related information. These extensions can be used to document additional security measures specific to your API implementation, such as HMAC signatures, encryption algorithms, or specific security policies.
     
-    &gt; Refer to Server Level Security documentations to learn how to configure server security extensions
-    &gt; 
+     Refer to Server Level Security documentations to learn how to configure server security extensions
+     
 3. **TLS/SSL Configuration**: OpenAPI allows you to document the use of secure communication protocols like HTTPS. You can specify the security requirements for transport-level security, including the supported TLS/SSL versions, cipher suites, and certificate validation options.
     
-    &gt; Refer to Server Level Security documentations to learn how to configure server TLS/SSL
-    &gt; 
+     Refer to Server Level Security documentations to learn how to configure server TLS/SSL
+     
 4. **Documentation and Guidelines**: While not directly related to security implementation, OpenAPI supports documenting security-related information and guidelines. It is highly advised to use OpenAPI provided documentation to provide instructions, examples, and best practices for implementing secure API usage, including recommendations for client-side security configurations.
     
     
@@ -255,7 +255,7 @@ Since OpenAPI does not provide validation feature, API AutoFlow has a custom `x-
 ```yaml
 x-validate:
         actions: []
-        parameterRequirement: &gt;
+        parameterRequirement: 
           If start_id and end_id is provided, start_id has to be less than or
           equal to end_id.
         parameters:

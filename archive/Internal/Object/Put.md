@@ -2,8 +2,8 @@
 
 Puts the given value under key in map.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Object**:                   Location of the object to add the value
 
@@ -11,8 +11,8 @@ Puts the given value under key in map.
 
 **Value**:                     The value to add
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

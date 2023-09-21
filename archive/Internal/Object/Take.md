@@ -2,15 +2,15 @@
 
 Returns a new map with all the key-value pairs in map where the key is in keys.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Object**:                  Location of the object to take the value from
 
 **Keys**:                      Key of the value to extract
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 Output-location: Location to store the output data
 

@@ -2,8 +2,8 @@
 
 Action to apply Elixir expressions.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Expression**:            Elixir expressions
 
@@ -13,8 +13,8 @@ Action to apply Elixir expressions.
 
 **Target**:                    The location to get the data from
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 
@@ -22,7 +22,7 @@ Action to apply Elixir expressions.
 
 Let’s say we want to apply string concatenate (joining) function in Elixir
 
-“Hello” &lt;&gt; “ World”
+“Hello” &lt; “ World”
 
 **Result**
 
@@ -30,6 +30,6 @@ Hello World
 
 Using the Testing feature, let’s send a value of “Hello” in the request body
 
-Add a Data Expression action and assign where you want to read the array from (variable -&gt; target), where you want to put the resulting value (target), and the Elixir expression to apply. In this case request body &lt;&gt; “ World”
+Add a Data Expression action and assign where you want to read the array from (variable - target), where you want to put the resulting value (target), and the Elixir expression to apply. In this case request body &lt; “ World”
 
 To display the result on the browser, let’s copy the data in the response body

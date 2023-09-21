@@ -62,8 +62,8 @@ Access the file directly from the logs folder
 
 Create a workflow to extract logs using `file/read` action.
 
-&gt; **WARNING**: It is important to note that logs can consume a significant amount of disk space. Therefore, log rotation and retention policies are often implemented to manage the storage and archival of logs over time.
-&gt;
+ **WARNING**: It is important to note that logs can consume a significant amount of disk space. Therefore, log rotation and retention policies are often implemented to manage the storage and archival of logs over time.
+
 
 ## What does the log capture?
 
@@ -113,8 +113,8 @@ The log action can be placed anywhere in the workflow to capture the data at tha
 - **Label**:  Puts a label on the log.  In the below example, the label is `Test`
 - **Level**:  Log level setting.
     
-    &gt; **IMPORTANT**: The minimum log level is set in the "Setting" section. For example, if the minimum log level is set to `info`, any log actions with a level of `debug` or lower won't be logged.
-    &gt; 
+     **IMPORTANT**: The minimum log level is set in the "Setting" section. For example, if the minimum log level is set to `info`, any log actions with a level of `debug` or lower won't be logged.
+     
 - **Value**:   Data that’s being logged
 
 ## Log Levels

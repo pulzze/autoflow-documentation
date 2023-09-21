@@ -8,15 +8,15 @@ YYYY-MM-DD
 
 with – date = output. Where “0” is true and “1” is false
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Date**:                       Location of the first date
 
 **With**:                       The second date to check against
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: The location to store the output
 

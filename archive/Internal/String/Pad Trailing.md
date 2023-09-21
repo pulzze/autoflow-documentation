@@ -2,8 +2,8 @@
 
 Pads the trailing part of the string.  Makes the total string length equal to count and inserts padding in the back. Returns a new string padded with a trailing filler which is made of elements from the padding.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to work on
 
@@ -11,8 +11,8 @@ Pads the trailing part of the string.  Makes the total string length equal to c
 
 **Padding**:                 Value to insert at the back of the string
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

@@ -2,8 +2,8 @@
 
 Returns list of lists containing count elements each, where each new chunk starts step elements into the enumerable.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Array**:                      Location of the list to chunk
 
@@ -13,13 +13,13 @@ Returns list of lists containing count elements each, where each new chunk start
 
 **Leftover**:                 The value to fill the last chunk if not completely filled
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 Let’s say we have a list with six elements.
 

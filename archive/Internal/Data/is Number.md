@@ -2,12 +2,12 @@
 
 Checks if a Data is a number (mathematical number including decimals). Outputs a boolean value.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Value**:                     Location of the value to check
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

@@ -2,8 +2,8 @@
 
 Gets environment variable data.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **variable-id**:            Environment variable id
 
@@ -11,7 +11,7 @@ Gets environment variable data.
 
 **default**:                   Default value to return if data is not available
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **output-location**: Location to store the output data

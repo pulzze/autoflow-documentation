@@ -2,8 +2,8 @@
 
 Divides a string into parts based on a pattern.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **String**:                     Location of the string to split
 
@@ -13,8 +13,8 @@ Divides a string into parts based on a pattern.
 
 **Trim**:                        Remove empty strings
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data
 

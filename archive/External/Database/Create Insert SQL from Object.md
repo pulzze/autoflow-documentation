@@ -2,20 +2,20 @@
 
 Sequelize object action to convert Object into an Insert SQL.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Object**:        The object with both the column (object key) and the values to be inserted
 
 **Table**:          Name of the table to insert the data
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Response from the database
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 Given below 
 

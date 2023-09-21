@@ -8,15 +8,15 @@ YYYY-MM-DDThh:mm:ss.sTZD
 
 (eg 1997-07-16T19:20:30.45+01:00) with – date = output. Where “0” is true and “1” is false
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Date**:                       Location of the first date and time
 
 **With**:                       The second date and time to check against
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: The location to store the output
 

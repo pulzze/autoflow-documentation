@@ -2,12 +2,12 @@
 
 Returns a random Integer.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Maximum**:   The highest random number generated
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

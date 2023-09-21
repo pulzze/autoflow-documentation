@@ -2,27 +2,27 @@
 
 Split binary data by size.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **value**:                      The value to split
 
 **size**:                        Split by size
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **output-location**: Location to store the output data
 
-&gt; **Example configuration**
-&gt; 
+ **Example configuration**
+ 
 
 **value**: ABCDE
 
 **size**: 2
 
-&gt; **Example output**
-&gt; 
+ **Example output**
+ 
 
 ```json
 ["AB","CD","E"]

@@ -2,8 +2,8 @@
 
 TCP Send and Receive action sends data and waits to receive data back from a bound Socket to the response-target.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **Data**:                       Data to send
 
@@ -13,7 +13,7 @@ TCP Send and Receive action sends data and waits to receive data back from a bou
 
 **Timeout**:                 If no response
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: Location to store the output data

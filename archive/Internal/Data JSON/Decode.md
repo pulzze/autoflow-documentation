@@ -2,18 +2,18 @@
 
 Parses a string as a subset of YAML, and produces a representation of its value.
 
-&gt; **Properties**
-&gt; 
+ **Properties**
+ 
 
 **YMAL**:        Location of the YMAL
 
-&gt; **Output**
-&gt; 
+ **Output**
+ 
 
 **Output-location**: The location to store the output data
 
-&gt; **Example**
-&gt; 
+ **Example**
+ 
 
 A string value of
 
