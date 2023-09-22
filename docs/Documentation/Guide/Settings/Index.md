@@ -14,18 +14,22 @@ import DownloadConfiguration from "@site/static/img/Guide/Settings/download_conf
 
 ## **Configuration Management**
 
+
+### **Upload Configuration**
+
+Press the **Upload** button to import the configuration to your API AutoFlow.
+
+<div class="myResponsiveImg">
+    <img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/7d3ba7eb-607a-4816-af7e-a9432d479890" alt="Upload Configuration" class="myResponsiveImg"/>
+</div>
+
+
+### **Download Configuration**
+
 Press the Download button to save the configuration on your computer. The default file name is config.json.
 
 <div class="myResponsiveImg">
     <img src={DownloadConfiguration} alt="Download Configuration" class="myResponsiveImg"/>
-</div>
-
-### **Upload Configuration**
-
-Press the **Upload** button to save the configuration on your computer.
-
-<div class="myResponsiveImg">
-    <img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/7d3ba7eb-607a-4816-af7e-a9432d479890" alt="Upload Configuration" class="myResponsiveImg"/>
 </div>
 
 ## System Environment

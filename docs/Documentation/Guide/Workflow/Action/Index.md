@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-import ActionsDetail from "@site/static/img/Guide/Action/actions_detail.png"
-import ActionOverview from "@site/static/img/Guide/Action/action_overview.png"
+import ActionsDetail from "@site/static/img/Guide/Action/actions-detail.png"
+import ActionOverview from "@site/static/img/Guide/Action/action-overview.png"
 
 # Action
 
