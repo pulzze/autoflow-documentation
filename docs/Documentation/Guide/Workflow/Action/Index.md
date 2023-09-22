@@ -21,10 +21,9 @@ Actions are the basic building blocks of a workflow, with a few hundred availabl
 
 For full list of actions, refer to the Actions Library
 
-[Actions Library](../../../actions-library)
+### [Actions Library](../../../actions-library) 🔗
 
 Actions as the name implies are the actions you want to take. For example, actions that perform database/operation , string/trim , condition/if and iteration/filter . API AutoFlow provides a few hundred action(s) to build the operations and automation as simple as you want or as complex as you need. You simply daisy chain the actions to create the outcome you need.
 
 Details about each action are located in the [Actions](../../../actions-library) section of the manual.
 
-<img src={ActionsDetail} alt="Actions Detail"/>
