@@ -30,10 +30,10 @@ import get_main16 from '@site/static/img/example/api/get/16_get_api.png';
 <hr/>
 
 We already know how to make basic <span class="method get">GET</span> Method from <a href="/docs/Documentation/Examples/API"> API Example Page</a>. <br/>
-This Page explain How to make <span class="method get">GET</span> Method API with <b>URL Path</b>  and Get a response from this API!
+This Page explain How to make <span class="method get">GET</span> Method API with <b> *URL Path* </b>  and Get a response from this API!
 
 :::info
-<h3>Add New Path (in APIs Page) </h3><h3>➡️ Add New Path (in Server Page).</h3>
+<h3>Add New <span class="method get">GET</span> Path (in APIs Page) </h3><h3>➡️ Add New <span class="method get">GET</span> Path (in Server Page).</h3>
 :::
 
 As you know, we already made API and Server.<br/>
@@ -44,7 +44,7 @@ Follow below steps!
 
 :::note
 We will make below <span class="method get">GET</span> method with URL path. <br/>
-<span class="method get">GET</span> /hello/&#123;name&#125; <br/>
+<span class="method get">GET</span> /my/&#123;name&#125; <br/>
 Then we will get a response "Oh! Your name is &#123;name&#125;" from this API.
 :::
 
@@ -57,7 +57,7 @@ Then just add new <b>Path</b> with URL PATH!
 
 First, we click Add Path button. <br/>
 Then we will write path name with <b> balcket ```{name}``` </b>. <br/>
-In ```/hello/{name}``` , ```{name}``` means that you can receive the path you want as the path of url.<br/>
+In ```/my/{name}``` , ```{name}``` means that you can receive the path you want as the path of url.<br/>
 And we select <span class="method get">GET</span> Method.
 <img src={get_main} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
@@ -71,7 +71,7 @@ When you added <b>New path</b>, We can see below new Path.
 
 <span class="method get">GET</span>  
 
-```/hello/{name}```
+```/my/{name}```
 
 <img src={get_main2} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
@@ -102,7 +102,7 @@ However, our goal is to send a response using the URL path value.
 <img src={get_main5} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 :::tip
-Now we can use <span class="method get">GET</span> /hello/&#123;name&#125; <br/>
+Now we can use <span class="method get">GET</span> /my/&#123;name&#125; <br/>
 :::
 
 <hr/>
@@ -166,7 +166,7 @@ Drag your variable in anywhere you want.
 
 <hr/>
 
-## 4. Try <span class="method get">GET</span> Response
+## 4. Test <span class="method get">GET</span> Response
 
 Now, we can get a response with URL Path.
 

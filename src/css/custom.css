@@ -97,7 +97,7 @@
 .method {
   color : #FFFFFF;
   border-radius: 3px;
-  padding: 2px;
+  padding: 1px 5px;
   font-weight: 700;
 }
 
@@ -119,4 +119,5 @@
 }
 .method-title {
   border-radius: 10px;
+  padding: 2px 15px;
 }

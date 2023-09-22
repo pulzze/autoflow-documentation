@@ -18,9 +18,9 @@ import server_main4 from '@site/static/img/example/api/11_server_create_api.png'
 import server_main5 from '@site/static/img/example/api/12_server_create_api.png';
 import server_main6 from '@site/static/img/example/api/13_server_create_api.png';
 
-# API 
-An application programming interface (API). <br/>
-This page you can see how to make API in Autoflow.
+# API
+*An application programming interface (API).* <br/>
+*This page you can see how to make API in Autoflow.*
 <hr/>
 
 # How to make API in Autoflow? 🤔
@@ -137,12 +137,10 @@ That's why you can access <b>http://localhost:8080/hello</b> without <b>404 erro
 
 ## HTTP Method Examples! 📡
 
-### <a href="/ent/docs/Documentation/getting-started/Examples/API/GET"> - <span class="method get method-title">GET</span> </a>
-### <a href="/docs/Documentation/getting-started/Examples/API/POST"> - <span class="method post method-title">POST</span></a>
-### <a href="/docs/Documentation/getting-started/Examples/API/DELETE"> - <span class="method delete method-title">DELETE</span></a>
-### <a href="/docs/Documentation/getting-started/Examples/API/PUT"> - <span class="method put method-title">PUT</span></a>
-
-### - Test API 🔗
+### <a href="/docs/Documentation/Examples/API/GET"> - <span class="method get method-title">GET</span> </a>
+### <a href="/docs/Documentation/Examples/API/POST"> - <span class="method post method-title">POST</span></a>
+### <a href="/docs/Documentation/Examples/API/DELETE"> - <span class="method delete method-title">DELETE</span></a>
+### <a href="/docs/Documentation/Examples/API/PUT"> - <span class="method put method-title">PUT</span></a>
 
 :::tip
 You can see how to make each API Method.
