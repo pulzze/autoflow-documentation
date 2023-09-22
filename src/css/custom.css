@@ -93,3 +93,30 @@
     height: auto !important;
   }
 }
+
+.method {
+  color : #FFFFFF;
+  border-radius: 3px;
+  padding: 2px;
+  font-weight: 700;
+}
+
+.get {
+  border: 1px solid #74adf8;
+  background-color: #74adf8;
+}
+.put {
+  border: 1px solid #efa54a;
+  background-color: #efa54a;
+}
+.post {
+  border: 1px solid #70c995;
+  background-color: #70c995;
+}
+.delete {
+  border: 1px solid #d4417a;
+  background-color: #d4417a;
+}
+.method-title {
+  border-radius: 10px;
+}
