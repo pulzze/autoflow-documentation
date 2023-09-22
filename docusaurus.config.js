@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Interactor API AutoFlow',
-  tagline: 'Interactor API AutoFlow Official Documentations',
+  title: 'Interactor ',
+  tagline: 'Interactor Official Documentations',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://docs.interactor.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ent',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

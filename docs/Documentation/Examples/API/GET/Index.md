@@ -29,7 +29,7 @@ import get_main16 from '@site/static/img/example/api/get/16_get_api.png';
 
 <hr/>
 
-We already know how to make basic <span class="method get">GET</span> Method from <a href="/docs/Documentation/getting-started/Examples/API"> API Example Page</a>. <br/>
+We already know how to make basic <span class="method get">GET</span> Method from <a href="/docs/Documentation/Examples/API"> API Example Page</a>. <br/>
 This Page explain How to make <span class="method get">GET</span> Method API with <b>URL Path</b>  and Get a response from this API!
 
 :::info
@@ -83,7 +83,7 @@ Also, you can make this path by <a href="https://swagger.io/docs/specification/a
 
 ## 2. Add New Path in Server!
 Let's Add New Path in Server!<br/>
-As you know, we already made Server from <a href="/docs/Documentation/getting-started/Examples/API"> API Example Page</a>. <br/>
+As you know, we already made Server from <a href="/docs/Documentation/Examples/API"> API Example Page</a>. <br/>
 
 ### 2.1. Click Server Page, Then Click Server Operation!
 
