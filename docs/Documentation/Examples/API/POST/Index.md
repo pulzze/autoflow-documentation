@@ -10,6 +10,20 @@ import get_main3 from '@site/static/img/example/api/get/03_get_api.png';
 import post_main3 from '@site/static/img/example/api/post/03_post_api.png';
 import post_main4 from '@site/static/img/example/api/post/04_post_api.png';
 import post_main5 from '@site/static/img/example/api/post/05_post_api.png';
+import post_main6 from '@site/static/img/example/api/post/06_post_api.png';
+import post_main7 from '@site/static/img/example/api/post/07_post_api.png';
+import post_main8 from '@site/static/img/example/api/post/08_post_api.png';
+import post_main9 from '@site/static/img/example/api/post/09_post_api.png';
+import post_main10 from '@site/static/img/example/api/post/10_post_api.png';
+import post_main11 from '@site/static/img/example/api/post/11_post_api.png';
+import post_main12 from '@site/static/img/example/api/post/12_post_api.png';
+import post_main13 from '@site/static/img/example/api/post/13_post_api.png';
+import post_main14 from '@site/static/img/example/api/post/14_post_api.png';
+import post_main15 from '@site/static/img/example/api/post/15_post_api.png';
+import post_main16 from '@site/static/img/example/api/post/16_post_api.gif';
+import post_main17 from '@site/static/img/example/api/post/17_post_api.png';
+import post_main18 from '@site/static/img/example/api/post/18_post_api.png';
+
 
 # <span class="method post method-title">POST</span>
 
@@ -76,7 +90,7 @@ As you know, we already made Server from <a href="/docs/Documentation/Examples/A
 ### 2.1. Click Server Page, Then Click Server Operation!
 
 Click Server Page, then Click Server Operation which we made it before!
-<img src={get_main3} alt="Version Location" class="myResponsiveImg" width="800px"/>
+<img src={post_main3} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 
 ### 2.2. Click Add API Operation, Then Click your new Path!
@@ -111,9 +125,102 @@ We have lots of <a href="/docs/Documentation/actions-library/">Actions</a> in Au
 This page, we will use <b> *Database Query* </b> Action.
 
 Select <b> *Database* </b>
-<!-- <img src={get_main7} alt="Version Location" class="myResponsiveImg" width="800px"/> -->
+<img src={post_main6} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 Then Select <b> *Query* </b>
-<!-- <img src={get_main8} alt="Version Location" class="myResponsiveImg" width="800px"/> -->
+<img src={post_main7} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 ### 3.3 How to use Database Query Action.
+
+:::info
+This page's goal is Insert Query in Database from <span class="method post">POST</span> Request Body.<br/>
+I will send <span class="method post">POST</span> Request Body as ```{"name" : "eric"}```
+:::
+
+#### 3.3.1 Select your Client
+
+Select your Client which you connected.<br/>
+I will connect 'MySQL' database.
+
+:::tip
+If you don't know how to connect Client, <a href="/docs/Documentation/Guide/Clients/">Click here🔗</a>
+:::
+<img src={post_main8} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+#### 3.3.2 Write INSERT SQL in 'Query'
+
+Our goal is Insert Query in Database from <span class="method post">POST</span> Request Body. <br/>
+Write INSERT QUERY and Select 'Write' in Type.<br/>
+I only wrote ```INSERT INTO `account` (`name`) VALUES ;``` <br/>
+Becasue I will put Values from <span class="method post">POST</span> Request Body.
+
+<img src={post_main9} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+
+#### 3.3.3 Add variable Name which you want.
+
+Write Variable name in Key field.
+<img src={post_main10} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+#### 3.3.4 Drag param to where you want to insert.
+
+Let's drage <b>*'name'*</b> param to where you want to insert!
+<img src={post_main11} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+#### 3.3.5 Click String type in Params
+
+We want to use <span class="method post">POST</span> Request Body. <br/>
+So we will this Variable as one of <span class="method post">POST</span> Request Body.<br/>
+<img src={post_main12} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+#### 3.3.6 Change to Data type
+
+Click Data Type.
+<img src={post_main13} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+#### 3.3.7 Write Path Scope!
+
+We can get <span class="method post">POST</span> Request Body by ``` request > body > name ``` .<br/>
+So write path by below.
+<img src={post_main14} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+#### 3.3.8 We are ready to <span class="method post">POST</span> Request! 👏
+
+<img src={post_main15} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+#### 3.3.9 Send Databse query As Response.
+I want to  <span class="method post">POST</span> Response As my database table. <br/>
+So, I will Add one more action to response.<br/>
+```SELECT * FROM `account`;``` then the QUERY result will be <span class="method post">POST</span> Response.
+<img src={post_main16} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+<hr/>
+
+## 4. Test <span class="method post">POST</span> Request and Response
+
+:::info
+I will use <a href="https://www.postman.com/"><b>*POSTMAN*</b></a> to <span class="method post">POST</span> Requset with Request Body.
+:::
+
+### 4.1 <span class="method post">POST</span> Request with Reqeust body.
+
+First, I will <span class="method post">POST</span> with below body.
+<span class="method post">POST</span>
+
+```URL: http://localhost:8080/user``` <br/>
+```Body: {"name" : "eric"}``` <br/>
+
+Then I got below Response. Now we can see the Request body data was insterted in MySQL database.
+
+<img src={post_main17} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Second, I will one more <span class="method post">POST</span> with below body
+
+<span class="method post">POST</span>
+
+```URL: http://localhost:8080/user``` <br/>
+```Body: {"name" : "autoflow"}``` <br/>
+
+Then I got below Response. Now we can see the Request body data was insterted in MySQL database.
+
+<img src={post_main18} alt="Version Location" class="myResponsiveImg" width="800px"/>
