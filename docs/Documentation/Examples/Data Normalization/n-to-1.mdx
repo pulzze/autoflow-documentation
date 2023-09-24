@@ -1,0 +1,67 @@
+---
+sidebar_position: 1
+title: Data Normalization
+sidebar_label: 1 to N
+description: Transform log into an object
+image: img/api-autoflow-logo.png
+keywords:
+  - data normalization
+  - data transformation
+---
+
+import img_1to_n_example from '@site/static/img/example/data-transformation/1-to-n-example.png';
+import img_1to_n_explanation_min from '@site/static/img/example/data-transformation/1-to-n-explanation-min.png';
+import img_1to_n_explanation_1 from '@site/static/img/example/data-transformation/1-to-n-explanation-1.png';
+import example_config from '@site/static/file/config-data-transformation-example.json';
+import example_config_1 from '@site/docs/json/config-data-transformation-example.json';
+
+# 1 to N
+
+Received data from a single source such as log in a string format and split the records into an array of entries.
+
+## Data Objective
+
+In this example, syslog from Cisco ASA 302013 firewall which is in a string format is normalized into a standardized JSON format.
+
+<img src={img_1to_n_example} alt="1 to N example" class="myResponsiveImg" width="800px"/>
+
+:::info Process
+1. The process will be to split the string on each line to create an array of records.
+2. Than apply various actions to extract the value(s).
+:::
+
+## Transforming the data
+
+1. First to split the log on a new line, us the action [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx).
+2. Second, loop over the records using the action [iteration/map](Documentation/actions-library/flow/iteration/action-iteration-map.mdx).
+
+
+<img src={img_1to_n_explanation_min} alt="1 to N explanation" class="myResponsiveImg" width="800px"/>
+
+:::tip
+Actions can be applied flexibly to work on any form of data.
+:::
+
+## Working on each record
+
+The objective is to extract the IP address and Port number. To do that, we can look for patterns **TCP connection** and **OUTSIDE:**. Then select the value that follows those patterns.
+
+```
+%ASA-6-302013: TCP connection 933 OUTSIDE:172.217.169.68
+```
+
+Similar to how the earlier [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx) action was used to split the string by a new line;
+
+An action to split the string by pattern called [string/split-by](Documentation/actions-library/data/string/action-string-split-by.mdx) can be used to further isolate the value.  
+
+<img src={img_1to_n_explanation_1} alt="1 to N explanation" class="myResponsiveImg" width="800px"/>
+
+Finally using **Return**, put the data in the desired standardized JSON object format.
+
+
+:::info Try Sample Configuration for this Example
+
+[Download](@site/static/file/config-data-transformation-example.json) configuration for this example and [uploading](../../../Documentation/Guide/Settings/#upload-configuration) to your API AutoFlow
+
+Learn how to [upload](../../../Documentation/Guide/Settings/#upload-configuration) configuration.
+:::
