@@ -1,10 +1,26 @@
-import Tooltip from '@site/docs/ids/action-iteration-filter/tooltip.md'
-import Description from '@site/docs/ids/action-iteration-filter/description.md'
-import Field0 from '@site/docs/ids/action-iteration-filter/fields/array.md'
-import Field1 from '@site/docs/ids/action-iteration-filter/fields/foreach.md'
-import Field2 from '@site/docs/ids/action-iteration-filter/fields/scope.md'
+import Tooltip from '@site/docs/ids/action-iteration-filter/tooltip.md';
+import Description from '@site/docs/ids/action-iteration-filter/description.md';
+import Field0 from '@site/docs/ids/action-iteration-filter/fields/array.md';
+import Field1 from '@site/docs/ids/action-iteration-filter/fields/foreach.md';
+import Field2 from '@site/docs/ids/action-iteration-filter/fields/scope.md';
+import ActionIterationFilter from '@site/static/img/action-library/iteration/action-iteration-filter.png';
+import FiledIterable from '@site/static/img/action-library/iteration/filter/filter-field-iterable.png';
+import FiledScope from '@site/static/img/action-library/iteration/filter/filter-field-scope.png';
+import FiledDoThis from '@site/static/img/action-library/iteration/filter/filter-field-dothis.png';
+import Example1 from '@site/static/img/action-library/iteration/filter/filter-example-1.png';
+import Example2 from '@site/static/img/action-library/iteration/filter/filter-example-2.png';
+import Example3 from '@site/static/img/action-library/iteration/filter/filter-example-3.png';
+import Example4 from '@site/static/img/action-library/iteration/filter/filter-example-4.png';
+import Example5 from '@site/static/img/action-library/iteration/filter/filter-example-5.png';
+import Example6 from '@site/static/img/action-library/iteration/filter/filter-example-6.png';
 
 # filter
+
+<img
+  alt="action iteration filter privew"
+  src={ActionIterationFilter}
+  width="500px"
+/>
 
 ## Summary
 
@@ -14,17 +30,65 @@ import Field2 from '@site/docs/ids/action-iteration-filter/fields/scope.md'
 
 <Description components={props.components} />
 
+---
+
 ## Fields
 
-### array
+### iterable
 
 <Field0 components={props.components} />
 
-### foreach
+<img alt="action iteration filter privew" src={FiledIterable} />
 
 <Field1 components={props.components} />
 
 ### scope
 
+Define the name of an item in that array.
+
+<img alt="action iteration filter privew" src={FiledScope} />
+
 <Field2 components={props.components} />
 
+### Do this
+
+Execute the action required for filtering
+
+<img alt="action iteration filter privew" src={FiledDoThis} />
+
+---
+
+## Example
+
+### 1. Add item
+
+First, we click add item button
+
+<img alt="action iteration filter privew" src={Example1} />
+Second, we insert value to item
+<img alt="action iteration filter privew" src={Example2} />
+
+### 2. Define scope
+
+We define names to match the array items.
+
+<img alt="action iteration filter privew" src={Example3} />
+
+### 3. Set Do this
+
+We click add action button to select action
+
+<img alt="action iteration filter privew" src={Example4} />
+
+We set is-equal-to action<br/>
+First, Choose a value for comparison <br/>
+Second, Defines a target to compare with value
+
+<img alt="action iteration filter privew" src={Example5} />
+
+### 4. Excute and look at the result
+
+We can run the simulation and see the results and <br/>
+see the array filtered by is-equal-to action
+
+<img alt="action iteration filter privew" src={Example6} />
