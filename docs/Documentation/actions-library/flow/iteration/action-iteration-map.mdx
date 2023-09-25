@@ -4,6 +4,15 @@ import Field0 from '@site/docs/ids/action-iteration-map/fields/array.md';
 import Field1 from '@site/docs/ids/action-iteration-map/fields/foreach.md';
 import Field2 from '@site/docs/ids/action-iteration-map/fields/scope.md';
 import ActionIterationMap from '@site/static/img/action-library/iteration/action-iteration-map.png';
+import FiledIterable from '@site/static/img/action-library/iteration/map/map-field-iterable.png';
+import FiledScope from '@site/static/img/action-library/iteration/map/map-field-scope.png';
+import FiledDoThis from '@site/static/img/action-library/iteration/map/map-field-dothis.png';
+import Example1 from '@site/static/img/action-library/iteration/map/map-example-1.png';
+import Example2 from '@site/static/img/action-library/iteration/map/map-example-2.png';
+import Example3 from '@site/static/img/action-library/iteration/map/map-example-3.png';
+import Example4 from '@site/static/img/action-library/iteration/map/map-example-4.png';
+import Example5 from '@site/static/img/action-library/iteration/map/map-example-5.png';
+import Example6 from '@site/static/img/action-library/iteration/map/map-example-6.png';
 
 # map
 
@@ -23,14 +32,60 @@ import ActionIterationMap from '@site/static/img/action-library/iteration/action
 
 ## Fields
 
-### array
+### iterable
 
 <Field0 components={props.components} />
-
-### foreach
-
+<img alt="action iteration filter privew" src={FiledIterable} />
 <Field1 components={props.components} />
 
 ### scope
 
+Define the name of an item in that array
+
+<img alt="action iteration filter privew" src={FiledScope} />
+
+### do this
+
+Execute the mapping action
+
+<img alt="action iteration filter privew" src={FiledDoThis} />
+
 <Field2 components={props.components} />
+
+---
+
+## Example
+
+### 1. Add item
+
+First, we click add item button.
+
+<img alt="action iteration filter privew" src={Example1} />
+
+Second, we insert value to item.
+
+<img alt="action iteration filter privew" src={Example2} />
+
+### 2. Define scope
+
+We define names to match the array items.
+
+<img alt="action iteration filter privew" src={Example3} />
+
+### 3. Set Do this
+
+We click add action button to select action.
+
+<img alt="action iteration filter privew" src={Example4} />
+
+We set concatenate action. <br/>
+First, insert string to concatenate <br/>
+Second, set with element.
+
+<img alt="action iteration filter privew" src={Example5} />
+
+### 4. Excute and look at the result
+
+We can run the simulation and see the array mapped by concatenate action.
+
+<img alt="action iteration filter privew" src={Example6} />
