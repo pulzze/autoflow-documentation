@@ -32,7 +32,7 @@ import delete_main18 from '@site/static/img/example/api/delete/18_delete_api.png
 <hr/>
 
 We already know how to make basic API from <a href="/docs/Documentation/Examples/API"> API Example Page</a>. <br/>
-This Page explain How to make <span class="method delete">DELETE</span> Method API, Add data in database and Get a response from this <span class="method delete">DELETE</span> API!
+This Page explain How to make <span class="method delete">DELETE</span> Method API, Delete data in database and Get a response from this <span class="method delete">DELETE</span> API!
 
 :::info Goal
 <h3>Add New <span class="method delete">DELETE</span> Path (in APIs Page) </h3><h3>➡️ Add New <span class="method delete">DELETE</span> Path (in Server Page).</h3>
@@ -168,8 +168,8 @@ Let's drage <b>*'user_id'*</b> param to where you want to insert!
 
 #### 3.3.5 Click String type in Params
 
-We want to use <span class="method delete">DELETE</span> Request PATH. <br/>
-So we will this Variable as one of <span class="method delete">DELETE</span> Request PATH.<br/>
+We want to use <span class="method delete">DELETE</span> URL Path. <br/>
+So we will this Variable as one of <span class="method delete">DELETE</span> URL Path.<br/>
 <img src={delete_main12} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 #### 3.3.6 Change to Data type
@@ -198,7 +198,7 @@ So, I will Add one more action to response.<br/>
 ## 4. Test <span class="method delete">DELETE</span> Request and Response
 
 :::info
-I will use <a href="https://www.postman.com/"><b>*POSTMAN*</b></a> to <span class="method delete">DELETE</span> Requset with Request PATH.
+I will use <a href="https://www.postman.com/"><b>*POSTMAN*</b></a> to <span class="method delete">DELETE</span> Requset with URL Path.
 :::
 
 Before starting my user database is as below.
@@ -211,12 +211,12 @@ First, I will <span class="method delete">DELETE</span> with *URL PATH*.
 
 ```URL: http://localhost:8080/user/1``` <br/>
 
-Then I got below Response. Now we can see the Request PATH user's data was deleted in MySQL database.
+Then I got below Response. Now we can see the URL Path user's data was deleted in MySQL database.
 
 <img src={delete_main17} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 Second, I will check the result using Action.
 
-Then I got below Response. Now we can see the Request PATH user's data was deleted in MySQL database.
+Then I got below Response. Now we can see the URL Path user's data was deleted in MySQL database.
 
 <img src={delete_main18} alt="Version Location" class="myResponsiveImg" width="600px"/>
