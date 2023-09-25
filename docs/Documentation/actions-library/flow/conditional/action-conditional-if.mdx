@@ -2,19 +2,177 @@ import Tooltip from '@site/docs/ids/action-conditional-if/tooltip.md'
 import Description from '@site/docs/ids/action-conditional-if/description.md'
 import Field0 from '@site/docs/ids/action-conditional-if/fields/conditions.md'
 
+import if01 from '@site/static/img/action-library/conditional/if/01_if.png';
+import if02 from '@site/static/img/action-library/conditional/if/02_if.png';
+import if03 from '@site/static/img/action-library/conditional/if/03_if.png';
+import if04 from '@site/static/img/action-library/conditional/if/04_if.png';
+import if05 from '@site/static/img/action-library/conditional/if/05_if.png';
+import if06 from '@site/static/img/action-library/conditional/if/06_if.png';
+import if07 from '@site/static/img/action-library/conditional/if/07_if.png';
+import if08 from '@site/static/img/action-library/conditional/if/08_if.png';
+import if09 from '@site/static/img/action-library/conditional/if/09_if.png';
+import if10 from '@site/static/img/action-library/conditional/if/10_if.png';
+import if11 from '@site/static/img/action-library/conditional/if/11_if.png';
+import if12 from '@site/static/img/action-library/conditional/if/12_if.png';
+import if13 from '@site/static/img/action-library/conditional/if/13_if.png';
+import if14 from '@site/static/img/action-library/conditional/if/14_if.png';
+import if15 from '@site/static/img/action-library/conditional/if/15_if.png';
+import if16 from '@site/static/img/action-library/conditional/if/16_if.gif';
+import if17 from '@site/static/img/action-library/conditional/if/17_if.png';
+import if18 from '@site/static/img/action-library/conditional/if/18_if.png';
+
+
 # if
 
 ## Summary
 
-<Tooltip components={props.components} />
+This Action returns values that fits the condition.
 
 ## Description
 
-<Description components={props.components} />
+The <span class="action-field">*IF*</span> statement executes a statement if a specified condition is truthy. <br/>
+If the condition is false, another statement in the optional <span class="action-field">*ELSE-IF*</span> clause will be executed.
 
 ## Fields
 
-### conditions
+In <b>*IF Action*</b> there are 3 type fields.
+- <span class="action-field">IF</span>
+- <span class="action-field">return</span>
+- <span class="action-field">ELSE-IF</span>
 
-<Field0 components={props.components} />
+<img src={if01} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+### - <span class="action-field">IF</span>
+This field is to check If condiion. <br/>
+Basically, default is 'Boolean Type'. <br/>
+Also, you can change the type to <b>*'References Data', 'Action', 'Condtions', 'Comparisons'*</b> like below. 
+
+<img src={if02} alt="Version Location" class="myResponsiveImg" width="500px"/>
+
+### - <span class="action-field">return</span>
+
+This field determines how to return the value that returns when the if statement is true. <br/>
+You can change the type to <b>*'Values (string, number...)', 'References Data', 'Action' ...'*</b> like below. 
+
+<img src={if03} alt="Version Location" class="myResponsiveImg" width="500px"/>
+
+
+### - <span class="action-field">Add ELSE-IF</span>
+
+This field to use when you want to add more if statements. <br/>
+Click to add more else-if statements, as shown below.
+
+<img src={if04} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+:::tip
+If you add Else-if and set the boolean true value in <span class="action-field">ELSE-IF</span> field,<br/>
+the return value can be set to a value that comes out as default in the if statement.
+:::
+
+
+## Example
+
+Let's See how to use IF Action!
+
+### Using Comparisons
+
+Let's imagine.<br/>
+I want to make an if statement true only when data with reference data is data that meets the criteria I set.
+
+:::info goal
+We will put the string ```'Autoflow'``` in the ```ref_data```,<br/>
+the value to ```true``` only if the ```ref_data``` coming through the if statement is ```'Autoflow'```.<br/>
+
+We will get Action result like below.<br/>
+- If condition is ```true```, it would return ```True Result!```
+- If condition is ```false```, it would return ```False Result!```
+:::
+
+#### 1. Prepare Reference Data
+We will make Reference Data by <b>*'Variable/set Action'*</b>
+
+I just add ```value``` as String, then I put ```'Autoflow'``` in value.<br/>
+Then I changed ```OUTPUT```'s name to ```'ref_data'```
+
+<img src={if05} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+<hr/>
+
+#### 2. Change IF Action's Conditon.
+
+I just Click ```'boolean'``` in <span class="action-field">IF</span> field, Then Click ```'equal'```
+
+<img src={if06} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+Then Click ```'number'``` in <span class="action-field">IF</span> field.
+
+<img src={if07} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+Then Click ```'data'``` button.
+
+<img src={if08} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+Change Scope and Path as ```variable > ref_data```
+
+<img src={if09} alt="Version Location" class="myResponsiveImg" width="800px"/>
+<hr/>
+
+Then Click ```'number'``` in <span class="action-field">IF</span> field.
+
+<img src={if10} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+Then Click ```'string'```
+
+<img src={if11} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+#### We are ready to Comparison to use IF Action now! 👏
+
+<img src={if12} alt="Version Location" class="myResponsiveImg" width="600px"/>
+<hr/>
+
+#### 3. Setting ```return``` field.
+
+Click ```null``` in <span class="action-field">return</span> field, then click ```string```
+
+<img src={if13} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+Write ```True Result!``` in <span class="action-field">return</span> field in ```string``` ,<br/>
+Then click <span class="action-field">Add ELSE-IF</span> field to add ```default```
+
+<img src={if14} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+Write ```False Result!``` in <span class="action-field">return</span> field in ```string``` ,<br/>
+
+<img src={if15} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+#### We are ready to get result to use IF Action now! 👏
+
+<hr/>
+
+#### 4. Get a result by using ```Simulation```!
+
+Start Simulation, then See the result! 👀
+
+:::tip 
+You don't know how to use ```Simulation``` in Autoflow? <br/>
+Then, <a href="/docs/Documentation/examples/testing-and-troubleshooting#simulation">Click here! 🔗</a>
+:::
+
+<img src={if16} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+I put comparison string to ```Autoflow``` and ```ref_data``` is ```Autoflow```.<br/>
+That means I will get ```True``` result from ```IF``` Action. <br/>
+
+Now we can see ```True Result!``` in Action output.👀
+
+<img src={if17} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+I put comparison string to ```eric``` and ```ref_data``` is ```Autoflow```.<br/>
+That means I will get ```False``` result from ```IF``` Action.
+
+Also we can see ```False Result!``` in Action output.👀
+
+<img src={if18} alt="Version Location" class="myResponsiveImg" width="600px"/>
+
+
 

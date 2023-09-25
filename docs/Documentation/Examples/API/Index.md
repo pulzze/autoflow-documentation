@@ -26,7 +26,7 @@ import server_main6 from '@site/static/img/example/api/13_server_create_api.png'
 # How to make API in Autoflow? 🤔
 Basically, You can make your API by just <b>Two Step</b>.
 
-:::info
+:::info Two Step
 <h3> Create API ➡️ Create Server </h3>
 :::
 
