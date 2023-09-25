@@ -13,8 +13,12 @@ import MapActionOutput from "@site/static/img/Guide/Service/map-action-output.pn
 import CreateInputOutputArgs from "@site/static/img/Guide/Service/create-input-output-args.png"
 import DefineInputOutput from "@site/static/img/Guide/Service/define-input-output.png"
 import AddNewOperation from "@site/static/img/Guide/Service/add-new-operation.png"
+import AddNewOperation2 from "@site/static/img/Guide/Service/add-new-operation2.png"
 import CreateServiceId from "@site/static/img/Guide/Service/create-service-id.png"
 import CreateNewService from "@site/static/img/Guide/Service/create-new-service.png"
+import AddNewVersion from "@site/static/img/Guide/Service/add-new-version.png"
+import NewInputOutput from "@site/static/img/Guide/Service/new-input-output.png"
+import NewServiceOperation from "@site/static/img/Guide/Service/new-service-operation.png"
 import ServiceOverview from "@site/static/img/Guide/Service/service-overview.png"
 
 # Service (Workflow Abstraction)
@@ -48,7 +52,7 @@ import TutorialService from '@site/static/img/tutorial-services.png';
 
 - A service helps the server by taking out commonly used actions into a reusable group.
 - A service performs a set of operations and its’ [action](../../actions-library)s.
-- A service has an INPUT and an OUTPUT similar to functions in a programming language.
+- A service has an INPUT and an OUTPUT similar to **functions** in a programming language.
 
 For example, a service to get email from a GMAIL API can be reused by many servers, where the service has multiple actions to accomplish the get email task.
 
@@ -73,13 +77,13 @@ For example, a service to get email from a GMAIL API can be reused by many serve
 <div class="myResponsiveImg">
     <img src={AddNewOperation} alt="Adding New Operation" class="myResponsiveImg"/>
 </div>
-
-### Define the input and output
-
-💡 Behind the scene, [JSON Schema](https://json-schema.org/understanding-json-schema/) is used to perform the input and output validation.
-
 <div class="myResponsiveImg">
-    <img src={DefineInputOutput} alt="Defining Input and Output" class="myResponsiveImg"/>
+    <img src={AddNewOperation2} alt="Adding New Operation" class="myResponsiveImg"/>
+</div>
+
+Then a new service operation will be created. Now you can click the service operation to expand.
+<div class="myResponsiveImg">
+    <img src={NewServiceOperation} alt="New Operation" class="myResponsiveImg"/>
 </div>
 
 ### Create Input and Output arguments
@@ -94,10 +98,23 @@ For example, a service to get email from a GMAIL API can be reused by many serve
     "username": { "type": "string" },
     "password": { "type": "string" },
 ```
+### Define the input and output
+
+💡 Behind the scene, [JSON Schema](https://json-schema.org/understanding-json-schema/) is used to perform the input and output validation.
+
+<div class="myResponsiveImg">
+    <img src={DefineInputOutput} alt="Defining Input and Output" class="myResponsiveImg"/>
+</div>
+You can add more input and output values with "add" buttons.
+Checkbox represents input/output value is required or not.
+<div class="myResponsiveImg">
+    <img src={NewInputOutput} alt="Defining Input and Output" class="myResponsiveImg"/>
+</div>
+
 
 ### Add Actions
 
-Refer to the Actions section on how to use Actions.
+Refer to the [Actions](../../Guide/Workflow/Action) section on how to use Actions.
 
 ### Map the Action’s output with the Service operation output
 
@@ -105,6 +122,7 @@ Refer to the Actions section on how to use Actions.
 
 💡 The data stored in the scope variable path output is being mapped to the service’s output
 
+💡 You can put actions using + button in before or after the action.
 ### How to use a Service
 
 Add Service/Operation action
@@ -131,13 +149,17 @@ You can version the Service for easier rollback and management.
 
 ### Add new version
 
+<div class="myResponsiveImg">
+    <img src={AddNewVersion} alt="Setting Data for Service Input" class="myResponsiveImg"/>
+</div>
+
 Press the Add Version to create a new version.
 
 Click on the trash icon to delete the version.
 
 ### Service Data Simulation
 
-Refer to the Data Simulation section for how to use the simulation feature.
+Refer to the [Data Simulation](../../Guide/Workflow/Data%20Simulation) section for how to use the simulation feature.
 
 <div class="myResponsiveImg">
     <img src={ServiceDataSimulation} alt="Service Data Simulation" class="myResponsiveImg"/>

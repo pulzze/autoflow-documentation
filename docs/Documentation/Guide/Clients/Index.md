@@ -7,7 +7,10 @@ import EnteringConnectionInformation from "@site/static/img/Guide/Clients/enteri
 import AddingServer from "@site/static/img/Guide/Clients/adding_server.png"
 import EnterDatabaseInformation from "@site/static/img/Guide/Clients/enter_database_information.png"
 import CreatingId from "@site/static/img/Guide/Clients/creating_id.png"
-import CreatingNewIntent from "@site/static/img/Guide/Clients/creating_new_intent.png"
+import CreatingNewClient from "@site/static/img/Guide/Clients/creating_new_client.png"
+import ConnectionInfo from "@site/static/img/Guide/Clients/connection-info.png"
+import ChooseClient from "@site/static/img/Guide/Clients/choose_client.png"
+import StartConnection from "@site/static/img/Guide/Clients/start_connection.png"
 
 # Clients
 
@@ -17,29 +20,22 @@ import CreatingNewIntent from "@site/static/img/Guide/Clients/creating_new_inten
 
 By configuring the connection with the database credentials and the server information, you can issue any SQL commands to work directly with the database.
 
-## Configuring the Clinet
+## Configuring the Client
 
-### Create a new Intent
-
-<div class= "myResponsiveImg">
-    <img src={CreatingNewIntent} alt="Creating New Intent"/>
-</div>
-
-Create an ID for the connection
+### Create a new Client
 
 <div class= "myResponsiveImg">
-    <img src={CreatingId} alt="Creating an ID"/>
+    <img src={CreatingNewClient} alt="Creating New Client"/>
 </div>
 
-## Start the database connection
-
+## Set the connection info
+Go to Connection info tab by clicking "Connection", then press edit button to edit the info.
+<div class= "myResponsiveImg">
+    <img src={ConnectionInfo} alt="Connection Info"/>
+</div>
+Put connection info, and press save button to save the changes.
 <div class= "myResponsiveImg">
     <img src={EnterDatabaseInformation} alt="Enter dabase information"/>
-</div>
-## Enter the database credential information
-
-<div class= "myResponsiveImg">
-    <img src={AddingServer} alt="Adding a server"/>
 </div>
 
 ## Add a connection Server
@@ -56,18 +52,13 @@ Press the Add Server button
     <img src={EnteringConnectionInformation} alt="Entering Connection information"/>
 </div>
 
-## Event
-
-## Versioning the Connection
-
-You can version the Connection for easier rollback and management.
-
-### Add new version
-
-Press the Add Version to create a new version
-
+### Start the connection
 <div class= "myResponsiveImg">
-    <img src={AddNewVersion} alt="Add a new version"/>
+    <img src={StartConnection} alt="Starting the connection"/>
 </div>
 
-Click on the icon to delete the version.
+### Use Client Connection in action
+now you can use client connection while using a action.
+<div class= "myResponsiveImg">
+    <img src={ChooseClient} alt="Choosing a Client"/>
+</div>
