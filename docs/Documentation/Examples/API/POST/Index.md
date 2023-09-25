@@ -35,7 +35,7 @@ import post_main18 from '@site/static/img/example/api/post/18_post_api.png';
 We already know how to make basic API from <a href="/docs/Documentation/Examples/API"> API Example Page</a>. <br/>
 This Page explain How to make <span class="method post">POST</span> Method API, Add data in database and Get a response from this <span class="method post">POST</span> API!
 
-:::info
+:::info Goal
 <h3>Add New <span class="method post">POST</span> Path (in APIs Page) </h3><h3>➡️ Add New <span class="method post">POST</span> Path (in Server Page).</h3>
 :::
 

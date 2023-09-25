@@ -32,7 +32,7 @@ import get_main16 from '@site/static/img/example/api/get/16_get_api.png';
 We already know how to make basic <span class="method get">GET</span> Method from <a href="/docs/Documentation/Examples/API"> API Example Page</a>. <br/>
 This Page explain How to make <span class="method get">GET</span> Method API with <b> *URL Path* </b>  and Get a response from this API!
 
-:::info
+:::info Goal
 <h3>Add New <span class="method get">GET</span> Path (in APIs Page) </h3><h3>➡️ Add New <span class="method get">GET</span> Path (in Server Page).</h3>
 :::
 
