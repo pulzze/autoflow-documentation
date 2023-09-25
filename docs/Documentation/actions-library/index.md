@@ -2,25 +2,26 @@
 sidebar_position: 7
 ---
 
-# Actions Library
+# Actions Library 📚
 
 import ActionHighlight from '@site/static/img/action-library/action-highlight.png';
-import ActionModal from '@site/static/img/action-library/action-modal.png';
+import ActionModal from '@site/static/img/action-library/action-modal.gif';
 
 Download [Action Cheat Sheet](@site/static/file/api_autoflow_action_cheatsheet.pdf)
 
-### Add an action(s)
+## How to Add Action? 🤔
 
-Click the + Actions button to add an action.
+### - Add an action(s)
 
-<div class="myResponsiveImg">
-    <img src={ActionHighlight} alt="Version Location" class="myResponsiveImg"/>
-</div>
+Click the <span class="action-field">ADD ACION</span> button to add an action.
 
-Select an action
 
-Use string/join action to join two strings.
+<img src={ActionHighlight} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
-<div class="myResponsiveImg">
-    <img src={ActionModal} alt="Version Location" class="myResponsiveImg"/>
-</div>
+<hr/>
+
+### - Select an action
+
+Use <span class="action-field">string/join</span> action to join two strings.
+
+<img src={ActionModal} alt="Version Location" class="myResponsiveImg" width="800px"/>

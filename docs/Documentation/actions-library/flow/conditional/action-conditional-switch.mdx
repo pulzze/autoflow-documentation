@@ -4,27 +4,55 @@ import Field0 from '@site/docs/ids/action-conditional-switch/fields/value.md'
 import Field1 from '@site/docs/ids/action-conditional-switch/fields/cases.md'
 import Field2 from '@site/docs/ids/action-conditional-switch/fields/default.md'
 
+import switch01 from '@site/static/img/action-library/conditional/switch/01_switch.png';
+import switch02 from '@site/static/img/action-library/conditional/switch/02_switch.png';
+import switch03 from '@site/static/img/action-library/conditional/switch/03_switch.png';
+import switch04 from '@site/static/img/action-library/conditional/switch/04_switch.png';
+import switch05 from '@site/static/img/action-library/conditional/switch/05_switch.png';
+import switch06 from '@site/static/img/action-library/conditional/switch/06_switch.png';
+
+
 # switch
 
 ## Summary
 
-<Tooltip components={props.components} />
+This Action returns values that fits on switch case.<br/>
+If the input value is not in the case list, it returns the value of default.
 
 ## Description
 
-<Description components={props.components} />
+The <span class="action-field">SWITCH</span> ACTION evaluates an expression, matching the expression's value against a series of <span class="action-field">*CASE*</span> clauses,
+and executes statements after the first <span class="action-field">*CASE*</span> clause with a matching value, until <span class="action-field">*DEFAULT*</span> statement is encountered. <span class="action-field">*DEFAULT*</span> clause of a switch statement will be jumped to if no <span class="action-field">*CASE*</span>  matches the expression's value.
 
 ## Fields
 
-### value
+In <b>*SWITCH Action*</b> there are 5 type fields.
 
-<Field0 components={props.components} />
+- <span class="action-field">SWITCH</span> : Criteria for SWITCH
+- <span class="action-field">CASE</span> : Target's CASE
+- <span class="action-field">Return</span> : Return result IF the Creteris is 'CASE'
+- <span class="action-field">Add CASE</span> : Add more CASE
+- <span class="action-field">Default Return</span> : Default return result
 
-### cases
+<img src={switch01} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
-<Field1 components={props.components} />
+### - <span class="action-field">SWITCH</span>
 
-### default
 
-<Field2 components={props.components} />
+<img src={switch02} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
+### - <span class="action-field">CASE</span>
+
+<img src={switch03} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+### - <span class="action-field">Return</span>
+
+<img src={switch04} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+### - <span class="action-field">Add CASE</span>
+
+<img src={switch05} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+### - <span class="action-field">Default Return</span>
+
+<img src={switch06} alt="Version Location" class="myResponsiveImg" width="800px"/>
