@@ -14,8 +14,8 @@ const config = {
   url: 'https://docs.interactor.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/apiautoflow',
-
+  baseUrl: '/ent',
+  
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Interactor', // Usually your GitHub org/user name.
@@ -104,7 +104,6 @@ const config = {
             label: 'interactor.com',
             to: 'https://www.interactor.com'
           }
-
         ],
       },
       // footer: {
@@ -155,6 +154,11 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        appId: 'DPF7QMWM4V',
+        apiKey: '9fc86bff4caee021f5158c1fce157447', // 여기에 Algolia API 키를 입력하세요.
+        indexName: 'interactor', // 여기에 Algolia 인덱스 이름을 입력하세요.
       },
     }),
 };
