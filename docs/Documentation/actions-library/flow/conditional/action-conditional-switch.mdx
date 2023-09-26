@@ -10,6 +10,24 @@ import switch03 from '@site/static/img/action-library/conditional/switch/03_swit
 import switch04 from '@site/static/img/action-library/conditional/switch/04_switch.png';
 import switch05 from '@site/static/img/action-library/conditional/switch/05_switch.png';
 import switch06 from '@site/static/img/action-library/conditional/switch/06_switch.png';
+import if05 from '@site/static/img/action-library/conditional/if/05_if.png';
+import switch07 from '@site/static/img/action-library/conditional/switch/07_switch.png';
+import switch08 from '@site/static/img/action-library/conditional/switch/08_switch.png';
+import switch09 from '@site/static/img/action-library/conditional/switch/09_switch.png';
+import switch10 from '@site/static/img/action-library/conditional/switch/10_switch.png';
+import switch11 from '@site/static/img/action-library/conditional/switch/11_switch.png';
+import switch12 from '@site/static/img/action-library/conditional/switch/12_switch.png';
+import switch13 from '@site/static/img/action-library/conditional/switch/13_switch.png';
+import switch14 from '@site/static/img/action-library/conditional/switch/14_switch.png';
+import switch15 from '@site/static/img/action-library/conditional/switch/15_switch.png';
+import switch16 from '@site/static/img/action-library/conditional/switch/16_switch.png';
+import switch17 from '@site/static/img/action-library/conditional/switch/17_switch.png';
+import switch18 from '@site/static/img/action-library/conditional/switch/18_switch.png';
+import switch19 from '@site/static/img/action-library/conditional/switch/19_switch.gif';
+import switch20 from '@site/static/img/action-library/conditional/switch/20_switch.png';
+import switch21 from '@site/static/img/action-library/conditional/switch/21_switch.png';
+import switch22 from '@site/static/img/action-library/conditional/switch/22_switch.png';
+
 
 
 # switch
@@ -36,23 +54,173 @@ In <b>*SWITCH Action*</b> there are 5 type fields.
 
 <img src={switch01} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
+<hr/>
+
 ### - <span class="action-field">SWITCH</span>
 
+This field is Criteria for <span class="action-field">SWITCH</span>.
+You can change the type to <b>*'Values (string, number...)', 'References Data', 'Action' ...'*</b> like below. <br/>
 
 <img src={switch02} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
+:::tip
+But, I suggest use <b>*'Reference Data'*</b> or <b>*'Action'*.</b> type. <br/>
+Because we need value that changes through the case.
+:::
+
 ### - <span class="action-field">CASE</span>
+
+This field is Target's <span class="action-field">CASE</span>.<br/>
+Usually, use <b>*String*</b> Type, but you can use another types,<br/>
+For examples, <b>*Object, Referece Data, Action...*</b>
 
 <img src={switch03} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
+:::tip
+But, I suggest use kind of Fixed Value. <br/>
+Such as <b>*'string'*</b> or <b>*'number'*.</b> type. <br/>
+Because Case requires a fixed value.
+:::
+
 ### - <span class="action-field">Return</span>
+
+This field is 'Return' result If the <span class="action-field">SWITCH</span> is same with <span class="action-field">CASE</span>.<br/>
+You can change <span class="action-field">Return</span> Type to <b>*Object, Referece Data, Action...*</b>
 
 <img src={switch04} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 ### - <span class="action-field">Add CASE</span>
 
+If you want to make more <span class="action-field">CASE</span>, <br/>
+Click <span class="action-field">Add CASE</span> button.<br/>
+Then you can make more <span class="action-field">CASE</span> whatever you want!
+
 <img src={switch05} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 ### - <span class="action-field">Default Return</span>
 
+This field is <b>*Default Return*</b><br/>
+If the <span class="action-field">SWITCH</span> is not fits any <span class="action-field">CASE</span>,<br/>
+You will get <b>*'Default Return'*</b> from this field.
+
 <img src={switch06} alt="Version Location" class="myResponsiveImg" width="800px"/>
+<hr/>
+
+## Example
+
+Let's Use SWITCH ACTION!
+### Target - *String* Example
+
+Let's imagine.<br/>
+I want to make an if statement true only when data with reference data is data that meets the criteria I set.
+
+:::info goal
+We will put the string ```'Autoflow'``` in the ```ref_data```,<br/>
+If the value is the same as <span class="action-field">CASE</span> criterion, the value will be returned as ```'ref is autoflow!'```. If not, I would return ```Default Return``` value.
+
+We will get Action result like below.<br/>
+- If ```ref_data``` is the same as <span class="action-field">CASE</span>,
+    - it would return ```'ref is Autoflow!'```
+- If ```ref_data``` is not the same as <span class="action-field">CASE</span>,
+    - it would return ```'ref is not in CASE!'```
+:::
+
+#### 1. Prepare Reference Data
+We will make Reference Data by <b>*'Variable/set Action'*</b>
+
+I just add ```value``` as String, then I put ```'Autoflow'``` in value.<br/>
+Then I changed ```OUTPUT```'s name to ```'ref_data'```
+
+<img src={if05} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+<hr/>
+
+#### 2. Set up SWITCH Action.
+
+##### 2.1. Set up <span class="action-field">SWITCH</span> field.
+Click ```'null'``` to change ```'data'``` type.
+<img src={switch07} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Click ```'data'``` type.
+
+<img src={switch08} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Change Scope and Path as ```variable > ref_data```
+
+<img src={switch09} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+##### 2.2. Set up <span class="action-field">CASE</span> field.
+
+Click ```'null'``` to change ```'string'``` type.
+
+<img src={switch10} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Click ```'string'``` type.
+
+<img src={switch11} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Write ```Autoflow``` in <span class="action-field">CASE</span> field's value.
+
+<img src={switch12} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+##### 2.3. Set up <span class="action-field">Return</span> field.
+
+Click ```'null'``` to change ```'string'``` type.
+
+<img src={switch13} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Select ```'string'``` type.
+
+<img src={switch14} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Write ```'ref is Autoflow'``` in <span class="action-field">Return</span> field's value.
+
+<img src={switch15} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+##### 2.4. Set up <span class="action-field">Default Return</span> field.
+
+<img src={switch16} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Select ```'string'``` type.
+
+<img src={switch17} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Write ```'ref is not in CASE'``` in in <span class="action-field">Default Return</span> field's value.
+
+<img src={switch18} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+##### We are ready to use SWITCH Action! 👏
+
+<hr/>
+
+#### 3. Get a result by using ```Simulation```!
+
+Start Simulation, then See the result! 👀
+
+:::tip 
+You don't know how to use ```Simulation``` in Autoflow? <br/>
+Then, <a href="/docs/Documentation/examples/testing-and-troubleshooting#simulation">Click here! 🔗</a>
+:::
+
+<img src={switch19} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+##### 3.1 Revive simulation to the corresponding value of the case.
+
+I put <span class="action-field">CASE</span> string to ```Autoflow``` and ```ref_data``` is ```Autoflow```.
+That means I will get one of SWICH <span class="action-field">CASE</span> result from SWITCH Action.
+
+Now we can see Result! in Action output.👀 <br/>
+ACTION ```OUPUT``` is ```'ref is Autoflow!'``` which we wanted to get.
+<img src={switch20} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+##### 3.2 Revive simulation to values that do not correspond to the case.
+
+This time, let's change the ```ref-data``` value to ```'eric'```. <br/>
+This means that it does not correspond to SWITCH <span class="action-field">CASE</span>.<br/> 
+We can imagine that the result will be a <span class="action-field">Default Return</span> value.
+
+<img src={switch21} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Now we can see Result! in Action output.👀 <br/>
+ACTION ```OUPUT``` is ```'ref is not in CASE!'``` which we imagined.
+<img src={switch22} alt="Version Location" class="myResponsiveImg" width="800px"/>
