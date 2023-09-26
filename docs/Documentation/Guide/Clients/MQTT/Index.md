@@ -15,4 +15,4 @@ You can configure action flow for specific MQTT topic.
     <img src={NewTopicEvent} alt="New Topic Event"/>
 </div>
 
-Add [action](../../Guide/Workflow/Action) in the topic event, then action flow will be started when topic is published.
+Add [action](../../Workflow/Action) in the topic event, then action flow will be started when topic is published.
