@@ -16,7 +16,7 @@ import example_config from '@site/static/file/config-data-transformation-example
 
 # 1 to N
 
-Received data from a single source such as log in a string format and split the records into an array of entries.
+Received data from a single source such as a log and split the records into an array of entries.
 
 ## Data Objective
 
@@ -49,18 +49,19 @@ The objective is to extract the IP address and Port number. To do that, we can l
 %ASA-6-302013: TCP connection 933 OUTSIDE:172.217.169.68
 ```
 
-Similar to how the earlier [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx) action was used to split the string by a new line;
+Similar to how the earlier [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx) action was used to split the string on a new line;
 
-An action to split the string by pattern called [string/split-by](Documentation/actions-library/data/string/action-string-split-by.mdx) can be used to further isolate the value.  
+An action to split the string by pattern [string/split-by](Documentation/actions-library/data/string/action-string-split-by.mdx) can be used to further isolate the value.  
 
 <img src={img_1to_n_explanation_1} alt="1 to N explanation" class="myResponsiveImg" width="800px"/>
 
 Finally using **Return**, put the data in the desired standardized JSON object format.
 
+&nbsp;<br />
 
-:::info Try Sample Configuration for this Example
+:::note Download This Example
 
-[Download](@site/static/file/config-data-transformation-example.json) configuration for this example and [uploading](../../../Documentation/Guide/Settings/#upload-configuration) to your API AutoFlow
+[Download](@site/static/file/config-data-transformation-example.json) configuration for this example and [upload](../../../Documentation/Guide/Settings/#upload-configuration) to your API AutoFlow
 
 Learn how to [upload](../../../Documentation/Guide/Settings/#upload-configuration) configuration.
 :::
