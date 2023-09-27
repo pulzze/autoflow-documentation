@@ -45,7 +45,7 @@ This Page explains How to make <span class="method put">PUT</span> Method API, u
 :::
 
 As you know, we already made API and Server.<br/>
-So, we just add the <b>NEW PATH</b> and Add this in the <b>Server</b>. in Autoflow<br/>
+So, we just add the <b>NEW PATH</b> and Add this in the <b>Server</b> in Autoflow<br/>
 Follow the below steps!
 
 <hr/>
@@ -155,7 +155,7 @@ If you don't know how to connect Client, <a href="/docs/Documentation/Guide/Clie
 #### 3.3.2 Write UPDATE SQL in 'Query'
 
 Our goal is Insert Query in Database from <span class="method put">PUT</span> *URL PATH*. <br/>
-Write DELETE QUERY and Select 'Write' in Type.<br/>
+Write UPDATE QUERY and Select 'Write' in Type.<br/>
 I only wrote ```UPDATE `account` SET name =   WHERE id = ;``` <br/>
 Because I will put the values from <span class="method put">PUT</span> *URL PATH & Request Body*.
 

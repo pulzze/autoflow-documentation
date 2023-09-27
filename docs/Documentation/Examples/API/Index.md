@@ -137,10 +137,10 @@ That's why you can access <b>http://localhost:8080/hello</b> without <b>404 erro
 
 ## HTTP Method Examples! 📡
 
-### <a href="/docs/Documentation/Examples/API/GET"> - <span class="method get method-title">GET</span> </a>
-### <a href="/docs/Documentation/Examples/API/POST"> - <span class="method post method-title">POST</span></a>
-### <a href="/docs/Documentation/Examples/API/DELETE"> - <span class="method delete method-title">DELETE</span></a>
-### <a href="/docs/Documentation/Examples/API/PUT"> - <span class="method put method-title">PUT</span></a>
+### <a href="/docs/Documentation/Examples/API/Method/GET"> - <span class="method get method-title">GET</span> </a>
+### <a href="/docs/Documentation/Examples/API/Method/POST"> - <span class="method post method-title">POST</span></a>
+### <a href="/docs/Documentation/Examples/API/Method/DELETE"> - <span class="method delete method-title">DELETE</span></a>
+### <a href="/docs/Documentation/Examples/API/Method/PUT"> - <span class="method put method-title">PUT</span></a>
 
 :::tip
 You can see how to make each API Method.

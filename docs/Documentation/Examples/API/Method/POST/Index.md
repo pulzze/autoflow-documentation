@@ -40,7 +40,7 @@ This page explains how to make <span class="method post">POST</span> method API,
 :::
 
 As you know, we already made API and Server.<br/>
-So, we just add a <b>NEW PATH</b> and Add this in the <b>Server</b>. in Autoflow<br/>
+So, we just add a <b>NEW PATH</b> and Add this in the <b>Server</b> in Autoflow<br/>
 Follow the below steps!
 
 <hr/>
