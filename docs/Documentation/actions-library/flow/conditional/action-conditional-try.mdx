@@ -6,6 +6,21 @@ import Field1 from '@site/docs/ids/action-conditional-try/fields/onError.md'
 import try01 from '@site/static/img/action-library/conditional/try/01_try.png';
 import try02 from '@site/static/img/action-library/conditional/try/02_try.png';
 import try03 from '@site/static/img/action-library/conditional/try/03_try.png';
+import try04 from '@site/static/img/action-library/conditional/try/04_try.png';
+import try05 from '@site/static/img/action-library/conditional/try/05_try.png';
+import try06 from '@site/static/img/action-library/conditional/try/06_try.png';
+import try07 from '@site/static/img/action-library/conditional/try/07_try.png';
+import try08 from '@site/static/img/action-library/conditional/try/08_try.png';
+import try09 from '@site/static/img/action-library/conditional/try/09_try.png';
+import try10 from '@site/static/img/action-library/conditional/try/10_try.png';
+import try11 from '@site/static/img/action-library/conditional/try/11_try.png';
+import try12 from '@site/static/img/action-library/conditional/try/12_try.png';
+import try13 from '@site/static/img/action-library/conditional/try/13_try.png';
+import try14 from '@site/static/img/action-library/conditional/try/14_try.png';
+import try15 from '@site/static/img/action-library/conditional/try/15_try.png';
+
+
+
 
 # try
 
@@ -41,4 +56,93 @@ You can select any types, such as <b>*'string'*</b>, <b>*'number'*.</b> or <b>*'
 
 <img src={try03} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
+<hr/>
+
 ## Example
+
+Let's Use Try ACTION!
+
+:::info Goal
+We will get Result like below<br/>
+- If <span class="action-field">value</span> is not on Error,
+    - ```body``` return ```'try is not on error!'```
+- If <span class="action-field">value</span> is on Error,
+    - ```body``` return ```'Error occured!'```
+:::
+
+
+### 1. Let's create a situation where an error occurs or not.
+Let's imagine.<br/>
+First I will make the message ```'Error occured!'``` in ```body``` if the action entering the <span class="action-field">value</span> is on error. <br/>
+Second, if there is no error in <span class="action-field">value</span>, ```'try is not on error!'``` message will be sent in ```body```.
+
+#### 1.1 Add ```array-add``` Action. in <span class="action-field">value</span>
+
+We will use <b>*array-add*</b> Action in <span class="action-field">value</span>.<br/>
+This Action needs <b>item</b> field.<br/>
+If <b>item</b> is <b>undefiend</b>, the Action will be on error.<br/>
+
+Click ```Add Action``` button.
+<img src={try04} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Click ```array``` button.
+
+<img src={try05} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Click ```add``` button.
+
+<img src={try06} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Now we can see <b>item</b> is ```undefiend```.<br/>
+It will make error.
+
+<img src={try07} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Click ```RETURN``` button.
+
+<img src={try08} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Then Click ```string ``` button.
+
+<img src={try09} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Write ```'try is not on error'``` like below.
+
+<img src={try10} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+#### 1.2 Setting <span class="action-field">onError</span>
+
+If there is an error, ```'Error occured!'``` message will go to the ```body```.
+
+Click ```undefiend``` in <span class="action-field">onError</span>
+
+<img src={try11} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Select ```string```.
+
+<img src={try12} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+Write ```'Error occured'```
+
+<img src={try13} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+#### We are ready to use Try Action now! 👏
+
+#### 1.3 Test the Try Action with ```Simulation```
+
+:::tip 
+You don't know how to use ```Simulation``` in Autoflow? <br/>
+Then, <a href="/docs/Documentation/Examples/testing-and-troubleshooting#simulation">Click here! 🔗</a>
+:::
+
+The first situation is an error in <span class="action-field">value</span>.<br/>
+When you press the trace button on the output data mapping part,<br/>
+you can see that ```'Error occured'``` is in the body at the bottom right.
+
+<img src={try14} alt="Version Location" class="myResponsiveImg" width="800px"/>
+
+The second situation is no error in <span class="action-field">value</span>.<br/>
+When you press the trace button on the output data mapping part,
+you can see that ```'try is not on error'```is in the body at the bottom right.
+
+<img src={try15} alt="Version Location" class="myResponsiveImg" width="800px"/>

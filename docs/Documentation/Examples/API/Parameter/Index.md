@@ -47,7 +47,7 @@ So, we just add the <b>NEW PATH</b> and Add this in the <b>Server</b> in Autoflo
 Follow the below steps!
 
 :::note
-We will make the below <span class="method get">GET</span> method with the URL path. <br/>
+We will make the below <span class="method get">GET</span> method with the URL Parameter. <br/>
 <span class="method get">GET</span> /user/&#123;user_info&#125; <br/>
 We will send below URL with parameter<br/>
 <img src={param01} alt="Version Location" class="myResponsiveImg" width="800px"/> <br/>
