@@ -56,7 +56,7 @@ The toolbar is used to navigate between different sections of API AutoFlow. The 
 
 ## Workspace
 
-The workspace is where the [workflow](@site/docs/Documentation/Guide/Workflow/Index.md) is configuration.
+The workspace is where the [workflow](@site/docs/Documentation/Guide/Workflow/Index.md) is configured.
 
 <div class="myResponsiveImg">
     <img src={WorkSpace} alt="Version Location" class="myResponsiveImg"/>
@@ -64,7 +64,7 @@ The workspace is where the [workflow](@site/docs/Documentation/Guide/Workflow/In
 
 ## Right Panel
 
-The right panel is where you will find helpful information during the configuration such as logs, traced data, and more. Right panel is divided into upper and lower panes.
+The right panel is where you will find helpful information during the configuration such as logs, traced data, and more. The right panel is divided into upper and lower panes.
 
 <div class="myResponsiveImg">
     <img src={RightPanel} alt="Version Location" class="myResponsiveImg"/>

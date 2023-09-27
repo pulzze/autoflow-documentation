@@ -20,34 +20,34 @@ import server_main6 from '@site/static/img/example/api/13_server_create_api.png'
 
 # API
 *An application programming interface (API).* <br/>
-*This page you can see how to make API in Autoflow.*
+*On this page you can see how to make API in Autoflow.*
 <hr/>
 
 # How to make API in Autoflow? 🤔
-Basically, You can make your API by just <b>Two Step</b>.
+Basically, You can make your API with just <b>Two Steps</b>.
 
 :::info Two Step
 <h3> Create API ➡️ Create Server </h3>
 :::
 
 ## 1. Create API
-First, you should create API in API page.<br/>
+First, you should create API on the API page.<br/>
 
 :::tip
 To make API, you should Make API first. Let's See How to make API!
 :::
 
-### 1.1. Click create button
-Click left button them Click 'Create New' button.
+### 1.1. Click the Create button
+Click the left button then Click the 'Create New' button.
 <img src={api_main} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
-### 1.2. Write API's name.
+### 1.2. Write the API's name.
 Write your API's Name
 <img src={api_main2} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 :::tip
-<b>API name</b> Must be at least <b> 2 </b> character(s).<br/>
-Also, ID may only <b> contain lowercase letters, numbers, hyphens, and underscores </b>.
+<b>API name</b> Must be at least <b> 2 </b> characters.<br/>
+Also, ID may only <b> contain lowercase letters, numbers, hyphens, and underscores</b>.
 :::
 
 When you create API, you can see below screen.
@@ -59,7 +59,7 @@ Also, When you click API Operation,
 <img src={api_main4} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 ### 1.4. API page overview
-You can make API Path by UI or Using OpenAPI.
+You can make an API Path by UI or Using OpenAPI.
 <img src={api_main5} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 :::tip
@@ -68,62 +68,62 @@ If you want to know how to write OpenAPI schema, You can see <a href="https://sw
 
 ### 1.5. Add API Path
 
-Click <b>Add Path</b> button,<br/>
-then write <b>Path name</b>, then Select <b>Method</b> which you want to make.
+Click the <b>Add Path</b> button,<br/>
+then write the <b>Path name</b>, then Select the <b>Method</b> that want to make.
 <img src={api_main6} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 ### 1.6 Add Information or Response (Optional)
 
-When you add Path, bascially when you make <b>Path</b>, this page is done. <br/>
+When you add Path, basically when you make <b>Path</b>, this page is done. <br/>
 
 <img src={api_main7} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 :::tip
-But, If you want to write Description of this API's Path,<br/>
+But, If you want to write description of this API's Path,<br/>
 You can write Additional Infomation, you should Click <b>Info</b>, <br/>
-Also, If you want to make Response, you can Add <b>Responses</b> to click <b>Responses</b> button.
+Also, If you want to make response, you can Add <b>Responses</b> by clicking the <b>Responses</b> button.
 :::
 
 <hr/>
 
 ## 2. Create Server
 
-Second, when you finished make API, you should create <b>Server</b> in Server page.<br/>
-Let's See How to make API in Server Page!
+Second, when you finished making the API, you should create a <b>Server</b> on the Server page.<br/>
+Let's See How to make API on the Server Page!
 
 
-### 2.1. Click create button
+### 2.1. Click the create button
 
-Click left button them Click 'Create New' button.
+Click the left button then Click the 'Create New' button.
 <img src={server_main} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 ### 2.2. Write Server Name
 
-Write your <b>Server's Name</b>, and <b>Port Number</b>.<br/>
+Write your <b>Server's Name</b> and <b>Port Number</b>.<br/>
 Then you must select your <b>'API'</b> which you made from Step 1.
 
 <img src={server_main2} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 :::tip
-<b>Server name</b> Must be at least <b> 2 </b> character(s).<br/>
+The <b>Server name</b> Must be at least <b> 2 </b> characters.<br/>
 Also, ID may only <b> contain lowercase letters, numbers, hyphens, and underscores </b>.
 :::
 
 ### 2.3. Click your Server
 
-You can <b>Delete Server</b> here. Also, You can <b>Stop Server.</b><br/>
+You can <b>Delete the Server</b> here. Also, You can <b>Stop the Server.</b><br/>
 When you click Server Operation,
 <img src={server_main3} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 ### 2.4. Add API Operation
 
-Click <b>Add API Operation</b> Button, then Select your <b>API</b> which you made from Step 1.
+Click the <b>Add API Operation</b> Button, then Select the <b>API</b> that made from Step 1.
 <img src={server_main4} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 
 ### 2.5. Overview Server
 
-When you see below screen, Your API (include server) is already done! <br/>
+When you see the below screen, Your API (including the server) is already done! <br/>
 <img src={server_main5} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 #### Now your can access your Server. 👏

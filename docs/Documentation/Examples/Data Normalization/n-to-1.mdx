@@ -20,18 +20,18 @@ Received data from a single source such as a log and split the records into an a
 
 ## Data Objective
 
-In this example, syslog from Cisco ASA 302013 firewall which is in a string format is normalized into a standardized JSON format.
+In this example, syslog from the Cisco ASA 302013 firewall which is in a string format is normalized into a standardized JSON format.
 
 <img src={img_1to_n_example} alt="1 to N example" class="myResponsiveImg" width="800px"/>
 
 :::info Process
 1. The process will be to split the string on each line to create an array of records.
-2. Than apply various actions to extract the value(s).
+2. Then apply various actions to extract the value(s).
 :::
 
 ## Transforming the data
 
-1. First to split the log on a new line, us the action [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx).
+1. First to split the log on a new line, use the action [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx).
 2. Second, loop over the records using the action [iteration/map](Documentation/actions-library/flow/iteration/action-iteration-map.mdx).
 
 
@@ -43,7 +43,7 @@ Actions can be applied flexibly to work on any form of data.
 
 ## Working on each record
 
-The objective is to extract the IP address and Port number. To do that, we can look for patterns **TCP connection** and **OUTSIDE:**. Then select the value that follows those patterns.
+The objective is to extract the IP address and Port number. To do that, we can look for patterns of the **TCP connection** and **OUTSIDE:**. Then select the value that follows those patterns.
 
 ```
 %ASA-6-302013: TCP connection 933 OUTSIDE:172.217.169.68
@@ -61,7 +61,7 @@ Finally using **Return**, put the data in the desired standardized JSON object f
 
 :::note Download This Example
 
-[Download](@site/static/file/config-data-transformation-example.json) configuration for this example and [upload](../../../Documentation/Guide/Settings/#upload-configuration) to your API AutoFlow
+[Download](@site/static/file/config-data-transformation-example.json) the configuration for this example and [upload](../../../Documentation/Guide/Settings/#upload-configuration) it to your API AutoFlow
 
 Learn how to [upload](../../../Documentation/Guide/Settings/#upload-configuration) configuration.
 :::

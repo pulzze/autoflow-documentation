@@ -45,9 +45,9 @@ import ApiAutoflow from "@site/static/img/Guide/getting-started/ApiAutoflow.png"
 
 ### Server
 
-A server hosts the API and performs set of operations. A server has a port number and set of security rules before it performs set of workflows for the application. A server can utilize all the features in the product including database, files, clients, and more
+A server hosts the API and performs a set of operations. A server has a port number and a set of security rules before it performs set of workflows for the application. A server can utilize all the features in the product including database, files, clients, and more
 
-Everything else in the product are there to support the Server.
+Everything else in the product is there to support the Server.
 
 ### Libraries
 
@@ -61,9 +61,9 @@ The API defines how API AutoFlow receives and responds to API requests. For inst
 
 A service helps the server by taking out commonly used actions into a reusable group.
 
-A service an INPUT and an OUTPUT similar to functions in a programming language.
+A service an INPUT and an OUTPUT are similar to functions in a programming language.
 
-As service performs a set of operations with actions in it.
+A service performs a set of operations with actions in it.
 
 For example, a service to get an email from a GMAIL API can be reused by many servers.
 

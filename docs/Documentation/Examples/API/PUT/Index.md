@@ -37,44 +37,44 @@ import put_main20 from '@site/static/img/example/api/put/20_put_api.png';
 <hr/>
 
 
-We already know how to make basic API from <a href="/docs/Documentation/Examples/API"> API Example Page</a>. <br/>
-This Page explain How to make <span class="method put">PUT</span> Method API, Update data in database and Get a response from this <span class="method put">PUT</span> API!
+We already know how to make basic API from the <a href="/docs/Documentation/Examples/API"> API Example Page</a>. <br/>
+This Page explains How to make <span class="method put">PUT</span> Method API, update data in the database, and Get a response from this <span class="method put">PUT</span> API!
 
 :::info Goal
 <h3>Add New <span class="method put">PUT</span> Path (in APIs Page) </h3><h3>➡️ Add New <span class="method put">PUT</span> Path (in Server Page).</h3>
 :::
 
 As you know, we already made API and Server.<br/>
-So, we just add <b>NEW PATH</b> and Add this in <b>Server</b>. in Autoflow<br/>
-Follow below steps!
+So, we just add the <b>NEW PATH</b> and Add this in the <b>Server</b>. in Autoflow<br/>
+Follow the below steps!
 
 <hr/>
 
 :::note
 We will make below <span class="method put">PUT</span> /user/{user_id}<br/>
-Then we will update data in Database by <span class="method put">PUT</span> /user/{user_id} with Request Body.
+Then we will update data in the database by <span class="method put">PUT</span> /user/{user_id} with Request Body.
 :::
 
-Before Starting, Assuming that <b><a href="/docs/Documentation/Guide/Clients/">Clients</a></b> is already connected, this page will only explain the post method.
+Before Starting, Assuming that the <b><a href="/docs/Documentation/Guide/Clients/">Clients</a></b> is already connected, this page will only explain the post method.
 
 ## 1. Add New Path with URL Path
 
 We already made Autoflow API and Autoflow Server.<br/>
 So we will use this which we made.<br/>
-Then just add new <b>Path</b>.
-### 1.1 Click Add Path button and write your Path name!
+Then just add a new <b>Path</b>.
+### 1.1 Click the Add Path button and write your Path name!
 
-First, we click Add Path button. Then we will write path name. <br/>
-And we select <span class="method put">PUT</span> Method.
+First, we click the Add Path button. Then we will write the path name. <br/>
+We select the <span class="method put">PUT</span> Method.
 <img src={put_main} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 :::tip
-You can write <b>URL path Name</b> whatever you want to write.
+You can write the <b>URL path Name</b> whatever you want to write.
 :::
 
 ### 1.2 API page Overview
 
-When you added <b>New path</b>, We can see below new Path.
+When you added a <b>New path</b>, We can see below the new Path.
 
 <span class="method put">PUT</span>
 
@@ -83,14 +83,14 @@ When you added <b>New path</b>, We can see below new Path.
 <img src={put_main2} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 :::tip
-Also, you can make this path by <a href="https://swagger.io/docs/specification/about/">OpenAPI</a> schema on rightside!
+Also, you can make this path by <a href="https://swagger.io/docs/specification/about/">OpenAPI</a> schema on the right side!
 :::
 
 <hr/>
 
-## 2. Add New Path in Server!
-Let's Add New Path in Server!<br/>
-As you know, we already made Server from <a href="/docs/Documentation/Examples/API">API Example Page</a>. <br/>
+## 2. Add a New Path to the Server!
+Let's Add a New Path to the Server!<br/>
+As you know, we already made a Server from the <a href="/docs/Documentation/Examples/API">API Example Page</a>. <br/>
 
 ### 2.1. Click Server Page, Then Click Server Operation!
 
@@ -100,11 +100,11 @@ Click Server Page, then Click Server Operation which we made it before!
 
 ### 2.2. Click Add API Operation, Then Click your new Path!
 
-Clic Add API Operation, then Click your new PATH.
+Click Add API Operation, then Click your new PATH.
 <img src={put_main3} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
-Now we can see below screen.<br/>
-The api has already been made and completed.<br/>
+Now we can see the below screen.<br/>
+The API has already been made and completed.<br/>
 However, our goal is to send  <span class="method put">PUT</span> ```/user/{user_id}``` with URL PATH and Request Body<br/>
 <img src={put_main4} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
@@ -116,18 +116,18 @@ Now we can use <span class="method put">PUT</span> /user/{user_id} <br/>
 
 ## 3. Delete User Data using Action.
 
-Using <span class="method put">PUT</span> ```/user/{user_id} ```<br/> Let's Delete User data in Database! <br/>
+Using <span class="method put">PUT</span> ```/user/{user_id} ```<br/> Let's delete the user data in the database! <br/>
 To parse Data, we should add Autoflow <b>Action</b>.
 
-### 3.1 Click Add Action button
+### 3.1 Click the Add Action button
 
-To add Action, we should click Add action Button.
+To add an action, we should click the Add Action button.
 <img src={put_main5} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 ### 3.2 Select Action. 
 
 We have lots of <a href="/docs/Documentation/actions-library/">Actions</a> in Autoflow.<br/>
-This page, we will use <b> *Database Query* </b> Action.
+On this page, we will use <b> *Database Query* </b> Action.
 
 Select <b> *Database* </b>
 <img src={put_main6} alt="Version Location" class="myResponsiveImg" width="800px"/>
@@ -138,7 +138,7 @@ Then Select <b> *Query* </b>
 ### 3.3 How to use Database Query Action.
 
 :::info
-This page's goal is Insert Query in Database from <span class="method put">PUT</span> with *URL PATH* AND *Request Body*.<br/>
+This page's goal is to insert a query in the database from the <span class="method put">PUT</span> with *URL PATH* AND *Request Body*.<br/>
 I will send <span class="method put">PUT</span> with Request *URL PATH* & *Body*
 :::
 
@@ -157,38 +157,38 @@ If you don't know how to connect Client, <a href="/docs/Documentation/Guide/Clie
 Our goal is Insert Query in Database from <span class="method put">PUT</span> *URL PATH*. <br/>
 Write DELETE QUERY and Select 'Write' in Type.<br/>
 I only wrote ```UPDATE `account` SET name =   WHERE id = ;``` <br/>
-Becasue I will put Values from <span class="method put">PUT</span> *URL PATH & Request Body*.
+Because I will put the values from <span class="method put">PUT</span> *URL PATH & Request Body*.
 
 <img src={put_main9} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 
-#### 3.3.3 Add variable Name which you want.
+#### 3.3.3 Add a Variable Name.
 
-Write Variable name in Key field.
+Write the variable name in the Key field.
 <img src={put_main10} alt="Version Location" class="myResponsiveImg" width="800px"/>
 <img src={put_main11} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
-#### 3.3.4 Drag param to where you want to Update.
+#### 3.3.4 Drag the Param to where you want to Update.
 
-Let's drage <b>*'updated_id'*</b> & <b>*'user_id'*</b> param to where you want to update!
+Let's drag the <b>*'updated_id'*</b> and <b>*'user_id'*</b> params to where you want to update!
 
 <img src={put_main12} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 #### 3.3.5 Click String type in Params
 
-We want to use <span class="method put">PUT</span> URL Path. <br/>
-So we will this Variable as one of <span class="method put">PUT</span> URL Path.<br/>
+We want to use the <span class="method put">PUT</span> URL Path. <br/>
+So we will use this variable as one of the <span class="method put">PUT</span> URL Path.<br/>
 <img src={put_main13} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
-#### 3.3.6 Change to Data type
+#### 3.3.6 Change to Data Type
 
 Click Data Type.
 <img src={put_main14} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 #### 3.3.7 Write Path Scope!
 
-We can get <span class="method put">PUT</span> Request Body by ``` request > body > new_name ``` .<br/>
-So write path by below.
+We can get <span class="method put">PUT</span> Request Body by ``` request > body > new_name ```.<br/>
+So write the path below.
 <img src={put_main15} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 In the same way, ```user_id``` proceeds the same way.
@@ -204,9 +204,9 @@ So write path by below.
 
 <img src={put_main18} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
-#### 3.3.9 Send Databse query As Response.
-I want to  <span class="method put">PUT</span> Response As my database table. <br/>
-So, I will Add one more action to response.<br/>
+#### 3.3.9 Send a Database query as a Response.
+I want to <span class="method put">PUT</span> a Response in the database table. <br/>
+So, I will add one more action to the response.<br/>
 ```SELECT * FROM `account`;``` then the QUERY result will be <span class="method put">PUT</span> Response.
 <img src={post_main16} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
@@ -215,7 +215,7 @@ So, I will Add one more action to response.<br/>
 ## 4. Test <span class="method put">PUT</span> Request and Response
 
 :::info
-I will use <a href="https://www.postman.com/"><b>*POSTMAN*</b></a> to <span class="method put">PUT</span> Requset with *URL Path* & *Request Body*.
+I will use <a href="https://www.postman.com/"><b>*POSTMAN*</b></a> to <span class="method put">PUT</span> request with the *URL Path* & *Request Body*.
 :::
 
 Before starting my user database is as below.
@@ -228,12 +228,12 @@ First, I will <span class="method put">PUT</span> with *URL Path AND Request Bod
 
 ```URL: http://localhost:8080/user/2``` <br/>
 
-Then I got below Response. Now we can see the URL Path user's data was updated in MySQL database.
+Then I get the below response. Now we can see the URL Path user's data was updated in the MySQL database.
 
 <img src={put_main19} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
 Second, I will check the result using Action.
 
-Then I got below Response. Now we can see the URL Path user's data was updated in MySQL database.
+Then I got the below response. Now we can see the URL Path user's data was updated in the MySQL database.
 
 <img src={put_main20} alt="Version Location" class="myResponsiveImg" width="600px"/>

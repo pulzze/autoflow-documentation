@@ -98,7 +98,7 @@ a. Create a new Server
 ![Create Server](@site/static/img/Hello_world/create_new_server.png)
 
 1. Create an ID for the server.
-2. The portnumber by default is 8080, this is customizable.
+2. The port number by default is 8080, this is customizable.
 
    > 💡 The server instantly gets hosted on the port number.
 
@@ -152,7 +152,7 @@ Use string/join action to join two strings.
 <img src={JoinString} alt="Joining Two Strings" class = "myResponsiveImg"/>
 </div>
 
-f. Add array of string with a delimiter
+f. Add an array of string with a delimiter
 
 In our example, we will include to strings **Hello** and **World**, with a space a delimiter
 
@@ -172,7 +172,7 @@ k. Select **Reference / Data** from the data elements
     <img src={SelectData} alt="Selecting Data" class = "myResponsiveImg"/>
 </div>
 
-> 💡Make sure that the **string/join** and the **reference data** have the same variable name, in this case it's "output".
+> 💡Make sure that the **string/join** and the **reference data** have the same variable name, in this case, it's "output".
 
 ### Step 3. Test the API
 
@@ -186,4 +186,11 @@ Congratulations! You have just created a new API server!
 
 The below example is available for your reference. Simply download the configuration from below and upload it to your API AutoFlow.
 
-[hello_world_config.json](hello_world_config.json)
+&nbsp;<br />
+
+:::note Download This Example
+
+[Download](@site/static/file/hello_world_config.json) the configuration for this example and [upload](../../../Documentation/Guide/Settings/#upload-configuration) it to your API AutoFlow
+
+Learn how to [upload](../../../Documentation/Guide/Settings/#upload-configuration) configuration.
+:::

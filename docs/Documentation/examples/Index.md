@@ -5,11 +5,11 @@ description: This page you can see how to use API Autoflow with some Examples
 ---
 
 # Examples
-This page you can see how to use API Autoflow with some Examples
+On this page you can see how to use API Autoflow with some Examples
 <hr/>
 
 :::tip
-Let's See some Example how to use Autoflow!
+Let's see some example how to use API Autoflow!
 :::
 
 ### <a href="/docs/Documentation/examples/API"> 📡 Create and Test API </a>
