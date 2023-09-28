@@ -18,7 +18,7 @@ import StartConnection from "@site/static/img/Guide/Clients/start_connection.png
 
 **Clients** are connectors to the database and other systems. For example, API AutoFlow provides a connector to popular databases such as Maria DB, MS SQL, Oracle, and more.
 
-By configuring the connection with the database credentials and the server information, you can issue any SQL commands to work directly with the database.
+By configuring the connection with the database credentials and the server information, you can issue any SQL command to work directly with the database.
 
 ## Configuring the Client
 
@@ -58,7 +58,7 @@ Press the Add Server button
 </div>
 
 ### Use Client Connection in action
-now you can use client connection while using a action.
+now you can use client connection in your action configuration.
 <div class= "myResponsiveImg">
     <img src={ChooseClient} alt="Choosing a Client"/>
 </div>

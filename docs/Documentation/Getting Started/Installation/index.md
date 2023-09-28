@@ -1,38 +1,47 @@
 ---
 sidebar_position: 2
 ---
+# Installation - Docker
 
-import TutorialInstallation from '@site/static/img/tutorial-installation.png';
+This section will demonstrate how to launch a single docker instance from a shell terminal using a folder to upload configuration options and store data. In order to maintain persistent configuration changes, you will need to mount a folder from your file system. Make sure to add a folder somewhere and open a terminal and navigate to that folder.
 
-# Installation
+You may **optionally** add the following files to that folder:
 
-## Video Tutorial
+1. `autoflow.conf` details for this file can be found [here](https://github.com/pulzze/api-interactor/wiki/API-AutoFlow-System-Variables)
+2. `config.json` this is an exported configuration
+3. `license.json` this is your license file
 
-<div class="videoBlock">
-    <div class="videoLeft">
-        <div class="videoWrapper">
-            <a href="../../../Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialInstallation} /></a>
-        </div>
-    </div>
-    <div class="videoRight">
-        <div class="videoText">
-            <h2><code>102</code> Key Concept</h2>
-            <p>Topics covered</p>
-                <ul>
-                    <li>Mac installation</li>
-                    <li>Windows installation</li>
-                </ul>
-            <p>Duration:  3 mins</p>
-        </div>
-    </div>
-    <div class="videoClearer"></div>
-</div>
+In order to create a docker container for API AutoFlow, you can use the following command.
+
+```bash
+docker run -dit \
+  --name api-interactor \
+  --mount type=bind,source="$(pwd)",target=/app/data \
+  -p 4000:4000 \
+  -p 8080:8080 \
+  -p 1111:1111 \
+  -p 2222:2222 \
+  interactor/api-interactor:latest
+```
 
 
-[MacOS](MacOS)
+> 💡 Note that ports _8080_, _1111_ and _2222_ are opened to be used as part of the solution you create.
+>
+> 💡 Port **4000** is used by the API AutoFlow UI.
 
-[Linux](Linux)
 
-[Windows](Windows)
+If you would like to use a specific docker image, you can replace the word `latest` with the desired tag name. Also, you can add/remove ports using the `-p` flag and you may also change the container name by replacing `-name api-interactor`
 
-[Remote Access](remote-access)
+Once the container is made it will start immediately. You can stop and start it using:
+
+`docker stop api-interactor`
+
+`docker start api-interactor`
+
+If you would like to remove the container:
+
+`docker rm api-interactor`
+
+If you would like to attach to the running console:
+
+`docker attach api-interactor`

@@ -6,7 +6,7 @@ import ValueTypeOverview from "@site/static/img/Guide/value-type-selector/value_
 
 # Value Type Selector
 
-Value type selectors are how you define the data. For example, you can define data with a simple data type such as string, array, or object. You can also reference data from a variable or HTTP request.
+Value type selectors are how you define data used in your configuration. For example, you can define data with a simple data type such as string, array, or object. You can also reference data from a variable or HTTP request.
 
 <div class="myResponsiveImg">
     <img src={ValueTypeOverview} alt="Value Type Overview" class="myResponsiveImg"/>
@@ -14,8 +14,8 @@ Value type selectors are how you define the data. For example, you can define da
 
 ## Most commonly used
 
-- Reference / **data**
 - Values
+- Reference / **data**
 
 ---
 
@@ -58,6 +58,6 @@ The comparison value type compares two sets of data and outputs a boolean value.
 
 ## Execution
 
-Execution value type is used to provide ways to execute the flow of actions.
+Execution value type is used to provide ways to execute a flow of actions. This is a more advanced use of workflow where action configuration that is either created dynamically, or stored else where can be executed at runtime.
 
 - action

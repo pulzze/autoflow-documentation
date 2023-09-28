@@ -61,22 +61,14 @@ The API defines how API AutoFlow receives and responds to API requests. For inst
 
 A service helps the server by taking out commonly used actions into a reusable group.
 
-A service an INPUT and an OUTPUT are similar to functions in a programming language.
+A service has an INPUT and an OUTPUT similar to functions in a programming language.
 
 A service performs a set of operations with actions in it.
 
-For example, a service to get an email from a GMAIL API can be reused by many servers.
+For example, a service to get an email from a GMAIL API can be reused by many server operations.
 
-#### 3. Intents
+#### 3. Connections
 
-**Intent** helps the server by standardizing the INPUT and OUTPUT of common services.
-
-For example, getting an email is a common intent for all email services.
-
-Instead of the server calling the email services with different inputs and outputs, the services can adopt the intent’s input and output to standardize the call for the servers.
-
-#### 4. Connections
-
-**Connections** are connectors to a database and other systems. For example, API AutoFlow provides a connector to popular databases such as Maria DB, MS SQL, Oracle, and more.
+**Connections** are connectors to a database and other systems. For example, API AutoFlow provides connectors to popular databases such as Maria DB, MS SQL, Oracle, and more.
 
 By configuring the connection with the database credentials and the server information, you can issue any SQL commands to work directly with the database.

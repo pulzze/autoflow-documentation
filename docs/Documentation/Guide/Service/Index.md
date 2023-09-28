@@ -92,7 +92,7 @@ Then a new service operation will be created. Now you can click the service oper
     <img src={CreateInputOutputArgs} alt="Creating Input and Output Arguments" class="myResponsiveImg"/>
 </div>
 
-💡 Arguments are the keys for the [JSON Schema](https://json-schema.org/understanding-json-schema/) properties. For example, for the below JSON, username and password are the arguments:
+💡 Arguments may also be defined in [JSON Schema](https://json-schema.org/understanding-json-schema/). For example, for the below JSON, 'username' and 'password' are string arguments:
 
 ```json
     "username": { "type": "string" },
