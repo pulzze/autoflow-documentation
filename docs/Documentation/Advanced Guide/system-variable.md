@@ -4,7 +4,7 @@ sidebar_position: 2
 # System Variable
 
 
-These system variables are configurable in 3 ways.
+System variables are configurable in 3 ways.
 
 1. In the configuration file (by default this is the autoflow.conf file in the data folder within the install location)
 2. On the settings page within the products UI (this writes the values into the configuration file)

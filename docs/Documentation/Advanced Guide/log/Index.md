@@ -34,9 +34,9 @@ By default, there are two files. Each log entry includes relevant information su
 
 ## How to access the logs?
 
-Log management and analysis tools are commonly used to parse, aggregate, search, and visualize log data. They enable administrators and developers to identify issues, track system behavior, troubleshoot problems, and improve system performance and security.
+Log management and analysis tools are commonly used to parse, aggregate, search, and visualize log data. They enable administrators and developers identify issues, track system behavior, troubleshoot problems, and improve system performance and security.
 
-API AutoFlow provides flexible way to access the logs
+API AutoFlow provides a flexible way to access the logs
 
 ### Download Logs
 
@@ -62,7 +62,7 @@ Access the file directly from the logs folder
 
 Create a workflow to extract logs using `file/read` action.
 
- **WARNING**: It is important to note that logs can consume a significant amount of disk space. Therefore, log rotation and retention policies are often implemented to manage the storage and archival of logs over time.
+ **WARNING**: It is important to note that logs can consume a significant amount of disk space. Therefore, log rotation and retention policies are often implemented to manage the storage and archive of logs over time.
 
 
 ## What does the log capture?

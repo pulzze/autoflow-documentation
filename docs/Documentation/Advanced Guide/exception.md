@@ -11,7 +11,7 @@ Exception (Error) handling manages and handles unexpected or exceptional situati
 
 *  Complete List
 
-A complete list of all captured exceptions can be found in the Settings section.
+A complete list of all captured exceptions can be found in the Settings page.
 
 
 ## Capturing Exceptions

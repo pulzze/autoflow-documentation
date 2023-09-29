@@ -16,7 +16,7 @@ API AutoFlow's simulation feature allows developers to capture data and use it t
 
 ## Capturing the incoming data
 
-The capture feature can be turn on/off from the server and service operation.
+The capture feature can be turned on/off from the server and service operation.
 
 ### Capturing from the Server Operation
 
@@ -25,8 +25,6 @@ The capture feature can be turn on/off from the server and service operation.
 </div>
 
 ## Accessing the data
-
-... (Content truncated for brevity)
 
 ### Complete List
 
@@ -41,12 +39,3 @@ A complete list of all captured data can be found in the Settings section.
 By turning on the toggle button, all the operations in both the server and service will be captured.
 
 **WARNING!** Capturing all the data can be extremely compute intensive.
-
-### Operation Specific
-
-<div class="myResponsiveImg">
-    <img src={OperationSpecific} alt="Operation Specific" class="myResponsiveImg"/>
-    <img src="/apiautoflow/img/advanced-guide/capture/operation-specific.png" alt="Operation Specific" class="myResponsiveImg"/>
-</div>
-
-In the roadmap, feature to access the data directly from the individual operations

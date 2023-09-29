@@ -248,7 +248,7 @@ This OpenAPI specification demonstrates how to integrate OAuth 2.0 authenticatio
     ```
     
 
-## Custom x-validate feature
+<!-- ## Custom x-validate feature
 
 Since OpenAPI does not provide validation feature, API AutoFlow has a custom `x-validate` to help the developer perform HTTP request validation before reaching the server.
 
@@ -268,4 +268,4 @@ x-validate:
                 - end_id
 ```
 
-### How to use x-validate
+### How to use x-validate -->
