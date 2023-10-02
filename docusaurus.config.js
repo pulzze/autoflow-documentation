@@ -88,11 +88,11 @@ const config = {
           //   label: 'Templates',
           //   to: 'docs/templates'
           // },
-          {
-            position: 'left',
-            label: 'Release Notes',
-            to: 'release-note'
-          },
+          // {
+          //   position: 'left',
+          //   label: 'Release Notes',
+          //   to: 'release-note'
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'community',
