@@ -43,16 +43,16 @@ const FeatureList = [
     ),
     link: 'docs/support/help-center'
   },
-  {
-    title: 'Release Notes',
-    Svg: require('@site/static/img/main_page_release_note_icon.svg').default,
-    description: (
-      <>
-        See the release notes
-      </>
-    ),
-    link: 'release-note'
-  },  
+  // {
+  //   title: 'Release Notes',
+  //   Svg: require('@site/static/img/main_page_release_note_icon.svg').default,
+  //   description: (
+  //     <>
+  //       See the release notes
+  //     </>
+  //   ),
+  //   link: 'release-note'
+  // },  
   {
     title: 'Community',
     Svg: require('@site/static/img/main_page_community_icon.svg').default,
