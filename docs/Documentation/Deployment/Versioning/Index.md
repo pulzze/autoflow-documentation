@@ -22,7 +22,7 @@ API AutoFlow provides versioning for each of the following sections:
 - API versioning
 - Service versioning
 - Client versioning
-- Intent versioning
+<!-- - Intent versioning -->
 
 ## Where to find the version
 
