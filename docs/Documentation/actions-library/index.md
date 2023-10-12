@@ -7,7 +7,9 @@ sidebar_position: 7
 import ActionHighlight from '@site/static/img/action-library/action-highlight.png';
 import ActionModal from '@site/static/img/action-library/action-modal.gif';
 
-Download [Action Cheat Sheet](@site/static/file/api_autoflow_action_cheatsheet.pdf)
+<div>
+    Download <a target="_blank" href="pathname:///file/api_autoflow_action_cheatsheet.pdf" download>Action Cheat Sheet</a>
+</div>
 
 ## How to Add Action? 🤔
 

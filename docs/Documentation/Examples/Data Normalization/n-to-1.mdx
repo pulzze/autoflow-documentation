@@ -1,67 +1,65 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Data Normalization
-sidebar_label: 1 to N
-description: Transform log into an object
+sidebar_label: N to 1
+description: Transform log from multiple sources into a standardized format
 image: img/api-autoflow-logo.png
 keywords:
   - data normalization
   - data transformation
 ---
 
-import img_1to_n_example from '@site/static/img/example/data-transformation/1-to-n-example.png';
-import img_1to_n_explanation_min from '@site/static/img/example/data-transformation/1-to-n-explanation-min.png';
-import img_1to_n_explanation_1 from '@site/static/img/example/data-transformation/1-to-n-explanation-1.png';
-import example_config from '@site/static/file/config-data-transformation-example.json';
+import n_to_1_example from '@site/static/img/example/data-transformation/n-to-1-example.png';
+import n_to_1_explanation from '@site/static/img/example/data-transformation/n-to-1-explanation.png';
+import n_to_1_return from '@site/static/img/example/data-transformation/n-to-1-return.jpg';
+import n_to_1_case from '@site/static/img/example/data-transformation/n-to-1-case.jpg';
 
-# 1 to N
+# N to 1
 
-Received data from a single source such as a log and split the records into an array of entries.
+Received data from multiple sources in a different format and normalized the data into a standardized data format.
+
 
 ## Data Objective
 
-In this example, syslog from the Cisco ASA 302013 firewall which is in a string format is normalized into a standardized JSON format.
+Duplicate data is a common problem that data normalization needs to solve.  In this example, user data in different formats is normalized into a standardized JSON format.
 
-<img src={img_1to_n_example} alt="1 to N example" class="myResponsiveImg" width="800px"/>
+<img src={n_to_1_example} alt="N to 1 example" class="myResponsiveImg" width="800px"/>
+
+&nbsp;<br />
 
 :::info Process
-1. The process will be to split the string on each line to create an array of records.
-2. Then apply various actions to extract the value(s).
+1. The process will be to use <a href="/docs/Documentation/actions-library/flow/conditional/action-conditional-switch">conditional/switch</a> action to detect the data format
+2. Then apply various actions to transform the value(s).
 :::
 
 ## Transforming the data
 
-1. First to split the log on a new line, use the action [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx).
-2. Second, loop over the records using the action [iteration/map](Documentation/actions-library/flow/iteration/action-iteration-map.mdx).
+1. First, detect the value using <a href="/docs/Documentation/actions-library/flow/conditional/action-conditional-switch">conditional/switch</a>.<br />
+Set the <span class="action-field">SWITCH</span> condition to the input argument `source`
+2. Second, apply <span class="action-field">CASE</span> where 'source' = 'website_user'
+3. Third, for all other 'sources', apply a <span class="action-field">DEFAULT</span> case.
 
+<img src={n_to_1_explanation} alt="N to 1 explanation" class="myResponsiveImg" width="800px"/>
 
-<img src={img_1to_n_explanation_min} alt="1 to N explanation" class="myResponsiveImg" width="800px"/>
+## CASE: String split
 
-:::tip
-Actions can be applied flexibly to work on any form of data.
-:::
+In the first case, the name is joined in a single string.  Use [string/split](Documentation/actions-library/data/string/action-string-split.mdx) to split on every white space.
 
-## Working on each record
+<img src={n_to_1_case} alt="N to 1 case" class="myResponsiveImg" width="800px"/>
 
-The objective is to extract the IP address and Port number. To do that, we can look for patterns of the **TCP connection** and **OUTSIDE:**. Then select the value that follows those patterns.
+## DEFAULT: Map the fields
 
-```
-%ASA-6-302013: TCP connection 933 OUTSIDE:172.217.169.68
-```
+Create a return object and map the values in the new JSON object.
 
-Similar to how the earlier [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx) action was used to split the string on a new line;
-
-An action to split the string by pattern [string/split-by](Documentation/actions-library/data/string/action-string-split-by.mdx) can be used to further isolate the value.  
-
-<img src={img_1to_n_explanation_1} alt="1 to N explanation" class="myResponsiveImg" width="800px"/>
-
-Finally using **Return**, put the data in the desired standardized JSON object format.
+<img src={n_to_1_return} alt="N to 1 return" class="myResponsiveImg" width="800px"/>
 
 &nbsp;<br />
 
 :::note Download This Example
 
-[Download](@site/static/file/config-data-transformation-example.json) the configuration for this example and [upload](../../../Documentation/Guide/Settings/#upload-configuration) it to your API AutoFlow
+<div>
+    <a target="_blank" href="pathname:///file/config-data-transformation-example.json" download>Download</a> the configuration for this example and <a href="../../../Documentation/Guide/Settings/#upload-configuration">upload</a> it to your API AutoFlow
+</div>
 
 Learn how to [upload](../../../Documentation/Guide/Settings/#upload-configuration) configuration.
 :::

@@ -190,7 +190,9 @@ The below example is available for your reference. Simply download the configura
 
 :::note Download This Example
 
-[Download](@site/static/file/hello_world_config.json) the configuration for this example and [upload](../../../Documentation/Guide/Settings/#upload-configuration) it to your API AutoFlow
+<div>
+    <a target="_blank" href="pathname:///file/hello_world_config.json" download>Download</a> the configuration for this example and <a href="../../../Documentation/Guide/Settings/#upload-configuration">upload</a> it to your API AutoFlow
+</div>
 
 Learn how to [upload](../../../Documentation/Guide/Settings/#upload-configuration) configuration.
 :::
