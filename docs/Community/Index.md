@@ -1,7 +1,13 @@
 ---
 sidebar_position: 1
 title: Community
+sidebar_label: Community
 description: API AutoFlow questions and answers
+image: img/api-autoflow-logo.png
+keywords:
+  - API AutoFlow Community
+tags: [api, autoflow, community]
+hide_table_of_contents: false
 ---
 import SlackIcon from '@site/static/img/slack-icon.png';
 

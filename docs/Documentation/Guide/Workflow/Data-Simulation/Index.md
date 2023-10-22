@@ -1,5 +1,12 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
+title: Data Simulation
+sidebar_label: Data Simulation
+description: Data simulation is a mock HTTP request data simulated
+image: img/api-autoflow-logo.png
+keywords:
+  - data simulation
+  - mock data
 ---
 
 import ActionData from "@site/static/img/Guide/data-simulation/action_data.png"

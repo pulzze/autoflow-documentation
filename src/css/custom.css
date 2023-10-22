@@ -29,6 +29,49 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* Buttons */
+.btnDownload {
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-size: large;
+}
+
+/* Page 2 Column */
+.colTwoBlock {
+  width: 100%;
+}
+.colTwoLeft {
+  float: left;
+  width: 60%;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+.colTwoRight {
+  float: right;
+  width: 40%;
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .colTwoLeft,
+  .colTwoRight {
+    float: none;
+    width: auto;
+  }
+}
+
+.colTwoText {
+  padding: 0 0 0 104px;
+}
+
+.colTwoText p {
+  padding-right: 70px;
+}
+.colTwoClearer {
+  clear: both;
+}
+
 /* Video Column */
 .videoBlock {
   width: 100%;

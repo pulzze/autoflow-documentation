@@ -1,5 +1,12 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
+title: Actions
+sidebar_label: Actions
+description: Actions are the basic building blocks of a workflow, with a few hundred available to choose from
+image: img/api-autoflow-logo.png
+keywords:
+  - actions
+hide_table_of_contents: false
 ---
 
 import ActionsDetail from "@site/static/img/Guide/Action/actions-detail.png"

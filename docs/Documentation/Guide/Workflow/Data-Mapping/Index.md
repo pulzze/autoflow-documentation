@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 import ResponseMapping from "@site/static/img/Guide/data-mapping/response_mapping.png"

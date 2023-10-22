@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 import ValueTypeOverview from "@site/static/img/Guide/value-type-selector/value_type_overview.png"

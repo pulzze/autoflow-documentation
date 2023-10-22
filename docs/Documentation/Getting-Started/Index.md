@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+collapsed: false
 ---
 
 import TutorialKeyConcept from '@site/static/img/tutorial-key-concepts.png';
