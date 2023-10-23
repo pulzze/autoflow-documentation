@@ -25,6 +25,6 @@ Let's see some example how to use API Autoflow!
 #### <a href="../../../docs/Documentation/Examples/testing-and-troubleshooting#replay"> - Replay</a>
 #### <a href="../../../docs/Documentation/Examples/testing-and-troubleshooting#transactions"> - Transactions</a>
 
-### <a href="../../../docs/Documentation/Examples/Data%20Normalization"> 💽 Data Normalization  </a>
-#### <a href="../../../docs/Documentation/Examples/Data%20Normalization/n-to-1"> - 1 to N  </a>
-#### <a href="../../../docs/Documentation/Examples/Data%20Normalization/to-n"> - N to 1  </a>
+### <a href="../../../docs/Documentation/Examples/Data-Normalization"> 💽 Data Normalization  </a>
+#### <a href="../../../docs/Documentation/Examples/Data-Normalization/n-to-1"> - 1 to N  </a>
+#### <a href="../../../docs/Documentation/Examples/Data-Normalization/to-n"> - N to 1  </a>

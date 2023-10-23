@@ -5,10 +5,10 @@ sidebar_position: 7
 
 [Action](./Action)
 
-[Data Simulation](./Data%20Simulation)
+[Data Simulation](./Data-Simulation)
 
-[Value Type Selector](./Value%20Type%20Selector)
+[Value Type Selector](./Value-Type-Selector)
 
-[Data Mapping](./Data%20Mapping)
+[Data Mapping](./Data-Mapping)
 
 [Trace](./Trace)

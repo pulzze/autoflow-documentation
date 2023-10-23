@@ -8,7 +8,7 @@ The main 2 components needed to deploy API AutoFlow in Docker-compose is a docke
 - **Define Services in Docker Compose**: Create a **`docker-compose.yml`** file in the root directory of your project. Define the services that make up your software stack within this file. Each service represents a separate component of your application, such as a web server, database, or any other service required for your software to function.
 - **Deployment:** Maintains the API AutoFlow nodes (**NOTE: the cluster requires a minimum of 2 nodes to begin operating**)
     - **Config Map** : (optional) This can include several useful files
-         - [API AutoFlow System Variables](../../Advanced%20Guide/system-variable)
+         - [API AutoFlow System Variables](../../Advanced-Guide/system-variable)
         - Solution Files : typically acquired through exporting existing configuration
         - License File : product license
         - Additional Files : any files the solution might depend on
