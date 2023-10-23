@@ -36,6 +36,15 @@
   background-color: var(--ifm-color-primary);
   color: white;
   font-size: large;
+  width: 70%;
+}
+.btnVideo {
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-size: large;
+  width: 70%;
 }
 
 /* Page 2 Column */

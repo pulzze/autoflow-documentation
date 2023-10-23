@@ -23,38 +23,31 @@ import TestApi from '@site/static/img/Hello_world/test_api.png';
 
 # Hello World
 
-## Video Tutorial
-
-<div class="videoBlock">
-    <div class="videoLeft">
-        <div class="videoWrapper">
-            <a href="../../../Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialHelloWorld} /></a>
+## Overview
+<div class="colTwoBlock">
+    <div class="colTwoLeft">
+        <div class="colTwoWrapper">
+            Let’s walk through the steps of creating a “Hello World” API. Refer to below for detailed step-by-step instructions.
         </div>
     </div>
-    <div class="videoRight">
-        <div class="videoText">
-            <a href="../../../Tutorial/#102-key-concept-installation-and-hello-world"><h2><code>102</code> Hello World</h2></a>
-            <p>Topics covered</p>
-                <ul>
-                    <li>Define API</li>
-                    <li>Create a Server</li>
-                </ul>
-            <p>Duration:  3 mins</p>
-        </div>
-    </div>
-    <div class="videoClearer"></div>
+    <div class="colTwoRight">
+          <h4>Example Configuration</h4>
+          <a target="_blank" href="pathname:///file/hello_world_config.json" download><button class="btnDownload">⏬ Download</button></a>
+          <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
+          <h4>Tutorial</h4>
+          <a target="_blank" href="https://www.youtube.com/embed/SLPKuXWuo1A?si=K2fYk-kJuZZowi7u&amp;start=372"><button class="btnVideo">🎥 Watch Video</button></a>
+   </div>
+    <div class="colTwoClearer"></div>
 </div>
 
-## First two steps
+## Details
 
 There are numerous ways to configure API AutoFlow.  But there are the first two things that you need to do every time you create a new solution.
 
 1. Create an **API**
 2. Create a **Server** to host the API
 
-## Hello World!
-
-Let’s walk through the steps of creating a “Hello World” API. Refer to below for detailed step-by-step instructions.
+## Content
 
 ### Step 1. Create API
 
@@ -72,7 +65,9 @@ b. Create an ID for the API.
     <img src={CreateId} alt="Creating An ID" class = "myResponsiveImg"/>
 </div>
 
-> 💡 For the Hello World example, we will be using the API AutoFlow provided OpenAPI builder. However, you can use your own OpenAPI document using the upload feature.
+:::info
+For the Hello World example, we will be using the API AutoFlow provided OpenAPI builder. However, you can use your own OpenAPI document using the upload feature.
+:::
 
 c. Go to the newly created hello_world API and add a new path
 
@@ -160,7 +155,9 @@ In our example, we will include to strings **Hello** and **World**, with a space
     <img src={AddString} alt="Adding String" class = "myResponsiveImg"/>
 </div>
 
-> 💡 Note that the OUTPUT of the action is stored in a **variable** called _output_
+:::info
+Note that the OUTPUT of the action is stored in a **variable** called _output_
+:::
 
 j. Map data to HTTP response body
 
@@ -172,7 +169,9 @@ k. Select **Reference / Data** from the data elements
     <img src={SelectData} alt="Selecting Data" class = "myResponsiveImg"/>
 </div>
 
-> 💡Make sure that the **string/join** and the **reference data** have the same variable name, in this case, it's "output".
+:::info
+Make sure that the **string/join** and the **reference data** have the same variable name, in this case, it's "output".
+:::
 
 ### Step 3. Test the API
 
@@ -185,14 +184,3 @@ Congratulations! You have just created a new API server!
 **Download Configuration**
 
 The below example is available for your reference. Simply download the configuration from below and upload it to your API AutoFlow.
-
-&nbsp;<br />
-
-:::note Download This Example
-
-<div>
-    <a target="_blank" href="pathname:///file/hello_world_config.json" download>Download</a> the configuration for this example and <a href="../../../Documentation/Guide/Settings/#upload-configuration">upload</a> it to your API AutoFlow
-</div>
-
-Learn how to [upload](../../../Documentation/Guide/Settings/#upload-configuration) configuration.
-:::

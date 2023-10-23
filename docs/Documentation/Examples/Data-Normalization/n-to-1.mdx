@@ -9,28 +9,28 @@ keywords:
   - data transformation
 ---
 
-import n_to_1_example from '@site/static/img/example/data-transformation/n-to-1-example.png';
-import create_service from '@site/static/img/example/data-transformation/create-service.jpg';
-import data_simulation from '@site/static/img/example/data-transformation/data-simulation.jpg';
-import data_simulation_check from '@site/static/img/example/data-transformation/data-simulation-check.jpg';
-import data_simulation_check_1 from '@site/static/img/example/data-transformation/data-simulation-check-1.jpg';
-import condition_switch from '@site/static/img/example/data-transformation/condition-switch.jpg';
-import condition_switch_case_1 from '@site/static/img/example/data-transformation/condition-switch-case-1.jpg';
-import condition_switch_case_1_1 from '@site/static/img/example/data-transformation/condition-switch-case-1-1.jpg';
-import condition_switch_case_1_string_split from '@site/static/img/example/data-transformation/condition-switch-case-1-string-split.jpg';
-import condition_switch_case_1_string_split_check_output from '@site/static/img/example/data-transformation/condition-switch-case-1-string-split-check-output.jpg';
-import condition_switch_case_1_string_split_return from '@site/static/img/example/data-transformation/condition-switch-case-1-string-split-return.jpg';
-import condition_switch_case_1_return from '@site/static/img/example/data-transformation/condition-switch-case-1-return.jpg';
-import condition_switch_case_1_check_output from '@site/static/img/example/data-transformation/condition-switch-case-1-check-output.jpg';
-import service_output_mapping from '@site/static/img/example/data-transformation/service-output-mapping.jpg';
-import simulation_db_2 from '@site/static/img/example/data-transformation/simulation-db-2.jpg';
-import service_operation_config from '@site/static/img/example/data-transformation/service-operation-config.jpg';
-import service_operation_check_output from '@site/static/img/example/data-transformation/service-operation-check-output.jpg';
+import n_to_1_example from '@site/static/img/example/data-transformation/n-to-1/example.png';
+import create_service from '@site/static/img/example/data-transformation/n-to-1/create-service.jpg';
+import data_simulation from '@site/static/img/example/data-transformation/n-to-1/data-simulation.jpg';
+import data_simulation_create from '@site/static/img/example/data-transformation/n-to-1/data-simulation-create.jpg';
+import data_simulation_check from '@site/static/img/example/data-transformation/n-to-1/data-simulation-check.jpg';
+import condition_switch from '@site/static/img/example/data-transformation/n-to-1/condition-switch.jpg';
+import condition_switch_case_1 from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1.jpg';
+import condition_switch_case_1_1 from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-1.jpg';
+import condition_switch_case_1_string_split from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-string-split.jpg';
+import condition_switch_case_1_string_split_check_output from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-string-split-check-output.jpg';
+import condition_switch_case_1_string_split_return from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-string-split-return.jpg';
+import condition_switch_case_1_return from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-return.jpg';
+import condition_switch_case_1_check_output from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-check-output.jpg';
+import service_output_mapping from '@site/static/img/example/data-transformation/n-to-1/service-output-mapping.jpg';
+import simulation_db_2 from '@site/static/img/example/data-transformation/n-to-1/simulation-db-2.jpg';
+import service_operation_config from '@site/static/img/example/data-transformation/n-to-1/service-operation-config.jpg';
+import service_operation_check_output from '@site/static/img/example/data-transformation/n-to-1/service-operation-check-output.jpg';
+
 
 # N to 1
 
 ## Overview
-
 <div class="colTwoBlock">
     <div class="colTwoLeft">
         <div class="colTwoWrapper">
@@ -42,13 +42,18 @@ import service_operation_check_output from '@site/static/img/example/data-transf
     </div>
     <div class="colTwoRight">
           <h4>Example Configuration</h4>
-          <a target="_blank" href="pathname:///file/config-data-transformation-example.json" download><button class="btnDownload">Download</button></a>
+          <a target="_blank" href="pathname:///file/config-example-data-transformation" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
-    </div>
+   </div>
     <div class="colTwoClearer"></div>
 </div>
 
 ## Supporting Concepts
+
+
+<details>
+
+<summary>Basic concepts needed for the use case</summary>
 
 | Topic    | Description |
 | -------- | ------- |
@@ -56,16 +61,28 @@ import service_operation_check_output from '@site/static/img/example/data-transf
 | [Simulation](../../../Documentation/Guide/Workflow/Data-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
 | [Scope](../../../Documentation/Guide/Workflow/Scope/)    |  A scope is a namespace for variables.    |
 | [Data Types](../../../Documentation/Related-Concepts/data-types/)    | Data types describe the different types or kinds of data that you are gonna store and work with.    |
-| Action [condition/switch](../../../Documentation/actions-library/flow/conditional/action-conditional-switch/)    | Returns values that fits on switch case. <br />If the input value is not in the case list, it returns the value of default.    |
-| Action [string/split](../../../Documentation/actions-library/data/string/action-string-split/)    | Returns array that divides a string into substrings at each Unicode whitespace occurrence with leading and trailing whitespace ignored.    |
+
+</details>
+
+<details open>
+
+<summary>Use case specific concepts</summary>
+
+| Topic    | Description |
+| -------- | ------- |
+| Action <br/>[condition/switch](../../../Documentation/actions-library/flow/conditional/action-conditional-switch/)    | Returns values that fits on switch case. <br />If the input value is not in the case list, it returns the value of default.    |
+| Action <br/>[string/split](../../../Documentation/actions-library/data/string/action-string-split/)    | Returns array that divides a string into substrings at each Unicode whitespace occurrence with leading and trailing whitespace ignored.    |
+
+</details>
+
 
 
 ## Details
-There are 4 inputs:
+The service has 4 inputs:
 - source: a string that has a special case if the value is `website_user`
-- name: a string that is expected in the case that source is `website_user` [example: **John Doe**]
-- first: a string that is used if the source is not `website_user` [example: **John**]
-- last: a string that is used if the source is not `website_user` [example: **Doe**]
+- name: a string that is used in the case that source is `website_user` [example: **John Doe**]
+- first: a string that is used if the source is NOT `website_user` [example: **John**]
+- last: a string that is used if the source is NOT `website_user` [example: **Doe**]
 
 The goal of the operation is to normalize these 2 scenarios into a single object:
 1. `website_user` with name of this format: **John Doe**
@@ -99,7 +116,6 @@ We will be passing values in the below INPUT arguments and return the data from 
 #### OUTPUT arguments
 - user_obj
 
-
 <img src={create_service} alt="N to 1 example" class="myResponsiveImg" width="600px"/>
 
 :::note
@@ -114,19 +130,21 @@ The service can be called from any workflow using the [service/operation](../../
 Learn how to [simulation](../../../Documentation/Guide/Workflow/Data-Simulation/) the mock data. 
 :::
 
-#### Simulation 1: `db_1`
+#### Add Test Simulation 1: `db_1`
+- source: website_user
+- name: John Doe
 - first:
 - last:
-- name: John Doe
-- source: website_user
 
-#### Simulation 2: `db_2`
+<img src={data_simulation_create} alt="N to 1 Simulation Check" class="myResponsiveImg" width="600px"/>
+
+#### Add Test Simulation 2: `db_2`
 - first: Peter
 - last: Parker
 - name:
 - source: service_user
 
-<img src={data_simulation} alt="N to 1 example" class="myResponsiveImg" width="400px"/>
+<img src={data_simulation} alt="N to 1 Simulation Check" class="myResponsiveImg" width="400px"/>
 
 :::note
 
@@ -134,55 +152,36 @@ The service INPUT arguments that was created in step 1 is what's being used to c
 
 :::
 
-#### Check the Simulated Data
-
-##### Select the `db_1` from the INPUT Data Simulation.
-<img src={data_simulation_check} alt="N to 1 example" class="myResponsiveImg" width="600px"/>
-
-
-##### Press the Trace button to Visualize the Data
-
-1. Click the Trace button in the Output Data Mapping.
-2. Press the Data tab in the right pane
-
-<img src={data_simulation_check_1} alt="N to 1 example" class="myResponsiveImg" width="800px"/>
-
-:::tip Required Concepts
-Learn how to use [Trace](../../../Documentation/Guide/Workflow/Trace/) to visualize data throughout the workflow. 
-:::
-
-:::note
-The output field is RED because we have not mapped the output argument with any value from the workflow.
-:::
-
 ### Step 3 : Add Condition Switch Action
-
-We will be using two actions.
-- **condition/switch** <ul><li>Case 1: If source has <b>website_user</b></li><li>Default: Anything else. The source <b>service_user</b> will not match any case hence go through actions in the default.</li></ul>
-- **string/split** <br />Source with <b>website_user</b> has the name value <b>John Doe</b>, so we need to split the name into two values.
-
-#### Add Action condition/switch
 :::tip Required Concepts
 Learn how to use [condition/switch](../../../Documentation/actions-library/flow/conditional/action-conditional-switch/) actions.
 :::
-
-**Condition configuration**
-
 Condition is configured to SWITCH based on INPUT `source` value.
 
 <img src={condition_switch} alt="Condition Switch" class="myResponsiveImg" width="600px"/>
 
 
+**Configure condition/switch**
+- Case 1: If source has **website_user** 
+- Default: The source **service_user** will not match any case hence go through the default case.
+
+
 ### Step 4 (Case 1): Apply Actions to Transform the Data
 
+#### 1. Select "db_1" Simulation
 
-#### 1. Look for the source "website_user"
+If it is not already selected, select the `db_1` from the INPUT Data Simulation.
+We will use the simulated data from "db_1" to configure the "CASE 1" in the switch.
+<img src={data_simulation_check} alt="N to 1 Simulation Check" class="myResponsiveImg" width="600px"/>
+
+
+#### 2. Look for the source "website_user"
 
 The first case looks for the value `website_user` in the INPUT `source`
 
 <img src={condition_switch_case_1} alt="Condition Switch Case 1" class="myResponsiveImg" width="600px"/>
 
-#### 2. Apply Action "string/split"
+#### 3. Apply Action "string/split"
 :::tip Required Concepts
 Learn how to use [string/split](../../../Documentation/actions-library/data/string/action-string-split/) actions.
 :::
@@ -194,7 +193,8 @@ If the source has the value `website_user`, it will split the string.
 <img src={condition_switch_case_1_1} alt="Condition Switch Case 1" class="myResponsiveImg" width="600px"/>
 
 
-#### 3. Configure "string/split"
+#### 4. Configure "string/split"
+- **string/split** <br />Source with <b>website_user</b> has the name value <b>John Doe</b>, so we need to split the name into two values.
 
 
 **Action configuration**
@@ -209,13 +209,13 @@ If the source has the value `website_user`, it will split the string.
 Learn more about <a href="/docs/Documentation/Guide/Workflow/Action/check-output">Check Action Output</a>.
 :::
 
-- The OUTPUT of the action is stored in the SCOPE `variable: output`
+- The OUTPUT of the action is stored in the SCOPE `variable: output` by default. You can assign your own variable if you'd like.
 - Press the "Action Output" tab to check that the string `John Doe` is split into an array of `["John", "Doe"]`
 
 <img src={condition_switch_case_1_string_split_check_output} alt="Action Check Output" class="myResponsiveImg" width="600px"/>
 
 
-#### 4. Create RETURN value as an object
+#### 5. Create RETURN value as an object
 
 
 **Return configuration**
