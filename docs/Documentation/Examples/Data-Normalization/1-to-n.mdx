@@ -152,8 +152,8 @@ Learn how to use [string/split-by-newline](../../../Documentation/actions-librar
 
 #### 1. Select "syslog" Simulation
 
-If it is not already selected, select the `db_1` from the INPUT Data Simulation.
-We will use the simulated data from "db_1" to configure the "CASE 1" in the switch.
+If it is not already selected, select the "cisco-asa" from the INPUT Data Simulation.
+We will use the simulated data from "cisco-asa" to configure the workflow.
 <img src={data_simulation_check} alt="N to 1 Simulation Check" class="myResponsiveImg" width="600px"/>
 
 #### 2. Configure string/split-by-newline action
@@ -178,25 +178,36 @@ Learn how to use [iteration/map](../../../Documentation/actions-library/flow/ite
 :::
 
 #### Configure iteration map
-- ITERATE: We will be iteration over the list of records that's saved in the scope `variable: out`.
-- SCOPE: This is a special scope that existing in the iteration to record data as it loops through the array.
+- ITERATE: We will be iterating over the list of records that's saved in the scope `variable: output`.<br/>
+The previous action "string/split-by-newline" stored the output in the scope "variable: output".
+- SCOPE: This is a special scope that exists only in the iteration. It is used to store the values as it iterates over the array. <br/>
+In our example, we will call it `ip-port`.
 
 <img src={iteration_map} alt="String Split Action" class="myResponsiveImg" width="800px"/>
+
+:::info
+You can not access iteration scope outside the iteration.
+:::
 
 ### Step 5 : Add Action "String Split" Inside the Iteration
 :::tip Required Concepts
 Learn how to use [string/split-by](../../../Documentation/actions-library/data/string/action-string-split-by/) actions.
 :::
 
-Similar to how the earlier [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx) action split the string on a new line;
+Similar to how the earlier [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx) action to split the string on a new line;
 
-An action to split the string by pattern [string/split-by](Documentation/actions-library/data/string/action-string-split-by.mdx) will be used to further split the string to isolate the values.
+An action [string/split-by](Documentation/actions-library/data/string/action-string-split-by.mdx) will be used to further split the string based on patterns to isolate the values.
 
 #### 1. Configure "String Split By" Action
 - string: We are splitting each string stored in the [iteration scope](../../../Documentation/Guide/Workflow/Scope/#iteration-scope) `ip-port`
 - patterns:
   - IP address is behind the pattern `OUTSIDE: `
   - Port Number is behind the pattern `connection `
+
+##### Reference
+<pre>
+%ASA-6-302013: TCP <b>connection </b>933 <b>OUTSIDE:</b>172.217.169.68
+</pre>
 
 By splitting the record at above patterns, we will be able to isolate the IP address and port numbers.
 
