@@ -15,6 +15,9 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --main-background: #c2c0ba;
+  --img-border-color: #d5d8dc;
+  --img-hover-color: #2b794e;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,15 +30,30 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --main-background: #30302e;
+  --img-border-color: #555c64;
+  --img-hover-color: #29ba97;
 }
 
 /* Buttons */
-button{
+.btnVideo,
+.btnDownload {
   background-color: #fff;
   border-radius: 6px;
-  border: solid 2px #000;
+  border: solid 1px var(--img-border-color);
   padding: 15px 30px;
   font-weight: bolder;
+  color: #000;
+}
+.btnVideo:hover,
+.btnDownload:hover {
+  background-color: #fff;
+  border-radius: 6px;
+  border: solid 1px var(--img-hover-color);
+  padding: 15px 30px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #000;
 }
 
 /* Page 2 Column */
@@ -174,8 +192,8 @@ button{
 }
 
 /* Customized design */
-body {
-  background-color: gray;
+main, body {
+  background-color: var(--main-background);
 }
 .navbar{
   border-radius: 25px 25px 0 0;
@@ -195,11 +213,17 @@ body {
 [data-theme='dark'] main > .container {
   background-color: #1b1b1d;
 }
-.hero, main .container img{
+article img {
   background-color: #fff;
   border-radius: 6px;
-  border: solid 2px #000;
-  padding: 33px;
+  border: solid 1px var(--img-border-color);
+  padding: 30px;
+}
+article img:hover {
+  background-color: #fff;
+  border-radius: 6px;
+  border: solid 1px var(--img-hover-color);
+  padding: 30px;
 }
 [data-theme='dark'] .hero, main .container img{
   color: #000;
@@ -212,4 +236,31 @@ body {
 }
 .menu__list-item .menu__list li .menu__caret:before{
   background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem
+}
+.markdown > .hero > .container > .hero__subtitle{
+  color: var(--docsearch-text-color);
+}
+.icon {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  padding: 0;
+}
+.interactor-simbol {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 24px;
+  border: solid 1px var(--img-border-color);
+  width: fit-content;
+  color: #000;
+}
+.interactor-simbol:hover {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 24px;
+  border: solid 1px var(--img-hover-color);
+  width: fit-content;
+  color: var(--img-hover-color);
 }

@@ -14,11 +14,10 @@ Welcome to API AutoFlow!
 
 API AutoFlow is a no-code **_integration_** and **_automation_** platform for enterprise and telecom use cases.
 
-<div class="hero shadow--lw padding-vert--sm margin-vert--lg">
-  <div class="container">
-    <p class="hero__subtitle">
-    Integration + Automation = <strong>Interaction</strong></p>
-  </div>
+<div>
+    <p class="interactor-simbol">
+        Integration + Automation = <strong>Interaction</strong>
+    </p>
 </div>
 
 Enterprise and telecom have unique interaction needs.  Whether interacting with industry-specific protocols, abstracting and normalizing the data, or automating certain processes, API AutoFlow provides the features needed to quickly and easily connect and generate workflows for each use case.

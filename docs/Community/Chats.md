@@ -18,7 +18,7 @@ import KakaotalkIcon from '@site/static/img/kakaotalk-icon.png';
 
 ## Join Community
 
-<a href="https://join.slack.com/t/interactorteam/shared_invite/zt-eqx0mnh0-BkZWPzmh3DUJSTYxAJHmqw" target="_blank"> <img src={SlackIcon} width="20" /> Interactor Slack Community</a>
+<a href="https://join.slack.com/t/interactorteam/shared_invite/zt-eqx0mnh0-BkZWPzmh3DUJSTYxAJHmqw" target="_blank"> <img src={SlackIcon} width="20" className="icon" /> Interactor Slack Community</a>
 
 <br/>
 
