@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-import action_new_paste from '@site/static/img/guide/action/action-new-paste.jpg';
-import action_copy_and_paste from '@site/static/img/guide/action/action-copy-and-paste.jpg';
+import action_new_paste from '@site/static/img/guide/Action/action-new-paste.jpg';
+import action_copy_and_paste from '@site/static/img/guide/Action/action-copy-and-paste.jpg';
 
 # Copy and Paste
 
