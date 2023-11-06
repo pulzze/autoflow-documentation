@@ -61,7 +61,7 @@ const FeatureList = [
         Ask questions
       </>
     ),
-    link: 'Forum'
+    link: 'docs/Community'
   },
 ];
 
