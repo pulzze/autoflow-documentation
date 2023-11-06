@@ -1,1 +1,1 @@
-Want to split pattern.
+String to split

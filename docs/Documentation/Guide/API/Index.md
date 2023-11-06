@@ -2,10 +2,10 @@
 sidebar_position: 2
 ---
 
-import CreateNewAction from '@site/static/img/Guide/API/create_new_action.png';
-import SelectNewOperation from '@site/static/img/Guide/API/select_new_operation.png';
-import AddPath from '@site/static/img/Guide/API/add_path.png';
-import ApiOperationOverview from '@site/static/img/Guide/API/api_operation_overview.png';
+import CreateNewAction from '@site/static/img/guide/API/create_new_action.png';
+import SelectNewOperation from '@site/static/img/guide/API/select_new_operation.png';
+import AddPath from '@site/static/img/guide/API/add_path.png';
+import ApiOperationOverview from '@site/static/img/guide/API/api_operation_overview.png';
 
 # API
 

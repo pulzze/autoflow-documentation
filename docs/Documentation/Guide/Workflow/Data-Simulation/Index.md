@@ -9,16 +9,28 @@ keywords:
   - mock data
 ---
 
-import ActionData from "@site/static/img/Guide/data-simulation/action_data.png"
-import Trace from "@site/static/img/Guide/data-simulation/trace.png"
-import ColorIndicationFailure from "@site/static/img/Guide/data-simulation/color_indication_failure.png"
-import ColorIndicationSuccess from "@site/static/img/Guide/data-simulation/color_indication_success.png"
-import SimulationSection from "@site/static/img/Guide/data-simulation/simulation_section.png"
-import SimulationButton from "@site/static/img/Guide/data-simulation/simulation_button.png"
+import ActionData from "@site/static/img/guide/data-simulation/action_data.png"
+import Trace from "@site/static/img/guide/data-simulation/trace.png"
+import ColorIndicationFailure from "@site/static/img/guide/data-simulation/color_indication_failure.png"
+import ColorIndicationSuccess from "@site/static/img/guide/data-simulation/color_indication_success.png"
+import SimulationSection from "@site/static/img/guide/data-simulation/simulation_section.png"
+import SimulationButton from "@site/static/img/guide/data-simulation/simulation_button.png"
 
 # Data Simulation
 
-Data simulation is a mock HTTP request data simulated for the purpose of testing a server, service during development. By simulating the data, developers can visualize the expected response as the actions are applied.
+## Overview
+<div class="colTwoBlock">
+    <div class="colTwoLeft">
+        <div class="colTwoWrapper">
+            <p>Data simulation is a mock HTTP request data simulated for the purpose of testing a server, service during development. By simulating the data, developers can visualize the expected response as the actions are applied.</p>
+        </div>
+    </div>
+    <div class="colTwoRight">
+          <h4>Tutorial</h4>
+          <a target="_blank" href="https://www.youtube.com/watch?v=7lwaMfIKzeY"><button class="btnVideo">🎥 Watch Video</button></a>
+    </div>
+    <div class="colTwoClearer"></div>
+</div>
 
 ## From Operations
 

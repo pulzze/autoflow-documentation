@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-import NewTopicEvent from "@site/static/img/Guide/Clients/MQTT/new_topic_event.png"
+import NewTopicEvent from "@site/static/img/guide/clients/MQTT/new_topic_event.png"
 
 
 # MQTT

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 title: Data Normalization
 sidebar_label: 1 to N
 description: Transform log into an object
@@ -34,7 +34,6 @@ import service_operation_check_output from '@site/static/img/example/data-transf
         <div class="colTwoWrapper">
           <p>Received data from a single source such as a log and split the records into an array of entries.</p>
           <p>In this example, syslog from the Cisco ASA 302013 firewall which is in a string format is normalized into a standardized JSON format.</p>
-<img src={img_1to_n_example} alt="1 to N example" class="myResponsiveImg" width="800px"/>
         </div>
     </div>
     <div class="colTwoRight">
@@ -44,7 +43,7 @@ import service_operation_check_output from '@site/static/img/example/data-transf
     </div>
     <div class="colTwoClearer"></div>
 </div>
-
+<img src={img_1to_n_example} alt="1 to N example" class="myResponsiveImg" width="800px"/>
 
 ## Supporting Concepts
 
@@ -163,7 +162,7 @@ The string that we are splitting is the value from INPUT "syslog"
 
 #### 3. Check the Action Output
 :::tip Required Concepts
-Learn more about <a href="/docs/Documentation/Guide/Workflow/Action/check-output">Check Action Output</a>.
+Learn more about <a href="/docs/Documentation/Guide/Workflow/action/check-output">Check Action Output</a>.
 :::
 
 - The OUTPUT of the action is stored in the SCOPE `variable: output` by default. You can assign your own variable if you'd like.

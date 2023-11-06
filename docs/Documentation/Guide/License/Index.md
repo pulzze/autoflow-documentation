@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 
-import AlertsAndNotifications from "@site/static/img/Guide/License/alerts-and-notifications.png"
+import AlertsAndNotifications from "@site/static/img/guide/license/alerts-and-notifications.png"
 
 # License
 

@@ -2,38 +2,59 @@
 sidebar_position: 13
 ---
 
-import FeedbackInfo from "@site/static/img/Guide/Settings/feedback_info.png"
-import DarkMode from "@site/static/img/Guide/Settings/dark_mode.png"
-import ChangeLicenseAddress from "@site/static/img/Guide/Settings/change_license_address.png"
-import EnterLicense from "@site/static/img/Guide/Settings/enter_license.png"
-import Users from "@site/static/img/Guide/Settings/users.png"
-import SystemEnvironment from "@site/static/img/Guide/Settings/system_environment.png"
-import DownloadConfiguration from "@site/static/img/Guide/Settings/download_configuration.png"
+import FeedbackInfo from "@site/static/img/guide/settings/feedback-info.png"
+import DarkMode from "@site/static/img/guide/settings/dark-mode.png"
+import ChangeLicenseAddress from "@site/static/img/guide/settings/change-license-address.png"
+import EnterLicense from "@site/static/img/guide/settings/enter-license.png"
+import Users from "@site/static/img/guide/settings/users.png"
+import SystemEnvironment from "@site/static/img/guide/settings/system-environment.png"
+import DownloadConfiguration from "@site/static/img/guide/settings/download-configuration.png"
+import ServerStart from "@site/static/img/guide/settings/server-start.jpg"
+import SettingsLeftNavigation from "@site/static/img/guide/settings/setting-left-navigation.jpg"
 
 # Settings
 
-## **Configuration Management**
+<div class="colTwoBlock">
+    <div class="colTwoLeft">
+        <div class="colTwoWrapper">
+            <h2>Configuration Management</h2>
+            <p>The settings tab is located at the bottom of the left navigation.</p>
+        </div>
+    </div>
+    <div class="colTwoRight">
+          <h4>Tutorial</h4>
+          <a target="_blank" href="https://www.youtube.com/watch?v=Ywv_cIZtMTI"><button class="btnVideo">🎥 Watch Video</button></a>
+   </div>
+    <div class="colTwoClearer"></div>
+</div>
 
+<img src={SettingsLeftNavigation} alt="Settings Left Navigation" class="myResponsiveImg" width="200px"/>
+
+### **Upload Configuration**
+
+
+1. Press the **Upload** button to import the configuration to your API AutoFlow.
+
+<img src={DownloadConfiguration} alt="Download Configuration" class="myResponsiveImg" width="400px"/>
+
+2. **Drag-and-drop** the configuration file to the box.
+
+<img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/7d3ba7eb-607a-4816-af7e-a9432d479890" alt="Upload Configuration" class="myResponsiveImg" width="400px"/>
+
+3. **START** the server.
+
+<img src={ServerStart} alt="Server Start" class="myResponsiveImg" width="700px"/>
+
+By default, the server is in OFF status when the configuration is uploaded
+
+:::tip
+If the configuration is provided as a JSON text, create a new file with a **.json** extention and upload to API AutoFlow
+:::
 
 ### **Download Configuration**
 
 Press the Download button to save the configuration on your computer. The default file name is config.json.
 
-<div class="myResponsiveImg">
-    <img src={DownloadConfiguration} alt="Download Configuration" class="myResponsiveImg"/>
-</div>
-
-### **Upload Configuration**
-
-Press the **Upload** button to import the configuration to your API AutoFlow.
-
-<div class="myResponsiveImg">
-    <img src="https://github.com/pulzze/autoflow-documentation/assets/85649767/7d3ba7eb-607a-4816-af7e-a9432d479890" alt="Upload Configuration" class="myResponsiveImg"/>
-</div>
-
-:::tip
-If the configuration is provided as a JSON text, create a new file with a **.json** extention and upload to API AutoFlow
-:::
 
 ## System Environment
 

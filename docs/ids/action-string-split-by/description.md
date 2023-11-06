@@ -1,30 +1,40 @@
 This Action returns array that divides a string into parts based on a pattern.
 
-<br/>
+- string : `string value`
+- patterns : `The pattern to slit`
 
-- string : string value
-- partterns : Want to split pattern.
+### Examples
 
-<br/>
+#### <Example 1>
 
-**[Example]**
-*Ex01)*
+**string**
 ```
-[string]
-  > string : a,u,t,o,f,l,o,w
-[position]
-  > array
-    > string : ","
------------------------
--> return : ["a","u","t","o","f","l","o","w"]
+a,u,t,o,f,l,o,w
 ```
-*Ex02)*
+
+**position**
 ```
-[string]
-  > string : a u t o f l o w
-[position]
-  > array
-    > string : " "
------------------------
--> return : ["a","u","t","o","f","l","o","w"]
+,
+```
+
+**returns**
+```json
+["a","u","t","o","f","l","o","w"]
+```
+
+
+#### <Example 2>
+
+**string**
+```
+a u t o f l o w
+```
+
+**position**
+
+" "  (white space)
+
+**returns**
+```json
+["a","u","t","o","f","l","o","w"]
 ```

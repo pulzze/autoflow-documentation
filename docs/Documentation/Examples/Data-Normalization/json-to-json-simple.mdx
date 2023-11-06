@@ -1,0 +1,231 @@
+---
+sidebar_position: 1
+title: JSON to JSON Simple
+sidebar_label: JSON to JSON Simple
+description: Transforming from one JSON format to another
+image: img/api-autoflow-logo.png
+keywords:
+  - data normalization
+  - data transformation
+  - JSON to JSON
+---
+
+
+import CreateApiPath from '@site/static/img/example/data-transformation/json-to-json-simple/1-create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/json-to-json-simple/2-create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/json-to-json-simple/3-create-server-operation.jpg';
+import SimulateData from '@site/static/img/example/data-transformation/json-to-json-simple/4-simulate-data.jpg';
+import SendPostmanRequest from '@site/static/img/example/data-transformation/json-to-json-simple/5-send-postman-request.jpg';
+import CreateSimulation from '@site/static/img/example/data-transformation/json-to-json-simple/6-create-simulation.jpg';
+import NameSimulation from '@site/static/img/example/data-transformation/json-to-json-simple/7-name-simulation.jpg';
+import SelectSimulation from '@site/static/img/example/data-transformation/json-to-json-simple/8-select-simulation.jpg';
+import HttpResponse from '@site/static/img/example/data-transformation/json-to-json-simple/9-http-response.jpg';
+import PostmanCheck from '@site/static/img/example/data-transformation/json-to-json-simple/9-1-postman-check.jpg';
+import AddStringCapitalizeAction from '@site/static/img/example/data-transformation/json-to-json-simple/10-add-string-capitalize-action.jpg';
+import StringCapitalize from '@site/static/img/example/data-transformation/json-to-json-simple/11-string-capitalization.jpg';
+import HttpResponseCapitalized from '@site/static/img/example/data-transformation/json-to-json-simple/12-http-response.jpg';
+import PostmanFinal from '@site/static/img/example/data-transformation/json-to-json-simple/13-postman-final.jpg';
+
+
+# JSON to JSON Simple
+
+## Overview
+<div class="colTwoBlock">
+    <div class="colTwoLeft">
+        <div class="colTwoWrapper">
+          <p>Create a <a href="/docs/Documentation/Guide/Server/">Server</a> that receives data in a JSON format and respond in another JSON format.</p>
+          <p>In the below example, a new <a href="/docs/Documentation/Related-Concepts/data-types#object-1">object</a> is created by extracting the values from the original JSON object.</p>
+          <p>Additionally, the first name is capitalized.</p>
+        </div>
+        <br />
+    </div>
+    <div class="colTwoRight">
+          <h4>Example Configuration</h4>
+          <a target="_blank" href="pathname:///file/config-example-data-transformation.json" download><button class="btnDownload">⏬ Download</button></a>
+          <p><a href="/docs/Documentation/Guide/Settings/#configuration-management">Learn how to use</a></p>
+   </div>
+    <div class="colTwoClearer"></div>
+</div>
+
+### Original JSON
+
+```js
+{
+    "data": {
+        "field1": "joe",
+        "field2": "blow"
+    }
+}
+```
+
+### New JSON
+
+```js
+{
+    "user": {
+        "first_name": "Joe",
+        "last_name": "blow"
+    }
+}
+```
+
+## Supporting Concepts
+
+
+<details>
+
+<summary>Basic concepts needed for the use case</summary>
+
+| Topic    | Description |
+| -------- | ------- |
+| [API](../../../Documentation/Examples/API/#1-create-api)  | An API in API AutoFlow is simply an OpenAPI model |
+| [Server](../../../Documentation/Examples/API/#2-create-server)  | A server accepts and handles the request and response. |
+| [Simulation](../../../Documentation/Guide/Workflow/Data-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
+| [Scope](../../../Documentation/Guide/Workflow/Scope/)    |  A scope is a namespace for variables.    |
+| [Data Types](../../../Documentation/Related-Concepts/data-types/)    | Data types describe the different types or kinds of data that you are gonna store and work with.    |
+
+</details>
+
+<details open>
+
+<summary>Use case specific concepts</summary>
+
+| Topic    | Description |
+| -------- | ------- |
+| Action <br/>[string/capitalize](../../../Documentation/actions-library/data/string/action-string-capitalize-first/)    | Returns array that divides a string into substrings at each Unicode whitespace occurrence with leading and trailing whitespace ignored.    |
+
+</details>
+
+
+## Details
+The HTTP request has 2 inputs:
+- **data**: main key that wraps the data
+  - **field1**: key where the "first name" is stored
+  - **field2**: key where the "last name" is stored
+
+The goal of the operation is to create a new JSON:
+
+- **user**: main key that wraps the data
+  - **first_name**: key where the "first name" is stored
+  - **last_name**: key where the "last name" is stored
+
+
+## Content
+
+### Step 1: Create an API endpoint
+
+:::tip Required Concepts
+Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api). 
+:::
+
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/json-to-json-simple`
+- Method: <span class="method post">POST</span>
+
+### Step 2. Create a Server Operation
+:::tip Required Concepts
+Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
+:::
+
+#### Create a Server
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
+
+
+- Server ID: `data-transformation-server`
+- Port Number: `8080`  Feel free to select your own port number
+- Linked API: data-transformation-api  (select the API you created above)
+
+
+:::note
+
+The service INPUT arguments that was created in step 1 is what's being used to create the service simulation.
+
+:::
+
+#### Create a Server Operation
+
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/>
+
+- Press the "Add API Operation"
+- Select the API endpoint created above
+
+### Step 3 : Create Data Simulation using Real Data
+
+:::tip Required Concepts
+Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/Data-Simulation/). 
+:::
+
+<img src={SimulateData} alt="Simulate Data" class="myResponsiveImg" width="750px"/>
+
+We will use the "real data" to create the test simulation.
+
+#### 1. Send a HTTP request from Postman or CURL
+
+<img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/>
+
+#### 2. Create a Test Simulation from the Received Data
+
+API Autoflow captures the data received and it can be used to create data simulation.
+
+<img src={CreateSimulation} alt="Create Simulation" class="myResponsiveImg" width="450px"/>
+
+#### 3. Name the Simulation
+
+<img src={NameSimulation} alt="Name Simulation" class="myResponsiveImg" width="400px"/>
+
+
+#### 4. Select "real-data" Simulation
+
+<img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/>
+
+
+
+### Step 4 : Create a NEW JSON in the HTTP response
+
+#### 1. Map HTTP response
+
+We will create a NEW JSON object directly in the HTTP response body.
+
+Note that we have changed the HTTP response into a **object**
+
+<img src={HttpResponse} alt="Http Response" class="myResponsiveImg" width="400px"/>
+
+#### 2. Check from Postman
+
+<img src={PostmanCheck} alt="Postman Check" class="myResponsiveImg" width="700px"/>
+
+
+
+## Add Action to the Flow
+
+You can add actions to transform the data.
+
+### Step 5 : Add an action
+
+#### 1. Add String Capitalize Action
+
+<img src={AddStringCapitalizeAction} alt="String Capitalize" class="myResponsiveImg" width="800px"/>
+
+#### 2. Configure Action
+
+We are capitalizing the data in variable **request**: `body > data > field1` which contains the first name 
+
+:::danger
+The action's OUTPUT is changed to __**variable**__: `first_name`.  Which means, the transformed value will be stored in the new variable.
+::: 
+
+<img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/>
+
+
+### Step 6 : Map the HTTP response with the New Variable
+
+Change the object to the new variable.
+
+<img src={HttpResponseCapitalized} alt="Http Response Capitalized" class="myResponsiveImg" width="400px"/>
+
+### Step 7 : Test the API with Postman or CURL
+
+Notice that the value `Joe` is now capitalized.
+
+<img src={PostmanFinal} alt="Postman Final" class="myResponsiveImg" width="800px"/>

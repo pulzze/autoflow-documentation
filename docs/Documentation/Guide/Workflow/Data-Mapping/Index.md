@@ -2,8 +2,8 @@
 sidebar_position: 6
 ---
 
-import ResponseMapping from "@site/static/img/Guide/data-mapping/response_mapping.png"
-import HttpResponse from "@site/static/img/Guide/data-mapping/http_response.png"
+import ResponseMapping from "@site/static/img/guide/data-mapping/response_mapping.png"
+import HttpResponse from "@site/static/img/guide/data-mapping/http_response.png"
 
 # Data Mapping
 

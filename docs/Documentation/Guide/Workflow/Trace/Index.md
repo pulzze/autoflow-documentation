@@ -1,6 +1,6 @@
-import DataAfterExecution from "@site/static/img/Guide/trace/data_after_execution.png"
-import DataReceived from "@site/static/img/Guide/trace/data_received.png"
-import TraceExecution from "@site/static/img/Guide/trace/trace_execution.png"
+import DataAfterExecution from "@site/static/img/guide/trace/data_after_execution.png"
+import DataReceived from "@site/static/img/guide/trace/data_received.png"
+import TraceExecution from "@site/static/img/guide/trace/trace_execution.png"
 
 # Trace
 

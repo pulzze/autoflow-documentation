@@ -1,1 +1,1 @@
-Want to write varibles
+Variables in object.

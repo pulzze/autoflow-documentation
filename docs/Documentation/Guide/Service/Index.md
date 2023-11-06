@@ -4,59 +4,54 @@ title: Service
 description: A service helps the server by taking out commonly used actions into a reusable group.
 ---
 
-import ServiceDataSimulation from "@site/static/img/Guide/Service/service-data-simulation.png"
-import SetDataServiceInput from "@site/static/img/Guide/Service/set-data-service-input.png"
-import SelectServiceOperations from "@site/static/img/Guide/Service/select-service-operations.png"
-import ChooseServiceOperation from "@site/static/img/Guide/Service/choose-service-operation.png"
-import AddServiceOperation from "@site/static/img/Guide/Service/add-service-operation.png"
-import MapActionOutput from "@site/static/img/Guide/Service/map-action-output.png"
-import CreateInputOutputArgs from "@site/static/img/Guide/Service/create-input-output-args.png"
-import DefineInputOutput from "@site/static/img/Guide/Service/define-input-output.png"
-import AddNewOperation from "@site/static/img/Guide/Service/add-new-operation.png"
-import AddNewOperation2 from "@site/static/img/Guide/Service/add-new-operation2.png"
-import CreateServiceId from "@site/static/img/Guide/Service/create-service-id.png"
-import CreateNewService from "@site/static/img/Guide/Service/create-new-service.png"
-import AddNewVersion from "@site/static/img/Guide/Service/add-new-version.png"
-import NewInputOutput from "@site/static/img/Guide/Service/new-input-output.png"
-import NewServiceOperation from "@site/static/img/Guide/Service/new-service-operation.png"
-import ServiceOverview from "@site/static/img/Guide/Service/service-overview.png"
+import ServiceDataSimulation from "@site/static/img/guide/service/service-data-simulation.png"
+import SetDataServiceInput from "@site/static/img/guide/service/set-data-service-input.png"
+import SelectServiceOperations from "@site/static/img/guide/service/select-service-operations.png"
+import ChooseServiceOperation from "@site/static/img/guide/service/choose-service-operation.png"
+import AddServiceOperation from "@site/static/img/guide/service/add-service-operation.png"
+import MapActionOutput from "@site/static/img/guide/service/map-action-output.png"
+import CreateInputOutputArgs from "@site/static/img/guide/service/create-input-output-args.png"
+import DefineInputOutput from "@site/static/img/guide/service/define-input-output.png"
+import AddNewOperation from "@site/static/img/guide/service/add-new-operation.png"
+import AddNewOperation2 from "@site/static/img/guide/service/add-new-operation2.png"
+import CreateServiceId from "@site/static/img/guide/service/create-service-id.png"
+import CreateNewService from "@site/static/img/guide/service/create-new-service.png"
+import AddNewVersion from "@site/static/img/guide/service/add-new-version.png"
+import NewInputOutput from "@site/static/img/guide/service/new-input-output.png"
+import NewServiceOperation from "@site/static/img/guide/service/new-service-operation.png"
+import ServiceOverview from "@site/static/img/guide/service/service-overview.png"
+import TutorialService from '@site/static/img/tutorial-services.png';
 
 # Service (Workflow Abstraction)
 
-import TutorialService from '@site/static/img/tutorial-services.png';
-
-## Video Tutorial
-
-<div class="videoBlock">
-    <div class="videoLeft">
-        <div class="videoWrapper">
-            <a href="../../../Tutorial/#108-abstracting-workflow-with-service-and-intent"><img src={TutorialService} /></a>
+## Overview
+<div class="colTwoBlock">
+    <div class="colTwoLeft">
+        <div class="colTwoWrapper">
+            <p>Service is a reusable function</p>
+            <ul>
+                <li>Takes in a set of <b>INPUT</b> arguments</li>
+                <li>Performs set of actions</li>
+                <li>Gives out an <b>OUTPUT</b></li>
+            </ul>
         </div>
     </div>
-    <div class="videoRight">
-        <div class="videoText">
-            <a href="../../../Tutorial/#108-abstracting-workflow-with-service-and-intent"><h2><code>108</code> Service (Workflow Abstraction)</h2></a>
-            <p>Topics covered</p>
-                <ul>
-                    <li>Understanding Service</li>
-                    <li>Creating Workflow</li>
-                    <li>Input and Output schemas</li>
-                </ul>
-            <p>Duration:  3 mins</p>
-        </div>
+    <div class="colTwoRight">
+          <h4>Tutorial</h4>
+          <a target="_blank" href="https://www.youtube.com/watch?v=niH3M67btco&t=1s"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
-    <div class="videoClearer"></div>
+    <div class="colTwoClearer"></div>
 </div>
 
-## What is a Service?
 
+### How to use Service
 - A service helps the server by taking out commonly used actions into a reusable group.
 - A service performs a set of operations and its’ [action](../../actions-library)s.
 - A service has an INPUT and an OUTPUT similar to **functions** in a programming language.
 
 For example, a service to get email from a GMAIL API can be reused by many servers, where the service has multiple actions to accomplish the get email task.
 
-![API Autoflow Overview](@site/static/img/Guide/getting-started/ApiAutoflow.png)
+![API Autoflow Overview](@site/static/img/guide/getting-started/ApiAutoflow.png)
 
 ## Configuring a Service
 

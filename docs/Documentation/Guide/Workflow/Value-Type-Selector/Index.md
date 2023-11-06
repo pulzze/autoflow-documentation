@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-import ValueTypeOverview from "@site/static/img/Guide/value-type-selector/value_type_overview.png"
+import ValueTypeOverview from "@site/static/img/guide/value-type-selector/value_type_overview.png"
 
 # Value Type Selector
 

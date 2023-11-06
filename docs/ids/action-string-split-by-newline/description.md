@@ -1,26 +1,33 @@
 The This Action returns array that splits a given string based on a newline.
 
-<br/>
+- string : `string value`
 
-- string : string value
+### Examples
 
-<br/>
+#### <Example 1>
 
-**[Example]**
-*Ex01)*
+**string**
 ```
-[string]
-  > string : I am Autoflow
-             Thank you for using me.
-------------------------------------
--> return : ["I am Autoflow", "Thank you for using me"]
+I am Autoflow
+Thank you for using me.
 ```
-*Ex02)*
+
+**returns**
+```json
+["I am Autoflow", "Thank you for using me"]
 ```
-[string]
-  > string : nice
-             meet
-             you
------------------------
--> return : ["nice", "meet", "you"]
+
+
+#### <Example 2>
+
+**string**
+```
+nice
+meet
+you
+```
+
+**returns**
+```json
+["nice", "meet", "you"]
 ```

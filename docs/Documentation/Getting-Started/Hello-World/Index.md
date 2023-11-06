@@ -1,25 +1,25 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Hello World
 description: Hands on hello world documentation
 ---
 
 import TutorialHelloWorld from '@site/static/img/tutorial-hello-world.png';
-import CreateApi from '@site/static/img/Hello_world/create_api.png';
-import CreateId from '@site/static/img/Hello_world/create_id.png';
-import createPath from '@site/static/img/Hello_world/create_path.png';
-import AddPathInfo from '@site/static/img/Hello_world/add_path_info.png';
-import CreateNewServer from '@site/static/img/Hello_world/create_new_server.png';
-import AddServerInfo from '@site/static/img/Hello_world/add_server_info.png';
-import LinkApi from '@site/static/img/Hello_world/link_api.png';
-import HelloWorldServer from '@site/static/img/Hello_world/hello_world_server.png';
-import AddApiOperation from '@site/static/img/Hello_world/add_api_operation.png';
-import ApiOperation from '@site/static/img/Hello_world/api_operation.png';
-import AddAction from '@site/static/img/Hello_world/add_action.png';
-import JoinString from '@site/static/img/Hello_world/join_string.png';
-import AddString from '@site/static/img/Hello_world/add_string.png';
-import SelectData from '@site/static/img/Hello_world/select_data.png';
-import TestApi from '@site/static/img/Hello_world/test_api.png';
+import CreateApi from '@site/static/img/hello_world/create_api.png';
+import CreateId from '@site/static/img/hello_world/create_id.png';
+import createPath from '@site/static/img/hello_world/create_path.png';
+import AddPathInfo from '@site/static/img/hello_world/add_path_info.png';
+import CreateNewServer from '@site/static/img/hello_world/create_new_server.png';
+import AddServerInfo from '@site/static/img/hello_world/add_server_info.png';
+import LinkApi from '@site/static/img/hello_world/link_api.png';
+import HelloWorldServer from '@site/static/img/hello_world/hello_world_server.png';
+import AddApiOperation from '@site/static/img/hello_world/add_api_operation.png';
+import ApiOperation from '@site/static/img/hello_world/api_operation.png';
+import AddAction from '@site/static/img/hello_world/add_action.png';
+import JoinString from '@site/static/img/hello_world/join_string.png';
+import AddString from '@site/static/img/hello_world/add_string.png';
+import SelectData from '@site/static/img/hello_world/select_data.png';
+import TestApi from '@site/static/img/hello_world/test_api.png';
 
 # Hello World
 
@@ -57,7 +57,7 @@ There are numerous ways to configure API AutoFlow.  But there are the first two
     <img src={CreateApi} alt="Creating A New API" class = "myResponsiveImg"/>
 </div> -->
 
-![Create API](@site/static/img/Hello_world/create_api.png)
+![Create API](@site/static/img/hello_world/create_api.png)
 
 b. Create an ID for the API.
 
@@ -90,7 +90,7 @@ a. Create a new Server
     <img src={CreateNewServer} alt="Creating A New Server" class = "myResponsiveImg"/>
 </div> -->
 
-![Create Server](@site/static/img/Hello_world/create_new_server.png)
+![Create Server](@site/static/img/hello_world/create_new_server.png)
 
 1. Create an ID for the server.
 2. The port number by default is 8080, this is customizable.
@@ -113,7 +113,7 @@ b. Go to the newly created hello_world_server
     <img src={HelloWorldServer} alt="Hello World Server" class = "myResponsiveImg"/>
 </div> -->
 
-![Create new Hello World Server](@site/static/img/Hello_world/hello_world_server.png)
+![Create new Hello World Server](@site/static/img/hello_world/hello_world_server.png)
 
 c. Add the API operation
 
@@ -123,7 +123,7 @@ Now that you have lined the server with the API, you can start creating the oper
     <img src={AddApiOperation} alt="Adding API Operation" class = "myResponsiveImg"/>
 </div> -->
 
-![Add API Operation](@site/static/img/Hello_world/add_api_operation.png)
+![Add API Operation](@site/static/img/hello_world/add_api_operation.png)
 
 <div class="myResponsiveImg">
     <img src={ApiOperation} alt="API Operation" class = "myResponsiveImg"/>
@@ -137,7 +137,7 @@ Click the + Actions button to add an action.
     <img src={AddAction} alt="Adding Action" class = "myResponsiveImg"/>
 </div> -->
 
-![Add Action](@site/static/img/Hello_world/add_action.png)
+![Add Action](@site/static/img/hello_world/add_action.png)
 
 e. Select an action
 

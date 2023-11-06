@@ -4,7 +4,7 @@ collapsed: false
 ---
 
 import TutorialKeyConcept from '@site/static/img/tutorial-key-concepts.png';
-import ApiAutoflow from "@site/static/img/Guide/getting-started/ApiAutoflow.png";
+import ApiAutoflow from "@site/static/img/guide/getting-started/ApiAutoflow.png";
 
 # Getting Started
 ## Key Concepts
@@ -38,7 +38,7 @@ import ApiAutoflow from "@site/static/img/Guide/getting-started/ApiAutoflow.png"
     <img src={ApiAutoflow} alt="Api Autoflow" class="myResponsiveImg"/>
 </div> -->
 
-![API Autoflow Overview](@site/static/img/Guide/getting-started/ApiAutoflow.png)
+![API Autoflow Overview](@site/static/img/guide/getting-started/ApiAutoflow.png)
 
 ### Server
 

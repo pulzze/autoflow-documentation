@@ -2,11 +2,11 @@
 sidebar_position: 4
 ---
 
-import GuideSteps from "@site/static/img/Guide/guide_steps.jpg";
+import GuideSteps from "@site/static/img/guide/guide_steps.jpg";
 
 # Guide
 
-![API Deployment Steps](../../../static/img/Guide/guide_steps.jpg)
+![API Deployment Steps](../../../static/img/guide/guide_steps.jpg)
 
 <!-- <div class="myResponsiveImg">
     <img src={GuideSteps} alt="Guide Steps" class="myResponsiveImg" />

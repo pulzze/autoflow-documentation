@@ -1,9 +1,22 @@
-import ActionData from "@site/static/img/Guide/data-simulation/action_data.png"
-import Trace from "@site/static/img/Guide/data-simulation/trace.png"
-import ColorIndicationFailure from "@site/static/img/Guide/data-simulation/color_indication_failure.png"
-import ColorIndicationSuccess from "@site/static/img/Guide/data-simulation/color_indication_success.png"
-import SimulationSection from "@site/static/img/Guide/data-simulation/simulation_section.png"
-import SimulationButton from "@site/static/img/Guide/data-simulation/simulation_button.png"
+---
+sidebar_position: 1
+title: Simulation Remote
+sidebar_label: Simulation Remote
+description: Right pane simulation control
+image: img/api-autoflow-logo.png
+keywords:
+  - simulation
+  - remote
+hide_table_of_contents: true
+---
+
+
+import ActionData from "@site/static/img/guide/data-simulation/action_data.png"
+import Trace from "@site/static/img/guide/data-simulation/trace.png"
+import ColorIndicationFailure from "@site/static/img/guide/data-simulation/color_indication_failure.png"
+import ColorIndicationSuccess from "@site/static/img/guide/data-simulation/color_indication_success.png"
+import SimulationSection from "@site/static/img/guide/data-simulation/simulation_section.png"
+import SimulationButton from "@site/static/img/guide/data-simulation/simulation_button.png"
 
 # Simulation Remote
 

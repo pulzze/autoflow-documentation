@@ -1,5 +1,13 @@
 ---
 sidebar_position: 1
+title: Overview
+sidebar_label: Overview
+description: API AutoFlow is a no-code integration and automation platform
+image: img/api-autoflow-logo.png
+keywords:
+  - integration
+  - automation
+hide_table_of_contents: true
 ---
 
 import TutorialOverview from '@site/static/img/tutorial-what-is-apiautoflow.png';
@@ -10,9 +18,7 @@ import UseCasesImg from '@site/static/img/use-cases.png';
 
 Welcome to API AutoFlow!
 
-
-
-API AutoFlow is a no-code **_integration_** and **_automation_** platform for enterprise and telecom use cases.
+API AutoFlow is a no-code **_integration_**, **_automation_**, and **_data transformation_** platform for enterprise and telecom use cases.
 
 <div>
     <p class="interactor-simbol">
@@ -21,6 +27,15 @@ API AutoFlow is a no-code **_integration_** and **_automation_** platform for en
 </div>
 
 Enterprise and telecom have unique interaction needs.  Whether interacting with industry-specific protocols, abstracting and normalizing the data, or automating certain processes, API AutoFlow provides the features needed to quickly and easily connect and generate workflows for each use case.
+
+## Who uses API AutoFlow
+
+API Autoflow is used by teams that require collaboration between delivery (business) and engineering teams.  It is a no-code engineering tool that enterprises can use to create solutions with minimal programmatic knowledge.
+
+:::info
+There are a few [fundamental concepts](../Getting-Started/Concepts/) that needs to be learnt before effectively using API Autoflow.
+:::
+
 
 ### Best of both worlds
 
