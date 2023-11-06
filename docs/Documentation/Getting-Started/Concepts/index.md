@@ -22,7 +22,7 @@ import LeftNav from "@site/static/img/getting-started/fundamental-concept/left-n
     </div>
     <div class="colTwoRight">
           <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/embed/SLPKuXWuo1A?si=K2fYk-kJuZZowi7u&amp;start=372"><button class="btnVideo">🎥 Watch Video</button></a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=0qhqOcQKruM"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
     <div class="colTwoClearer"></div>
 </div>
