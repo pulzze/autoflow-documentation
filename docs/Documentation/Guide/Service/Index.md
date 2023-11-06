@@ -4,22 +4,22 @@ title: Service
 description: A service helps the server by taking out commonly used actions into a reusable group.
 ---
 
-import ServiceDataSimulation from "@site/static/img/guide/service/service-data-simulation.png"
-import SetDataServiceInput from "@site/static/img/guide/service/set-data-service-input.png"
-import SelectServiceOperations from "@site/static/img/guide/service/select-service-operations.png"
-import ChooseServiceOperation from "@site/static/img/guide/service/choose-service-operation.png"
-import AddServiceOperation from "@site/static/img/guide/service/add-service-operation.png"
-import MapActionOutput from "@site/static/img/guide/service/map-action-output.png"
-import CreateInputOutputArgs from "@site/static/img/guide/service/create-input-output-args.png"
-import DefineInputOutput from "@site/static/img/guide/service/define-input-output.png"
-import AddNewOperation from "@site/static/img/guide/service/add-new-operation.png"
-import AddNewOperation2 from "@site/static/img/guide/service/add-new-operation2.png"
-import CreateServiceId from "@site/static/img/guide/service/create-service-id.png"
-import CreateNewService from "@site/static/img/guide/service/create-new-service.png"
-import AddNewVersion from "@site/static/img/guide/service/add-new-version.png"
-import NewInputOutput from "@site/static/img/guide/service/new-input-output.png"
-import NewServiceOperation from "@site/static/img/guide/service/new-service-operation.png"
-import ServiceOverview from "@site/static/img/guide/service/service-overview.png"
+import ServiceDataSimulation from "@site/static/img/guide/Service/service-data-simulation.png"
+import SetDataServiceInput from "@site/static/img/guide/Service/set-data-service-input.png"
+import SelectServiceOperations from "@site/static/img/guide/Service/select-service-operations.png"
+import ChooseServiceOperation from "@site/static/img/guide/Service/choose-service-operation.png"
+import AddServiceOperation from "@site/static/img/guide/Service/add-service-operation.png"
+import MapActionOutput from "@site/static/img/guide/Service/map-action-output.png"
+import CreateInputOutputArgs from "@site/static/img/guide/Service/create-input-output-args.png"
+import DefineInputOutput from "@site/static/img/guide/Service/define-input-output.png"
+import AddNewOperation from "@site/static/img/guide/Service/add-new-operation.png"
+import AddNewOperation2 from "@site/static/img/guide/Service/add-new-operation2.png"
+import CreateServiceId from "@site/static/img/guide/Service/create-service-id.png"
+import CreateNewService from "@site/static/img/guide/Service/create-new-service.png"
+import AddNewVersion from "@site/static/img/guide/Service/add-new-version.png"
+import NewInputOutput from "@site/static/img/guide/Service/new-input-output.png"
+import NewServiceOperation from "@site/static/img/guide/Service/new-service-operation.png"
+import ServiceOverview from "@site/static/img/guide/Service/service-overview.png"
 import TutorialService from '@site/static/img/tutorial-services.png';
 
 # Service (Workflow Abstraction)

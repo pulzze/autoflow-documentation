@@ -9,8 +9,8 @@ keywords:
 hide_table_of_contents: false
 ---
 
-import ActionsDetail from "@site/static/img/guide/action/actions-detail.png"
-import ActionOverview from "@site/static/img/guide/action/action-overview.png"
+import ActionsDetail from "@site/static/img/guide/Action/actions-detail.png"
+import ActionOverview from "@site/static/img/guide/Action/action-overview.png"
 
 # Action
 

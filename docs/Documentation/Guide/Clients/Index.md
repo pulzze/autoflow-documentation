@@ -2,15 +2,15 @@
 sidebar_position: 8
 ---
 
-import AddNewVersion from "@site/static/img/guide/clients/add_new_version.png"
-import EnteringConnectionInformation from "@site/static/img/guide/clients/entering_connection_information.png"
-import AddingServer from "@site/static/img/guide/clients/adding_server.png"
-import EnterDatabaseInformation from "@site/static/img/guide/clients/enter_database_information.png"
-import CreatingId from "@site/static/img/guide/clients/creating_id.png"
-import CreatingNewClient from "@site/static/img/guide/clients/creating_new_client.png"
-import ConnectionInfo from "@site/static/img/guide/clients/connection-info.png"
-import ChooseClient from "@site/static/img/guide/clients/choose_client.png"
-import StartConnection from "@site/static/img/guide/clients/start_connection.png"
+import AddNewVersion from "@site/static/img/guide/Clients/add_new_version.png"
+import EnteringConnectionInformation from "@site/static/img/guide/Clients/entering_connection_information.png"
+import AddingServer from "@site/static/img/guide/Clients/adding_server.png"
+import EnterDatabaseInformation from "@site/static/img/guide/Clients/enter_database_information.png"
+import CreatingId from "@site/static/img/guide/Clients/creating_id.png"
+import CreatingNewClient from "@site/static/img/guide/Clients/creating_new_client.png"
+import ConnectionInfo from "@site/static/img/guide/Clients/connection-info.png"
+import ChooseClient from "@site/static/img/guide/Clients/choose_client.png"
+import StartConnection from "@site/static/img/guide/Clients/start_connection.png"
 
 # Clients
 
