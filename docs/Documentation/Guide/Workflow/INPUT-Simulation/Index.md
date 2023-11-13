@@ -1,12 +1,14 @@
 ---
-sidebar_position: 4
-title: Data Simulation
-sidebar_label: Data Simulation
-description: Data simulation is a mock HTTP request data simulated
+sidebar_position: 1
+title: INPUT Simulation
+sidebar_label: 1. INPUT Simulation
+description: INPUT simulation is a mock or HTTP server request or Service arguments.
 image: img/api-autoflow-logo.png
 keywords:
   - data simulation
   - mock data
+  - input
+  - test data
 ---
 
 import ActionData from "@site/static/img/guide/data-simulation/action_data.png"

@@ -5,18 +5,11 @@ sidebar_position: 5
 
 ### **IP Address**
 
-Open up the browser and go to URL
+```bash
 
-<div class="hero hero--dark">
-  <div class="container">
-    <p class="hero__subtitle">
-        <span class="opacity-50">http://</span>
-        <strong>[server_ip_address]</strong>
-        <span class="opacity-50">:4000</span>
-    </p>
-  </div>
-</div>
+http://[server_ip_address]:4000
 
+```
 
 ### Firewall blocking the connection
 

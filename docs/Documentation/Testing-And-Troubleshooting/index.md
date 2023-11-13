@@ -1,6 +1,13 @@
 ---
-sidebar_position: 1
+sidebar_position: 6
 title: Testing and Troubleshooting
+sidebar_label: Troubleshooting
+description: Troubleshooting and debugging
+image: img/api-autoflow-logo.png
+keywords:
+  - Testing
+  - Troubleshooting
+  - Debugging
 ---
 
 import ActionLog from "@site/static/img/example/testing-and-troubleshooting/action-log-light.png"

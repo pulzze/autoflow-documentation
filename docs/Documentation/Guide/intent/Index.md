@@ -2,6 +2,7 @@
 sidebar_position: 5
 title: Intent
 description: Intent helps the server by standardizing the INPUT and OUTPUT of common services.
+sidebar_class_name: hidden
 ---
 
 import IntentOverview from '@site/static/img/intent/intent_overview.png';

@@ -1,3 +1,15 @@
+---
+sidebar_position: 6
+title: Trace
+sidebar_label: Trace
+description: Trace allows the user to visualize the data at every step of the workflow.
+image: img/api-autoflow-logo.png
+keywords:
+  - Trace
+  - Workflow
+hide_table_of_contents: false
+---
+
 import DataAfterExecution from "@site/static/img/guide/trace/data_after_execution.png"
 import DataReceived from "@site/static/img/guide/trace/data_received.png"
 import TraceExecution from "@site/static/img/guide/trace/trace_execution.png"

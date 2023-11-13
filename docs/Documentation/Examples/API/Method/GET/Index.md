@@ -56,7 +56,7 @@ Then just add new a <b>Path</b> with URL PATH!
 ### 1.1 Click the Add Path button and write your Path name!
 
 First, we click the Add Path button. <br/>
-Then we will write the path name with <b> balcket ```{name}``` </b>. <br/>
+Then we will write the path name with <b> bracket ```{name}``` </b>. <br/>
 In ```/my/{name}``` , ```{name}``` means that you can receive the path you want as the path of URL.<br/>
 And we select the <span class="method get">GET</span> Method.
 <img src={get_main} alt="Version Location" class="myResponsiveImg" width="800px"/>

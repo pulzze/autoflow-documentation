@@ -1,5 +1,13 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
+title: Output Mapping
+sidebar_label: 3. Output Mapping
+description: The final step to workflow configuration is mapping the output.
+image: img/api-autoflow-logo.png
+keywords:
+  - output
+  - mapping
+hide_table_of_contents: false
 ---
 
 import ResponseMapping from "@site/static/img/guide/data-mapping/response_mapping.png"

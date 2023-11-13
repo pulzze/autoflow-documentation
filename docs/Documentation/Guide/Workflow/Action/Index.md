@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Actions
-sidebar_label: Actions
+sidebar_label: 2. Actions
 description: Actions are the basic building blocks of a workflow, with a few hundred available to choose from
 image: img/api-autoflow-logo.png
 keywords:

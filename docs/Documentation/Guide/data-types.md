@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 100
 title: Data Types
 sidebar_label: Data Types
 description: Description on types of data
@@ -10,6 +10,7 @@ keywords:
   - object
   - array
 hide_table_of_contents: false
+sidebar_class_name: hidden
 ---
 
 # Data Types

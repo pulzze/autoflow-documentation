@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
-title: Data Normalization
+sidebar_position: 2
+title: Data Transformation ETL
 description: Learn how to normalize data using API AutoFlow
 ---

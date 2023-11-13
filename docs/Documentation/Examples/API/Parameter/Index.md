@@ -62,7 +62,7 @@ Then just add new a <b>Path</b> with URL PATH!
 ### 1.1 Click the Add Path button and write your Path name!
 
 First, we click the Add Path button. <br/>
-Then we will write the path name with <b> balcket ```{user_info}``` </b>. <br/>
+Then we will write the path name with <b> bracket ```{user_info}``` </b>. <br/>
 In ```/user/{user_info}``` , ```{user_info}``` means that you can receive data from <b>*URL Parameters*</b><br/>
 And we select the <span class="method get">GET</span> Method.
 <img src={param02} alt="Version Location" class="myResponsiveImg" width="800px"/>
@@ -138,8 +138,8 @@ Then Select <b> *Query* </b>
 ### 3.3 How to use Database Query Action.
 
 :::info
-This page's goal is getting a query in the database from the <span class="method get">GET</span> with *Paramters*.<br/>
-I will send <span class="method get">GET</span> with Request *Paramters*.
+This page's goal is getting a query in the database from the <span class="method get">GET</span> with *parameters*.<br/>
+I will send <span class="method get">GET</span> with Request *parameters*.
 :::
 
 #### 3.3.1 Select your Client
@@ -165,8 +165,8 @@ Because I will put the values from <span class="method get">GET</span> *URL Para
 #### 3.3.3 Add a Variable Name.
 
 Write the variable name in the Key field.
-<img src={param12} alt="Version Location" class="myResponsiveImg" width="800px"/> 
-<img src={param13} alt="Version Location" class="myResponsiveImg" width="800px"/>
+<img src={param12} alt="Version Location" class="myResponsiveImg" width="600px"/> 
+<img src={param13} alt="Version Location" class="myResponsiveImg" width="600px"/>
 
 #### 3.3.4 Drag the Params to where you want to SELECT.
 
@@ -187,7 +187,7 @@ Click Data Type.
 
 #### 3.3.7 Write Path Scope!
 
-We can get <span class="method get">GET</span> Request query paramter by ``` request > query > city ```.<br/>
+We can get <span class="method get">GET</span> Request query parameter by ``` request > query > city ```.<br/>
 So write the path below.
 <img src={param17} alt="Version Location" class="myResponsiveImg" width="800px"/>
 
@@ -209,7 +209,7 @@ So write path by below.
 ## 4. Test <span class="method get">GET</span> Request and Response
 
 :::info
-I will use <a href="https://www.postman.com/"><b>*POSTMAN*</b></a> to <span class="method get">GET</span> request with the *URL Paramter* & *Request Body*.
+I will use <a href="https://www.postman.com/"><b>*POSTMAN*</b></a> to <span class="method get">GET</span> request with the *URL parameter* & *Request Body*.
 :::
 
 Before starting my user database is as below.
@@ -237,7 +237,7 @@ Second, I will check the result using Action.
 
 Then I got the below response. Now we can see the URL Path user's data was updated in the MySQL database.
 
-<img src={param23} alt="Version Location" class="myResponsiveImg" width="600px"/>
+<img src={param23} alt="Version Location" class="myResponsiveImg" width="700px"/>
 
 Also, If you click Simulation, you can see your data like below.
 
@@ -246,4 +246,4 @@ You don't know how to use ```Simulation``` in Autoflow? <br/>
 Then, <a href="/docs/Documentation/Examples/testing-and-troubleshooting#simulation">Click here! 🔗</a>
 :::
 
-<img src={param24} alt="Version Location" class="myResponsiveImg" width="600px"/>
+<img src={param24} alt="Version Location" class="myResponsiveImg" width="500px"/>

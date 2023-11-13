@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Layout
+title: User Interface Overview
 description: API AutoFlow user interface layout
 ---
 
