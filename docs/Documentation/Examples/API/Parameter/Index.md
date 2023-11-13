@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 title: Parameter
 description: This page you can see how to use API in Autoflow.
 ---
