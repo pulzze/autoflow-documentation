@@ -1,10 +1,10 @@
 ---
-sidebar_position: 100
 title: Data Types
 sidebar_label: Data Types
 description: Description on types of data
 image: img/api-autoflow-logo.png
 keywords:
+  - data types
   - string
   - number
   - object

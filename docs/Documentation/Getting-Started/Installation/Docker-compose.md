@@ -1,3 +1,13 @@
+---
+sidebar_position: 1
+title: Docker-compose
+sidebar_label: Docker-compose
+description: Docker-compose is a docker image and docker compose service
+image: img/api-autoflow-logo.png
+keywords:
+  - docker compose
+---
+
 # Docker-compose
 
 ## Deployment with Docker-compose

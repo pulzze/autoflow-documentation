@@ -10,7 +10,7 @@ keywords:
 hide_table_of_contents: false
 ---
 
-import LeftNav from "@site/static/img/getting-started/fundamental-concept/left-nav.png"
+import LeftNav from "@site/static/img/requirement/knowledge/left-nav.png"
 import Workflow from "@site/static/img/requirement/knowledge/workflow.png"
 
 # Knowledge
@@ -29,11 +29,11 @@ import Workflow from "@site/static/img/requirement/knowledge/workflow.png"
     <div class="colTwoClearer"></div>
 </div>
 
-## 1. Workflow
+## [Workflow](../Guide/Workflow/)
 
 A workflow is a common feature among iPaaS platforms for users to create the automation, logic, and data transformation.
 
-A workflow typically starts with a trigger (INPUT) and provides a result (OUTPUT).
+A workflow starts with a trigger (INPUT) and provides a result (OUTPUT).
 
 :::note Reference
 Refer to [Workflow](../Guide/Workflow/) page to learn more about how to use workflow.
@@ -41,13 +41,25 @@ Refer to [Workflow](../Guide/Workflow/) page to learn more about how to use work
 
 <img src={Workflow} alt="Workflow" class="myResponsiveImg" width="300"/>
 
-### ✅ Key point 1: Input and Output
-
-Workflows have Input and Output. 
-
 Depending on where workflow is used, the INPUT and OUTPUT may be different.
 
-#### Server
+### 1. [INPUT Simulation](../Guide/Workflow/Input-Simulation/)
+
+The first thing when creating a workflow is to [simulate](../Guide/Workflow/Input-Simulation/) the INPUT data.
+
+Simulation provides the capability to mimic or emulate the input data, allowing developers to test, visualize, and refine their designs as they build the workflow.
+
+### 2. [Actions, Scopes and variables](../Guide/Workflow/Scope)
+
+Then, actions can be added to achieve your desired outcome.
+
+[Scope](../../Guide/Workflow/Scope) is where data (variables) get stored and accessed in different parts of the workflow.
+
+### 3. [OUTPUT Mapping](../Guide/Workflow/Output-Mapping/)
+
+The workflow's OUTPUT needs to be [mapped](../Guide/Workflow/Output-Mapping/) with one of the data in the scope.
+
+## [Server](../Guide/Server/)
 
 HTTP server has request and response. Refer to [Server](../Guide/Server/) page to learn more about HTTP Server.
 
@@ -57,7 +69,7 @@ HTTP server has request and response. Refer to [Server](../Guide/Server/) page t
 | **OUTPUT**  | HTTP Response |
 
 
-#### Service
+## [Service](../Guide/Service/)
 
 Service is like a function in programming with INPUT and OUTPUT arguments. Refer to [Service](../Guide/Service/) page to learn more about Service.
 
@@ -67,86 +79,36 @@ Service is like a function in programming with INPUT and OUTPUT arguments. Refer
 | **OUTPUT**  | OUTPUT Argument(S) |
 
 
+## [API](../Guide/API/)
 
-### ✅ Key point 2: INPUT Simulation
+[OpenAPI](../Guide/API/) schema to define your endpoints
 
-[INPUT Simulation](../Guide/Workflow/Data-Simulation/)
+## [Client](../Guide/Clients/)
 
+[Client](../Guide/Clients/) is a connection to systems such as database
 
+## [Data Type](../Guide/data-types)
 
-### ✅ Key point 3: Actions, Scopes and variables
+You need to know the [types](../Knowledge/data-types) of data in order to work with the data.
 
-[Scope](../../Guide/Workflow/Scope) is where data (variables) get stored and accessed in different parts of the workflow.
+- String
+- Object
+- Array
+- Number
+- Null
 
-
-### ✅ Key point 4: OUTPUT Mapping
-
-[OUTPUT Mapping](../Guide/Workflow/Output-Mapping/)
-
-
-
-
-
-
-1. [API](../../Guide/API/) to define your endpoints
-2. [Server](../../Guide/Server/) to host HTTP(S) for each endpoint
-3. [Service](../../Guide/Service/) is like a reusable function in programming
-4. [Client](../../Guide/Clients/) is a connection to systems such as database
-
+:::note
+JSON (JavaScript Object Notation) is a stringified form of data consisting of object (key-value pairs), arrays, and nested structures. It is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
+:::
 
 ### Where to find the features
 
+Refer to [Layout](../Getting-Started/Layout/) for more details
+
 <img src={LeftNav} alt="Simulation Button" class="myResponsiveImg" width="500"/>
 
-Refer to [Layout](../Layout/) for more details
+## Common steps when creating a new solution
 
-## Commons steps when creating a new solution
-
-1. Create API endpoint
-2. Create a server for the API endpoint
-3. Join actions in workflow
-
-- If you want to create a reusable function
-
-4. Create a service that you an call from any workflow
-
-- Need to use database or other clients?
-
-5. Create a client to connect with database
-
-
-[data-type](../Knowledge/data-types)
-
-
-## Workflow
-
-Everything in API Autoflow evolves around Workflow.
-
-### Actions
-
-
-### Scope
-
-
-### Data types
-
-
-
-
-
-4. Data types
-
-
-## Other
-To effectively use API AutoFlow, there are a few basic technology conceptions that you need to know.
-
-### API
-
-
-### Server
-
-
-### Service
-
-
-### Client
+1. Create [API](../Guide/API/) endpoint
+2. Create a [Server](../Guide/Server/) for the [API](../Guide/API/) endpoint
+3. Join the [Actions](../Guide/Workflow/Action/) in workflow

@@ -1,5 +1,12 @@
 ---
-sidebar_position: 8
+title: Clients
+sidebar_label: Clients
+description: Connection to databases and other services.
+image: img/api-autoflow-logo.png
+keywords:
+  - connection
+  - connector
+  - client
 ---
 
 import AddNewVersion from "@site/static/img/guide/Clients/add_new_version.png"

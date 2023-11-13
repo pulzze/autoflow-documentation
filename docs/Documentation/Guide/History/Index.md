@@ -1,5 +1,10 @@
 ---
-sidebar_position: 7
+title: History
+sidebar_label: History
+description: History of changes
+image: img/api-autoflow-logo.png
+keywords:
+  - history
 ---
 
 import ActionHighlight from '@site/static/img/advanced-guide/history/history.png';

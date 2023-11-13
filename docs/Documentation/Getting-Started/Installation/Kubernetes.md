@@ -1,3 +1,13 @@
+---
+sidebar_position: 2
+title: Kubernetes
+sidebar_label: Kubernetes
+description: Kubernetes is a deployment and headless service
+image: img/api-autoflow-logo.png
+keywords:
+  - kubernetes
+---
+
 # Kubernetes
 
 # Deploying with Kubernetes

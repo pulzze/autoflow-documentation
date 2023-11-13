@@ -13,7 +13,7 @@ hide_table_of_contents: false
 import ResponseMapping from "@site/static/img/guide/data-mapping/response_mapping.png"
 import HttpResponse from "@site/static/img/guide/data-mapping/http_response.png"
 
-# Data Mapping
+# OUTPUT Mapping
 
 Data mapping is a foundational feature of API AutoFlow. Each data point can be mapped to a literal value, complex data structure, a data reference, or another workflow of actions. This mapping is available throughout the product, which is why there is no specific page for data mapping. Use Data Reference to map data between different workflows and actions.
 

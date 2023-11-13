@@ -1,7 +1,10 @@
 ---
-sidebar_position: 5
 title: Intent
+sidebar_label: Intent
 description: Intent helps the server by standardizing the INPUT and OUTPUT of common services.
+image: img/api-autoflow-logo.png
+keywords:
+  - intent
 sidebar_class_name: hidden
 ---
 

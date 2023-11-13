@@ -1,6 +1,13 @@
 ---
-sidebar_position: 2
+title: Global variable
+sidebar_label: Global variable
+description: Global variable is a data that can be accessed from everywhere in the product
+image: img/api-autoflow-logo.png
+keywords:
+  - global variable
+  - environmental variable
 ---
+
 # System Variable
 
 

@@ -1,5 +1,10 @@
 ---
-sidebar_position: 3
+title: Server
+sidebar_label: Server
+description: A server hosts the APIs.
+image: img/api-autoflow-logo.png
+keywords:
+  - server
 ---
 
 import TestApi from "@site/static/img/hello_world/test_api.png"

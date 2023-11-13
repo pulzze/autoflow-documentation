@@ -1,6 +1,13 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
+title: Remote access
+sidebar_label: Remote access
+description: How to access API Autoflow from remote services
+image: img/api-autoflow-logo.png
+keywords:
+  - remote access
 ---
+
 # Remote Access
 
 ### **IP Address**

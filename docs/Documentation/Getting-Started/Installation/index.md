@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Installation - Docker
+# Installation
 
 This section will demonstrate how to launch a single docker instance from a shell terminal using a folder to upload configuration options and store data. In order to maintain persistent configuration changes, you will need to mount a folder from your file system. Make sure to add a folder somewhere and open a terminal and navigate to that folder.
 

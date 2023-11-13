@@ -1,5 +1,10 @@
 ---
-sidebar_position: 2
+title: API
+sidebar_label: API
+description: API is a schema that defines the endpoints
+image: img/api-autoflow-logo.png
+keywords:
+  - api
 ---
 
 import CreateNewAction from '@site/static/img/guide/API/create_new_action.png';

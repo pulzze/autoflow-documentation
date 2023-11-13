@@ -1,7 +1,11 @@
 ---
-sidebar_position: 10
 title: Service
+sidebar_label: Service
 description: A service helps the server by taking out commonly used actions into a reusable group.
+image: img/api-autoflow-logo.png
+keywords:
+  - service
+  - function
 ---
 
 import ServiceDataSimulation from "@site/static/img/guide/Service/service-data-simulation.png"

@@ -18,7 +18,7 @@ import ColorIndicationSuccess from "@site/static/img/guide/data-simulation/color
 import SimulationSection from "@site/static/img/guide/data-simulation/simulation_section.png"
 import SimulationButton from "@site/static/img/guide/data-simulation/simulation_button.png"
 
-# Data Simulation
+# INPUT Simulation
 
 ## Overview
 <div class="colTwoBlock">

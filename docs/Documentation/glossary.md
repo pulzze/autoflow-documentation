@@ -291,7 +291,7 @@ For example
 
 ### JSON (JavaScript Object Notation)
 
-> JSON (JavaScript Object Notation) is a stringified consisting of object (key-value pairs), arrays, and nested structures. It is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
+> JSON (JavaScript Object Notation) is a stringifie form of data consisting of object (key-value pairs), arrays, and nested structures. It is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
 
 ## K
 

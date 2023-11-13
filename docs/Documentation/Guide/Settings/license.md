@@ -1,5 +1,10 @@
 ---
-sidebar_position: 13
+title: License
+sidebar_label: License
+description: License is where you can apply the purchased license.
+image: img/api-autoflow-logo.png
+keywords:
+  - license
 ---
 
 import AlertsAndNotifications from "@site/static/img/guide/License/alerts-and-notifications.png"

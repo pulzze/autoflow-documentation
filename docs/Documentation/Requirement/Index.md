@@ -9,22 +9,46 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# Requirement
+import Workflow from "@site/static/img/requirement/knowledge/workflow.png"
 
+# Requirement
 
 ## Hardware
 
-CPU : 
-
-Memory : 
+**CPU**: Intel, ARM <br/>
+**Memory**: Recommended minimum is 512MB <br/>
+**Storage**: Recommended minimum is 1GB <br/>
 
 ## Knowledge
 
 To effectively use API AutoFlow, there are a few basic technology conceptions that you need to know.
 
-1. API
-2. Server
-3. Workflow
-4. Data types
-5. Service
-6. Client
+### 1. Workflow
+
+>> ✅ INPUT Simulation <br/>
+>> ✅ Actions and Scope variables <br/>
+>> ✅ OUTPUT Mapping
+
+<img src={Workflow} alt="Workflow" class="myResponsiveImg" width="300"/>
+
+### 2. Server
+
+>> HTTP(S) Server.
+>> 
+>> **INPUT**: HTTP request <br/>
+>> **OUTPUT**: HTTP response
+
+### 3. Service
+
+>> Service is like a function in programming.
+>> 
+>> **INPUT**: argument(s) <br/>
+>> **OUTPUT**: argument(s)
+
+### APIs
+
+>> API definition using OpenAPI standard.
+
+### Client
+
+>> Connection to services such as Database and MQTT.

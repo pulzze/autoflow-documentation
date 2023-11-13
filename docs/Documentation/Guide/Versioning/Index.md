@@ -1,5 +1,4 @@
 ---
-sidebar_position: 4
 title: Versioning
 sidebar_label: Versioning
 description: How to version the solution

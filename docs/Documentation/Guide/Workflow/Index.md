@@ -1,6 +1,12 @@
 ---
-sidebar_position: 7
+title: Workflow
+sidebar_label: Workflow
+description: A workflow is a visual representation of a series of interconnected steps or actions that automate processes, guiding the execution and logic of the application.
+image: img/api-autoflow-logo.png
+keywords:
+  - workflow
 ---
+
 # Workflow
 
 [Action](./Action)

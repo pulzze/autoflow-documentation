@@ -1,5 +1,10 @@
 ---
-sidebar_position: 13
+title: Settings
+sidebar_label: Settings
+description: Settings has the product configuration
+image: img/api-autoflow-logo.png
+keywords:
+  - settings
 ---
 
 import FeedbackInfo from "@site/static/img/guide/settings/feedback-info.png"
