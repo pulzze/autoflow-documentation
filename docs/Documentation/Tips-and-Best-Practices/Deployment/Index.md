@@ -10,6 +10,6 @@ keywords:
 
 [CI/CD](cicd)
 
-[Scaling](Scaling)
+[Single instance](single-instance)
 
-[Versioning](Versioning)
+[Develop-stage-production](develop-stage-production)

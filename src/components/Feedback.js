@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { post } from '../utils/api';
 
 export default function Feedback() {
@@ -6,13 +6,17 @@ export default function Feedback() {
   const [feedbackSent, setFeedbackSent] = useState(null);
   const [feeedbackResult, setFeedbackResult] = useState(null); // [true, false
   const [feedbackValue, setFeedbackValue] = useState('');
-  const URLpage = window.location.href;
+  const [page, setPage] = useState('');
+
+  useEffect(() => {
+    setPage(window.location.href);
+  }, []);
 
   const feedbackSubmit = async (event) => {
     event.preventDefault();
     try {
       const data = { 
-        'page': URLpage,
+        'page': page,
         'result' : feeedbackResult,
         'feedback': feedbackValue,
       };

@@ -49,11 +49,11 @@ The first thing when creating a workflow is to [simulate](../Guide/Workflow/Inpu
 
 Simulation provides the capability to mimic or emulate the input data, allowing developers to test, visualize, and refine their designs as they build the workflow.
 
-### 2. [Actions, Scopes and variables](../Guide/Workflow/Scope)
+### 2. [Actions, Scopes and variables](../../Documentation/Guide/Workflow/Scope/)
 
 Then, actions can be added to achieve your desired outcome.
 
-[Scope](../../Guide/Workflow/Scope) is where data (variables) get stored and accessed in different parts of the workflow.
+[Scope](../../Documentation/Guide/Workflow/Scope/) is where data (variables) get stored and accessed in different parts of the workflow.
 
 ### 3. [OUTPUT Mapping](../Guide/Workflow/Output-Mapping/)
 
@@ -89,7 +89,7 @@ Service is like a function in programming with INPUT and OUTPUT arguments. Refer
 
 ## [Data Type](../Guide/data-types)
 
-You need to know the [types](../Knowledge/data-types) of data in order to work with the data.
+You need to know the types of data in order to work with the data.
 
 - String
 - Object

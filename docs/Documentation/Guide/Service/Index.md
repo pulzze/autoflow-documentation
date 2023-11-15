@@ -158,7 +158,7 @@ Click on the trash icon to delete the version.
 
 ### Service Data Simulation
 
-Refer to the [Data Simulation](../../Guide/Workflow/Data-Simulation) section for how to use the simulation feature.
+Refer to the [Data Simulation](../../Guide/Workflow) section for how to use the simulation feature.
 
 <div class="myResponsiveImg">
     <img src={ServiceDataSimulation} alt="Service Data Simulation" class="myResponsiveImg"/>

@@ -243,7 +243,7 @@ Also, If you click Simulation, you can see your data like below.
 
 :::tip 
 You don't know how to use ```Simulation``` in Autoflow? <br/>
-Then, <a href="/docs/Documentation/Examples/testing-and-troubleshooting#simulation">Click here! 🔗</a>
+Then, <a href="/docs/Documentation/Guide/Workflow/INPUT-Simulation/">Click here! 🔗</a>
 :::
 
 <img src={param24} alt="Version Location" class="myResponsiveImg" width="500px"/>

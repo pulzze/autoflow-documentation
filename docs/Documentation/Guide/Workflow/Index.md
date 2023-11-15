@@ -11,10 +11,8 @@ keywords:
 
 [Action](./Action)
 
-[Data Simulation](./Data-Simulation)
+[Data Simulation](./INPUT-Simulation/)
 
 [Value Type Selector](./Value-Type-Selector)
-
-[Data Mapping](./Data-Mapping)
 
 [Trace](./Trace)

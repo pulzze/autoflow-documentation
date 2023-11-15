@@ -33,7 +33,7 @@ Enterprise and telecom have unique interaction needs.  Whether interacting with 
 API Autoflow is used by teams that require collaboration between delivery (business) and engineering teams.  It is a no-code engineering tool that enterprises can use to create solutions with minimal programmatic knowledge.
 
 :::info
-There are a few [fundamental concepts](../Getting-Started/Concepts/) that needs to be learnt before effectively using API Autoflow.
+There are a few [fundamental concepts](../Getting-Started/) that needs to be learnt before effectively using API Autoflow.
 :::
 
 

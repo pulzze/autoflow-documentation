@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import Xicon from '../../static/img/x-symbol.svg';
 import CheckIcon from '../../static/img/check-icon.svg';
@@ -16,7 +16,11 @@ function Qna() {
     email: '',
     message: ''
   });
-  const page = window.location.href;
+  const [page, setPage] = useState('');
+
+  useEffect(() => {
+    setPage(window.location.href);
+  }, []);
   
   const handleSubmit = async (e) => {
     e.preventDefault();
