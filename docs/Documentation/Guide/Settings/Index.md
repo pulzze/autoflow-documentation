@@ -7,15 +7,15 @@ keywords:
   - settings
 ---
 
-import FeedbackInfo from "@site/static/img/guide/settings/feedback-info.png"
-import DarkMode from "@site/static/img/guide/settings/dark-mode.png"
-import ChangeLicenseAddress from "@site/static/img/guide/settings/change-license-address.png"
-import EnterLicense from "@site/static/img/guide/settings/enter-license.png"
-import Users from "@site/static/img/guide/settings/users.png"
-import SystemEnvironment from "@site/static/img/guide/settings/system-environment.png"
-import DownloadConfiguration from "@site/static/img/guide/settings/download-configuration.png"
-import ServerStart from "@site/static/img/guide/settings/server-start.jpg"
-import SettingsLeftNavigation from "@site/static/img/guide/settings/setting-left-navigation.jpg"
+import FeedbackInfo from "@site/static/img/guide/Settings/feedback-info.png"
+import DarkMode from "@site/static/img/guide/Settings/dark-mode.png"
+import ChangeLicenseAddress from "@site/static/img/guide/Settings/change-license-address.png"
+import EnterLicense from "@site/static/img/guide/Settings/enter-license.png"
+import Users from "@site/static/img/guide/Settings/users.png"
+import SystemEnvironment from "@site/static/img/guide/Settings/system-environment.png"
+import DownloadConfiguration from "@site/static/img/guide/Settings/download-configuration.png"
+import ServerStart from "@site/static/img/guide/Settings/server-start.jpg"
+import SettingsLeftNavigation from "@site/static/img/guide/Settings/setting-left-navigation.jpg"
 
 # Settings
 
