@@ -31,6 +31,14 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  plugins: [
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -106,51 +114,51 @@ const config = {
           }
         ],
       },
-      // footer: {
-      //   style: 'dark',
-      //   links: [
-      //     // {
-      //     //   title: 'Docs',
-      //     //   items: [
-      //     //     {
-      //     //       label: 'Tutorial',
-      //     //       to: '/docs/intro',
-      //     //     },
-      //     //   ],
-      //     // },
-      //     {
-      //       title: 'Community',
-      //       items: [
-      //         {
-      //           label: 'Stack Overflow',
-      //           href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-      //         },
-      //         {
-      //           label: 'Discord',
-      //           href: 'https://discordapp.com/invite/docusaurus',
-      //         },
-      //         {
-      //           label: 'Twitter',
-      //           href: 'https://twitter.com/docusaurus',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: 'More',
-      //       items: [
-      //         // {
-      //         //   label: 'Blog',
-      //         //   to: '/blog',
-      //         // },
-      //         {
-      //           label: 'GitHub',
-      //           href: 'https://github.com/facebook/docusaurus',
-      //         },
-      //       ],
-      //     },
-      //   ],
-      //   copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      // },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Documentation',
+                to: '/docs/Documentation/Overview/',
+              },
+              {
+                label: 'Tutorial',
+                to: '/docs/Tutorial',
+              },
+            ],
+          },
+          {
+            title: 'Support',
+            items: [
+              {
+                label: 'Maintenance Services',
+                to: '/docs/Support/professional-services',
+              },
+              {
+                label: 'Live Training',
+                to: '/docs/Support/live-training',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Slack',
+                href: 'https://join.slack.com/t/interactorteam/shared_invite/zt-eqx0mnh0-BkZWPzmh3DUJSTYxAJHmqw',
+              },
+              {
+                label: 'Interactor Online Forum',
+                href: 'https://www.interactor.com/support/forum',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} Interactor.`,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

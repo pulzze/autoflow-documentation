@@ -8,14 +8,14 @@ import TutorialInstallation from '@site/static/img/tutorial-installation.png';
 
 ## Video Tutorial
 
-<div class="videoBlock">
-    <div class="videoLeft">
-        <div class="videoWrapper">
+<div className="videoBlock">
+    <div className="videoLeft">
+        <div className="videoWrapper">
             <a href="../../../Tutorial/#102-key-concept-installation-and-hello-world"><img src={TutorialInstallation} /></a>
         </div>
     </div>
-    <div class="videoRight">
-        <div class="videoText">
+    <div className="videoRight">
+        <div className="videoText">
             <h2><code>102</code> Key Concept</h2>
             <p>Topics covered</p>
                 <ul>
@@ -25,7 +25,7 @@ import TutorialInstallation from '@site/static/img/tutorial-installation.png';
             <p>Duration:  3 mins</p>
         </div>
     </div>
-    <div class="videoClearer"></div>
+    <div className="videoClearer"></div>
 </div>
 
 
