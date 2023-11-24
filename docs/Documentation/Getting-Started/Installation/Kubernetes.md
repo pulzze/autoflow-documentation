@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: Kubernetes
 sidebar_label: Kubernetes
 description: Kubernetes is a deployment and headless service

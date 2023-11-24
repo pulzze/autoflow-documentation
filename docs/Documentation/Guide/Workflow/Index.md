@@ -7,12 +7,19 @@ keywords:
   - workflow
 ---
 
+import Workflow from "@site/static/img/requirement/knowledge/workflow.png"
+
 # Workflow
 
-[Action](./Action)
+Workflow consists of INPUT, Action, and OUTPUT.
 
-[Data Simulation](./INPUT-Simulation/)
+✅ **INPUT Simulation** <br/>
+Workflow receives the data through INPUT
 
-[Value Type Selector](./Value-Type-Selector)
+✅ **Actions and Scope variables** <br/>
+Performs some action(s)
 
-[Trace](./Trace)
+✅ **OUTPUT Mapping** <br/>
+Gives data back through OUTPUT 
+
+<img src={Workflow} alt="Workflow" class="myResponsiveImg" width="300"/>

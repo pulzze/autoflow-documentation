@@ -25,9 +25,16 @@ To effectively use API AutoFlow, there are a few basic technology conceptions th
 
 ### 1. Workflow
 
->> ✅ INPUT Simulation <br/>
->> ✅ Actions and Scope variables <br/>
->> ✅ OUTPUT Mapping
+Workflow consists of INPUT, Action, and OUTPUT.
+
+✅ **INPUT Simulation** <br/>
+Workflow receives the data through INPUT
+
+✅ **Actions and Scope variables** <br/>
+Performs some action(s)
+
+✅ **OUTPUT Mapping** <br/>
+Gives data back through OUTPUT 
 
 <img src={Workflow} alt="Workflow" class="myResponsiveImg" width="300"/>
 

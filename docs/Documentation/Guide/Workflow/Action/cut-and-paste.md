@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 import action_new_paste from '@site/static/img/guide/Action/action-new-paste.jpg';

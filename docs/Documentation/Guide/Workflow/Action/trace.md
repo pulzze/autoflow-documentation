@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 4
 title: Trace
 sidebar_label: Trace
 description: Trace allows the user to visualize the data at every step of the workflow.

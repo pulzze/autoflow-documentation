@@ -83,10 +83,13 @@
   }
 }
 
+[data-theme='light'] .features_src-components-HomepageFeatures-styles-module{
+  background-color: #fff;
+}
+
 .colTwoText {
   padding: 0 0 0 104px;
 }
-
 .colTwoText p {
   padding-right: 70px;
 }

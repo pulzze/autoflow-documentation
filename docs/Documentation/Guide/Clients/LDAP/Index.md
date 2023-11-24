@@ -1,4 +1,5 @@
 ---
+position: 4
 title: LDAP
 sidebar_label: LDAP
 description: LDAP client

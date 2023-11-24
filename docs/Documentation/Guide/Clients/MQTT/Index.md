@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 import NewTopicEvent from "@site/static/img/guide/Clients/MQTT/new_topic_event.png"

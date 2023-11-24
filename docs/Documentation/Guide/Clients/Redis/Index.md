@@ -1,4 +1,5 @@
 ---
+position: 5
 title: Redis
 sidebar_label: Redis
 description: Redis client

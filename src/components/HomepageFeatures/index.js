@@ -14,25 +14,25 @@ const FeatureList = [
     link: 'docs/documentation/overview'
   },
   {
+    title: 'Examples',
+    Svg: require('@site/static/img/main_page_template_icon.svg').default,
+    description: (
+      <>
+        Learn by following examples
+      </>
+    ),
+    link: 'docs/Documentation/Examples/'
+  },
+  {
     title: 'Tutorial',
     Svg: require('@site/static/img/main_page_tutorial_icon.svg').default,
     description: (
       <>
-        Watch Turotials
+        Watch Tutorials
       </>
     ),
     link: 'docs/tutorial'
   },
-  // {
-  //   title: 'Templates',
-  //   Svg: require('@site/static/img/main_page_template_icon.svg').default,
-  //   description: (
-  //     <>
-  //       learn about templates
-  //     </>
-  //   ),
-  //   link: 'docs/templates'
-  // },
   {
     title: 'Support',
     Svg: require('@site/static/img/main_page_support_icon.svg').default,
@@ -43,16 +43,16 @@ const FeatureList = [
     ),
     link: 'docs/support/help-center'
   },
-  // {
-  //   title: 'Release Notes',
-  //   Svg: require('@site/static/img/main_page_release_note_icon.svg').default,
-  //   description: (
-  //     <>
-  //       See the release notes
-  //     </>
-  //   ),
-  //   link: 'release-note'
-  // },  
+  {
+    title: 'Release Notes',
+    Svg: require('@site/static/img/main_page_release_note_icon.svg').default,
+    description: (
+      <>
+        See the release notes
+      </>
+    ),
+    link: 'release-note'
+  },  
   {
     title: 'Community',
     Svg: require('@site/static/img/main_page_community_icon.svg').default,

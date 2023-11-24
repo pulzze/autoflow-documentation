@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Remote access
 sidebar_label: Remote access
 description: How to access API Autoflow from remote services
