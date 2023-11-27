@@ -25,8 +25,7 @@ docker run -dit \
   --mount type=bind,source="$(pwd)",target=/app/data \
   -p 4000:4000 \
   -p 8080:8080 \
-  -p 1111:1111 \
-  -p 2222:2222 \
+  -p 1111-1121:1111-1121 \
   interactor/api-interactor:latest
 ```
 

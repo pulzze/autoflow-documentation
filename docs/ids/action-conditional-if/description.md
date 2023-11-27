@@ -1,4 +1,9 @@
-This Action returns values that fits the condition.
+IF condition looks for `truthy` result.  There are a few options in getting the boolean result.
+
+1. Value type selector / Boolean
+2. Value type selector / Conditions
+3. Value type selector / Comparison
+4. Action / Condition
 
 <br/>
 

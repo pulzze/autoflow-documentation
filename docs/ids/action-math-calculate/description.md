@@ -5,6 +5,11 @@ import Example2 from '@site/static/img/action-library/math/calculate/example-2.j
 Calculate mathematical expression.
 This Action calculate expression using variables.
 
+You can use any :Math operation supported by [Elixir](https://elixir-lang.org/)
+
+- [Basic Arithmetic Operations](https://elixirschool.com/en/lessons/basics/basics#basic-operations-9)
+- [Elixir Math Module](https://hexdocs.pm/math/readme.html)
+
 ### Examples
 
 #### <Example 1>
@@ -58,4 +63,26 @@ Variable is configured as an object.  Above variable has two values with keys `a
 **returns**
 ```json
 7
+```
+
+#### <Example 3>
+
+**expression**
+```
+:Math.sqrt(a)
+```
+
+**variables**
+
+```json
+{
+  a : 4
+}
+```
+
+Variable is configured as an object.  Above variable has one value with key `a` with number values.
+
+**returns**
+```json
+2
 ```
