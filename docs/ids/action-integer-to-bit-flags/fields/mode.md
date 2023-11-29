@@ -1,0 +1,1 @@
+This determines the format for the resulting flags. Binary mode returns an array where each bit is represented using 1 and 0. Boolean mode returns an array where each bit is represented using true and false.

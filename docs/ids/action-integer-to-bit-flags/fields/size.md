@@ -1,0 +1,1 @@
+This will determine the size of the resulting list. In general, it's required to set the size correctly, otherwise you won't be able to match the flag positions. However, if the size is set to 0, it will return the smallest size list needed to represent the given integer.

@@ -1,0 +1,1 @@
+The integer which represents the binary flags.
