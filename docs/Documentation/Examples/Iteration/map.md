@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 title: Iteration Map
 sidebar_label: Map
 description: Iteration map examples
@@ -17,8 +18,8 @@ keywords:
 <div class="colTwoBlock">
     <div class="colTwoLeft">
         <div class="colTwoWrapper">
-          <p>Iterate over an <b>array</b> of <b>string</b>.</p>
-          <p>Then, upcase each letter using `string/upcase` action</p>
+          <p>Iterate over an <b>array</b> of <b>strings</b>.</p>
+          <p>Then, upcase each letter using <b>string/upcase</b> action</p>
         </div>
     </div>
     <div class="colTwoRight">
@@ -82,12 +83,12 @@ The goal of the operation is to iterate over the array and create a new array:
 
 ### Step 1: Create an API endpoint
 
-Go to the API section and create a new API.
-- Name: `sample-iteration`
-
 :::tip Required Concepts
 Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api). 
 :::
+
+Go to the API section and create a new API.
+- Name: `sample-iteration`
 
 <!-- <img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/> -->
 
@@ -152,7 +153,7 @@ API Autoflow captures the data received and it can be used to create data simula
 
 <!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
 
-#### 2. Configure Iteration Map action
+##### Configure Iteration Map action
 
 **Iterable**: <u>data</u> **request**: `body`
 
@@ -174,7 +175,7 @@ API Autoflow captures the data received and it can be used to create data simula
 
 <!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
 
-#### 2. Configure String Upcase action
+##### Configure String Upcase action
 
 We are upcasing the data in the variable **loop-var**: `value`. 
 

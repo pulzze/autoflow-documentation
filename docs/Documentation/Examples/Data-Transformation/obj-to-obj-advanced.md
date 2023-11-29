@@ -1,30 +1,31 @@
 ---
 sidebar_position: 2
-title: JSON to JSON Advanced
-sidebar_label: JSON to JSON Advanced
-description: Transforming from one JSON format to another
+title: Object to Object Advanced
+sidebar_label: Object to Object Advanced
+description: Transforming from one Object format to another
 image: img/api-autoflow-logo.png
 keywords:
   - data normalization
   - data transformation
+  - Object to Object
   - JSON to JSON
 ---
 
-import CreateApiPath from '@site/static/img/example/data-transformation/json-to-json-advanced/1-create-api-path.jpg';
-import CreateServer from '@site/static/img/example/data-transformation/json-to-json-advanced/2-create-server.jpg';
-import CreateServerOperation from '@site/static/img/example/data-transformation/json-to-json-advanced/3-create-server-operation.jpg';
-import SimulateData from '@site/static/img/example/data-transformation/json-to-json-advanced/4-simulate-data.jpg';
-import SendPostmanRequest from '@site/static/img/example/data-transformation/json-to-json-advanced/5-send-postman-request.jpg';
-import CreateSimulation from '@site/static/img/example/data-transformation/json-to-json-advanced/6-create-simulation.jpg';
-import NameSimulation from '@site/static/img/example/data-transformation/json-to-json-advanced/7-name-simulation.jpg';
-import SelectSimulation from '@site/static/img/example/data-transformation/json-to-json-advanced/8-select-simulation.jpg';
-import AddIterationMap from '@site/static/img/example/data-transformation/json-to-json-advanced/9-add-iteration-map-action.jpg';
-import AddVariableSet from '@site/static/img/example/data-transformation/json-to-json-advanced/10-add-variable-set-action.jpg';
-import CheckIterationMapOutput from '@site/static/img/example/data-transformation/json-to-json-advanced/11-check-iteration-map-action-output.jpg';
-import HttpResponse from '@site/static/img/example/data-transformation/json-to-json-advanced/12-http-response.jpg';
-import PostmanFinal from '@site/static/img/example/data-transformation/json-to-json-advanced/13-postman-final.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/obj-to-obj-advanced/1-create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/obj-to-obj-advanced/2-create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/obj-to-obj-advanced/3-create-server-operation.jpg';
+import SimulateData from '@site/static/img/example/data-transformation/obj-to-obj-advanced/4-simulate-data.jpg';
+import SendPostmanRequest from '@site/static/img/example/data-transformation/obj-to-obj-advanced/5-send-postman-request.jpg';
+import CreateSimulation from '@site/static/img/example/data-transformation/obj-to-obj-advanced/6-create-simulation.jpg';
+import NameSimulation from '@site/static/img/example/data-transformation/obj-to-obj-advanced/7-name-simulation.jpg';
+import SelectSimulation from '@site/static/img/example/data-transformation/obj-to-obj-advanced/8-select-simulation.jpg';
+import AddIterationMap from '@site/static/img/example/data-transformation/obj-to-obj-advanced/9-add-iteration-map-action.jpg';
+import AddVariableSet from '@site/static/img/example/data-transformation/obj-to-obj-advanced/10-add-variable-set-action.jpg';
+import CheckIterationMapOutput from '@site/static/img/example/data-transformation/obj-to-obj-advanced/11-check-iteration-map-action-output.jpg';
+import HttpResponse from '@site/static/img/example/data-transformation/obj-to-obj-advanced/12-http-response.jpg';
+import PostmanFinal from '@site/static/img/example/data-transformation/obj-to-obj-advanced/13-postman-final.jpg';
 
-# JSON to JSON Advanced
+# Object to Object Advanced
 
 ## Overview
 <div class="colTwoBlock">
@@ -154,13 +155,6 @@ Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-ser
 - Port Number: `8080`  Feel free to select your own port number
 - Linked API: data-transformation-api  (select the API you created above)
 
-
-:::note
-
-The service INPUT arguments that was created in step 1 is what's being used to create the service simulation.
-
-:::
-
 #### Create a Server Operation
 
 <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/>
@@ -243,6 +237,14 @@ We will create a NEW JSON object directly in the HTTP response body.
 - Create a NEW object with the key `users`
 
 <img src={HttpResponse} alt="HttpResponseCapitalized" class="myResponsiveImg" width="700px"/>
+
+:::note Mapping the **action** output to the **HTTP response** output
+- Data referenced in HTTP response is what gets sent back to the client. 
+- Map the output from the actions to be sent back.
+
+NOTE: By default, the action output is set to variable **output**. If you intend to keep each action's output without it being overwritten by the next action,
+simply rename the output location in the action's output.
+:::
 
 #### 2. Test the API with Postman or CURL
 

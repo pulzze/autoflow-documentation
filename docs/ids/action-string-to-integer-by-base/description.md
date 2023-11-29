@@ -1,4 +1,4 @@
-The This Action returns integer which corresponds to 'string' representation of integer in the given 'base'.
+This Action returns integer which corresponds to 'string' representation of integer in the given 'base'.
 'base' can be an integer between 2 and 36.
 If no base is given, it defaults to 10.
 

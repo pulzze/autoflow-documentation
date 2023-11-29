@@ -212,6 +212,14 @@ Both iteration action and HTTP response body are set to **variables**: `output`,
 
 <!-- <img src={HttpResponseCapitalized} alt="Http Response Capitalized" class="myResponsiveImg" width="400px"/> -->
 
+:::note Mapping the **action** output to the **HTTP response** output
+- Data referenced in HTTP response is what gets sent back to the client. 
+- Map the output from the actions to be sent back.
+
+NOTE: By default, the action output is set to variable **output**. If you intend to keep each action's output without it being overwritten by the next action,
+simply rename the output location in the action's output.
+:::
+
 ### Step 7 : Test the API with Postman or CURL
 
 Try changing the value in the **condition** to be greater or less than `10`.

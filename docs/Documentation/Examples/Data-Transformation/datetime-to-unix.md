@@ -1,35 +1,36 @@
 ---
-title: Iteration Filter
-sidebar_label: Filter
-description: Iteration filter examples
+title: Datetime to Unix time
+sidebar_label: Datetime to Unix
+description: Change date-time to unix-epoch time (ex. Convert the YANG timestamp to Epoch timestamp in milliseconds)
 image: img/api-autoflow-logo.png
 keywords:
-  - iteration
-  - filter
-  - action
-  - example
+  - data normalization
+  - data transformation
+  - datetime
+  - unix time
 ---
 
-# Iteration Filter
+# Datetime to Unix time
 
 ## Overview
 
 <div class="colTwoBlock">
     <div class="colTwoLeft">
         <div class="colTwoWrapper">
-          <p>Iterate over an <b>array</b> of <b>numbers</b>.</p>
-          <p>Then, filters out number(s) larger than 3.</p>
+          <p>Received date-time in a standard ISO format and convert to unix time. For example </p>
+          <p>From <code>YYYY-MM-DDThh:mm:ss.sTZD</code> to <code>1701121759</code>.</p>
         </div>
     </div>
     <div class="colTwoRight">
           <h4>Example Configuration</h4>
-          <a target="_blank" href="pathname:///file/sample-iteration-config.json" download><button class="btnDownload">⏬ Download</button></a>
+          <a target="_blank" href="pathname:///file/sample-data-transformation-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
           <h4>Tutorial</h4>
           <a target="_blank" href="https://www.youtube.com/watch?v=aiJoS3eM6Jw"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
     <div class="colTwoClearer"></div>
 </div>
+<br />
 
 ## Supporting Concepts
 
@@ -53,48 +54,49 @@ keywords:
 
 | Topic    | Description |
 | -------- | ------- |
-| Action <br/>[iteration/filter](../../../Documentation/actions-library/flow/iteration/action-iteration-filter/)    | Iterate over array of data filtering for each **truthy** value.  |
-| Action <br/>[condition/is-larger-than](../../../Documentation/actions-library/data/condition/action-condition-is-larger-than/)    | Returns true or false if the given value is larger than or equal to the target..    |
+| Action <br/>[datetime/datetime-to-unix-time](../../../Documentation/actions-library/data/date-time/action-datetime-datetime-to-unix-time/)    | Converts the given datetime to unix time.  |
 
 </details>
 
 
-## Details
+## Detail
 
-The HTTP request body has an array with 4 values:
-
-#### Original array
-
-```yaml
-[ 1, 2, 3, 4 ]
+The HTTP request has an input:
+```json
+{
+    "timestamp" : "2023-11-16T04:13:00.000+00:00"
+}
 ```
 
-The goal of the operation is to iterate over the array and create a new array:
+The goal of the operation is to convert the date-time into unix time:
 
-#### New array (after iteration)
-
-```yaml
-[ 1, 2 ]
+```json
+{
+    "timestamp": 1700107980
+}
 ```
 
 ## Content
 
-
 ### Step 1: Create an API endpoint
 
 Go to the API section and create a new API.
-- Name: `sample-iteration`
 
 :::tip Required Concepts
 Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api). 
 :::
 
+#### Add an API Path
+
 <!-- <img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/> -->
 
-- Path: `/iteration-filter`
+- Path: `/datetime-to-unix`
 - Method: <span class="method post">POST</span>
 
 ### Step 2. Create a Server Operation
+
+Go to the Server section and create a new Server.
+
 :::tip Required Concepts
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
@@ -103,9 +105,10 @@ Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-ser
 <!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
 
 
-- Server ID: `sample-iteration`
-- Port Number: `1112`  Feel free to select your own port number
-- Linked API: `sample-iteration`  (select the API you created above)
+- Server ID: `sample-data-transformation`
+- Port Number: `1114`  Feel free to select your own port number
+- Linked API: `sample-data-transformation` (select the API you created above)
+
 
 #### Create a Server Operation
 
@@ -144,59 +147,53 @@ API Autoflow captures the data received and it can be used to create data simula
 <!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
 
 
-## Add Actions to the Flow
+## Add Action to the Flow
 
-### Step 4 : Iterate over the array
+You can add actions to transform the data.
 
-#### 1. Add an Iteration Filter action
+### Step 5 : Add an action
 
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+#### 1. Add Date-time to Unix time
 
-##### Configure Iteration Filter action
+<!-- <img src={AddStringCapitalizeAction} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
 
-**Iterable**: <u>data</u> **request**: `body`
+#### 2. Configure Action
 
-- Array to iterate over
+We are converting the datetime in variable **request**: `body > timestamp`. 
 
-**SCOPE**: <u>string</u> `loop-var`
-
-- Create a variable to store the values as the action iterates over the array.
-
-:::info
-- Array: [1,2,3,4]
-- Scope `loop-var` stores each value
-  - Make the value available inside the iteration one-by-one. The 1st value is available to be used for configuration.
-:::
-
-### Step 5 : Compare the values
-
-#### 1. Add an Condition Larger Than action
-
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
-
-##### Configure Condition Larger Than action
-
-We are accessing the data in the variable **loop-var**: `value` to be true.
-
-Iteration will filter when **true**.
-
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
-
-:::info INDEX vs VALUE
-Note that when selecting the data to work with in the iteration, there are two key you can work with
-- INDEX: Position in the array
-- VALUE: Value in the array
-::: 
+<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
 
 
 ### Step 6 : Map the HTTP response with the New Variable
 
-Both iteration action and HTTP response body are set to **variables**: `output`, there's no change that needs to be made
+Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
 
 <!-- <img src={HttpResponseCapitalized} alt="Http Response Capitalized" class="myResponsiveImg" width="400px"/> -->
 
+:::note Mapping the **action** output to the **HTTP response** output
+- Data referenced in HTTP response is what gets sent back to the client. 
+- Map the output from the actions to be sent back.
+
+NOTE: By default, the action output is set to variable **output**. If you intend to keep each action's output without it being overwritten by the next action,
+simply rename the output location in the action's output.
+:::
+
 ### Step 7 : Test the API with Postman or CURL
 
-Notice that the values are filtered.
+#### cURL
 
-<!-- <img src={PostmanFinal} alt="Postman Final" class="myResponsiveImg" width="800px"/> -->
+```bash
+curl --location 'localhost:1114/datetime-to-unix' \
+--header 'Content-Type: application/json' \
+--data '{
+    "timestamp" : "2023-11-16T04:13:00.000+00:00"
+}'
+```
+
+<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+
+
+
+
+
+

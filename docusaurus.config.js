@@ -168,6 +168,10 @@ const config = {
         apiKey: '9fc86bff4caee021f5158c1fce157447', // 여기에 Algolia API 키를 입력하세요.
         indexName: 'interactor', // 여기에 Algolia 인덱스 이름을 입력하세요.
       },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
+      },
     }),
 };
 

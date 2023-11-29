@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Data Normalization
+title: Data Normalization N to 1
 sidebar_label: N to 1
 description: Transform log from multiple sources into a standardized format
 image: img/api-autoflow-logo.png
@@ -262,6 +262,14 @@ Finally, you can map the OUTPUT from the workflow to the Service OUTPUT
 - Map the Service's OUTPUT `user_obj` with the "variable: output"
 
 <img src={service_output_mapping} alt="Condition Switch Check Output" class="myResponsiveImg" width="600px"/>
+
+:::note Mapping the **action** output to the **HTTP response** output
+- Data referenced in HTTP response is what gets sent back to the client. 
+- Map the output from the actions to be sent back.
+
+NOTE: By default, the action output is set to variable **output**. If you intend to keep each action's output without it being overwritten by the next action,
+simply rename the output location in the action's output.
+:::
 
 ### Step 7 : Calling the Service using the Service Operation Action
 :::tip Required Concepts

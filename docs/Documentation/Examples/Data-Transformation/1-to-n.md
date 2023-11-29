@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Data Normalization
+title: Data Transformation 1 to N
 sidebar_label: 1 to N
 description: Transform log into an object
 image: img/api-autoflow-logo.png
@@ -34,6 +34,7 @@ import service_operation_check_output from '@site/static/img/example/data-transf
         <div class="colTwoWrapper">
           <p>Received data from a single source such as a log and split the records into an array of entries.</p>
           <p>In this example, syslog from the Cisco ASA 302013 firewall which is in a string format is normalized into a standardized JSON format.</p>
+          <p>A <a href="../../../Documentation/Guide/Service/">Service</a> (equvalent to a function in programming) will be used for this example.</p>
         </div>
     </div>
     <div class="colTwoRight">
@@ -69,7 +70,7 @@ import service_operation_check_output from '@site/static/img/example/data-transf
 
 | Topic    | Description |
 | -------- | ------- |
-| Action <br/>[string/split-by-newline](../../../Documentation/actions-library/data/string/action-string-split-by-newline/)    | The This Action returns array that splits a given string based on a newline.    |
+| Action <br/>[string/split-by-newline](../../../Documentation/actions-library/data/string/action-string-split-by-newline/)    | This Action returns array that splits a given string based on a newline.    |
 | Action <br/>[iteration/map](../../../Documentation/actions-library/flow/iteration/action-iteration-map/)    | Iterate over array of data mapping result to each array position.    |
 | Action <br/>[string/split-by](../../../Documentation/actions-library/data/string/action-string-split-by/)    | This Action returns array that divides a string into parts based on a pattern.    |
 
@@ -80,6 +81,11 @@ import service_operation_check_output from '@site/static/img/example/data-transf
 
 The service has a single input:
 - syslog: a string that has multiple lines of record.
+
+```bash
+%ASA-6-302013: TCP connection 933 OUTSIDE:172.217.169.68
+%ASA-6-302013: TCP connection 935 OUTSIDE:23.40.43.75
+```
 
 The goal of the operation is to extract the IP address and port number from each record (each line).
 
@@ -130,7 +136,8 @@ Learn how to [simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation
 
 #### Add Test Simulation 1: `cisco-asa`
 Enter below value in the INPUT "syslog" simulation.
-```
+
+```bash
 %ASA-6-302013: TCP connection 933 OUTSIDE:172.217.169.68
 %ASA-6-302013: TCP connection 935 OUTSIDE:23.40.43.75
 ```
@@ -247,6 +254,14 @@ Finally, you can map the OUTPUT from the workflow to the Service OUTPUT
 - Map the Service's OUTPUT `result` with the "variable: output"
 
 <img src={service_output_mapping} alt="Condition Switch Check Output" class="myResponsiveImg" width="800px"/>
+
+:::note Mapping the **action** output to the **HTTP response** output
+- Data referenced in HTTP response is what gets sent back to the client. 
+- Map the output from the actions to be sent back.
+
+NOTE: By default, the action output is set to variable **output**. If you intend to keep each action's output without it being overwritten by the next action,
+simply rename the output location in the action's output.
+:::
 
 ### Step 7 : Calling the Service using the Service Operation Action
 :::tip Required Concepts
