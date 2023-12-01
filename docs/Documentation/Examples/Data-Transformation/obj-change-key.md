@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-title: Object to Object Simple
-sidebar_label: Object to Object Simple
+title: Object Change Keys
+sidebar_label: Object Change Keys
 description: Transforming from one Object format to another
 image: img/api-autoflow-logo.png
 keywords:
@@ -25,7 +25,7 @@ import PostmanCheck from '@site/static/img/example/data-transformation/obj-to-ob
 import PostmanFinal from '@site/static/img/example/data-transformation/obj-to-obj-simple/13-postman-final.jpg';
 
 
-# Object to Object Simple
+# Object Change Keys
 
 ## Overview
 <div class="colTwoBlock">

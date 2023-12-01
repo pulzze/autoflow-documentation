@@ -33,36 +33,36 @@ const FeatureList = [
     ),
     link: 'docs/tutorial'
   },
-  {
-    title: 'Support',
-    Svg: require('@site/static/img/main_page_support_icon.svg').default,
-    description: (
-      <>
-        Get Support 
-      </>
-    ),
-    link: 'docs/support/help-center'
-  },
-  {
-    title: 'Release Notes',
-    Svg: require('@site/static/img/main_page_release_note_icon.svg').default,
-    description: (
-      <>
-        See the release notes
-      </>
-    ),
-    link: 'release-note'
-  },  
-  {
-    title: 'Community',
-    Svg: require('@site/static/img/main_page_community_icon.svg').default,
-    description: (
-      <>
-        Ask questions
-      </>
-    ),
-    link: 'docs/Community'
-  },
+  // {
+  //   title: 'Support',
+  //   Svg: require('@site/static/img/main_page_support_icon.svg').default,
+  //   description: (
+  //     <>
+  //       Get Support 
+  //     </>
+  //   ),
+  //   link: 'docs/support/help-center'
+  // },
+  // {
+  //   title: 'Release Notes',
+  //   Svg: require('@site/static/img/main_page_release_note_icon.svg').default,
+  //   description: (
+  //     <>
+  //       See the release notes
+  //     </>
+  //   ),
+  //   link: 'release-note'
+  // },  
+  // {
+  //   title: 'Community',
+  //   Svg: require('@site/static/img/main_page_community_icon.svg').default,
+  //   description: (
+  //     <>
+  //       Ask questions
+  //     </>
+  //   ),
+  //   link: 'docs/Community'
+  // },
 ];
 
 function Feature({Svg, title, description, link}) {
