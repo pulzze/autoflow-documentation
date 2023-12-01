@@ -143,6 +143,9 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API Path</summary>
 
+
+<img src={iteration_map} alt="Create Server" class="myResponsiveImg" width="1000px"/>
+
 - Path: `/1-to-n-juniper-parser`
 - Method: <span class="method post">POST</span>
 
@@ -153,8 +156,6 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 :::tip Required Concepts
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
-
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
 
 <details open>
 
@@ -172,7 +173,7 @@ Go to the Server section and create a new Server.
 
 <summary>Create a Server Operation</summary>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+{/* <!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> --> */}
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
@@ -186,7 +187,7 @@ Go to the Server section and create a new Server.
 Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-<!-- <img src={SimulateData} alt="Simulate Data" class="myResponsiveImg" width="750px"/> -->
+{/* <!-- <img src={SimulateData} alt="Simulate Data" class="myResponsiveImg" width="750px"/> --> */}
 
 We will use the "real data" to create the test simulation.
 
@@ -215,7 +216,7 @@ Swap:
  1243 root          1  97    0  9120K  5676K select 100:30  0.05% license-check'
 ```
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+{/* <!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> --> */}
 
 </details>
 
@@ -225,7 +226,7 @@ Swap:
 
 API Autoflow captures the data received and it can be used to create data simulation.
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+{/* <!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> --> */}
 
 </details>
 
@@ -258,7 +259,7 @@ We can use **String/split-by** action to split with the table header `PID USERNA
 
 > **variables**: `output` <br/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+{/* <!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> --> */}
 
 </details>
 
@@ -280,7 +281,7 @@ Note that original string was split into two pieces and we are working with the 
 
 > **variables**: `output` <br/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+{/* <!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> --> */}
 
 </details>
 
@@ -304,7 +305,7 @@ In the action setting, we are dropping 1 entry from the array that was created (
 
 > **variables**: `output` <br/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+{/* <!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> --> */}
 
 </details>
 
@@ -345,13 +346,6 @@ As each line gets iterated, we can further split at every whitespace to isolate 
 
 > **variables**: `output` <br/>
 
-<details>
-
-<summary>View image</summary>
-
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
-
-</details>
 </details>
 
 <details open>
@@ -369,20 +363,15 @@ Now that we have isolated the data we need, we can create a NEW object to store 
 
 > **variables**: `output` <br/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+{/* <!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> --> */}
 
 </details>
-
-
-
-
-
 
 ###### OUTPUT
 
 > **variables**: `output` <br/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+{/* <!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> --> */}
 
 </details>
 

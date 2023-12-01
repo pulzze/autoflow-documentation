@@ -39,6 +39,28 @@
   --close-btn: invert(100%);
 }
 
+.red {
+  color: red !important;
+  background-color: red !important;
+}
+.red[aria-selected='true'] {
+  border-bottom-color: red;
+}
+
+.orange {
+  color: orange;
+}
+.orange[aria-selected='true'] {
+  border-bottom-color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+.yellow[aria-selected='true'] {
+  border-bottom-color: yellow;
+}
+
 /* Buttons */
 .btnVideo,
 .btnDownload {
