@@ -11,6 +11,13 @@ keywords:
   - insert
 ---
 
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/obj-propty-insert/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import ObjectPutIn from '@site/static/img/example/data-transformation/obj-propty-insert/object-put-in.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+
 # Insert Property to an Object
 
 ## Overview
@@ -92,6 +99,10 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API</summary>
 
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
 - ID: `sample-data-transformation`
 
 </details>
@@ -100,7 +111,9 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API Path</summary>
 
-- Path: `/obj-propty-insert
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/obj-propty-insert`
 - Method: <span class="method post">POST</span>
 
 </details>
@@ -111,13 +124,13 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
-
 <details open>
 
 <summary>Create a Server</summary>
 
-Go to the Server section and create a new Server.
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-data-transformation`
 - Port Number: `1114`  Feel free to select your own port number
@@ -129,13 +142,14 @@ Go to the Server section and create a new Server.
 
 <summary>Create a Server Operation</summary>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
 
 </details>
+
 
 #### 3 : Create Data Simulation using Real Data
 
@@ -151,13 +165,14 @@ We will use the "real data" to create the test simulation.
 
 <summary>1. Send a HTTP request from Postman or CURL</summary>
 
-<b>cURL</b>
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/obj-propty-insert' \
 --header 'Content-Type: application/json' \
 --data '{
     "fieldA" : 2
+}'
 ```
 
 <!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
@@ -192,6 +207,8 @@ Insert value `MODELA` with the key `name` in the object **request**: `body`.
 
 ###### SETTINGS
 
+<img src={ObjectPutIn} alt="Object Put In" class="myResponsiveImg" width="900px"/>
+
 > **object**: <u>data</u>
 >> **request**: `body`
 >
@@ -200,8 +217,6 @@ Insert value `MODELA` with the key `name` in the object **request**: `body`.
 >
 > **value**: <u>string</u> <br/>
 >> `MODELA`
-
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
 
 ###### OUTPUT
 
@@ -221,9 +236,10 @@ Both the action's output and HTTP response body are set to **variables**: `outpu
 
 ###### SETTINGS
 
-> **body**: <u>data</u> <br/>**variables**: `output`
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **body**: <u>data</u>
+>> [**variables**: `output`]
 
 </details>
 
@@ -235,13 +251,14 @@ NOTE: By default, the action output is set to variable **output**. If you intend
 simply rename the output location in the action's output.
 :::
 
-#### 2. Test the API with Postman or CURL
+#### 2. Test the API with Postman or cURL
 
-<b>cURL</b>
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/obj-propty-insert' \
 --header 'Content-Type: application/json' \
 --data '{
     "fieldA" : 2
+}'
 ```

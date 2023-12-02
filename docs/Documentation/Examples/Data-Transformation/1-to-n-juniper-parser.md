@@ -11,21 +11,18 @@ keywords:
   - parser
 ---
 
-import img_1to_n_example from '@site/static/img/example/data-transformation/1-to-n/example.png';
-import create_service from '@site/static/img/example/data-transformation/1-to-n/create-service.jpg';
-import data_simulation from '@site/static/img/example/data-transformation/1-to-n/data-simulation.jpg';
-import data_simulation_create from '@site/static/img/example/data-transformation/1-to-n/data-simulation-create.jpg';
-import data_simulation_check from '@site/static/img/example/data-transformation/1-to-n/data-simulation-check.jpg';
-import string_split_action from '@site/static/img/example/data-transformation/1-to-n/string-split-action.jpg';
-import string_split_action_check_output from '@site/static/img/example/data-transformation/1-to-n/string-split-action-check-output.jpg';
-import iteration_map from '@site/static/img/example/data-transformation/1-to-n/iteration-map.jpg';
-import string_split_by_action from '@site/static/img/example/data-transformation/1-to-n/string-split-by-action.jpg';
-import string_split_by_action_check_output from '@site/static/img/example/data-transformation/1-to-n/string-split-by-action-check-output.jpg';
-import service_return from '@site/static/img/example/data-transformation/1-to-n/service-return.jpg';
-import service_check_output from '@site/static/img/example/data-transformation/1-to-n/service-check-output.jpg';
-import service_output_mapping from '@site/static/img/example/data-transformation/1-to-n/service-output-mapping.jpg';
-import service_operation_config from '@site/static/img/example/data-transformation/1-to-n/service-operation-config.jpg';
-import service_operation_check_output from '@site/static/img/example/data-transformation/1-to-n/service-operation-check-output.jpg';
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import StringSplit from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/string-split.jpg';
+import StringSplitbyNewLine from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/string-split-by-new-line.jpg';
+import ArrayDrop from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/array-drop.jpg';
+import IterationMap from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/iteration-map.jpg';
+import StringSplitInIteration from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/string-split-in-iteration.jpg';
+import ReturnInIteration from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/return-in-iteration.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+
 
 # 1 to N Juniper Log Parser
 
@@ -49,7 +46,6 @@ import service_operation_check_output from '@site/static/img/example/data-transf
     <div class="colTwoClearer"></div>
 </div>
 <br />
-<img src={img_1to_n_example} alt="1 to N example" class="myResponsiveImg" width="800px"/>
 
 ## Supporting Concepts
 
@@ -135,6 +131,10 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API</summary>
 
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
 - ID: `sample-data-transformation`
 
 </details>
@@ -143,8 +143,7 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API Path</summary>
 
-
-<img src={iteration_map} alt="Create Server" class="myResponsiveImg" width="1000px"/>
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
 
 - Path: `/1-to-n-juniper-parser`
 - Method: <span class="method post">POST</span>
@@ -161,7 +160,9 @@ Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-ser
 
 <summary>Create a Server</summary>
 
-Go to the Server section and create a new Server.
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-data-transformation`
 - Port Number: `1114`  Feel free to select your own port number
@@ -173,7 +174,7 @@ Go to the Server section and create a new Server.
 
 <summary>Create a Server Operation</summary>
 
-{/* <!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> --> */}
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
@@ -187,18 +188,16 @@ Go to the Server section and create a new Server.
 Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-{/* <!-- <img src={SimulateData} alt="Simulate Data" class="myResponsiveImg" width="750px"/> --> */}
-
 We will use the "real data" to create the test simulation.
 
 <details open>
 
-<summary>1. Send a HTTP request from Postman or CURL</summary>
+<summary>1. Send a HTTP request from Postman or cURL</summary>
 
 <b>cURL</b>
 
 ```bash
-curl --location 'localhost:1116/example' \
+curl --location 'localhost:1114/1-to-n-juniper-parser' \
 --header 'Content-Type: text/plain' \
 --data 'last pid:  8197;  load averages:  0.65,  0.46,  0.42  up 21+12:45:04    22:32:33
 107 processes: 4 running, 88 sleeping, 15 waiting
@@ -249,17 +248,19 @@ We can use **String/split-by** action to split with the table header `PID USERNA
 
 <summary>String Split By</summary>
 
+<img src={StringSplit} alt="String Split" class="myResponsiveImg" width="800px"/>
+
 ###### SETTINGS
 
-> **string**: <u>data</u> [**request**: `body`] <br/>
+> **string**: <u>data</u>
+>> [**request**: `body`]
+>
 > **pattern**: <u>array</u> 
 >> <u>string</u> <code>PID USERNAME    THR PRI NICE   SIZE    RES STATE    TIME   WCPU COMMAND</code>
 
 ###### OUTPUT
 
 > **variables**: `output` <br/>
-
-{/* <!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> --> */}
 
 </details>
 
@@ -275,13 +276,15 @@ Note that original string was split into two pieces and we are working with the 
 
 ###### SETTINGS
 
-> **string**: <u>data</u> [**variable**: `output > 1`] <br/>
+<img src={StringSplitbyNewLine} alt="String Split by New Line" class="myResponsiveImg" width="800px"/>
+
+> **string**: <u>data</u>
+>> [**variable**: `output > 1`] <br/>
 
 ###### OUTPUT
 
-> **variables**: `output` <br/>
 
-{/* <!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> --> */}
+> **variables**: `output` <br/>
 
 </details>
 
@@ -298,14 +301,16 @@ In the action setting, we are dropping 1 entry from the array that was created (
 
 ###### SETTINGS
 
-> **array**: <u>data</u> [**variable**: `output` <br/>]
+<img src={ArrayDrop} alt="Array Drop" class="myResponsiveImg" width="800px"/>
+
+> **array**: <u>data</u>
+>> [**variable**: `output`]
+>
 > **count**: <u>number</u> `1`
 
 ###### OUTPUT
 
 > **variables**: `output` <br/>
-
-{/* <!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> --> */}
 
 </details>
 
@@ -313,9 +318,9 @@ In the action setting, we are dropping 1 entry from the array that was created (
 
 #### 4. Remove the unwanted first line
 
-- : We will be iterating over the list of records that's saved in the scope `variable: output`.<br/>
+- We will be iterating over the list of records that's saved in the scope `variable: output`.<br/>
 The previous action "string/split-by-newline" stored the output in the scope "variable: output".
-- : This is a special scope that exists only in the iteration. It is used to store the values as it iterates over the array. <br/>
+- This is a special scope that exists only in the iteration. It is used to store the values as it iterates over the array. <br/>
 In our example, we will call it `ip-port`.
 
 <details open>
@@ -328,7 +333,11 @@ Learn how to use [iteration/map](../../../Documentation/actions-library/flow/ite
 
 ###### SETTINGS
 
-> **ITERATE**: <u>data</u> [**variable**: `output`]<br/>
+<img src={IterationMap} alt="Iteration Map" class="myResponsiveImg" width="800px"/>
+
+> **ITERATE**: <u>data</u>
+>> [**variable**: `output`]<br/>
+>
 > **SCOPE**: <u>string</u> `loop-var`
 
 
@@ -340,7 +349,10 @@ As each line gets iterated, we can further split at every whitespace to isolate 
 
 ###### SETTINGS
 
-> **string**: <u>data</u> [**loop-var**: `value`] <br/>
+<img src={StringSplitInIteration} alt="String Split In Iteration" class="myResponsiveImg" width="800px"/>
+
+> **string**: <u>data</u>
+>> [**loop-var**: `value`] <br/>
 
 ###### OUTPUT
 
@@ -356,95 +368,39 @@ Now that we have isolated the data we need, we can create a NEW object to store 
 
 ###### SETTINGS
 
-> **WCPU**: <u>data</u> [**variable**: `output > 9`] <br/>
-> **COMMAND**: <u>data</u> [**variable**: `output > 10`]
+<img src={ReturnInIteration} alt="Return In Iteration" class="myResponsiveImg" width="800px"/>
+
+> **WCPU**: <u>data</u>
+>> [**variable**: `output > 9`] <br/>
+>
+> **COMMAND**: <u>data</u>
+>> [**variable**: `output > 10`]
 
 ###### OUTPUT
 
 > **variables**: `output` <br/>
 
-{/* <!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> --> */}
-
+</details>
 </details>
 
-###### OUTPUT
+### OUTPUT: HTTP Response
 
-> **variables**: `output` <br/>
+#### 1. Create a NEW object and map the IP and Subnet
 
-{/* <!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> --> */}
+Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
+
+<details open>
+
+<summary>HTTP Response</summary>
+
+###### SETTINGS
+
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="800px"/>
+
+> **body**: <u>data</u>
+>> [**variables**: `output`]
 
 </details>
-
-
-
-### Step 4 : Add Action ""
-
-
-#### Configure iteration map
-
-
-<img src={iteration_map} alt="String Split Action" class="myResponsiveImg" width="800px"/>
-
-:::info
-You can not access iteration scope outside the iteration.
-:::
-
-### Step 5 : Add Action "String Split" Inside the Iteration
-:::tip Required Concepts
-Learn how to use [string/split-by](../../../Documentation/actions-library/data/string/action-string-split-by/) actions.
-:::
-
-Similar to how the earlier [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx) action to split the string on a new line;
-
-An action [string/split-by](Documentation/actions-library/data/string/action-string-split-by.mdx) will be used to further split the string based on patterns to isolate the values.
-
-#### 1. Configure "String Split By" Action
-- string: We are splitting each string stored in the [iteration scope](../../../Documentation/Guide/Workflow/Scope/#iteration-scope) `ip-port`
-- patterns:
-  - IP address is behind the pattern `OUTSIDE: `
-  - Port Number is behind the pattern `connection `
-
-##### Reference
-<pre>
-%ASA-6-302013: TCP <b>connection </b>933 <b>OUTSIDE:</b>172.217.169.68
-</pre>
-
-By splitting the record at above patterns, we will be able to isolate the IP address and port numbers.
-
-<img src={string_split_by_action} alt="String Split By Action" class="myResponsiveImg" width="800px"/>
-
-#### 2. Check the Action Output
-- The OUTPUT of the action is stored in the SCOPE `variable: output` by default. You can assign your own variable if you'd like.
-- Press the "Action Output" tab to check that the string is split into an array with the port number and IP address isolated.
-
-<img src={string_split_by_action_check_output} alt="String Split By Action Check Output" class="myResponsiveImg" width="800px"/>
-
-
-### Step 6: Map Return Value
-
-Let's create a new object with keys `ip` and `port`.
-
-**Return configuration**
-- Select `object` as the return data type
-- Add keys `ip` and `port`
-- Map the values from the variable to each key
-
-<img src={service_return} alt="Condition Switch Default Return" class="myResponsiveImg" width="800px"/>
-
-
-#### Check the OUTPUT of Condition/Switch
-
-Notice that we now have an array of IP addresses and Port numbers.
-
-<img src={service_check_output} alt="Condition Switch Check Output" class="myResponsiveImg" width="700px"/>
-
-### Step 7 : Map the Action and Service OUTPUTs
-
-Finally, you can map the OUTPUT from the workflow to the Service OUTPUT
-- Action's OUTPUT were all save to the scope "variable: output"
-- Map the Service's OUTPUT `result` with the "variable: output"
-
-<img src={service_output_mapping} alt="Condition Switch Check Output" class="myResponsiveImg" width="800px"/>
 
 :::note Mapping the **action** output to the **HTTP response** output
 - Data referenced in HTTP response is what gets sent back to the client. 
@@ -454,24 +410,25 @@ NOTE: By default, the action output is set to variable **output**. If you intend
 simply rename the output location in the action's output.
 :::
 
-### Step 7 : Calling the Service using the Service Operation Action
-:::tip Required Concepts
-Learn how to call services using the <a href="/docs/Documentation/actions-library/call/service/action-service-operation/">Service/Operation</a> action.
+#### 2. Test the API with Postman or CURL
 
-Also, you may want to learn how to create a [server](../../../Documentation/Guide/Server) if you wish to call the service using a HTTP server.
-:::
+<b>cURL</b>
 
-Create a [server](../../../Documentation/Guide/Server) and add the <a href="/docs/Documentation/actions-library/call/service/action-service-operation/">Service/Operation</a> action.
+```bash
+curl --location 'localhost:1114/1-to-n-juniper-parser' \
+--header 'Content-Type: text/plain' \
+--data 'last pid:  8197;  load averages:  0.65,  0.46,  0.42  up 21+12:45:04    22:32:33
+107 processes: 4 running, 88 sleeping, 15 waiting
 
-#### 1. Select the Service and insert the values
+Mem: 163M Active, 90M Inact, 64M Wired, 72M Cache, 61M Buf, 92M Free
+Swap:
 
-<img src={service_operation_config} alt="Service Operation Configuration" class="myResponsiveImg" width="800px"/>
 
-#### 2. Check the output.
-
-<img src={service_operation_check_output} alt="Service Operation Check Output" class="myResponsiveImg" width="700px"/>
-
-:::note
-HTTP server can received data in the Request Body in a JSON format or URL parameters.
-Download the example to see how JSON data in request body is used.
-::: 
+  PID USERNAME    THR PRI NICE   SIZE    RES STATE    TIME   WCPU COMMAND
+   11 root          1 171   52     0K  3024K RUN    367.5H 68.75% idle
+ 8193 qatest        1 123    0 20300K 13364K RUN      0:01 34.34% cli
+ 8191 root          1 107    0  6648K  3040K select   0:00 12.81% sshd
+ 1208 root          1   8    0   135M 13640K nanslp  50.8H  1.03% pfem
+ 1205 root          1   4    0 80828K  9992K kqread 911:00  0.83% chassism
+ 1243 root          1  97    0  9120K  5676K select 100:30  0.05% license-check'
+```

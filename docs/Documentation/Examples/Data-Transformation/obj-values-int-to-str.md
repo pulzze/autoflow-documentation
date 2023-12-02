@@ -11,6 +11,17 @@ keywords:
   - integer to string
 ---
 
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/obj-values-int-to-str/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import ConditionSwitch from '@site/static/img/example/data-transformation/obj-values-int-to-str/condition-switch.jpg';
+import Case0 from '@site/static/img/example/data-transformation/obj-values-int-to-str/case-0.jpg';
+import Case1 from '@site/static/img/example/data-transformation/obj-values-int-to-str/case-1.jpg';
+import Case2 from '@site/static/img/example/data-transformation/obj-values-int-to-str/case-2.jpg';
+import Default from '@site/static/img/example/data-transformation/obj-values-int-to-str/default.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+
 # Object values number to string
 
 ## Overview
@@ -93,6 +104,10 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API</summary>
 
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
 - ID: `sample-data-transformation`
 
 </details>
@@ -101,7 +116,9 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API Path</summary>
 
-- Path: `/obj-values-int-to-str
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/obj-values-int-to-str`
 - Method: <span class="method post">POST</span>
 
 </details>
@@ -112,13 +129,13 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
-
 <details open>
 
 <summary>Create a Server</summary>
 
-Go to the Server section and create a new Server.
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-data-transformation`
 - Port Number: `1114`  Feel free to select your own port number
@@ -130,13 +147,14 @@ Go to the Server section and create a new Server.
 
 <summary>Create a Server Operation</summary>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
 
 </details>
+
 
 #### 3 : Create Data Simulation using Real Data
 
@@ -195,10 +213,9 @@ The condition looks at the **request**: `body > typeValue` and applies case that
 
 ###### SETTINGS
 
+<img src={ConditionSwitch} alt="Condition Switch" class="myResponsiveImg" width="900px"/>
+
 > **SWITCH**: <u>data</u> [**request**: `body > typeValue`]
-
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
-
 
 ##### Case 1:  If the value is `0`
 
@@ -210,9 +227,9 @@ Create a NEW object in the final format.
 
 ###### SETTINGS
 
-> **typeString**: <u>string</u> `typeA`
+<img src={Case0} alt="Case 0" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **typeString**: <u>string</u> `typeA`
 
 </details>
 
@@ -226,9 +243,9 @@ Create a NEW object in the final format.
 
 ###### SETTINGS
 
-> **typeString**: <u>string</u> `typeB`
+<img src={Case1} alt="Case 1" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **typeString**: <u>string</u> `typeB`
 
 </details>
 
@@ -243,14 +260,15 @@ Create a NEW object in the final format.
 
 ###### SETTINGS
 
-> **typeString**: <u>string</u> `typeC`
+<img src={Case2} alt="Case 2" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **typeString**: <u>string</u> `typeC`
 
 </details>
 
-
 ##### DEFAULT
+
+<img src={Default} alt="Default" class="myResponsiveImg" width="900px"/>
 
 Return a string value of `Invalid Input`
 
@@ -273,9 +291,10 @@ Both the action's output and HTTP response body are set to **variables**: `outpu
 
 ###### SETTINGS
 
-> **body**: <u>data</u> [**variables**: `output`]
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **body**: <u>data</u>
+>> [**variables**: `output`]
 
 </details>
 
@@ -287,9 +306,9 @@ NOTE: By default, the action output is set to variable **output**. If you intend
 simply rename the output location in the action's output.
 :::
 
-#### 2. Test the API with Postman or CURL
+#### 2. Test the API with Postman or cURL
 
-<b>cURL</b>
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/obj-values-int-to-str' \

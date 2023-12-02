@@ -11,6 +11,20 @@ keywords:
   - convert
 ---
 
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/obj-values-str-to-str/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import If1 from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-1.jpg';
+import If1ObjectPutIfExist from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-1-object-put-if-exist.jpg';
+import If1Else from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-1-else.jpg';
+import If1ObjectElsePutIfExist from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-1-else-object-put-if-exist.jpg';
+import If2 from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-2.jpg';
+import If2ObjectPutIfExist from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-2-object-put-if-exist.jpg';
+import If2Else from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-2-else.jpg';
+import If2ElseObjectPutIfExist from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-2-else-object-put-if-exist.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+
 # Object Values Convert one String to Another
 
 ## Overview
@@ -96,6 +110,10 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API</summary>
 
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
 - ID: `sample-data-transformation`
 
 </details>
@@ -104,7 +122,9 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API Path</summary>
 
-- Path: `/obj-values-str-to-str
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/obj-values-str-to-str`
 - Method: <span class="method post">POST</span>
 
 </details>
@@ -115,13 +135,13 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
-
 <details open>
 
 <summary>Create a Server</summary>
 
-Go to the Server section and create a new Server.
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-data-transformation`
 - Port Number: `1114`  Feel free to select your own port number
@@ -133,13 +153,14 @@ Go to the Server section and create a new Server.
 
 <summary>Create a Server Operation</summary>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
 
 </details>
+
 
 #### 3 : Create Data Simulation using Real Data
 
@@ -189,7 +210,7 @@ Learn how to create a [Actions](../../../Documentation/Guide/Workflow/Action/).
 
 Add actions to transform the data.
 
-#### 1. Apply values based on the Link State Key
+#### 1. Apply values based on the Link State A Key
 
 <details open>
 
@@ -199,12 +220,14 @@ Add actions to transform the data.
 
 The condition looks at the **request**: `body > linkA-state` and puts in the new string.
 
-> **IF**: <u>Comparison</u>
->> <u>data</u> [**request**: `body > typeValue`]
->
-> **is equal to**: <u>string</u> `link-down`]
+<img src={If1} alt="IF Condition" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **IF**: <u>Comparison</u>
+>> <u>data</u> <br/>
+> [<b>request</b>: <code>body > typeValue</code>]
+>
+> **is equal to**: <br/>
+><u>string</u> <code>link-down</code>
 
 <details open>
 
@@ -214,47 +237,139 @@ Look for the key `linkA-stage` in the object **request**: `body`. If it exists, 
 
 ###### SETTINGS
 
-> **object**: <u>data</u> [**request**: `body`] <br/>
+<img src={If1ObjectPutIfExist} alt="If Condition Object Put If Exist" class="myResponsiveImg" width="900px"/>
+
+> **object**: <u>data</u>  <br/>
+> [**request**: `body`] <br/>
 > **key**: <u>string</u> `linkA-stage` <br/>
 > **value**: <u>string</u> `DOWN`
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
-
 </details>
 
-###### ELSE IF: `linkB-state`
+---
 
-The condition looks at the **request**: `body > linkB-state` and puts in the new string.
+###### ELSE IF:
+
+The condition looks at the **request**: `body > linkA-state` and puts in the new string.
+
+<img src={If1Else} alt="If Condition Else" class="myResponsiveImg" width="900px"/>
 
 > **IF**: <u>Comparison</u>
->> <u>data</u> [**request**: `body > typeValue`]
+>> <u>data</u>
+> [<b>request</b>: <br/>
+> <code>body > typeValue</code>]
 >
-> **is equal to**: <u>string</u> `link-down`]
-
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **is equal to**: <br/>
+> <u>string</u> <code>link-up</code>
 
 <details open>
 
 <summary>Put a new value in the object</summary>
 
-Look for the key `linkA-stage` in the object **request**: `body`. If it exists, put a new value `DOWN`. 
+Look for the key `linkA-stage` in the object **request**: `body`. If it exists, put a new value `UP`. 
 
 ###### SETTINGS
 
-> **object**: <u>data</u> [**request**: `body`] <br/>
-> **key**: <u>string</u> `linkA-stage` <br/>
-> **value**: <u>string</u> `DOWN`
+<img src={If1ObjectElsePutIfExist} alt="If Condition Object Else Put If Exist" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **object**: <u>data</u> <br/>
+> [**request**: `body`] <br/>
+> **key**: <u>string</u> `linkA-stage` <br/>
+> **value**: <u>string</u> `UP`
 
 </details>
-
 
 ###### OUTPUT
 
 > [**variables**: `output`]
 
 </details>
+
+
+
+
+#### 2. Apply values based on the Link State B Key
+
+<details open>
+
+<summary>IF Condition</summary>
+
+###### IF: `linkB-state`
+
+The condition looks at the **request**: `body > linkB-state` and puts in the new string.
+
+<img src={If2} alt="IF Condition" class="myResponsiveImg" width="900px"/>
+
+> **IF**: <u>Comparison</u>
+>> <u>data</u> <br/>
+> [<b>request</b>: <code>body > typeValue</code>]
+>
+> **is equal to**: <br/>
+><u>string</u> <code>link-down</code>
+
+<details open>
+
+<summary>Put a new value in the object</summary>
+
+Look for the key `linkB-stage` in the object **request**: `body`. If it exists, put a new value `DOWN`. 
+
+###### SETTINGS
+
+<img src={If2ObjectPutIfExist} alt="If Condition Object Put If Exist" class="myResponsiveImg" width="900px"/>
+
+> **object**: <u>data</u>  <br/>
+> [**request**: `body`] <br/>
+> **key**: <u>string</u> `linkB-stage` <br/>
+> **value**: <u>string</u> `DOWN`
+
+</details>
+
+---
+
+###### ELSE IF:
+
+The condition looks at the **request**: `body > linkB-state` and puts in the new string.
+
+<img src={If2Else} alt="If Condition Else" class="myResponsiveImg" width="900px"/>
+
+> **IF**: <u>Comparison</u>
+>> <u>data</u>
+> [<b>request</b>: <br/>
+> <code>body > typeValue</code>]
+>
+> **is equal to**: <br/>
+> <u>string</u> <code>link-up</code>
+
+<details open>
+
+<summary>Put a new value in the object</summary>
+
+Look for the key `linkB-stage` in the object **request**: `body`. If it exists, put a new value `UP`. 
+
+###### SETTINGS
+
+<img src={If2ElseObjectPutIfExist} alt="If Condition Object Else Put If Exist" class="myResponsiveImg" width="900px"/>
+
+> **object**: <u>data</u> <br/>
+> [**request**: `body`] <br/>
+> **key**: <u>string</u> `linkB-stage` <br/>
+> **value**: <u>string</u> `UP`
+
+</details>
+
+###### OUTPUT
+
+> [**variables**: `output`]
+
+</details>
+
+
+
+
+
+
+
+
 
 ### OUTPUT: HTTP Response
 
@@ -268,9 +383,10 @@ Both the action's output and HTTP response body are set to **variables**: `outpu
 
 ###### SETTINGS
 
-> **body**: <u>data</u> [**variables**: `output`]
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **body**: <u>data</u>
+>> [**variables**: `output`]
 
 </details>
 
@@ -282,9 +398,9 @@ NOTE: By default, the action output is set to variable **output**. If you intend
 simply rename the output location in the action's output.
 :::
 
-#### 2. Test the API with Postman or CURL
+#### 2. Test the API with Postman or cURL
 
-<b>cURL</b>
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/obj-values-str-to-str' \

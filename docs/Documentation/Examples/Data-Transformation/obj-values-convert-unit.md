@@ -10,6 +10,20 @@ keywords:
   - convert unit
 ---
 
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/obj-values-convert-unit/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import ConditionSwitch from '@site/static/img/example/data-transformation/obj-values-convert-unit/condition-switch.jpg';
+import Case1 from '@site/static/img/example/data-transformation/obj-values-convert-unit/case-1.jpg';
+import Case1MathCalculate from '@site/static/img/example/data-transformation/obj-values-convert-unit/case-1-math-calculate.jpg';
+import Case1Return from '@site/static/img/example/data-transformation/obj-values-convert-unit/case-1-return.jpg';
+import Case2 from '@site/static/img/example/data-transformation/obj-values-convert-unit/case-2.jpg';
+import Case2MathCalculate from '@site/static/img/example/data-transformation/obj-values-convert-unit/case-2-math-calculate.jpg';
+import Case2Return from '@site/static/img/example/data-transformation/obj-values-convert-unit/case-2-return.jpg';
+import Default from '@site/static/img/example/data-transformation/obj-values-convert-unit/default.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+
 # Object Value Convert Unit
 
 ## Overview
@@ -115,6 +129,10 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API</summary>
 
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
 - ID: `sample-data-transformation`
 
 </details>
@@ -123,7 +141,9 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API Path</summary>
 
-- Path: `/obj-values-convert-unit
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/obj-values-convert-unit`
 - Method: <span class="method post">POST</span>
 
 </details>
@@ -134,13 +154,13 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
-
 <details open>
 
 <summary>Create a Server</summary>
 
-Go to the Server section and create a new Server.
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-data-transformation`
 - Port Number: `1114`  Feel free to select your own port number
@@ -152,13 +172,14 @@ Go to the Server section and create a new Server.
 
 <summary>Create a Server Operation</summary>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
 
 </details>
+
 
 #### 3 : Create Data Simulation using Real Data
 
@@ -227,14 +248,14 @@ The condition looks at the **request**: `body > unit` and applies case that matc
 
 <summary>Condition Switch</summary>
 
+<img src={ConditionSwitch} alt="Condition Switch" class="myResponsiveImg" width="900px"/>
+
 ###### SETTINGS
 
 > **SWITCH**: <u>data</u>
 >> **request**: `body > unit`
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
-
-
+---
 
 ##### Case 1:  If the unit is `kbps`
 
@@ -245,13 +266,15 @@ The condition looks at the **request**: `body > unit` and applies case that matc
 
 Create two variables `input` and `unit`.  In the expression, divide the two variables.
 
+<img src={Case1MathCalculate} alt="Case 1 Math Calculate" class="myResponsiveImg" width="900px"/>
+
 ###### SETTINGS
 
 > **expression**: <u>string</u> `input / unit` <br/>
 > **variables**: <u>object</u>
->> **input**: <u>data</u> **variables**: `body > speed` <br/>
+>> **input**: <u>data</u> <br/>
+>> [**variables**: `body > speed`] <br/>
 >> **unit**: <u>number</u> `1000` <br/>
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
 
 ###### OUTPUT
 
@@ -267,15 +290,20 @@ Create a NEW object in the final format.
 
 ###### SETTINGS
 
+<img src={Case1Return} alt="Case 1 Return" class="myResponsiveImg" width="900px"/>
+
 > **speed**: <u>data</u>
->> **variables**: `body > speed`
+>> **variables**: `output`
 >
 > **unit**: <u>string</u> `mbps` <br/>
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
 
 </details>
 
+---
+
 ##### Case 2:  If the unit is `mbps`
+
+<img src={Case2} alt="Case 2" class="myResponsiveImg" width="900px"/>
 
 <details open>
 
@@ -285,11 +313,12 @@ Create two variables `input` and `unit`.  In the expression, this time we are mu
 
 ###### SETTINGS
 
-> **expression**: <u>string</u> `input * unit` <br/>
->> **input**: <u>data</u> **variables**: `body > speed` <br/>
->> **unit**: <u>number</u> `1000` <br/>
+<img src={Case2MathCalculate} alt="Case 2 Math Calculate" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **expression**: <u>string</u> `input * unit` <br/>
+>> **input**: <u>data</u> <br/>
+>> **variables**: `body > speed` <br/>
+>> **unit**: <u>number</u> `1000` <br/>
 
 ###### OUTPUT
 
@@ -305,19 +334,22 @@ Create a NEW object in the final format.
 
 ###### SETTINGS
 
+<img src={Case2Return} alt="Case 2 Return" class="myResponsiveImg" width="900px"/>
+
 > **speed**: <u>data</u>
->> **variables**: `body > speed`
+>> **variables**: `output`
 >
 > **unit**: <u>string</u> `kbps` <br/>
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
 
 </details>
 
+---
 
 ##### DEFAULT
 
-Return a string value of `Invalid data type`
+<img src={Default} alt="Default" class="myResponsiveImg" width="900px"/>
 
+Return a string value of `Invalid data type`
 
 ###### OUTPUT
 
@@ -337,9 +369,10 @@ Both the action's output and HTTP response body are set to **variables**: `outpu
 
 ###### SETTINGS
 
-> **body**: <u>data</u> <br/>**variables**: `output`
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **body**: <u>data</u> <br/>
+> [**variables**: `output`]
 
 </details>
 

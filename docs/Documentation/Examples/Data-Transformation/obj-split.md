@@ -9,6 +9,12 @@ keywords:
   - Object split
 ---
 
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/obj-split/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import HttpOutput from '@site/static/img/example/data-transformation/obj-split/http-output.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+
 # Split Object 
 
 ## Overview
@@ -88,6 +94,10 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API</summary>
 
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
 - ID: `sample-data-transformation`
 
 </details>
@@ -96,7 +106,9 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API Path</summary>
 
-- Path: `/obj-split
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/obj-split`
 - Method: <span class="method post">POST</span>
 
 </details>
@@ -107,13 +119,13 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
-
 <details open>
 
 <summary>Create a Server</summary>
 
-Go to the Server section and create a new Server.
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-data-transformation`
 - Port Number: `1114`  Feel free to select your own port number
@@ -125,13 +137,14 @@ Go to the Server section and create a new Server.
 
 <summary>Create a Server Operation</summary>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
 
 </details>
+
 
 #### 3 : Create Data Simulation using Real Data
 
@@ -188,14 +201,14 @@ Since we need to respond in a JSON object, we can create a new object in the HTT
 
 ###### SETTINGS
 
+<img src={HttpOutput} alt="HTTP Output" class="myResponsiveImg" width="800px"/>
+
 > **body**: <u>object</u>
 >> **ChildA**: <u>object</u>
 >>> **filedA**: <u>data</u><br/>**request**: `body > fieldA`
 >>
 >> **ChildB**: <u>object</u>
 >>> **filedB**: <u>data</u><br/>**request**: `body > fieldB`
-
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
 
 </details>
 
@@ -209,7 +222,7 @@ simply rename the output location in the action's output.
 
 #### 2. Test the API with Postman or CURL
 
-<b>cURL</b>
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/obj-split' \

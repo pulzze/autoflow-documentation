@@ -15,7 +15,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --main-background: #c2c0ba;
+  --main-background: #F5F2EC;
   --img-border-color: #d5d8dc;
   --img-hover-color: #2b794e;
   --form-background-color: #ffffff;
@@ -32,33 +32,11 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --main-background: #30302e;
+  --main-background: #1b1b1d;
   --img-border-color: #555c64;
   --img-hover-color: #29ba97;
   --form-background-color: #0d0d12;
   --close-btn: invert(100%);
-}
-
-.red {
-  color: red !important;
-  background-color: red !important;
-}
-.red[aria-selected='true'] {
-  border-bottom-color: red;
-}
-
-.orange {
-  color: orange;
-}
-.orange[aria-selected='true'] {
-  border-bottom-color: orange;
-}
-
-.yellow {
-  color: yellow;
-}
-.yellow[aria-selected='true'] {
-  border-bottom-color: yellow;
 }
 
 /* Buttons */
@@ -235,12 +213,6 @@ main, body {
 }
 [data-theme='dark'] .menu{
   background-color: #090a11;
-}
-[data-theme='light'] main > .container {
-  background-color: #F5F2EC;
-}
-[data-theme='dark'] main > .container {
-  background-color: #1b1b1d;
 }
 article img {
   background-color: #fff;

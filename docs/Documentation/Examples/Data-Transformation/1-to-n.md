@@ -9,21 +9,15 @@ keywords:
   - data transformation
 ---
 
-import img_1to_n_example from '@site/static/img/example/data-transformation/1-to-n/example.png';
-import create_service from '@site/static/img/example/data-transformation/1-to-n/create-service.jpg';
-import data_simulation from '@site/static/img/example/data-transformation/1-to-n/data-simulation.jpg';
-import data_simulation_create from '@site/static/img/example/data-transformation/1-to-n/data-simulation-create.jpg';
-import data_simulation_check from '@site/static/img/example/data-transformation/1-to-n/data-simulation-check.jpg';
-import string_split_action from '@site/static/img/example/data-transformation/1-to-n/string-split-action.jpg';
-import string_split_action_check_output from '@site/static/img/example/data-transformation/1-to-n/string-split-action-check-output.jpg';
-import iteration_map from '@site/static/img/example/data-transformation/1-to-n/iteration-map.jpg';
-import string_split_by_action from '@site/static/img/example/data-transformation/1-to-n/string-split-by-action.jpg';
-import string_split_by_action_check_output from '@site/static/img/example/data-transformation/1-to-n/string-split-by-action-check-output.jpg';
-import service_return from '@site/static/img/example/data-transformation/1-to-n/service-return.jpg';
-import service_check_output from '@site/static/img/example/data-transformation/1-to-n/service-check-output.jpg';
-import service_output_mapping from '@site/static/img/example/data-transformation/1-to-n/service-output-mapping.jpg';
-import service_operation_config from '@site/static/img/example/data-transformation/1-to-n/service-operation-config.jpg';
-import service_operation_check_output from '@site/static/img/example/data-transformation/1-to-n/service-operation-check-output.jpg';
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/1-to-n/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import StringSplitByNewLine from '@site/static/img/example/data-transformation/1-to-n/string-split-by-new-line.jpg';
+import IterationMap from '@site/static/img/example/data-transformation/1-to-n/iteration-map.jpg';
+import StringSplitBy from '@site/static/img/example/data-transformation/1-to-n/string-split-by-in-iteration.jpg';
+import IterationReturn from '@site/static/img/example/data-transformation/1-to-n/return-in-iteration.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
 
 # 1 to N
 
@@ -47,7 +41,6 @@ import service_operation_check_output from '@site/static/img/example/data-transf
     <div class="colTwoClearer"></div>
 </div>
 <br />
-<img src={img_1to_n_example} alt="1 to N example" class="myResponsiveImg" width="800px"/>
 
 ## Supporting Concepts
 
@@ -106,154 +99,243 @@ The return should be an array of objects like:
 
 ## Content
 
-### Step 1: Create a new Service and add INPUT/OUTPUT arguments
+### INPUT: HTTP Request
+
+#### 1: Create an API endpoint
+
+:::note Required Concepts
+Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api). 
+:::
+
+<details open>
+
+<summary>Create an API</summary>
+
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
+- ID: `sample-data-transformation`
+
+</details>
+
+<details open>
+
+<summary>Create an API Path</summary>
+
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/1-to-n`
+- Method: <span class="method post">POST</span>
+
+</details>
+
+#### 2. Create a Server Operation
 
 :::tip Required Concepts
-Learn how to create a [Service](../../../Documentation/Guide/Service/) and add new INPUT/OUT arguments. 
+Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-We will be passing values in the below INPUT arguments and return the data from below OUTPUT argument.
+<details open>
 
-#### INPUT arguments
-- syslog
+<summary>Create a Server</summary>
 
-#### OUTPUT arguments
-- result
+From the **left navigation**, go to the Server section and create a new Server.
 
-<img src={create_service} alt="N to 1 example" class="myResponsiveImg" width="600px"/>
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
-:::note
+- Server ID: `sample-data-transformation`
+- Port Number: `1114`  Feel free to select your own port number
+- Linked API: `sample-data-transformation`  (select the API you created above)
 
-The service can be called from any workflow using the [service/operation](../../../Documentation/actions-library/call/service/action-service-operation.mdx/) action.
+</details>
 
-:::
+<details open>
+
+<summary>Create a Server Operation</summary>
+
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
+
+- Press the "Add API Operation"
+- Select the API endpoint created above
 
 
-### Step 2. Simulation Mock Data
+</details>
+
+#### 3 : Create Data Simulation using Real Data
+
 :::tip Required Concepts
-Learn how to [simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/) the mock data. 
+Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-#### Add Test Simulation 1: `cisco-asa`
-Enter below value in the INPUT "syslog" simulation.
+We will use the "real data" to create the test simulation.
+
+<details open>
+
+<summary>1. Send a HTTP request from Postman or cURL</summary>
+
+<b>cURL</b>
 
 ```bash
-%ASA-6-302013: TCP connection 933 OUTSIDE:172.217.169.68
-%ASA-6-302013: TCP connection 935 OUTSIDE:23.40.43.75
+curl --location 'localhost:1114/1-to-n' \
+--header 'Content-Type: application/json' \
+--data '{
+  "data": "%ASA-6-302013: TCP connection 933 OUTSIDE:172.217.169.68\n%ASA-6-302013: TCP connection 935 OUTSIDE:23.40.43.75"
+}'
 ```
-<img src={data_simulation_create} alt="N to 1 Simulation Check" class="myResponsiveImg" width="600px"/>
 
-#### Check in right pane
+<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
 
-<img src={data_simulation} alt="1 to N example simulation check" class="myResponsiveImg" width="400px"/>
+</details>
+
+<details open>
+
+<summary>2. Check the data is received by the server endpoint</summary>
+
+API Autoflow captures the data received and it can be used to create data simulation.
+
+<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+
+</details>
+
+
+### Action(s)
+
+:::tip Required Concepts
+Learn how to create a [Actions](../../../Documentation/Guide/Workflow/Action/). 
+:::
+
+Add actions to transform the data.
+
+#### 1. Configure string/split-by-newline action
+
+The first big cut you are going to make is isolating the table.
+We can use **String/split-by** action to split with the table header `PID USERNAME    THR PRI NICE   SIZE    RES STATE    TIME   WCPU COMMAND`.
+
+<details open>
+
+<summary>String Split By New Line</summary>
+
+:::tip Required Concepts
+Learn how to create a [string/split-by-newline](../../../Documentation/actions-library/data/string/action-string-split-by-newline/) . 
+:::
+
+<img src={StringSplitByNewLine} alt="String Split By New Line" class="myResponsiveImg" width="900px"/>
+
+###### SETTINGS
+
+> **string**: <u>data</u>
+>> [**input**: `syslog`]
+
+###### OUTPUT
+
+> **variables**: `output` <br/>
+
+</details>
+
+#### 2 : Iteration over each line and extract the values
+
+<details open>
+
+<summary>Iteration Map</summary>
+
+:::tip Required Concepts
+Learn how to create a [iteration/map](../../../Documentation/actions-library/flow/iteration/action-iteration-map/) . 
+:::
+
+###### SETTINGS
+
+<img src={IterationMap} alt="Iteration Map" class="myResponsiveImg" width="900px"/>
+
+> **ITERATION**: <u>data</u>
+>> [**variables**: `output`]
+>
+> **SCOPE**: <u>string</u> 
+>> <code>loop-var</code>
 
 :::note
-
-The service INPUT arguments that was created in step 1 is what's being used to create the service simulation.
-
+You can not access iteration scope `loop-var` outside the iteration.
 :::
 
-### Step 3 : Add Action "Split By New Line"
-:::tip Required Concepts
-Learn how to [add an action](../../../Documentation/actions-library/) and use [string/split-by-newline](../../../Documentation/actions-library/data/string/action-string-split-by-newline/) actions.
-:::
+<details open>
 
+<summary>String Split By</summary>
 
-#### 1. Select "syslog" Simulation
-
-If it is not already selected, select the "cisco-asa" from the INPUT Data Simulation.
-We will use the simulated data from "cisco-asa" to configure the workflow.
-<img src={data_simulation_check} alt="N to 1 Simulation Check" class="myResponsiveImg" width="600px"/>
-
-#### 2. Configure string/split-by-newline action
-The string that we are splitting is the value from INPUT "syslog"
-<img src={string_split_action} alt="String Split Action" class="myResponsiveImg" width="800px"/>
-
-
-#### 3. Check the Action Output
-:::tip Required Concepts
-Learn more about <a href="/docs/Documentation/Guide/Workflow/action/check-output">Check Action Output</a>.
-:::
-
-- The OUTPUT of the action is stored in the SCOPE `variable: output` by default. You can assign your own variable if you'd like.
-- Press the "Action Output" tab to check that the string is split into an array of records.
-
-<img src={string_split_action_check_output} alt="String Split Action" class="myResponsiveImg" width="800px"/>
-
-
-### Step 4 : Add Action "Iteration Map"
-:::tip Required Concepts
-Learn how to use [iteration/map](../../../Documentation/actions-library/flow/iteration/action-iteration-map/) actions.
-:::
-
-#### Configure iteration map
-- ITERATE: We will be iterating over the list of records that's saved in the scope `variable: output`.<br/>
-The previous action "string/split-by-newline" stored the output in the scope "variable: output".
-- SCOPE: This is a special scope that exists only in the iteration. It is used to store the values as it iterates over the array. <br/>
-In our example, we will call it `ip-port`.
-
-<img src={iteration_map} alt="String Split Action" class="myResponsiveImg" width="800px"/>
-
-:::info
-You can not access iteration scope outside the iteration.
-:::
-
-### Step 5 : Add Action "String Split" Inside the Iteration
 :::tip Required Concepts
 Learn how to use [string/split-by](../../../Documentation/actions-library/data/string/action-string-split-by/) actions.
 :::
 
-Similar to how the earlier [string/split-newline](Documentation/actions-library/data/string/action-string-split-by-newline.mdx) action to split the string on a new line;
+Similar to how the earlier [string/split-by-newline](../../../Documentation/actions-library/data/string/action-string-split-by-newline/) action to split the string on a new line;
 
-An action [string/split-by](Documentation/actions-library/data/string/action-string-split-by.mdx) will be used to further split the string based on patterns to isolate the values.
-
-#### 1. Configure "String Split By" Action
-- string: We are splitting each string stored in the [iteration scope](../../../Documentation/Guide/Workflow/Scope/#iteration-scope) `ip-port`
-- patterns:
-  - IP address is behind the pattern `OUTSIDE: `
-  - Port Number is behind the pattern `connection `
-
-##### Reference
 <pre>
 %ASA-6-302013: TCP <b>connection </b>933 <b>OUTSIDE:</b>172.217.169.68
 </pre>
 
-By splitting the record at above patterns, we will be able to isolate the IP address and port numbers.
-
-<img src={string_split_by_action} alt="String Split By Action" class="myResponsiveImg" width="800px"/>
-
-#### 2. Check the Action Output
-- The OUTPUT of the action is stored in the SCOPE `variable: output` by default. You can assign your own variable if you'd like.
-- Press the "Action Output" tab to check that the string is split into an array with the port number and IP address isolated.
-
-<img src={string_split_by_action_check_output} alt="String Split By Action Check Output" class="myResponsiveImg" width="800px"/>
+An action [string/split-by](Documentation/actions-library/data/string/action-string-split-by.mdx) will be used to further split the string based on patterns to isolate the values.
 
 
-### Step 6: Map Return Value
+<img src={StringSplitBy} alt="String Split By Action" class="myResponsiveImg" width="900px"/>
 
-Let's create a new object with keys `ip` and `port`.
+###### SETTINGS
 
-**Return configuration**
-- Select `object` as the return data type
-- Add keys `ip` and `port`
-- Map the values from the variable to each key
+> **string**: <u>data</u>
+>> [**loop-var**: `value`]
+>
+> **patterns**: <u>array</u>
+>> <u>string</u> <code>OUTSIDE:</code><br/>
+>> <u>string</u> <code>connection</code>
 
-<img src={service_return} alt="Condition Switch Default Return" class="myResponsiveImg" width="800px"/>
+###### OUTPUT
+
+> **variables**: `output` <br/>
+
+</details>
+
+<details open>
+
+<summary>Return</summary>
+
+<img src={IterationReturn} alt="Action Return" class="myResponsiveImg" width="900px"/>
+
+###### SETTINGS
+
+> **ip**: <u>data</u>
+>> [**variables**: `output > 2`]
+>
+> **connection**: <u>data</u>
+>> [**variables**: `output > 1`]
+
+###### OUTPUT
+
+> **variables**: `output` <br/>
+
+</details>
+
+###### ITERATION OUTPUT
+
+> **variables**: `output` <br/>
 
 
-#### Check the OUTPUT of Condition/Switch
+</details>
 
-Notice that we now have an array of IP addresses and Port numbers.
+### OUTPUT: HTTP Response
 
-<img src={service_check_output} alt="Condition Switch Check Output" class="myResponsiveImg" width="700px"/>
+#### 1. Create a NEW object and map the IP and Subnet
 
-### Step 7 : Map the Action and Service OUTPUTs
+Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
 
-Finally, you can map the OUTPUT from the workflow to the Service OUTPUT
-- Action's OUTPUT were all save to the scope "variable: output"
-- Map the Service's OUTPUT `result` with the "variable: output"
+<details open>
 
-<img src={service_output_mapping} alt="Condition Switch Check Output" class="myResponsiveImg" width="800px"/>
+<summary>HTTP Response</summary>
+
+###### SETTINGS
+
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="900px"/>
+
+> **body**: <u>data</u>
+>> [**variables**: `output`]
+
+</details>
 
 :::note Mapping the **action** output to the **HTTP response** output
 - Data referenced in HTTP response is what gets sent back to the client. 
@@ -263,24 +345,14 @@ NOTE: By default, the action output is set to variable **output**. If you intend
 simply rename the output location in the action's output.
 :::
 
-### Step 7 : Calling the Service using the Service Operation Action
-:::tip Required Concepts
-Learn how to call services using the <a href="/docs/Documentation/actions-library/call/service/action-service-operation/">Service/Operation</a> action.
+#### 2. Test the API with Postman or CURL
 
-Also, you may want to learn how to create a [server](../../../Documentation/Guide/Server) if you wish to call the service using a HTTP server.
-:::
+<b>cURL</b>
 
-Create a [server](../../../Documentation/Guide/Server) and add the <a href="/docs/Documentation/actions-library/call/service/action-service-operation/">Service/Operation</a> action.
-
-#### 1. Select the Service and insert the values
-
-<img src={service_operation_config} alt="Service Operation Configuration" class="myResponsiveImg" width="800px"/>
-
-#### 2. Check the output.
-
-<img src={service_operation_check_output} alt="Service Operation Check Output" class="myResponsiveImg" width="700px"/>
-
-:::note
-HTTP server can received data in the Request Body in a JSON format or URL parameters.
-Download the example to see how JSON data in request body is used.
-::: 
+```bash
+curl --location 'localhost:1114/1-to-n' \
+--header 'Content-Type: application/json' \
+--data '{
+  "data": "%ASA-6-302013: TCP connection 933 OUTSIDE:172.217.169.68\n%ASA-6-302013: TCP connection 935 OUTSIDE:23.40.43.75"
+}'
+```

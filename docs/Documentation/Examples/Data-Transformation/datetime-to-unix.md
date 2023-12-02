@@ -10,6 +10,13 @@ keywords:
   - unix time
 ---
 
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/datetime-to-unix/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import DatetimeToUnix from '@site/static/img/example/data-transformation/datetime-to-unix/datetime-to-unix.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+
 # Datetime to Unix time
 
 ## Overview
@@ -78,97 +85,118 @@ The goal of the operation is to convert the date-time into unix time:
 
 ## Content
 
-### Step 1: Create an API endpoint
+### INPUT: HTTP Request
 
-Go to the API section and create a new API.
+#### 1: Create an API endpoint
 
-:::tip Required Concepts
-Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api). 
+:::note Required Concepts
+Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api). 
 :::
 
-#### Add an API Path
+<details open>
 
-<!-- <img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/> -->
+<summary>Create an API</summary>
+
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
+- ID: `sample-data-transformation`
+
+</details>
+
+<details open>
+
+<summary>Create an API Path</summary>
+
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
 
 - Path: `/datetime-to-unix`
 - Method: <span class="method post">POST</span>
 
-### Step 2. Create a Server Operation
+</details>
 
-Go to the Server section and create a new Server.
+#### 2. Create a Server Operation
 
 :::tip Required Concepts
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-#### Create a Server
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
+<details open>
 
+<summary>Create a Server</summary>
+
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-data-transformation`
 - Port Number: `1114`  Feel free to select your own port number
-- Linked API: `sample-data-transformation` (select the API you created above)
+- Linked API: `sample-data-transformation`  (select the API you created above)
 
+</details>
 
-#### Create a Server Operation
+<details open>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<summary>Create a Server Operation</summary>
+
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
-### Step 3 : Create Data Simulation using Real Data
+
+</details>
+
+
+
+### Action(s)
 
 :::tip Required Concepts
-Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
+Learn how to create a [Actions](../../../Documentation/Guide/Workflow/Action/). 
 :::
-
-<!-- <img src={SimulateData} alt="Simulate Data" class="myResponsiveImg" width="750px"/> -->
-
-We will use the "real data" to create the test simulation.
-
-#### 1. Send a HTTP request from Postman or CURL
-
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
-
-#### 2. Create a Test Simulation from the Received Data
-
-API Autoflow captures the data received and it can be used to create data simulation.
-
-<!-- <img src={CreateSimulation} alt="Create Simulation" class="myResponsiveImg" width="450px"/> -->
-
-#### 3. Name the Simulation
-
-<!-- <img src={NameSimulation} alt="Name Simulation" class="myResponsiveImg" width="400px"/> -->
-
-
-#### 4. Select "real-data" Simulation
-
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
-
-
-## Add Action to the Flow
 
 You can add actions to transform the data.
 
-### Step 5 : Add an action
+#### 1. Converts decimal to binary
 
-#### 1. Add Date-time to Unix time
+<details open>
 
-<!-- <img src={AddStringCapitalizeAction} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+<summary>Date Time to Unix</summary>
 
-#### 2. Configure Action
+Convert date time to unix time.
 
-We are converting the datetime in variable **request**: `body > timestamp`. 
+<img src={DatetimeToUnix} alt="Datetime To Unix" class="myResponsiveImg" width="900px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+###### SETTINGS
 
+> **datetime**: <u>data</u>
+>> [**request**: `body > timestamp`]
 
-### Step 6 : Map the HTTP response with the New Variable
+###### OUTPUT
+
+> **variables**: `output` <br/>
+
+</details>
+
+### OUTPUT: HTTP Response
+
+#### 1. Create a NEW object and map the IP and Subnet
 
 Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
 
-<!-- <img src={HttpResponseCapitalized} alt="Http Response Capitalized" class="myResponsiveImg" width="400px"/> -->
+<details open>
+
+<summary>HTTP Response</summary>
+
+###### SETTINGS
+
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="800px"/>
+
+> **body**: <u>data</u>
+>> [**variables**: `output`]
+
+</details>
 
 :::note Mapping the **action** output to the **HTTP response** output
 - Data referenced in HTTP response is what gets sent back to the client. 
@@ -178,7 +206,7 @@ NOTE: By default, the action output is set to variable **output**. If you intend
 simply rename the output location in the action's output.
 :::
 
-### Step 7 : Test the API with Postman or CURL
+#### 2. Test the API with Postman or CURL
 
 #### cURL
 
@@ -189,11 +217,3 @@ curl --location 'localhost:1114/datetime-to-unix' \
     "timestamp" : "2023-11-16T04:13:00.000+00:00"
 }'
 ```
-
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
-
-
-
-
-
-

@@ -9,6 +9,13 @@ keywords:
   - math operation
 ---
 
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/obj-values-math-operation/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import MathCalculate from '@site/static/img/example/data-transformation/obj-values-math-operation/math-calculate.jpg';
+import HttpOutput from '@site/static/img/example/data-transformation/obj-values-math-operation/http-output.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+
 # Object Value Math operation
 
 ## Overview
@@ -91,6 +98,10 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API</summary>
 
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
 - ID: `sample-data-transformation`
 
 </details>
@@ -99,7 +110,9 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API Path</summary>
 
-- Path: `/obj-values-math-operation
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/obj-values-math-operation`
 - Method: <span class="method post">POST</span>
 
 </details>
@@ -110,13 +123,13 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
-
 <details open>
 
 <summary>Create a Server</summary>
 
-Go to the Server section and create a new Server.
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-data-transformation`
 - Port Number: `1114`  Feel free to select your own port number
@@ -128,11 +141,10 @@ Go to the Server section and create a new Server.
 
 <summary>Create a Server Operation</summary>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
-
 
 </details>
 
@@ -190,11 +202,11 @@ Add actions to transform the data.
 
 ###### SETTINGS
 
-> **expression**: <u>string</u> `100 - input`> <br/>
+<img src={MathCalculate} alt="Math Calculate" class="myResponsiveImg" width="900px"/>
+
+> **expression**: <u>string</u> `100 - input` <br/>
 > **variables**: <u>data</u>
 >> **input**: <u>data</u> [**request** `body > bandwidth-percent-remaining`]
-
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
 
 ###### OUTPUT
 
@@ -206,7 +218,7 @@ Add actions to transform the data.
 
 #### 1. Create a NEW object and map the IP and Subnet
 
-Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
+Since we need to respond in a JSON object, we can create a new object in the HTTP response.
 
 <details open>
 
@@ -214,9 +226,11 @@ Both the action's output and HTTP response body are set to **variables**: `outpu
 
 ###### SETTINGS
 
-> **body**: <u>data</u> [**variables**: `output`]
+<img src={HttpOutput} alt="HTTP Output" class="myResponsiveImg" width="800px"/>
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+> **body**: <u>object</u>
+>> **bandwidth-percent-used**: <u>data</u> <br/>
+>> [**variables**: `output`]
 
 </details>
 
@@ -230,7 +244,7 @@ simply rename the output location in the action's output.
 
 #### 2. Test the API with Postman or CURL
 
-<b>cURL</b>
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/obj-values-math-operation' \

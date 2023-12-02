@@ -10,6 +10,17 @@ keywords:
   - bits to flag
 ---
 
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import IntegrationBitToFlag from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/integration-bit-to-flag.jpg';
+import VariableSetFlagTable from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/variable-set-flag-table.jpg';
+import VariableSetFinalTable from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/variable-set-final-table.jpg';
+import IterationMap from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/iteration-map.jpg';
+import ObjectPut from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/object-put.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+
 # Binary Decimal to Bit Flag
 
 ## Overview
@@ -90,14 +101,16 @@ The goal of the operation is to convert the decimal into a :
 #### 1: Create an API endpoint
 
 :::note Required Concepts
-Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api). 
+Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api). 
 :::
 
 <details open>
 
 <summary>Create an API</summary>
 
-##### Add an API Path
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
 
 - ID: `sample-data-transformation`
 
@@ -105,13 +118,11 @@ Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api).
 
 <details open>
 
-<summary>Create and API path</summary>
+<summary>Create an API Path</summary>
 
-##### Add an API Path
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
 
-<!-- <img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/> -->
-
-- Path: `/datetime-to-unix`
+- Path: `/binary-dec-to-bit-flag`
 - Method: <span class="method post">POST</span>
 
 </details>
@@ -122,13 +133,13 @@ Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api).
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
-
 <details open>
 
 <summary>Create a Server</summary>
 
-Go to the Server section and create a new Server.
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-data-transformation`
 - Port Number: `1114`  Feel free to select your own port number
@@ -140,13 +151,14 @@ Go to the Server section and create a new Server.
 
 <summary>Create a Server Operation</summary>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
 
 </details>
+
 
 #### 3 : Create Data Simulation using Real Data
 
@@ -161,6 +173,14 @@ We will use the "real data" to create the test simulation.
 <details open>
 
 <summary>1. Send a HTTP request from Postman or CURL</summary>
+
+```bash
+curl --location 'localhost:1114/bit-to-flag' \
+--header 'Content-Type: application/json' \
+--data '{
+    "flag" : 13
+}'
+```
 
 <!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
 
@@ -209,7 +229,22 @@ You can add actions to transform the data.
 
 Binary action coverts the **decimal** into either **enum** or **boolean**
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+<img src={IntegrationBitToFlag} alt="Integration Bit To Flag" class="myResponsiveImg" width="900px"/>
+
+###### SETTINGS
+
+> **integer**: <u>data</u>
+>> [**request**: `body > flag`]
+>
+> **size**: <u>number</u>
+>> `0`
+>
+> **mode**: <u>enum</u>
+>> `boolean`
+
+###### OUTPUT
+
+> **variables**: `binary` <br/>
 
 </details>
 
@@ -223,7 +258,24 @@ Binary action coverts the **decimal** into either **enum** or **boolean**
 
 Since flag names need to be customizable, we can create a new array with flag names.
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+<img src={VariableSetFlagTable} alt="Variable Set Flag Table" class="myResponsiveImg" width="900px"/>
+
+
+###### SETTINGS
+
+> **value**: <u>array</u>
+>> <u>string</u> <br/>
+>> <code>flagA </code> <br/>
+>> <u>string</u> <br/>
+>> <code>flagB </code> <br/>
+>> <u>string</u> <br/>
+>> <code>flagC </code> <br/>
+>> <u>string</u> <br/>
+>> <code>flagD </code> <br/>
+
+###### OUTPUT
+
+> **variables**: `flag-names` <br/>
 
 </details>
 
@@ -235,7 +287,15 @@ Since flag names need to be customizable, we can create a new array with flag na
 
 As we iterate over the binary, we need an empty object to start putting the new value.
 
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+<img src={VariableSetFinalTable} alt="Variable Set Final Table" class="myResponsiveImg" width="900px"/>
+
+###### SETTINGS
+
+> **value**: <u>object</u>
+
+###### OUTPUT
+
+> **variables**: `output` <br/>
 
 </details>
 
@@ -246,12 +306,11 @@ As we iterate over the binary, we need an empty object to start putting the new 
 Learn how to create a [iteration/map](../../../Documentation/actions-library/flow/iteration/action-iteration-map/). 
 :::
 
-
-
-
 <details open>
 
 <summary>Iteration Map Action</summary>
+
+<img src={IterationMap} alt="Iteration Map" class="myResponsiveImg" width="900px"/>
 
 > **Iterable**: <u>data</u> **variable**: `binary` <br/>
 > **SCOPE**: <u>string</u> `loop-var`
@@ -266,9 +325,24 @@ We will iterate over the array created with the binary in step 1.
 
 As we iterate over the array of binary, we can create a new key:value and insert it in the empty array created in step 3.
 
-> <b>object </b><u>data</u> <b>variables</b>: `output`  This is object that you are putting the newly created key:vale<br/> 
-> <b>key </b><u>data</u> <b>variables</b>: `flag-names > Scope::(loop-var: index)` This is the key for the new object<br/> 
-> <b>value </b><u>data</u> <b>variables</b>: `loop-var: index` This is the key for the new object<br/> 
+<img src={ObjectPut} alt="Object Put" class="myResponsiveImg" width="900px"/>
+
+
+###### SETTINGS
+
+> **object**: `data` <br/>
+>> [**variables**: `output`]
+>
+> **key**: `data` <br/>
+>> [**variables**: `flag-name > Scope::(loop-var: index)`]
+>
+>> **value**: `data` <br/>
+>> [**loop-var**: `value`]
+>
+
+###### OUTPUT
+
+> **variables**: `output` <br/>
 
 :::tip  Dynamic referencing
 Notice the data referencing for the key is again referencing **loop-var**: index.  It is common to reference other data within the reference.
@@ -285,11 +359,22 @@ For example,
 
 ### OUTPUT: HTTP Response
 
-#### 1. Map HTTP response with actions' output
+#### 1. Create a NEW object and map the IP and Subnet
 
 Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
 
-<!-- <img src={HttpResponseCapitalized} alt="Http Response Capitalized" class="myResponsiveImg" width="400px"/> -->
+<details open>
+
+<summary>HTTP Response</summary>
+
+###### SETTINGS
+
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="800px"/>
+
+> **body**: <u>data</u>
+>> [**variables**: `output`]
+
+</details>
 
 :::note Mapping the **action** output to the **HTTP response** output
 - Data referenced in HTTP response is what gets sent back to the client. 

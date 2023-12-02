@@ -11,6 +11,15 @@ keywords:
   - hex to bits
 ---
 
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/ip-subnet-hex-to-bits/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import VariableSet from '@site/static/img/example/data-transformation/ip-subnet-hex-to-bits/variable-set.jpg';
+import ObjectGet from '@site/static/img/example/data-transformation/ip-subnet-hex-to-bits/object-get.jpg';
+import StringJoin from '@site/static/img/example/data-transformation/ip-subnet-hex-to-bits/string-join.jpg';
+import HttpOutput from '@site/static/img/example/data-transformation/ip-subnet-hex-to-bits/http-output.jpg';
+
 # IP Subnet Hex to Bits
 
 ## Overview
@@ -94,6 +103,10 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API</summary>
 
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
 - ID: `sample-data-transformation`
 
 </details>
@@ -102,7 +115,9 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 
 <summary>Create an API Path</summary>
 
-- Path: `/ip-subnet-hex-to-bits
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/ip-subnet-hex-to-bits`
 - Method: <span class="method post">POST</span>
 
 </details>
@@ -113,13 +128,13 @@ Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api).
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
-
 <details open>
 
 <summary>Create a Server</summary>
 
-Go to the Server section and create a new Server.
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-data-transformation`
 - Port Number: `1114`  Feel free to select your own port number
@@ -131,13 +146,14 @@ Go to the Server section and create a new Server.
 
 <summary>Create a Server Operation</summary>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
 
 </details>
+
 
 #### 3 : Create Data Simulation using Real Data
 
@@ -194,12 +210,16 @@ You can cut and paste the **Bits to Hex** object from the end of this document t
 
 <summary>Variable Set Action</summary>
 
+
+<img src={VariableSet} alt="String Capitalize" class="myResponsiveImg" width="900px"/>
+
 ###### SETTINGS
 
 > **value**: <u>object</u>
 >> **80.00.00.00**: <u>string</u> `1` <br/>
 >> **C0.00.00.00**: <u>string</u> `2` <br/> ...
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
+
+[Hex to bit table](#bits-to-hex-table)
 
 ###### OUTPUT
 
@@ -215,11 +235,12 @@ From the bits to hex object, get the bits value that corresponds to the subnet m
 
 <summary>Object Get</summary>
 
+<img src={ObjectGet} alt="String Capitalize" class="myResponsiveImg" width="800px"/>
+
 ###### SETTINGS
 
 > **object**: <u>data</u> **variables**: `output`<br/>
-> **key**: <u>data</u> **request**: `body > mask`
-
+> **key**: <u>request</u> **request**: `body > mask`
 
 ###### OUTPUT
 
@@ -236,6 +257,8 @@ Put the IP and Subnet together.
 
 <summary>String Join</summary>
 
+<img src={StringJoin} alt="String Capitalize" class="myResponsiveImg" width="800px"/>
+
 ###### SETTINGS
 
 > **array**: <u>array</u>
@@ -246,8 +269,6 @@ Put the IP and Subnet together.
 ###### OUTPUT
 
 > **variables**: `output` <br/>
-
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
 
 </details>
 
@@ -263,12 +284,12 @@ Since we need to respond in a JSON object, we can create a new object in the HTT
 
 <summary>HTTP Response</summary>
 
+<img src={HttpOutput} alt="String Capitalize" class="myResponsiveImg" width="800px"/>
+
 ###### SETTINGS
 
 > **body**: <u>object</u>
 >> **address**: <u>data</u> <br/>**variables**: `output`
-
-<!-- <img src={StringCapitalize} alt="String Capitalize" class="myResponsiveImg" width="800px"/> -->
 
 </details>
 
@@ -295,7 +316,7 @@ curl --location 'localhost:1114/ip-subnet-hex-to-bits' \
 ```
 
 
-**Bits to Hex table**
+#### Bits to Hex table
 
 ```json
 {

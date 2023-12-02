@@ -9,24 +9,19 @@ keywords:
   - data transformation
 ---
 
-import n_to_1_example from '@site/static/img/example/data-transformation/n-to-1/example.png';
-import create_service from '@site/static/img/example/data-transformation/n-to-1/create-service.jpg';
-import data_simulation from '@site/static/img/example/data-transformation/n-to-1/data-simulation.jpg';
-import data_simulation_create from '@site/static/img/example/data-transformation/n-to-1/data-simulation-create.jpg';
-import data_simulation_check from '@site/static/img/example/data-transformation/n-to-1/data-simulation-check.jpg';
-import condition_switch from '@site/static/img/example/data-transformation/n-to-1/condition-switch.jpg';
-import condition_switch_case_1 from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1.jpg';
-import condition_switch_case_1_1 from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-1.jpg';
-import condition_switch_case_1_string_split from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-string-split.jpg';
-import condition_switch_case_1_string_split_check_output from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-string-split-check-output.jpg';
-import condition_switch_case_1_string_split_return from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-string-split-return.jpg';
-import condition_switch_case_1_return from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-return.jpg';
-import condition_switch_case_1_check_output from '@site/static/img/example/data-transformation/n-to-1/condition-switch-case-1-check-output.jpg';
-import service_output_mapping from '@site/static/img/example/data-transformation/n-to-1/service-output-mapping.jpg';
-import simulation_db_2 from '@site/static/img/example/data-transformation/n-to-1/simulation-db-2.jpg';
-import service_operation_config from '@site/static/img/example/data-transformation/n-to-1/service-operation-config.jpg';
-import service_operation_check_output from '@site/static/img/example/data-transformation/n-to-1/service-operation-check-output.jpg';
 
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/data-transformation/n-to-1/create-api-path.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+import ConditionSwitch from '@site/static/img/example/data-transformation/n-to-1/condition-switch.jpg';
+import Case1 from '@site/static/img/example/data-transformation/n-to-1/case-1.jpg';
+import Case1StringSplit from '@site/static/img/example/data-transformation/n-to-1/case-1-string-split.jpg';
+import Case1Return from '@site/static/img/example/data-transformation/n-to-1/case-1-return.jpg';
+import Case2 from '@site/static/img/example/data-transformation/n-to-1/case-2.jpg';
+import Case2Return from '@site/static/img/example/data-transformation/n-to-1/case-2-return.jpg';
+import Default from '@site/static/img/example/data-transformation/n-to-1/default.jpg';
 
 # N to 1
 
@@ -34,7 +29,7 @@ import service_operation_check_output from '@site/static/img/example/data-transf
 <div class="colTwoBlock">
     <div class="colTwoLeft">
         <div class="colTwoWrapper">
-          Create a <a href="/docs/Documentation/Guide/Service/">Service</a> that receives data in multiple input arguments and processes the data into a common "object" output based on an input criteria.
+          Create a <a href="/docs/Documentation/Examples/API/#2-create-server">Server</a> that receives data in multiple input arguments and processes the data into a common "object" output based on an input criteria.
           <p>In the below example, if the source is "website_user", the name will be split into first and last name. For other case, in the below example source being "service_user", the values from the input will directly inserted into a new object.</p>
         </div>
         <br />
@@ -49,8 +44,6 @@ import service_operation_check_output from '@site/static/img/example/data-transf
     <div class="colTwoClearer"></div>
 </div>
 
-<img src={n_to_1_example} alt="N to 1 example" class="myResponsiveImg" width="800px"/>
-
 ## Supporting Concepts
 
 
@@ -60,10 +53,11 @@ import service_operation_check_output from '@site/static/img/example/data-transf
 
 | Topic    | Description |
 | -------- | ------- |
-| [Service](../../../Documentation/Guide/Service/)  | Service is a reusable function <ol><li>Takes in a set of **INPUT** arguments</li><li>Performs set of actions</li><li>Gives out an **OUTPUT**</li></ol> |
+| [API](../../../Documentation/Examples/API/#1-create-api)  | An API in API AutoFlow is simply an OpenAPI model |
+| [Server](../../../Documentation/Examples/API/#2-create-server)  | A server accepts and handles the request and response. |
 | [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
 | [Scope](../../../Documentation/Guide/Workflow/Scope/)    |  A scope is a namespace for variables.    |
-| Data Types  | Data types describe the different types or kinds of data that you are gonna store and work with.    |
+| Data Types    | Data types describe the different types or kinds of data that you are gonna store and work with.    |
 
 </details>
 
@@ -81,52 +75,121 @@ import service_operation_check_output from '@site/static/img/example/data-transf
 
 
 ## Details
-The service has 4 inputs:
-- source: a string that has a special case if the value is `website_user`
-- name: a string that is used in the case that source is `website_user` [example: **John Doe**]
-- first: a string that is used if the source is NOT `website_user` [example: **John**]
-- last: a string that is used if the source is NOT `website_user` [example: **Doe**]
 
-The goal of the operation is to normalize these 2 scenarios into a single object:
-1. `website_user` with name of this format: **John Doe**
-2. `service_user` a non-website_user with name in fields first=**John** and last=**Doe**
+There are two sources of input:
 
-The return should be an object like:
+**First input (case 1)**
+
+- **source**: `service_user`
+- **first**: `John`
+- **last**: `Doe`
 
 ```js
 {
-  "first": "John",
-  "last": "Doe"
+  "fast": "John",
+  "last": "Doe",
+  "source": "service_user"
+}
+```
+
+**Second input (case 2)**
+
+- **source**: `website_user`
+- **name**: `Peter Parker`
+
+
+```js
+{
+  "name": "Peter Parker",
+  "source": "website_user"
+}
+```
+
+**Result**
+
+The return should be an object like:
+
+**Return 1**
+
+```js
+{
+  "first_name": "John",
+  "last_name": "Doe"
+}
+```
+
+**Return 2**
+
+```js
+{
+  "first_name": "Peter",
+  "last_name": "Parker"
 }
 ```
 
 ## Content
 
-### Step 1: Create a new Service and add INPUT/OUTPUT arguments
+### INPUT: HTTP Request
+
+#### 1: Create an API endpoint
+
+:::note Required Concepts
+Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api). 
+:::
+
+<details open>
+
+<summary>Create an API</summary>
+
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
+- ID: `sample-data-transformation`
+
+</details>
+
+<details open>
+
+<summary>Create an API Path</summary>
+
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/n-to-1`
+- Method: <span class="method post">POST</span>
+
+</details>
+
+#### 2. Create a Server Operation
 
 :::tip Required Concepts
-Learn how to create a [Service](../../../Documentation/Guide/Service/) and add new INPUT/OUT arguments. 
+Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-We will be passing values in the below INPUT arguments and return the data from below OUTPUT argument.
+<details open>
 
-#### INPUT arguments
-- source
-- name
-- first
-- last
+<summary>Create a Server</summary>
 
-#### OUTPUT arguments
-- user_obj
+From the **left navigation**, go to the Server section and create a new Server.
 
-<img src={create_service} alt="N to 1 example" class="myResponsiveImg" width="600px"/>
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
-:::note
+- Server ID: `sample-data-transformation`
+- Port Number: `1114`  Feel free to select your own port number
+- Linked API: `sample-data-transformation`  (select the API you created above)
 
-The service can be called from any workflow using the [service/operation](../../../Documentation/actions-library/call/service/action-service-operation.mdx/) action.
+</details>
 
-:::
+<details open>
 
+<summary>Create a Server Operation</summary>
+
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
+
+- Press the "Add API Operation"
+- Select the API endpoint created above
+
+</details>
 
 ### Step 2. Simulation Mock Data
 :::tip Required Concepts
@@ -139,7 +202,7 @@ Learn how to [simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation
 - first:
 - last:
 
-<img src={data_simulation_create} alt="N to 1 Simulation Check" class="myResponsiveImg" width="600px"/>
+<!-- <img src={data_simulation_create} alt="N to 1 Simulation Check" class="myResponsiveImg" width="600px"/> -->
 
 #### Add Test Simulation 2: `db_2`
 - first: Peter
@@ -147,7 +210,7 @@ Learn how to [simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation
 - name:
 - source: service_user
 
-<img src={data_simulation} alt="N to 1 Simulation Check" class="myResponsiveImg" width="400px"/>
+<!-- <img src={data_simulation} alt="N to 1 Simulation Check" class="myResponsiveImg" width="400px"/> -->
 
 :::note
 
@@ -155,113 +218,126 @@ The service INPUT arguments that was created in step 1 is what's being used to c
 
 :::
 
-### Step 3 : Add Condition Switch Action
+### Action(s)
+
 :::tip Required Concepts
-Learn how to [add an action](../../../Documentation/actions-library/) and use [condition/switch](../../../Documentation/actions-library/flow/conditional/action-conditional-switch/) actions.
+Learn how to create a [Actions](../../../Documentation/Guide/Workflow/Action/). 
 :::
-Condition is configured to SWITCH based on INPUT `source` value.
 
-<img src={condition_switch} alt="Condition Switch" class="myResponsiveImg" width="600px"/>
+Add actions to transform the data.
 
+#### 1. IF the data is from Website vs Service
 
-**Configure condition/switch**
-- Case 1: If source has **website_user** 
-- Default: The source **service_user** will not match any case hence go through the default case.
+SWITCH based on the [**input**: `source`]
 
+<details open>
 
-### Step 4 (Case 1): Apply Actions to Transform the Data
+<summary>Condition Switch</summary>
 
-#### 1. Select "db_1" Simulation
+<img src={ConditionSwitch} alt="Condition Switch" class="myResponsiveImg" width="900px"/>
 
-If it is not already selected, select the `db_1` from the INPUT Data Simulation.
-We will use the simulated data from "db_1" to configure the "CASE 1" in the switch.
-<img src={data_simulation_check} alt="N to 1 Simulation Check" class="myResponsiveImg" width="600px"/>
+###### SETTINGS
 
+> **SWITCH**: <u>data</u>
+>> [**input**: `source`]
 
-#### 2. Look for the source "website_user"
+---
 
-The first case looks for the value `website_user` in the INPUT `source`
+##### (Case 1): Look for the source "website_user"
 
-<img src={condition_switch_case_1} alt="Condition Switch Case 1" class="myResponsiveImg" width="600px"/>
+If the source has the value `website_user`, it will split the string.
 
-#### 3. Apply Action "string/split"
+<img src={Case1} alt="Condition Switch Case 1" class="myResponsiveImg" width="900px"/>
+
+<details open>
+
+<summary>String Split</summary>
+
 :::tip Required Concepts
 Learn how to use [string/split](../../../Documentation/actions-library/data/string/action-string-split/) actions.
 :::
 
-If the source has the value `website_user`, it will split the string.
-- Select `Action` in the Return.  This will change the "Return" to "Do This"
-- Add string/split Action
+<img src={Case1StringSplit} alt="Condition Switch Case 1" class="myResponsiveImg" width="900px"/>
 
-<img src={condition_switch_case_1_1} alt="Condition Switch Case 1" class="myResponsiveImg" width="600px"/>
+###### SETTINGS
 
+> **string/split** <u>data</u>
+>> [<b>request</b>: <code>body > name</code>]
 
-#### 4. Configure "string/split"
-- **string/split** <br />Source with <b>website_user</b> has the name value <b>John Doe</b>, so we need to split the name into two values.
+###### OUTPUT
 
+> **variables**: `output` <br/>
 
-**Action configuration**
-- Split the string in the data INPUT `name`
+</details>
 
-<img src={condition_switch_case_1_string_split} alt="Condition Switch Case 1" class="myResponsiveImg" width="600px"/>
+<details open>
 
+<summary>RETURN</summary>
 
+<img src={Case1Return} alt="Case Return" class="myResponsiveImg" width="900px"/>
 
-**Check the Action Output**
-:::tip Required Concepts
-Learn more about <a href="/docs/Documentation/Guide/Workflow/action/check-output">Check Action Output</a>.
-:::
+###### SETTINGS
 
-- The OUTPUT of the action is stored in the SCOPE `variable: output` by default. You can assign your own variable if you'd like.
-- Press the "Action Output" tab to check that the string `John Doe` is split into an array of `["John", "Doe"]`
+> **RETURN** <u>object</u>
+>> **first_name** <u>data</u>
+>>> [<b>variables</b>: <code>output > 0</code>]
+>
+>> **last_name** <u>data</u>
+>>> [<b>variables</b>: <code>output > 1</code>]
 
-<img src={condition_switch_case_1_string_split_check_output} alt="Action Check Output" class="myResponsiveImg" width="600px"/>
+</details>
 
+---
 
-#### 5. Create RETURN value as an object
+##### (Case 2): Look for the source "service_user"
 
-
-**Return configuration**
-- Select `object` as the return data type
-- Add keys `first` and `last`
-- Map the values to each key
-
-<img src={condition_switch_case_1_string_split_return} alt="Action Return Value" class="myResponsiveImg" width="250px"/>
+<img src={Case2} alt="Condition Switch Case 2" class="myResponsiveImg" width="900px"/>
 
 
-### Step 5 (CASE DEFAULT): Map Return Value
+<details open>
 
-:::caution
-Select simulation "db_1", which has the names in the separate keys "first" and "last"
-:::
+<summary>Return</summary>
 
-<img src={simulation_db_2} alt="Data Simulation db_2" class="myResponsiveImg" width="600px"/>
+<img src={Case2Return} alt="Case 2 Return" class="myResponsiveImg" width="900px"/>
 
-Since the data already has the "first" and "last" as a separate value, we can map the INPUT data directly to the new OUTPUT object.
+###### SETTINGS
 
-**Return configuration**
-- Select `object` as the return data type
-- Add keys `first` and `last`
-- Map the values to each key
+> **RETURN** <u>object</u>
+>> **first_name** <u>data</u>
+>>> [<b>variables</b>: <code>body > first</code>]
+>
+>> **last_name** <u>data</u>
+>>> [<b>variables</b>: <code>body > last</code>]
 
+</details>
 
-<img src={condition_switch_case_1_return} alt="Condition Switch Default Return" class="myResponsiveImg" width="300px"/>
+###### DEFAULT
 
+<img src={Default} alt="Condition Switch Default" class="myResponsiveImg" width="900px"/>
 
-#### Check the OUTPUT of Condition/Switch
+> **Return**: <u>string</u>
+>> `No match found` <br/>
 
-Notice it is identical to the CASE 1.
+</details>
 
-<img src={condition_switch_case_1_check_output} alt="Condition Switch Check Output" class="myResponsiveImg" width="500px"/>
+### OUTPUT: HTTP Response
 
+#### 1. Create a NEW object and map the IP and Subnet
 
-### Step 6 : Map the Action and Service OUTPUTs
+Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
 
-Finally, you can map the OUTPUT from the workflow to the Service OUTPUT
-- Action's OUTPUT were all save to the scope "variable: output"
-- Map the Service's OUTPUT `user_obj` with the "variable: output"
+<details open>
 
-<img src={service_output_mapping} alt="Condition Switch Check Output" class="myResponsiveImg" width="600px"/>
+<summary>HTTP Response</summary>
+
+###### SETTINGS
+
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="800px"/>
+
+> **body**: <u>data</u>
+>> [**variables**: `output`]
+
+</details>
 
 :::note Mapping the **action** output to the **HTTP response** output
 - Data referenced in HTTP response is what gets sent back to the client. 
@@ -271,24 +347,25 @@ NOTE: By default, the action output is set to variable **output**. If you intend
 simply rename the output location in the action's output.
 :::
 
-### Step 7 : Calling the Service using the Service Operation Action
-:::tip Required Concepts
-Learn how to call services using the <a href="/docs/Documentation/actions-library/call/service/action-service-operation/">Service/Operation</a> action.
+#### 2. Test the API with Postman or CURL
 
-Also, you may want to learn how to create a [server](../../../Documentation/Guide/Server) if you wish to call the service using a HTTP server.
-:::
+#### cURL
 
-Create a [server](../../../Documentation/Guide/Server) and add the <a href="/docs/Documentation/actions-library/call/service/action-service-operation/">Service/Operation</a> action.
+**First input (case 1)**
 
-#### 1. Select the Service and insert the values
+```js
+{
+  "fast": "John",
+  "last": "Doe",
+  "source": "service_user"
+}
+```
 
-<img src={service_operation_config} alt="Service Operation Configuration" class="myResponsiveImg" width="600px"/>
+**Second input (case 2)**
 
-#### 2. Check the output.
-
-<img src={service_operation_check_output} alt="Service Operation Check Output" class="myResponsiveImg" width="600px"/>
-
-:::note
-HTTP server can received data in the Request Body in a JSON format or URL parameters.
-Download the example to see how JSON data in request body is used.
-::: 
+```js
+{
+  "name": "Peter Parker",
+  "source": "website_user"
+}
+```
