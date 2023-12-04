@@ -12,13 +12,15 @@ keywords:
   - array
 ---
 
-import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApi from '@site/static/img/example/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/obj-change-key-in-array/create-api-path.jpg';
-import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
-import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import Postman from '@site/static/img/example/data-transformation/obj-change-key-in-array/postman.jpg';
+import Simulation from '@site/static/img/example/data-transformation/obj-change-key-in-array/simulation.jpg';
+import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import IterationMap from '@site/static/img/example/data-transformation/obj-change-key-in-array/iteration-map.jpg';
 import VariablesSet from '@site/static/img/example/data-transformation/obj-change-key-in-array/variables-set.jpg';
-import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflow-default-output.jpg';
 
 # Object Key Change in Array 
 
@@ -196,15 +198,15 @@ From the **left navigation**, go to the Server section and create a new Server.
 Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-<!-- <img src={SimulateData} alt="Simulate Data" class="myResponsiveImg" width="750px"/> -->
-
 We will use the "real data" to create the test simulation.
 
 #### 1. Send a HTTP request from Postman or CURL
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+<img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
 
-#### cURL
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-5e6b1ace-c24a-4a7d-8807-83e47aeb96cc?ctx=documentation)
+
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/obj-change-key-in-array' \
@@ -225,22 +227,15 @@ curl --location 'localhost:1114/obj-change-key-in-array' \
 ]'
 ```
 
-#### 2. Create a Test Simulation from the Received Data
+<details open>
+
+<summary>2. Check the data is received by the server endpoint</summary>
 
 API Autoflow captures the data received and it can be used to create data simulation.
 
-<!-- <img src={CreateSimulation} alt="Create Simulation" class="myResponsiveImg" width="450px"/> -->
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
 
-#### 3. Name the Simulation
-
-<!-- <img src={NameSimulation} alt="Name Simulation" class="myResponsiveImg" width="400px"/> -->
-
-
-#### 4. Select "real-data" Simulation
-
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
-
-
+</details>
 
 ### Action(s)
 

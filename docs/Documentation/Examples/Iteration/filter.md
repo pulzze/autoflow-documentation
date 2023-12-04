@@ -126,7 +126,7 @@ We will use the "real data" to create the test simulation.
 
 #### 1. Send a HTTP request from Postman or CURL
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="600px"/> -->
 
 #### 2. Create a Test Simulation from the Received Data
 

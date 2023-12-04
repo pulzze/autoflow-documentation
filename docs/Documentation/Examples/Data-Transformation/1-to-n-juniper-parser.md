@@ -11,17 +11,19 @@ keywords:
   - parser
 ---
 
-import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApi from '@site/static/img/example/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/create-api-path.jpg';
-import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
-import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import Postman from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/postman.jpg';
+import Simulation from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/simulation.jpg';
+import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import StringSplit from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/string-split.jpg';
 import StringSplitbyNewLine from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/string-split-by-new-line.jpg';
 import ArrayDrop from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/array-drop.jpg';
 import IterationMap from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/iteration-map.jpg';
 import StringSplitInIteration from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/string-split-in-iteration.jpg';
 import ReturnInIteration from '@site/static/img/example/data-transformation/1-to-n-juniper-parser/return-in-iteration.jpg';
-import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflow-default-output.jpg';
 
 
 # 1 to N Juniper Log Parser
@@ -55,10 +57,11 @@ import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transform
 
 | Topic    | Description |
 | -------- | ------- |
-| [Service](../../../Documentation/Guide/Service/)  | Service is a reusable function <ol><li>Takes in a set of **INPUT** arguments</li><li>Performs set of actions</li><li>Gives out an **OUTPUT**</li></ol> |
+| [API](../../../Documentation/Examples/API/#1-create-api)  | An API in API AutoFlow is simply an OpenAPI model |
+| [Server](../../../Documentation/Examples/API/#2-create-server)  | A server accepts and handles the request and response. |
 | [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
 | [Scope](../../../Documentation/Guide/Workflow/Scope/)    |  A scope is a namespace for variables.    |
-| Data Types   | Data types describe the different types or kinds of data that you are gonna store and work with.    |
+| Data Types    | Data types describe the different types or kinds of data that you are gonna store and work with.    |
 
 </details>
 
@@ -194,7 +197,11 @@ We will use the "real data" to create the test simulation.
 
 <summary>1. Send a HTTP request from Postman or cURL</summary>
 
-<b>cURL</b>
+<img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
+
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-5e6b1ace-c24a-4a7d-8807-83e47aeb96cc?ctx=documentation)
+
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/1-to-n-juniper-parser' \
@@ -215,7 +222,6 @@ Swap:
  1243 root          1  97    0  9120K  5676K select 100:30  0.05% license-check'
 ```
 
-{/* <!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> --> */}
 
 </details>
 
@@ -225,7 +231,7 @@ Swap:
 
 API Autoflow captures the data received and it can be used to create data simulation.
 
-{/* <!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> --> */}
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
 
 </details>
 

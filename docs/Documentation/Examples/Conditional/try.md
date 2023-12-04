@@ -223,5 +223,5 @@ curl --location 'localhost:1112/try' \
 --data '{ "data": "one"}'
 ```
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="600px"/> -->
 

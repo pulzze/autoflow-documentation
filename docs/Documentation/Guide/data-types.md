@@ -10,7 +10,6 @@ keywords:
   - object
   - array
 hide_table_of_contents: false
-sidebar_class_name: hidden
 ---
 
 # Data Types

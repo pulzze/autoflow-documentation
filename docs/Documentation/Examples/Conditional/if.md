@@ -236,5 +236,5 @@ curl --location 'localhost:1112/if' \
 }
 ```
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="600px"/> -->
 

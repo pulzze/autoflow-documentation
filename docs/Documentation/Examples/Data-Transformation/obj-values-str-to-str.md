@@ -11,10 +11,12 @@ keywords:
   - convert
 ---
 
-import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApi from '@site/static/img/example/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/obj-values-str-to-str/create-api-path.jpg';
-import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
-import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import Postman from '@site/static/img/example/data-transformation/obj-values-str-to-str/postman.jpg';
+import Simulation from '@site/static/img/example/data-transformation/obj-values-str-to-str/simulation.jpg';
+import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import If1 from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-1.jpg';
 import If1ObjectPutIfExist from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-1-object-put-if-exist.jpg';
 import If1Else from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-1-else.jpg';
@@ -23,7 +25,7 @@ import If2 from '@site/static/img/example/data-transformation/obj-values-str-to-
 import If2ObjectPutIfExist from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-2-object-put-if-exist.jpg';
 import If2Else from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-2-else.jpg';
 import If2ElseObjectPutIfExist from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-2-else-object-put-if-exist.jpg';
-import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflow-default-output.jpg';
 
 # Object Values Convert one String to Another
 
@@ -168,16 +170,17 @@ From the **left navigation**, go to the Server section and create a new Server.
 Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-<!-- <img src={SimulateData} alt="Simulate Data" class="myResponsiveImg" width="750px"/> -->
-
 We will use the "real data" to create the test simulation.
 
 <details open>
 
 <summary>1. Send a HTTP request from Postman or CURL</summary>
 
+<img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
 
-<b>cURL</b>
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-5e6b1ace-c24a-4a7d-8807-83e47aeb96cc?ctx=documentation)
+
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/obj-values-str-to-str' \
@@ -188,8 +191,6 @@ curl --location 'localhost:1114/obj-values-str-to-str' \
 }'
 ```
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
-
 </details>
 
 <details open>
@@ -198,7 +199,7 @@ curl --location 'localhost:1114/obj-values-str-to-str' \
 
 API Autoflow captures the data received and it can be used to create data simulation.
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
 
 </details>
 
@@ -362,14 +363,6 @@ Look for the key `linkB-stage` in the object **request**: `body`. If it exists, 
 > [**variables**: `output`]
 
 </details>
-
-
-
-
-
-
-
-
 
 ### OUTPUT: HTTP Response
 

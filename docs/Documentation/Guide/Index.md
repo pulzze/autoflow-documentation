@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
 
 import GuideSteps from "@site/static/img/guide/guide_steps.jpg";

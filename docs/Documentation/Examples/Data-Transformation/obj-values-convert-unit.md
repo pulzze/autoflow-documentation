@@ -10,10 +10,14 @@ keywords:
   - convert unit
 ---
 
-import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApi from '@site/static/img/example/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/obj-values-convert-unit/create-api-path.jpg';
-import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
-import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import Postman from '@site/static/img/example/data-transformation/obj-values-convert-unit/postman.jpg';
+import Postman1 from '@site/static/img/example/data-transformation/obj-values-convert-unit/postman1.jpg';
+import Simulation from '@site/static/img/example/data-transformation/obj-values-convert-unit/simulation.jpg';
+import Simulation1 from '@site/static/img/example/data-transformation/obj-values-convert-unit/simulation1.jpg';
+import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import ConditionSwitch from '@site/static/img/example/data-transformation/obj-values-convert-unit/condition-switch.jpg';
 import Case1 from '@site/static/img/example/data-transformation/obj-values-convert-unit/case-1.jpg';
 import Case1MathCalculate from '@site/static/img/example/data-transformation/obj-values-convert-unit/case-1-math-calculate.jpg';
@@ -22,7 +26,7 @@ import Case2 from '@site/static/img/example/data-transformation/obj-values-conve
 import Case2MathCalculate from '@site/static/img/example/data-transformation/obj-values-convert-unit/case-2-math-calculate.jpg';
 import Case2Return from '@site/static/img/example/data-transformation/obj-values-convert-unit/case-2-return.jpg';
 import Default from '@site/static/img/example/data-transformation/obj-values-convert-unit/default.jpg';
-import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflow-default-output.jpg';
 
 # Object Value Convert Unit
 
@@ -187,8 +191,6 @@ From the **left navigation**, go to the Server section and create a new Server.
 Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-<!-- <img src={SimulateData} alt="Simulate Data" class="myResponsiveImg" width="750px"/> -->
-
 We will use the "real data" to create the test simulation.
 
 <details open>
@@ -196,7 +198,13 @@ We will use the "real data" to create the test simulation.
 <summary>1. Send a HTTP request from Postman or CURL</summary>
 
 
-<b>cURL for Test Case 1</b>
+**Test Case 1**
+
+<img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
+
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-5e6b1ace-c24a-4a7d-8807-83e47aeb96cc?ctx=documentation)
+
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/obj-values-convert-unit' \
@@ -207,7 +215,13 @@ curl --location 'localhost:1114/obj-values-convert-unit' \
 }'
 ```
 
-<b>cURL for Test Case 2</b>
+**Test Case 2**
+
+<img src={Postman1} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
+
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-5e6b1ace-c24a-4a7d-8807-83e47aeb96cc?ctx=documentation)
+
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/obj-values-convert-unit' \
@@ -218,8 +232,6 @@ curl --location 'localhost:1114/obj-values-convert-unit' \
 }'
 ```
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
-
 </details>
 
 <details open>
@@ -228,7 +240,13 @@ curl --location 'localhost:1114/obj-values-convert-unit' \
 
 API Autoflow captures the data received and it can be used to create data simulation.
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+**Test Case 1**
+
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
+
+**Test Case 1**
+
+<img src={Simulation1} alt="Simulation" class="myResponsiveImg" width="900px"/>
 
 </details>
 

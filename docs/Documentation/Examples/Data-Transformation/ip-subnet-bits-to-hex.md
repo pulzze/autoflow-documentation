@@ -11,10 +11,12 @@ keywords:
   - bits to hex
 ---
 
-import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApi from '@site/static/img/example/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/ip-subnet-bits-to-hex/create-api-path.jpg';
-import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
-import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
+import Postman from '@site/static/img/example/data-transformation/ip-subnet-bits-to-hex/postman.jpg';
+import Simulation from '@site/static/img/example/data-transformation/ip-subnet-bits-to-hex/simulation.jpg';
+import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import StringSplitBy from '@site/static/img/example/data-transformation/ip-subnet-bits-to-hex/string-split-by.jpg';
 import VariableSet from '@site/static/img/example/data-transformation/ip-subnet-bits-to-hex/variable-set.jpg';
 import ObjectGet from '@site/static/img/example/data-transformation/ip-subnet-bits-to-hex/object-get.jpg';
@@ -170,7 +172,11 @@ We will use the "real data" to create the test simulation.
 
 <summary>1. Send a HTTP request from Postman or CURL</summary>
 
-<b>cURL</b>
+<img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
+
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-5e6b1ace-c24a-4a7d-8807-83e47aeb96cc?ctx=documentation)
+
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/ip-subnet-bits-to-hex' \
@@ -180,8 +186,6 @@ curl --location 'localhost:1114/ip-subnet-bits-to-hex' \
 }'
 ```
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
-
 </details>
 
 <details open>
@@ -190,7 +194,7 @@ curl --location 'localhost:1114/ip-subnet-bits-to-hex' \
 
 API Autoflow captures the data received and it can be used to create data simulation.
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
 
 </details>
 

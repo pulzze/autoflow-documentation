@@ -10,11 +10,15 @@ keywords:
 ---
 
 
-import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApi from '@site/static/img/example/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/n-to-1/create-api-path.jpg';
-import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
-import CreateServerOperation from '@site/static/img/example/data-transformation/server-add-api-operation.jpg';
-import ServerWorkflowDefaultOutput from '@site/static/img/example/data-transformation/server-workflow-default-output.jpg';
+import Postman from '@site/static/img/example/data-transformation/n-to-1/postman.jpg';
+import Postman1 from '@site/static/img/example/data-transformation/n-to-1/postman1.jpg';
+import Simulation from '@site/static/img/example/data-transformation/n-to-1/simulation.jpg';
+import Simulation1 from '@site/static/img/example/data-transformation/n-to-1/simulation1.jpg';
+import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflow-default-output.jpg';
 import ConditionSwitch from '@site/static/img/example/data-transformation/n-to-1/condition-switch.jpg';
 import Case1 from '@site/static/img/example/data-transformation/n-to-1/case-1.jpg';
 import Case1StringSplit from '@site/static/img/example/data-transformation/n-to-1/case-1-string-split.jpg';
@@ -191,32 +195,64 @@ From the **left navigation**, go to the Server section and create a new Server.
 
 </details>
 
-### Step 2. Simulation Mock Data
+
+#### 3 : Create Data Simulation using Real Data
+
 :::tip Required Concepts
-Learn how to [simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/) the mock data. 
+Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-#### Add Test Simulation 1: `db_1`
-- source: website_user
-- name: John Doe
-- first:
-- last:
+We will use the "real data" to create the test simulation.
 
-<!-- <img src={data_simulation_create} alt="N to 1 Simulation Check" class="myResponsiveImg" width="600px"/> -->
+<details open>
 
-#### Add Test Simulation 2: `db_2`
-- first: Peter
-- last: Parker
-- name:
-- source: service_user
+<summary>1. Send a HTTP request from Postman or cURL</summary>
 
-<!-- <img src={data_simulation} alt="N to 1 Simulation Check" class="myResponsiveImg" width="400px"/> -->
+**First input (case 1)**
 
-:::note
+<img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
 
-The service INPUT arguments that was created in step 1 is what's being used to create the service simulation.
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-5e6b1ace-c24a-4a7d-8807-83e47aeb96cc?ctx=documentation)
 
-:::
+###### cURL
+
+
+```js
+{
+  "fast": "John",
+  "last": "Doe",
+  "source": "service_user"
+}
+```
+
+**Second input (case 2)**
+
+<img src={Postman1} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
+
+```js
+{
+  "name": "Peter Parker",
+  "source": "website_user"
+}
+```
+
+</details>
+
+<details open>
+
+<summary>2. Check the data is received by the server endpoint</summary>
+
+API Autoflow captures the data received and it can be used to create data simulation.
+
+**Case 1**
+
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
+
+**Case 2**
+
+<img src={Simulation1} alt="Simulation" class="myResponsiveImg" width="900px"/>
+
+</details>
 
 ### Action(s)
 

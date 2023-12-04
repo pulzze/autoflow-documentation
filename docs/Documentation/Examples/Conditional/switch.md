@@ -229,4 +229,4 @@ curl --location 'localhost:1112/switch' \
 --data '{ "condition": "foo1", "value": "bar1" }'
 ```
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="750px"/> -->
+<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="600px"/> -->
