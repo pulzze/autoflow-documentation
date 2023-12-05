@@ -13,10 +13,10 @@ Let's Create Flows! <br/>
 We have 4 types of <span class="action-field">*FLOW ACTION*</span> <br/>
 Use the Action that fits your situation! 😄
 
-<img src={con} alt="Version Location" class="myResponsiveImg" width="35px" style={{ marginBottom : '-7px'}}/> <a href="conditional" style={{ fontSize : '30px', fontWeight : 700}}>Conditional 🔗</a> <br/>
-<img src={iter} alt="Version Location" class="myResponsiveImg" width="35px"  style={{ marginBottom : '-7px'}}/> <a href="iteration" style={{ fontSize : '30px', fontWeight : 700}}>Iteration 🔗 </a> <br/>
-<img src={sco} alt="Version Location" class="myResponsiveImg" width="35px" style={{ marginBottom : '-7px'}}/> <a href="scope" style={{ fontSize : '30px', fontWeight : 700}}>Scope 🔗</a> <br/>
-<img src={sle} alt="Version Location" class="myResponsiveImg" width="35px" style={{ marginBottom : '-7px'}}/> <a href="thread-sleep/action-thread-sleep" style={{ fontSize : '30px', fontWeight : 700}}>Thread Sleep 🔗</a>
+<img src={con} alt="Version Location" class="myResponsiveImg" width="35px" style={{ marginBottom : '-7px', padding : 0 }}/> <a href="conditional" style={{ fontSize : '30px', fontWeight : 700}}>Conditional 🔗</a> <br/>
+<img src={iter} alt="Version Location" class="myResponsiveImg" width="35px"  style={{ marginBottom : '-7px' , padding : 0 }}/> <a href="iteration" style={{ fontSize : '30px', fontWeight : 700}}>Iteration 🔗 </a> <br/>
+<img src={sco} alt="Version Location" class="myResponsiveImg" width="35px" style={{ marginBottom : '-7px' , padding : 0 }}/> <a href="scope" style={{ fontSize : '30px', fontWeight : 700}}>Scope 🔗</a> <br/>
+<img src={sle} alt="Version Location" class="myResponsiveImg" width="35px" style={{ marginBottom : '-7px' , padding : 0 }}/> <a href="thread-sleep/action-thread-sleep" style={{ fontSize : '30px', fontWeight : 700}}>Thread Sleep 🔗</a>
 
 <p/>
 
