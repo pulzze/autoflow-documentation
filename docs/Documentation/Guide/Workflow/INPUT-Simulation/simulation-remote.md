@@ -59,7 +59,6 @@ The trace shows the data at a certain state as it passes through the chain of ac
     <img src={Trace} alt="Trace" class="myResponsiveImg"/>
 </div>
 
-([Click here to read more on trace](../Trace/Index.md))
 
 ### Action’s Data
 

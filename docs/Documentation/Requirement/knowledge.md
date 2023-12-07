@@ -49,11 +49,11 @@ The first thing when creating a workflow is to [simulate](../Guide/Workflow/Inpu
 
 Simulation provides the capability to mimic or emulate the input data, allowing developers to test, visualize, and refine their designs as they build the workflow.
 
-### 2. [Actions, Scopes and variables](../../Documentation/Guide/Workflow/Scope/)
+### 2. [Actions, Scopes and variables](../../Documentation/Guide/Workflow)
 
 Then, actions can be added to achieve your desired outcome.
 
-[Scope](../../Documentation/Guide/Workflow/Scope/) is where data (variables) get stored and accessed in different parts of the workflow.
+[Scope](../../Documentation/Guide/Workflow) is where data (variables) get stored and accessed in different parts of the workflow.
 
 ### 3. [OUTPUT Mapping](../Guide/Workflow/Output-Mapping/)
 

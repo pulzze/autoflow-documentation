@@ -48,10 +48,10 @@ import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflo
 
 | Topic    | Description |
 | -------- | ------- |
-| [API](../../../Documentation/Examples/API/#1-create-api)  | An API in API AutoFlow is simply an OpenAPI model |
-| [Server](../../../Documentation/Examples/API/#2-create-server)  | A server accepts and handles the request and response. |
-| [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
-| [Scope](../../../Documentation/Guide/Workflow/Scope/)    |  A scope is a namespace for variables.    |
+| [API](../../../Examples/API/#1-create-api)  | An API in API AutoFlow is simply an OpenAPI model |
+| [Server](../../../Examples/API/#2-create-server)  | A server accepts and handles the request and response. |
+| [Simulation](../../../Guide/Workflow/INPUT-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
+| [Scope](../../../Guide/Workflow/)    |  A scope is a namespace for variables.    |
 | Data Types    | Data types describe the different types or kinds of data that you are gonna store and work with.    |
 
 </details>
@@ -111,7 +111,7 @@ The goal of the operation is to create a new object:
 #### 1: Create an API endpoint
 
 :::note Required Concepts
-Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api). 
+Learn how to create an [API](../../../Examples/API/#1-create-api). 
 :::
 
 <details open>
@@ -140,7 +140,7 @@ From the **left navigation**, go to the API section and create a new API.
 #### 2. Create a Server Operation
 
 :::tip Required Concepts
-Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
+Learn how to create a [Server](../../../Examples/API/#2-create-server). 
 :::
 
 <details open>
@@ -173,7 +173,7 @@ From the **left navigation**, go to the Server section and create a new Server.
 #### 3 : Create Data Simulation using Real Data
 
 :::tip Required Concepts
-Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
+Learn how to create a [Simulation](../../../Guide/Workflow/INPUT-Simulation/). 
 :::
 
 We will use the "real data" to create the test simulation.
@@ -211,7 +211,7 @@ API Autoflow captures the data received and it can be used to create data simula
 ### Action(s)
 
 :::tip Required Concepts
-Learn how to create a [Actions](../../../Documentation/Guide/Workflow/Action/). 
+Learn how to create a [Actions](../../../Guide/Workflow/Action/). 
 :::
 
 Add actions to transform the data.

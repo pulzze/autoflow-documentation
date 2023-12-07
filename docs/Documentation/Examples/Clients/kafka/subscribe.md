@@ -37,10 +37,10 @@ keywords:
 
 | Topic    | Description |
 | -------- | ------- |
-| [API](../../../Documentation/Examples/API/#1-create-api)  | An API in API AutoFlow is simply an OpenAPI model |
-| [Server](../../../Documentation/Examples/API/#2-create-server)  | A server accepts and handles the request and response. |
-| [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
-| [Scope](../../../Documentation/Guide/Workflow/Scope/)    |  A scope is a namespace for variables.    |
+| [API](../../../Examples/API/#1-create-api)  | An API in API AutoFlow is simply an OpenAPI model |
+| [Server](../../../Examples/API/#2-create-server)  | A server accepts and handles the request and response. |
+| [Simulation](../../../Guide/Workflow/INPUT-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
+| [Scope](../../../Guide/Workflow/)    |  A scope is a namespace for variables.    |
 | Data Types    | Data types describe the different types or kinds of data that you are gonna store and work with.    |
 
 </details>
