@@ -1,1 +1,1 @@
-Stops the chosen server.
+Stops the chosen server

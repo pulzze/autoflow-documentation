@@ -1,1 +1,1 @@
-first data
+Any number or string.

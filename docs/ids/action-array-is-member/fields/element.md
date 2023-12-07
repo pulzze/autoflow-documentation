@@ -1,1 +1,1 @@
-Value to check if it exists within Array.
+The value to find within the array.

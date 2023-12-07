@@ -1,3 +1,1 @@
-Value
-
-Write integer number here to get float number.
+An integer to be converted into a floating-point number.

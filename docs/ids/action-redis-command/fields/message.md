@@ -1,3 +1,5 @@
-Command Message
-
-Write your Redis command. The command unit of Redis must be written with each string of the array.
+An array of strings which build the command. Examples:
+```
+1. ["SET", "mykey", "hello"]
+2. ["GET", "mykey"]
+```

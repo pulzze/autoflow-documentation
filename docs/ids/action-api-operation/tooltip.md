@@ -1,1 +1,1 @@
-This Action performs the API operation based on the input for a given API operation.
+Performs an API operation defined within a configured API

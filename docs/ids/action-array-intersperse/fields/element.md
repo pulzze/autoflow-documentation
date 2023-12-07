@@ -1,1 +1,1 @@
-Value you want to put in Array's separator.
+The value you want to have interspersed within the array.

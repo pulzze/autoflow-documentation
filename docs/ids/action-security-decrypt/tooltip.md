@@ -1,1 +1,1 @@
-Decrypt data to a string
+Decrypt a hex string into a string

@@ -1,3 +1,1 @@
-Write host here
-
-```Ex) interactor.com ```
+The host in `scheme://user@host:port/path?query#fragment`

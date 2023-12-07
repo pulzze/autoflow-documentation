@@ -1,1 +1,1 @@
-Array to be de-duplicate
+An array which contains possible consecutive duplicates

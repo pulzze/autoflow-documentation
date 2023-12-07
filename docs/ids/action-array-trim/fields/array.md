@@ -1,1 +1,1 @@
-Array to be trim
+An array of items which may be null.

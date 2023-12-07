@@ -1,1 +1,1 @@
-  Append content to a file
+Appends content to a file on the file system

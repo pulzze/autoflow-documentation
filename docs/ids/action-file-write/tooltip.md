@@ -1,1 +1,1 @@
-Write data in a file
+Writes a file to the file system

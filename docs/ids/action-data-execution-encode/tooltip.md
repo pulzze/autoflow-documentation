@@ -1,1 +1,1 @@
-This Action provides the ability to encode data structures into JSON strings.
+Encodes values into a JSON string using an object relational mapping to maintian the original values

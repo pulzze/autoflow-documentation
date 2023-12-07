@@ -1,2 +1,1 @@
-This Action returns a syslog message in RFC 5324 format based on the given input,
-and transmits the message using the UDP protocol.
+Transmits an RFC 5324 formatted syslog message using the UDP protocol

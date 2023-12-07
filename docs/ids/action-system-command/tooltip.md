@@ -1,1 +1,1 @@
-This Action returns result of System command.
+Executes a command line expression

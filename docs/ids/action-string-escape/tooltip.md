@@ -1,1 +1,1 @@
-This Action returns escaped string to be literally matched in a regex.
+Alters a string to be literally matched in a regex

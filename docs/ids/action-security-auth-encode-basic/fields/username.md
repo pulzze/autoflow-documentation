@@ -1,1 +1,1 @@
-Write username to auth encode basic.
+The username.

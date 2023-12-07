@@ -1,1 +1,1 @@
-A key to categorize triggers. Limits apply to triggers with the same key.
+A key to categorize rate limiting. Limits apply to all rate limit actions with the same key.

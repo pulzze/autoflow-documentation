@@ -1,1 +1,1 @@
-This Action is to convert a given float number from an input into a String.
+Converts a floating-point number into a string

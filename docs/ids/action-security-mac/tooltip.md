@@ -1,1 +1,1 @@
-Compute Mac data using mac algorithm
+Creates a MAC (Message Authentication Code)

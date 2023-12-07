@@ -1,1 +1,1 @@
-Includes all listed extensions. This field overrides excluded-extensions if it contains any values.
+Determines which file extensions to include. This field overrides excluded-extensions if it contains any values.

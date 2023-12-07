@@ -1,1 +1,1 @@
-Calculate mathematical expression.
+Calculates a mathematical expression

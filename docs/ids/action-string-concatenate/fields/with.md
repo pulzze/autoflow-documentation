@@ -1,1 +1,1 @@
-Want to merge string
+The second string.

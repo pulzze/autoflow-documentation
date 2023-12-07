@@ -1,1 +1,1 @@
-Array to merge to the right.
+The array which will come last in the resulting array

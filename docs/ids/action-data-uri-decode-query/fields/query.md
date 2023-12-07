@@ -1,1 +1,1 @@
-Write query string to decode.
+The URI query string to decode.

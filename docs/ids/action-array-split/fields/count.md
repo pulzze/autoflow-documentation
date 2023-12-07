@@ -1,1 +1,1 @@
-number of elements to split.
+The number of items to include in the first array. If count is a negative number, the first array will contain items from the end of the array.

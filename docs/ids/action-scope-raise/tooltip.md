@@ -1,1 +1,1 @@
-This action will raise an exception and halt execution.
+Causes an error to halt execution

@@ -1,1 +1,1 @@
-Returns the current system time in the given time unit as unix time..
+Provides the current VM time in the given time unit as unix time

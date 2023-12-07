@@ -1,1 +1,1 @@
-Decode JWT into its claim/data
+Decodes JWT into its claim/data

@@ -1,3 +1,1 @@
-Float
-
-Write float here to get Integer.
+A floating-point number.

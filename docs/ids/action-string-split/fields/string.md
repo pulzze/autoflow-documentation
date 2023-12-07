@@ -1,1 +1,1 @@
-Target string value
+A string which might contain whitespaces. Consecutive whitespace is treated as a single occurrence. Non-breaking whitespace is ignored.

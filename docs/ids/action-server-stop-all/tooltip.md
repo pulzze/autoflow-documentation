@@ -1,1 +1,1 @@
-Stops all configured servers.
+Stops all configured servers

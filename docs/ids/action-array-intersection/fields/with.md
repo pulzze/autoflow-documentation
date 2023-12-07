@@ -1,1 +1,1 @@
-Array to compare common parts
+Another array to compare.

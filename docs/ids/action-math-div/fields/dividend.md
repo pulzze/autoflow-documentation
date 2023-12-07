@@ -1,3 +1,1 @@
-Dividend
-
-dividend number
+The dividend number in the equation: `dividend / divisor`

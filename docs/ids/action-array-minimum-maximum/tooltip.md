@@ -1,1 +1,1 @@
-This Action returns the minimal and the maximal element in Array.
+Returns the minimum value and maximum value within an array

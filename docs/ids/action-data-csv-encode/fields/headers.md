@@ -1,1 +1,1 @@
-write here header in CSV
+An array of strings describing the headers to use for the CSV string.

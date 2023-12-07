@@ -1,1 +1,1 @@
-Array to be object
+An array of items with ids.

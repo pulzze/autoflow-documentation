@@ -1,1 +1,1 @@
-List all the components in the path
+Lists all the files and folders in the path on the file system

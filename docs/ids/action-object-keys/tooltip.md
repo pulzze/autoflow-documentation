@@ -1,1 +1,1 @@
-This action returns all keys in the object.
+Extracts all the keys of an object into an array

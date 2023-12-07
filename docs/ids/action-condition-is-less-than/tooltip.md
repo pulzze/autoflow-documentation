@@ -1,1 +1,1 @@
-This Action returns true or false if the given value is less than the target.
+Determines if a number is less than another number

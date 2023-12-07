@@ -1,1 +1,1 @@
-Array
+An array with items.

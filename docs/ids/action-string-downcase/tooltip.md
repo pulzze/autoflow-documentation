@@ -1,1 +1,1 @@
-This Action returns downcase string.
+Converts an entire string into lowercase

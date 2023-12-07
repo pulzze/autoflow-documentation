@@ -1,1 +1,1 @@
-Select log level
+The level for the log message.

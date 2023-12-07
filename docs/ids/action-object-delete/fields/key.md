@@ -1,3 +1,1 @@
-Key
-
-want to delete value of the key in object.
+The key for the desired value.

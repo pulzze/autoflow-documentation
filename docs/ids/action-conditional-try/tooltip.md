@@ -1,1 +1,1 @@
-Try conditional comprise of a try block and onError block.
+Executes a set of logic and catches any errors that may occur to prevent halting

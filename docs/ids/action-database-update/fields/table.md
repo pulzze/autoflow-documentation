@@ -1,3 +1,1 @@
-Database Table
-
-Write table here
+The table name.

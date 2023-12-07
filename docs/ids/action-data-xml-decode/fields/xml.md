@@ -1,1 +1,1 @@
-Write XML to decode
+An XML string.

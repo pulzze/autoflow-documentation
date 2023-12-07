@@ -1,1 +1,1 @@
-If you want to label in log messeage.
+The label for the log message.

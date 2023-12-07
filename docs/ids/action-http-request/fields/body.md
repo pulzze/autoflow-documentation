@@ -1,1 +1,1 @@
-Request Body.
+The request body can be any value. If the body is anything other than a string, it will be JSON encoded into the body and the content-type header will be set to application/json.

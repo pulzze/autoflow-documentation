@@ -1,1 +1,1 @@
-Bind to LDAP
+Binds to LDAP

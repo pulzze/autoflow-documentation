@@ -1,1 +1,1 @@
-Calculates the current day of the week.
+Provides the current day of the week

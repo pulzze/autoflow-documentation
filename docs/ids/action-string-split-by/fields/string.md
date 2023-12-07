@@ -1,1 +1,1 @@
-The target string value
+A string which will be divided into parts.

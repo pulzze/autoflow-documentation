@@ -1,1 +1,1 @@
-Target string value
+A string containing the desired values.

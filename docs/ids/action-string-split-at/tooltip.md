@@ -1,1 +1,1 @@
-This Action returns array that splits a string into two at the specified offset.
+Splits a string into an array at a given position

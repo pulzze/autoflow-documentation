@@ -1,1 +1,1 @@
-This action returns new object which puts the given 'value' under 'key' in 'object'
+Adds a value to an object

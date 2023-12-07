@@ -1,1 +1,1 @@
-This Action returns new Array which intersperses separator between each element of Array.
+Inserts a value between each element of an array

@@ -1,1 +1,1 @@
-Select Time Unit
+The time unit to be used: millisecond, microsecond, nanosecond, second

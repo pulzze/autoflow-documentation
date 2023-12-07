@@ -1,1 +1,1 @@
-Encrypt a data string to a binary
+Encrypt a string to a binary.

@@ -1,1 +1,1 @@
-Get subscription topics
+Gets the topics which an MQTT client is subscribed to as an array

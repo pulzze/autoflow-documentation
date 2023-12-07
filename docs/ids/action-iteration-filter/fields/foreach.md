@@ -1,0 +1,1 @@
+The logic to perform for each item in the array. A 'truthy' value will cause an item to be kept in the resulting array. False and null values are removed.

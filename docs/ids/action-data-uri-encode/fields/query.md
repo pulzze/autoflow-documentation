@@ -1,3 +1,1 @@
-Write query here
-
-```Ex) name=eric```
+The query in `scheme://user@host:port/path?query#fragment`

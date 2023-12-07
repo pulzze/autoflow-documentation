@@ -1,1 +1,1 @@
-Decodes a base 64 encoded string into a binary
+Decodes a base 64 encoded string into a binary. Not case sensitive.

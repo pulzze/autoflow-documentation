@@ -1,1 +1,1 @@
-This Action returns a string where converts all characters in the given string to uppercase.
+Converts all characters in a string to uppercase

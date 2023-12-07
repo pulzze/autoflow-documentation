@@ -1,1 +1,1 @@
-This Action returns new value that joins the given Array into a string using 'separator'.
+Converts an array into a string using a separator value

@@ -1,3 +1,1 @@
-Key Mapping
-
-want to map keys with the object.
+An object mapping key names to new values.

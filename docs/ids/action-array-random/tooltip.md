@@ -1,1 +1,1 @@
-This action returns random element in Array.
+Returns a random item from an array

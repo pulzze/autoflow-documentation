@@ -1,3 +1,1 @@
-Value
-
-Write integer number here to get Array.
+An integer to be broken into digits.

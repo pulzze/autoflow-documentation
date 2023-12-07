@@ -1,1 +1,1 @@
-Array to be counted.
+An array with items to be counted

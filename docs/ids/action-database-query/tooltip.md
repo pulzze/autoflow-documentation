@@ -1,1 +1,1 @@
-Issue query to configured DB connection based on the information provided
+Issues a query to a configured DB connection

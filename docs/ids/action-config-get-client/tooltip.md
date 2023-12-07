@@ -1,1 +1,1 @@
-Get current version of the specified Client configuration.
+Get current version of the specified client configuration

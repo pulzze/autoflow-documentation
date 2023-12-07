@@ -1,1 +1,1 @@
-Hash data string using hash algorithm
+Hashes a string using a hash algorithm

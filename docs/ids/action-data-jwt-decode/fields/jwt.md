@@ -1,1 +1,1 @@
-Write JWT code to decode
+A JWT code string.

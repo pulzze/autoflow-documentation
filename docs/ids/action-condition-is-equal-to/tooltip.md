@@ -1,1 +1,1 @@
-This Action returns true or false if the given value equals the target.
+Determines if a value is equal to another value

@@ -1,1 +1,1 @@
-Create a new UUID based on MD5 of fixed value.
+Create a new UUID based on MD5 of fixed value

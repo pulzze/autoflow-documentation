@@ -1,1 +1,1 @@
-Target string value
+A string which may contain another string.

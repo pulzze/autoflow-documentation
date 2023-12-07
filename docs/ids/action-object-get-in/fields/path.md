@@ -1,3 +1,1 @@
-Path
-
-want to get value of the key in the object.
+An array describing where the value is located. Each string indicates a key inside an object. Each integer indicates an index inside an array. If an object does not exist, it will be created.

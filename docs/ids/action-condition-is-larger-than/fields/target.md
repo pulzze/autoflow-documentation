@@ -1,1 +1,1 @@
-value to compare against
+The number which is expected to be smaller. The variable B in the expression: `A > B`.

@@ -1,3 +1,1 @@
-dividend
-
-divisor number
+The divisor number in the equation: `dividend / divisor`

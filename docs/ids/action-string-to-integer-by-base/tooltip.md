@@ -1,1 +1,1 @@
-This Action returns integer which corresponds to 'string' representation of integer in the given 'base'.
+Converts a string to an integer with a customizable base

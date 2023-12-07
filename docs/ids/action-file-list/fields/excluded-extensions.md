@@ -1,1 +1,1 @@
-Excludes all listed extensions. This field is ignored if included-extensions contains any values.
+Determines which file extensions to exclude. This field is ignored if included-extensions contains any values.

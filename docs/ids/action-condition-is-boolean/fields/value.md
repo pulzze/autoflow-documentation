@@ -1,1 +1,1 @@
-value to check is boolean or not
+A value which might be a boolean

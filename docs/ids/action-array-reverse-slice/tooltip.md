@@ -1,1 +1,1 @@
-This Action returns Reverses Array in the range from initial 'index' through 'count' elements.
+Reverses a portion of an array

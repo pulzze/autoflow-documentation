@@ -1,1 +1,1 @@
-Get configuration of a specified Service.
+Gets the configuration for a specified service

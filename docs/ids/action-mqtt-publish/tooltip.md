@@ -1,1 +1,1 @@
-Publish a new MQTT message
+Publishes an MQTT message

@@ -1,3 +1,1 @@
-Object
-
-Target object value
+An object with keys to be renamed.

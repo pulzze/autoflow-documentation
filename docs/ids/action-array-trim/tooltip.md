@@ -1,1 +1,1 @@
-This Action returns new Array without null value.
+Removes null values from an array

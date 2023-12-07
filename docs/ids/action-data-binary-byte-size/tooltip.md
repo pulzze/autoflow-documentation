@@ -1,1 +1,1 @@
-Returns byte size of data provided
+Determines the byte size of data provided

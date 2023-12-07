@@ -1,1 +1,1 @@
-This Action returns Array of elements in reverse order.
+Reverses the order of an array

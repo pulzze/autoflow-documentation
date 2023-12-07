@@ -1,1 +1,1 @@
-Starts the chosen client.
+Starts the chosen client

@@ -1,1 +1,1 @@
-Variables in object.
+An object defining the variables to be used in the mathmatical expression.

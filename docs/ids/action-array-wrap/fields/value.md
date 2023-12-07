@@ -1,1 +1,1 @@
-The value will be wrapped in array if this is not array.
+A value which should be an array. If an array is provided, nothing will happen. Otherwise, an array will be created with this value as the only item. If the value is null, an empty array will be returned.

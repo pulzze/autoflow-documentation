@@ -1,1 +1,1 @@
-Decodes a base 64 encoded string into a binary string.
+Decodes a base 64 encoded string into a binary

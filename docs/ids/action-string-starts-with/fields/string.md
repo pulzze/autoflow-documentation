@@ -1,1 +1,1 @@
-Target string value
+A string that might start with a prefix.

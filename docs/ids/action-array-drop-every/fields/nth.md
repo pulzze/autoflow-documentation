@@ -1,1 +1,1 @@
-want to drop nth number.
+The position interval for items to be dropped. Must be a positive integer.

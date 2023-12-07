@@ -1,1 +1,1 @@
-number of elements to slice.
+The number of items to extract starting from the index position.

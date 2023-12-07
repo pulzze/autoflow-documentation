@@ -1,1 +1,1 @@
-This Action breaks Operation, then returns results that 'Scope' on values.
+Halts execution and returns a given value

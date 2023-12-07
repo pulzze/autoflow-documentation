@@ -1,3 +1,1 @@
-With
-
-want to merge with the object.
+The object to provide changes. Keys will override the other object.

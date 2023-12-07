@@ -1,1 +1,1 @@
-Array to be string
+An array of items.

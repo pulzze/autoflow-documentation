@@ -1,0 +1,1 @@
+Gets the input fields for a given service operation

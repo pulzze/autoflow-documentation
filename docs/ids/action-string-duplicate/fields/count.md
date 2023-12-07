@@ -1,1 +1,1 @@
-Want to duplicate times
+The number of times to duplicate the string.

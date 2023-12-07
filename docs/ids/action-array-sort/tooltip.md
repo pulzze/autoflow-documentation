@@ -1,1 +1,1 @@
-This Action returns sorted Array.
+Sorts an array

@@ -1,1 +1,1 @@
-This Action drops the Count of elements from Array.
+Removes a specified number of items from an array

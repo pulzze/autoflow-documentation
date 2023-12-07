@@ -1,1 +1,1 @@
-Target string value
+A string to be reversed.

@@ -1,3 +1,1 @@
-Keys
-
-Criteria key to split from object
+The keys to include in the new object.

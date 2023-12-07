@@ -1,1 +1,1 @@
-Decodes a string encoded in specified base into a binary.
+Decodes a string into a binary using a specified base

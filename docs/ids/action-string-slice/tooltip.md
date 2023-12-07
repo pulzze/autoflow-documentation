@@ -1,1 +1,1 @@
-This Action returns a substring starting at the offset 'start', and of the given 'length'.
+Extracts a portion of a string

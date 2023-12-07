@@ -1,1 +1,1 @@
-url pattern
+The URL as a string pattern with variables `{protocol}://{host}:{port}`.

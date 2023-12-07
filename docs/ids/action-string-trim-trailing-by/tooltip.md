@@ -1,1 +1,1 @@
-This Action returns a string where all trailing 'pattern' characters have been removed.
+Removes trailing patterns from a string

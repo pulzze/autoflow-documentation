@@ -1,3 +1,1 @@
-Delimiter
-
-delimiter between elements of object
+The string to separate key/value pairs.

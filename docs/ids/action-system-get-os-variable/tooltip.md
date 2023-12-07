@@ -1,1 +1,1 @@
-Used to get variables from the OS.
+Used to get variables from the Operating System

@@ -1,1 +1,1 @@
-This Action returns array that splits a given string based on a newline.
+Splits a string into an array by newline characters

@@ -1,1 +1,1 @@
-This Action returns true or false if the given input string is empty or not.
+Determines if a string has characters

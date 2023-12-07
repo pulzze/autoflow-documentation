@@ -1,1 +1,1 @@
-Get current version of the specified Server configuration.
+Get current version of the specified server configuration

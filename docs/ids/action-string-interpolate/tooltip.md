@@ -1,1 +1,1 @@
-This action returns new string by replacing 'variable' with its value in a given string.
+Used to inject variables into a string

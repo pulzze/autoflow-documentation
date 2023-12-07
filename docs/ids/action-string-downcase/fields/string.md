@@ -1,1 +1,1 @@
-Target string value
+A string that may contain uppercase characters.

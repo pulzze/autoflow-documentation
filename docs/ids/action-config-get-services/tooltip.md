@@ -1,1 +1,1 @@
-Get all Service configuration.
+Gets all service configurations

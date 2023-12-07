@@ -1,0 +1,1 @@
+Extracts all the values from an object into an array

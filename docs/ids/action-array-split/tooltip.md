@@ -1,1 +1,1 @@
-This Action returns new split Array.
+Splits an array into two arrays

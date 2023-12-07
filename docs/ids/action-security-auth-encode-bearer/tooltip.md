@@ -1,1 +1,1 @@
-Encodes a token string to a bearer token string
+Encodes a token into a bearer authorization string

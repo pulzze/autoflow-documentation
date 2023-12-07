@@ -1,1 +1,1 @@
-Value you want to put in Array's joiner.
+The value to use as a separator. An empty string will prevent any separation.

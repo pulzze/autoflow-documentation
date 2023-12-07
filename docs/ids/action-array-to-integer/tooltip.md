@@ -1,1 +1,1 @@
-This Action returns Integer represented by the ordered.
+Converts an array of single digits integers into the corresponding number

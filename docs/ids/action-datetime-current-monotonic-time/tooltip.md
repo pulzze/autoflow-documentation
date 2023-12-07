@@ -1,1 +1,1 @@
-Returns the current monotonic time in the given time unit.
+Provides the current monotomic time which is arbitrary but monotomically increasing

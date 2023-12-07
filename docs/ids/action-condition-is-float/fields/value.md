@@ -1,1 +1,1 @@
-value to check is float or not
+A value which might be a floating-point number

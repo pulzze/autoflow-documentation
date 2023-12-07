@@ -1,1 +1,1 @@
-element to be deleted.
+The element to be removed from the array.

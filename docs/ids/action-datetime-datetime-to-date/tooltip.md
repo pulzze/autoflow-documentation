@@ -1,1 +1,1 @@
-Converts a datetime into a date.
+Converts a datetime into a date (yyyy-MM-dd)

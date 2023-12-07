@@ -1,1 +1,1 @@
-Target string value
+The first string.

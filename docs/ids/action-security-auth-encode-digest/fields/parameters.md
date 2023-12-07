@@ -1,1 +1,1 @@
-Write parameters to auth encode digest.
+An object of parameters to include in the authorization string.

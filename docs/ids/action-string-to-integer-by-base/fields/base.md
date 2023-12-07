@@ -1,1 +1,1 @@
-want to get base type.
+The base to use for the resulting integer. The base can be an integer between 2 and 36. If no base is given, it defaults to 10.

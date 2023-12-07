@@ -1,1 +1,1 @@
-Adds a specified amount of time to Now.
+Generates an ISO 8601 datetime by adding an amount of time to the current datetime

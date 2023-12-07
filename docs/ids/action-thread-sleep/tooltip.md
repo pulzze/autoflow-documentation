@@ -1,1 +1,1 @@
-This action will cause the current execution to wait for a set duration.
+Causes the execution to wait for a set amount of time

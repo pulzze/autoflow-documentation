@@ -1,1 +1,1 @@
-Write query object to encode.
+An object for types `www-form` and `rfc3986`. A string for type `percent`.

@@ -1,1 +1,1 @@
-Array to be integer
+An array of *single digit integers*.

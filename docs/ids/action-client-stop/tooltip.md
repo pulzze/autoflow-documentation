@@ -1,1 +1,1 @@
-Stops the chosen client.
+Stops the chosen client

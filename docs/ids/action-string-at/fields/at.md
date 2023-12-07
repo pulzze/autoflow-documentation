@@ -1,1 +1,1 @@
-Want to get index of string
+The index for the desired character. The first character is at index zero. Returns null if the value is greater than the string length.

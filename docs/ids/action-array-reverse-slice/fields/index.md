@@ -1,1 +1,1 @@
-start index to reverse
+The starting index of values to be reversed. The first item is at position zero.

@@ -1,1 +1,1 @@
-Select whether the body has a decode or not.
+Determines whether the body should be decoded into usable data or left as a string.

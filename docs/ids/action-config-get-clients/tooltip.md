@@ -1,1 +1,1 @@
-Get all Client configuration.
+Get all client configuration

@@ -1,1 +1,1 @@
-Get all Server configuration.
+Get all server configurations

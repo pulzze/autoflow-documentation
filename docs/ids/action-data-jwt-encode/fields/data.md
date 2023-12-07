@@ -1,1 +1,1 @@
-Write data to encode in JWT
+A JWT claim.

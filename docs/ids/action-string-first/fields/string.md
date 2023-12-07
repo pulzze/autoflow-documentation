@@ -1,1 +1,1 @@
-Target string value
+Any string.

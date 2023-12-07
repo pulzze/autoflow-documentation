@@ -1,1 +1,1 @@
-This Action returns true or false if the given value is larger than the target.
+Determines if a number is larger than another number

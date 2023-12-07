@@ -1,1 +1,1 @@
-Write uri to decode.
+A URI string to decode.

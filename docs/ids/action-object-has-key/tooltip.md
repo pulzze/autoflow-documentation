@@ -1,1 +1,1 @@
-This action returns whether the given 'key' exists in the given 'object'.
+Determines if an object has a given key

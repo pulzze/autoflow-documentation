@@ -1,1 +1,1 @@
-want to add value in array
+The item to add to the array. If item is an array, it is concatenated.

@@ -1,1 +1,1 @@
-Compares two times.
+Determines the number of seconds between two ISO 8601 datetimes only considering the time of day

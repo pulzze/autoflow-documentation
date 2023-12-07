@@ -1,1 +1,1 @@
-Decodes a base 16 encoded HEX string into a binary
+Decodes a base 16 hexadecimal string into a binary

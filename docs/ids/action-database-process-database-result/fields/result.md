@@ -1,3 +1,1 @@
-Database Result
-
-first data
+The database query result.

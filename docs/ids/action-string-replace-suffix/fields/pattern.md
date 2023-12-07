@@ -1,1 +1,1 @@
-string, a regular expression, or a compiled pattern.
+The string pattern to be replaced. If the pattern is an empty string, the replacement value will be appended to the string.

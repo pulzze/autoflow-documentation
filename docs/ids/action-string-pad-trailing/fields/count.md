@@ -1,1 +1,1 @@
-The total length of the string.
+The desired length of the string. If the length is not greater than the original string, the string is simply returned.

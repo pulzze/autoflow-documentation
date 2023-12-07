@@ -1,3 +1,1 @@
-Float
-
-Write float here to get floor Integer.
+A floating-point number.

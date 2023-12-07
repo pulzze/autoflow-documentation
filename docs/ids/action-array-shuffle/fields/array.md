@@ -1,1 +1,1 @@
-Array to be suffled
+An array to be shuffled.

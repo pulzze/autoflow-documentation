@@ -1,1 +1,1 @@
-Adds a specified amount of time to a DateTime.
+Generates an ISO 8601 datetime by adding an amount of time to a given ISO 8601 datetime

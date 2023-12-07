@@ -1,1 +1,1 @@
-target array
+An array that may contain items.

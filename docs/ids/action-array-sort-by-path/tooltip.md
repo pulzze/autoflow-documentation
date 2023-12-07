@@ -1,1 +1,1 @@
-This Action returns sorted Array by path.
+Sorts an array by a chosen value

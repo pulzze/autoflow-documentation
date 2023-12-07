@@ -1,3 +1,1 @@
-Separator
-
-separator between key and value
+A string used to separate keys and values.

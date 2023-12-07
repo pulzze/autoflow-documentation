@@ -1,1 +1,1 @@
-Encode a map to a digest token string
+Creates a digest HTTP authorization string

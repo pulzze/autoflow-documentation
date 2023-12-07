@@ -1,1 +1,1 @@
-Write to send command message in System.
+The command line expression as a string.

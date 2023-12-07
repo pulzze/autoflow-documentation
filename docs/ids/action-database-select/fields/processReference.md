@@ -1,2 +1,1 @@
-Database Connection
-
+The database connection.

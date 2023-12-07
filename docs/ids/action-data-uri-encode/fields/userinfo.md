@@ -1,3 +1,1 @@
-Write userinfo here
-
-```Ex) user``` 
+The user in `scheme://user@host:port/path?query#fragment`

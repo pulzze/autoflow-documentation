@@ -1,1 +1,1 @@
-This Action returns new string that Replaces all leading occurrences of 'pattern' by 'replacement' of match in string.
+Replaces all leading occurrences of a pattern in a string

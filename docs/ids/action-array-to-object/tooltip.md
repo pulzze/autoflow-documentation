@@ -1,1 +1,1 @@
-This Action returns Object type from Array.
+Converts an array into an object using IDs

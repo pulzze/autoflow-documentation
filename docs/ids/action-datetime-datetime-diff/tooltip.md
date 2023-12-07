@@ -1,1 +1,1 @@
-Calculates the difference between two datetimes.
+Determines the number of seconds between two ISO 8601 datetimes

@@ -1,1 +1,1 @@
-Set the value of the type you want.
+Any value.

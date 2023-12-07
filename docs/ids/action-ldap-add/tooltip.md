@@ -1,1 +1,1 @@
-Add a new LDAP entry
+Adds a new LDAP entry

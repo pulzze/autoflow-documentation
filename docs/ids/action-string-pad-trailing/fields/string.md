@@ -1,1 +1,1 @@
-Target string value
+A string which requires trailing padding.

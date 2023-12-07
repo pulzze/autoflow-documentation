@@ -1,1 +1,1 @@
-The timeout for all threads individually.
+The timeout time for all threads individually.

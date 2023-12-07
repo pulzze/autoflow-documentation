@@ -1,1 +1,1 @@
-This action returns the value corresponding to the key value in the object.
+Extracts a value from an object by a given key

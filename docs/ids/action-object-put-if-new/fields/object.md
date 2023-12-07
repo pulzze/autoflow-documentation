@@ -1,3 +1,1 @@
-Object
-
-Target object value
+Any object.

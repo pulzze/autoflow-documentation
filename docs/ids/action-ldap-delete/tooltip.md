@@ -1,1 +1,1 @@
-Delete a new LDAP entry
+Deletes a new LDAP entry

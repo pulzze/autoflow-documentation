@@ -1,0 +1,1 @@
+Determines whether the result should be padded to a multiple of 8.

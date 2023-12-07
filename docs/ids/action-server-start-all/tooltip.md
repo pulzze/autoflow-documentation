@@ -1,1 +1,1 @@
-Starts all configured servers.
+Starts all configured servers

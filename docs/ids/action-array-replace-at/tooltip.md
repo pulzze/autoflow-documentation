@@ -1,1 +1,1 @@
-This Action returns Array with a replaced value at the specified index.
+Replaces the value at a given index within an array

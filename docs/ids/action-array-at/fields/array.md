@@ -1,1 +1,1 @@
-target array
+An array which contains the item to be retrieved.

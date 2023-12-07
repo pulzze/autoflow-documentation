@@ -1,1 +1,1 @@
-Write data to encode XML
+The object structured representation of an XML

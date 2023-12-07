@@ -1,1 +1,1 @@
-Get version of OpenAPI specification currently being used by the server process.
+Get the OpenAPI specification currently being used by a server process

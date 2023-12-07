@@ -1,1 +1,1 @@
-want to trim on the string.
+A pattern to be removed from the string.

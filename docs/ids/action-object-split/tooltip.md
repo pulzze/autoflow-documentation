@@ -1,1 +1,1 @@
-This Action returns split objects.
+Separates an object into two objects based on chosen keys

@@ -1,1 +1,1 @@
-index number to be deleted.
+The index number of the desired item. The first item is at position 0. *Negative indices indicate an offset from the end of the array.* If index is out of bounds, the original Array is returned.

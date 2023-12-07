@@ -1,1 +1,1 @@
-This Action returns the first string in string.
+Extracts the first character in a string

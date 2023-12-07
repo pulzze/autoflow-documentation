@@ -1,3 +1,1 @@
-Write path here
-
-```Ex) /over/there```
+The path in `scheme://user@host:port/path?query#fragment`

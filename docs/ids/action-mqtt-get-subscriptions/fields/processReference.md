@@ -1,2 +1,1 @@
-MQTT Connection
-
+The MQTT client reference.

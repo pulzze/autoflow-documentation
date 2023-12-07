@@ -1,1 +1,1 @@
-value to compare against
+Any value

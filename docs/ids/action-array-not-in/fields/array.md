@@ -1,1 +1,1 @@
-target array
+An array containing items to be searched for.

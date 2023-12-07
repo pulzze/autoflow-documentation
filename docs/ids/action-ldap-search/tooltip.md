@@ -1,1 +1,1 @@
-Search LDAP for a match
+Searches LDAP for a match

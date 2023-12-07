@@ -1,1 +1,1 @@
-Select order type ascending or descending
+The desired order for the array: ascending or descending.

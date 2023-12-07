@@ -1,1 +1,1 @@
-write here data to encode
+Any value to be encoded into JSON.

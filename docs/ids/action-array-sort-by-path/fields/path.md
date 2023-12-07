@@ -1,1 +1,1 @@
-Set sort criteria
+The path within each item for the value to be compared.

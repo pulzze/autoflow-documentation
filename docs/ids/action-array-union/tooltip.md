@@ -1,1 +1,1 @@
-This Action returns new Array containing all members of 'array' and 'with'.
+Combines two arrays without causing duplicates

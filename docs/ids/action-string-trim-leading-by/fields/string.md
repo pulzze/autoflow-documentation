@@ -1,1 +1,1 @@
-Target string value
+A string with leading characters to be removed.

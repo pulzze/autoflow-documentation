@@ -1,1 +1,1 @@
-Calculates the difference between two dates.
+Determines the number of days between two ISO 8601 datetimes only considering the date

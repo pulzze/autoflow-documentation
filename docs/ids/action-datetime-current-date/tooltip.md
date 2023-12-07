@@ -1,1 +1,1 @@
-Returns the current date in UTC
+Provides the current date in UTC (yyyy-MM-dd)

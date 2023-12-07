@@ -1,2 +1,1 @@
-Client
-
+The client reference to be stopped.

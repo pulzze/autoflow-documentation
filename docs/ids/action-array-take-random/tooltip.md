@@ -1,1 +1,1 @@
-This Action returns new Array Takes 'count' random elements from 'Array'.
+Takes items at random from an array

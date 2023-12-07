@@ -1,3 +1,1 @@
-yes :if you do it recursive
-
-no : if you don't want it recursive
+Determines if the deletion should be recursive or not. This means it will delete all items within folders.

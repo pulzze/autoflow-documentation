@@ -1,1 +1,1 @@
-path's value type.
+The type of value for comparisons: float, integer, or string.

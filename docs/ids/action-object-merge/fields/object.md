@@ -1,3 +1,1 @@
-Object
-
-Target object value
+The object to receive changes. Keys will be overridden by the other object.

@@ -1,1 +1,1 @@
-Read a file
+Reads a file on the file system

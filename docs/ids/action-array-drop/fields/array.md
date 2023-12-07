@@ -1,1 +1,1 @@
-Array to be drop
+An array with items to be removed.

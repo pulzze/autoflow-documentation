@@ -1,3 +1,1 @@
-Float
-
-Write float here to get ratio.
+A floating-point number.

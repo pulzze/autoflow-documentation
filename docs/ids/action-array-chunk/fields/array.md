@@ -1,1 +1,1 @@
-The source array to be partitioned.
+The array to be partitioned.

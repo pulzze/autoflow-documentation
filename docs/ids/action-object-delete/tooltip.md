@@ -1,1 +1,1 @@
-This Action delete given 'key' from 'object'.
+Deletes a key from an object

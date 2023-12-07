@@ -1,1 +1,1 @@
-perfix Array
+The array of values to check for at the beginning of the array.

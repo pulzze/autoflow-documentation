@@ -1,1 +1,1 @@
-Array to be sort
+An array to be sorted.

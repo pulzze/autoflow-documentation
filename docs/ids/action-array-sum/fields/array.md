@@ -1,1 +1,1 @@
-target array
+An array of numbers to be added together.

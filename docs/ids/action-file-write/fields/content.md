@@ -1,1 +1,1 @@
-Wirte content of file here
+The content for the file.

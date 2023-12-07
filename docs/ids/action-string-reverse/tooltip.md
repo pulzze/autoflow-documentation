@@ -1,1 +1,1 @@
-This Action returns string in reverse order.
+Reverses a string

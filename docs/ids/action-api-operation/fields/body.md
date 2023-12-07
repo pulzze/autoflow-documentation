@@ -1,1 +1,1 @@
-Request Body.
+The request body which will automatically be JSON encoded.

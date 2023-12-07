@@ -1,3 +1,1 @@
-Value
-
-want to wirte new value of the new key.
+The value to be placed in the object.

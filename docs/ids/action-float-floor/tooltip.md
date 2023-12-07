@@ -1,1 +1,1 @@
-This Action return integer that rounds 'float' to the largest number less than or equal to 'float'.
+Rounds a floating-point number down using a variable precision

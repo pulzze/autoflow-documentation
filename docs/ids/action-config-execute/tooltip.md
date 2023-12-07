@@ -1,1 +1,1 @@
-Execute API AutoFlow Custom Flow configuration
+Interprets and executes API AutoFlow custom flow configuration

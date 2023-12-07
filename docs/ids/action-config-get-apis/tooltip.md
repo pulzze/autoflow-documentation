@@ -1,1 +1,1 @@
-Get all API configuration.
+Get all API configuration

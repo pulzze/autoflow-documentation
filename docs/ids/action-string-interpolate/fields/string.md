@@ -1,1 +1,1 @@
-Target string value
+A string which contains variables using the chosen format.

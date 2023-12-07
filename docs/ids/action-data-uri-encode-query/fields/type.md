@@ -1,0 +1,1 @@
+The type of URI encoding to perform: `percent`, `www-form`, or `rfc3986`.

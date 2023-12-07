@@ -1,1 +1,1 @@
-Array to be sort by path
+An array to be sorted by path

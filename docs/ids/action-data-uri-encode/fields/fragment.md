@@ -1,3 +1,1 @@
-Write fragment here
-
-```Ex) nose```
+The URI fragment in `scheme://user@host:port/path?query#fragment`

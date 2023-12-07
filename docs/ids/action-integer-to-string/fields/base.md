@@ -1,3 +1,7 @@
-Base
+The numeric base for the integer conversion. Example bases:
 
-Write base here to get String.
+```
+2: binary
+10: decimal
+16: hexadecimal
+```

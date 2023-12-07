@@ -1,1 +1,1 @@
-Target string value
+A string which may contain trailing values to be replaced.

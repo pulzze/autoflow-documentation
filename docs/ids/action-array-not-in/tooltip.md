@@ -1,1 +1,1 @@
-This action returns a new array of elements in 'array' that 'in' Array does not have.
+Returns an array of items which are *not contained* within a given array

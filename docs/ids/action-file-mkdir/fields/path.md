@@ -1,1 +1,1 @@
-Write path here to make a directory
+The folder path. If a relative path is given, the folder will be written within the application files.

@@ -1,1 +1,1 @@
-Where you want to insert in index of array.
+This position to insert a new item. *Negative indices indicate an offset from the end of the list.* Note that index is capped at the list length.

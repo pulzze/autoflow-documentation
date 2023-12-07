@@ -1,1 +1,1 @@
-Delete attributes from an LDAP entry
+Deletes attributes from an LDAP entry

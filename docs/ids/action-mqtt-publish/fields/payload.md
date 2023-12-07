@@ -1,3 +1,1 @@
-Payload
-
-Payload to publish
+The payload string.

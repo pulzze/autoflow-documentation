@@ -1,1 +1,1 @@
-number of taking elements.
+The number of items to extract from the array. If a negative number is given, the items will be taken from the end of the array. For example, -1 would take the last item in the array.

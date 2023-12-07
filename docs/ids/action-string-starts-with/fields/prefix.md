@@ -1,1 +1,1 @@
-want to check start of string value.
+The prefix to check for in the given string.

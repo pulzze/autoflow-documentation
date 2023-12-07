@@ -1,1 +1,1 @@
-String to split
+The pattern used to divide the provided string.

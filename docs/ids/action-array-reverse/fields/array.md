@@ -1,1 +1,1 @@
-target array
+An array with items to be reversed.

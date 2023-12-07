@@ -1,1 +1,1 @@
-Array value to be filtered
+An array which will have its items filtered.

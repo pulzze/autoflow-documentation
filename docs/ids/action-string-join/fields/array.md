@@ -1,1 +1,1 @@
-Array
+An array of strings.

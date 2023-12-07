@@ -1,1 +1,1 @@
-target array
+An array with items to include in a string. All items must be convertible to a string, otherwise an error will be raised.

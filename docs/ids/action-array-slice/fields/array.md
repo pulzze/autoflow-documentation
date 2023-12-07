@@ -1,1 +1,1 @@
-Array to be slice
+An array with items to extract.

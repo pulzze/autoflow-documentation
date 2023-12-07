@@ -1,1 +1,1 @@
-This Action returns result of Elixir command.
+Executes Elixir code

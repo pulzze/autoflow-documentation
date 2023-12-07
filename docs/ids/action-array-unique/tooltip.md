@@ -1,1 +1,1 @@
-This Action returns new Array removing all duplicated elements.
+Returns every unique value in an array, removing duplicates

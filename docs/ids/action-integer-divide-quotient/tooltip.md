@@ -1,1 +1,1 @@
-This Action returns only quotient by divison of Integer.
+Divides two numbers and returns the quotient

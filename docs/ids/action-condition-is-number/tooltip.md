@@ -1,1 +1,1 @@
-This Action returns true or false if the given input is number or not.
+Determines if a value is a number

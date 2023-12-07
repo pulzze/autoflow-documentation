@@ -1,1 +1,1 @@
-Modify attributes from an LDAP entry
+Modifies attributes from an LDAP entry

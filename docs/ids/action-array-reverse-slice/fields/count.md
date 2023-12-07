@@ -1,1 +1,1 @@
-number of elements to be reversed
+The number of elements to be reversed including the starting position. If count goes beyond the end of the array, it will simply reverse the rest of the array.

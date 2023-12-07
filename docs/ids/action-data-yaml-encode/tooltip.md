@@ -1,1 +1,1 @@
-This Action encodes a given data string into yaml.
+Encodes a YAML string from data

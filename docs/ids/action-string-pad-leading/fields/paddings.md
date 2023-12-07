@@ -1,1 +1,1 @@
-Added at the beginning of the string.
+The padding can be a string or an array of strings. If a string is used, the result will fill the space with whatever fraction of the string is needed, repeating. If an array is used, the result will include as many strings that are required to meet or exceed the desired size.

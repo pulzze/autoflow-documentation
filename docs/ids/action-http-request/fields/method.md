@@ -1,1 +1,1 @@
-Select http request method.
+The request method: get, delete, post, put, head, options, patch.

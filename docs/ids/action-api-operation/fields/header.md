@@ -1,1 +1,1 @@
-Request Header.
+The request headers as an object.

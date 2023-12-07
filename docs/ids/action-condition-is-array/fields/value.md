@@ -1,1 +1,1 @@
-value to check is array or not
+A value which might be an array

@@ -1,1 +1,1 @@
-Decode query string according to type selected
+Decodes a URI query string into an object

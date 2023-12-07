@@ -1,1 +1,1 @@
-Write data here.
+The string to be hashed.

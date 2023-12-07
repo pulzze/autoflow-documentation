@@ -1,1 +1,1 @@
-This Action returns true or false if the given input array is empty or not.
+Determines if an array is empty

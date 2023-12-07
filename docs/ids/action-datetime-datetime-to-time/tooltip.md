@@ -1,1 +1,1 @@
-Converts a datetime into a time.
+Converts an ISO 8601 datetime into a time (hh:mm:ss.millis)

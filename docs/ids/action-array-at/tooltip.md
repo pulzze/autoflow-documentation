@@ -1,1 +1,1 @@
-This action returns element of the number you selected in the array.
+Returns the element at a given position within an array

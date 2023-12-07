@@ -1,2 +1,1 @@
-Database Connection
-
+The Redis connection to use.

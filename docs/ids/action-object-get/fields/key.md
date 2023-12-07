@@ -1,3 +1,1 @@
-Key
-
-want to get value of the key in the object.
+The key for the desired value.

@@ -1,1 +1,1 @@
-This Action returns the first element in Array or default if Array is empty.
+Returns the first element in an array

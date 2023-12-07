@@ -1,1 +1,1 @@
-This Action set variable.
+Sets a variable for future use

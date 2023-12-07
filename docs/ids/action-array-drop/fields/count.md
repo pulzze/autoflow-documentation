@@ -1,1 +1,1 @@
-Drop number of elements from Array.
+The number of items to drop from the array. *If a negative count is given, the items dropped will be from the end of the array.*

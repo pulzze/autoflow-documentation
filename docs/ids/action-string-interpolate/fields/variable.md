@@ -1,1 +1,1 @@
-To interpolate and their corresponding values.
+An object which contains the values for the string variables. The keys of the object should match the variables used in the string.

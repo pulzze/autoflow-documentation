@@ -1,1 +1,1 @@
-target array
+An array which will contain the new item.

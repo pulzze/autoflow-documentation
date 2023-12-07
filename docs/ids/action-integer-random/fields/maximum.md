@@ -1,3 +1,1 @@
-Maximum
-
-Write maximum number here to get random number.
+The maximum number that should be allowed during generation.

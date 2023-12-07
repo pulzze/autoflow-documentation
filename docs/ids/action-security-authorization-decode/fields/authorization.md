@@ -1,1 +1,1 @@
-Write authorization to decode.
+The HTTP authorization string to decode. Types supported are: basic, bearer, digest.

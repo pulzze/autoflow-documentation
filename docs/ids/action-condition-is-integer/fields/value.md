@@ -1,1 +1,1 @@
-value to check is integer or not
+A value which might be an integer

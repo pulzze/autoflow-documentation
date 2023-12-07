@@ -1,1 +1,1 @@
-Write elixir code.
+The Elixir code as a string.

@@ -1,1 +1,1 @@
-This will determine whether the execution should stop after an error or not. This will effectively reraise the original error.
+Determines whether the execution should stop after an error or not. This will effectively reraise the original error.

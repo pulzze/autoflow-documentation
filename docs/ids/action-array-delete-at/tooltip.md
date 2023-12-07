@@ -1,1 +1,1 @@
-This Action returns a new Array by removing the value at the specified index.
+Removes the value at a given index within an array

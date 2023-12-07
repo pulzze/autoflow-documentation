@@ -1,1 +1,1 @@
-Write type to auth encode digest.
+The digest authorization type.

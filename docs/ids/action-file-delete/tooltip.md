@@ -1,1 +1,1 @@
-Delete content to a file
+Deletes a file on the file system

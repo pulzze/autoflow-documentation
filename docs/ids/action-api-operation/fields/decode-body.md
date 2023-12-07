@@ -1,1 +1,1 @@
-Select whether the body has a decode or not.
+Select whether the response body should be JSON decoded or not.

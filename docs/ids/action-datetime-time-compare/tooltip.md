@@ -1,1 +1,1 @@
-Compares two times.
+Determines the order of two ISO 8601 datetimes only considering the time of day

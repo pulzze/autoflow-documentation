@@ -1,1 +1,1 @@
-target array
+An array with an item to be replaced.

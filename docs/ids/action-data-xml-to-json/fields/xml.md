@@ -1,1 +1,1 @@
-Write XML to JSON
+An XML string.

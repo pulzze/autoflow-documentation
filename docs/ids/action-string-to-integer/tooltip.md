@@ -1,1 +1,1 @@
-This Action returns integer that string is parsed a binary into a integer.
+Converts a string to an integer

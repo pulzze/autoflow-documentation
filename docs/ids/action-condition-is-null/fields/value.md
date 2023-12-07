@@ -1,1 +1,1 @@
-value to check is null or not
+A value which might be null

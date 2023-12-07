@@ -1,1 +1,1 @@
-number of getting radom elements
+The number of items to take at random.

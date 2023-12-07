@@ -1,1 +1,1 @@
-Make a directory
+Makes a directory on the file system

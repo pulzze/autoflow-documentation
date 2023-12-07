@@ -1,1 +1,1 @@
-This Action duplicates the given Array 'count' times in new Array.
+Creates an array of a given size where each item is the same

@@ -1,1 +1,1 @@
-Iterate over array of data filtering for each truthy value.
+Filters items in an array using a given logic

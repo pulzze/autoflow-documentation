@@ -1,3 +1,1 @@
-Value Interpolation
-
-want to write value Interpolation
+Used to alter the value formats using string interpolation. By default, the key will be used without any changes. Examples: `some-prefix-${value}`, `${value}-some-suffix`.

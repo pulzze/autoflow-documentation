@@ -1,1 +1,1 @@
-Division of numbers.
+Divides two numbers and rounds down

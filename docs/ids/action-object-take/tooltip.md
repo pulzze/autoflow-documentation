@@ -1,1 +1,1 @@
-This Action returns a new 'object' with all the key-value pairs in 'object' where the key is in keys.
+Takes only the selected keys from an object and removes the rest.

@@ -1,1 +1,1 @@
-This Action returns value which you set in 'Scope' Value.
+Sets a value to be used later

@@ -1,1 +1,1 @@
-Query is dynamically created using the informaiton provided.
+Dynamically creates a SQL query

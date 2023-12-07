@@ -1,1 +1,1 @@
-Converts the given datetime to unix time.
+Converts the given ISO 8601 datetime to unix time

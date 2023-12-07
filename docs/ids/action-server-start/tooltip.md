@@ -1,1 +1,1 @@
-Starts the chosen server.
+Starts the chosen server

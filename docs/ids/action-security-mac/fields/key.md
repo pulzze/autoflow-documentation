@@ -1,1 +1,1 @@
-Write key here.
+The MAC key.

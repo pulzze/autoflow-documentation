@@ -1,1 +1,1 @@
-Decodes a base 32 encoded string with extended hexadecimal alphabet into a binary
+Decodes a base 32 extended alphabet encoded string into a binary

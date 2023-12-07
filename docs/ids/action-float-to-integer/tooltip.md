@@ -1,1 +1,1 @@
-This Action is to convert a given float number from an input into an integer.
+Converts a floating-point number into an integer and discards the decimal

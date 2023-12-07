@@ -1,1 +1,1 @@
-This Action returns true if list starts with the given 'value' otherwise returns false.
+Checks if an array starts with an expected set of values

@@ -1,3 +1,1 @@
-Topic
-
-Topic to publish
+The topic to publish on.

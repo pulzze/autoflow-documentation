@@ -1,3 +1,1 @@
-Keys
-
-Criteria key to take from object
+An array of strings to determine which keys to take. If a key is missing from the object, it is ignored.

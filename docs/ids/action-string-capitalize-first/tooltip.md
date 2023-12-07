@@ -1,1 +1,1 @@
-This Action returns new string which the first letter is capitalized.
+Capitalizes the first character in a string and downcases the rest

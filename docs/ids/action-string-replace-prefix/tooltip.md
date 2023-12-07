@@ -1,1 +1,1 @@
-This Action returns new string that replaces prefix in 'string' by replacement if it matches 'pattern'.
+Replaces a single leading occurrence of a pattern in a string

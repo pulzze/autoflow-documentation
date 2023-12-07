@@ -1,1 +1,1 @@
-The threads to perform in parallel.
+A list of logic to perform in parallel.

@@ -1,2 +1,1 @@
-**target**
-- string value
+A string which might contain newline characters.

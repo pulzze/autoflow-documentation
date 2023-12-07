@@ -1,1 +1,1 @@
-This Action returns duplicated string 'count' times.
+Duplicates a string a number of times

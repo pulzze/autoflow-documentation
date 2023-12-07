@@ -1,1 +1,1 @@
-This Action returns true or false if 'contents' exists within 'string' or not.
+Determines if a string contains another string

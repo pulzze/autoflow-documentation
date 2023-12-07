@@ -1,1 +1,1 @@
-Issue delete query to configured DB connection based on the information provided
+Issues a delete query to a configured DB connection

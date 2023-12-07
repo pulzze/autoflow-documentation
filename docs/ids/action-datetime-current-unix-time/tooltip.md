@@ -1,1 +1,1 @@
-Returns the current unix time in UTC.
+Provides the current unix time in UTC

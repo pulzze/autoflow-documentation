@@ -1,1 +1,1 @@
-This Action returns values that fits the condition.
+Provides a way to execute logic conditionally

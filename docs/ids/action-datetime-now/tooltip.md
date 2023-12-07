@@ -1,1 +1,1 @@
-Returns the current datetime.
+Provides the current datetime in ISO 8601 datetime format

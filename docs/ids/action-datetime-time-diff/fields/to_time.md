@@ -1,1 +1,1 @@
-Write time here to diff
+The second ISO 8601 datetime.

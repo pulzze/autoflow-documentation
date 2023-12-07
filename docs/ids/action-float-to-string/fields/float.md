@@ -1,3 +1,1 @@
-Float
-
-Write float here to get String.
+A floating-point number.

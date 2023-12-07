@@ -1,1 +1,1 @@
-This Action decodes a given yaml string into data structure.
+Decodes a YAML string into usable data

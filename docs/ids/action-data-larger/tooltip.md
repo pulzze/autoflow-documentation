@@ -1,1 +1,1 @@
-This Action compares the two values(first, second) and returns a large value.
+Returns the larger value of two strings or numbers

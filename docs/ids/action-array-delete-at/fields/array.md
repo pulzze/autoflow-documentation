@@ -1,1 +1,1 @@
-Array to be deleted.
+An array with items to be removed.

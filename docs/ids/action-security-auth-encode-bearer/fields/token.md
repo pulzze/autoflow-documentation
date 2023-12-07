@@ -1,1 +1,1 @@
-Write token to encode bearer.
+The token to be used in the authorization string.

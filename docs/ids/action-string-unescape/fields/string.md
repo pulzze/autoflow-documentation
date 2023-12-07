@@ -1,1 +1,1 @@
-Target string value
+A string that has been escaped. For example, an escaped newline character would look like `\\n`. By *unescaping* the string, it will be converted into `\n` which creates an actual newline character.

@@ -1,1 +1,1 @@
-This Action provides the ability to convert a given XML into JSON.
+Converts an XML string into a JSON string

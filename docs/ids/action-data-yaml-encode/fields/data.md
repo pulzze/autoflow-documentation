@@ -1,1 +1,1 @@
-Write data to encode yaml
+Any object.

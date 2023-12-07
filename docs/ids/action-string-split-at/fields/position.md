@@ -1,1 +1,1 @@
-Index number to split at
+The position to split the string. When the value is negative, the location is counted from the end of the string.

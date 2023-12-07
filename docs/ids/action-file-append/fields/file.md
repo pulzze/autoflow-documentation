@@ -1,1 +1,1 @@
-filename (include filename extension)
+The file path. If a relative path is given, the files will be written within the application files.

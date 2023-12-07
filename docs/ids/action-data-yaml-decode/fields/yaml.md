@@ -1,1 +1,1 @@
-Write yaml to decode
+A YAML string.

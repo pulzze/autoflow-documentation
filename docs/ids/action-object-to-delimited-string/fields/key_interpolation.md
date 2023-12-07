@@ -1,3 +1,1 @@
-Key Interpolation
-
-want to write key Interpolation
+Used to alter the key formats using string interpolation. By default, the key will be used without any changes. Examples: `some-prefix-${key}`, `${key}-some-suffix`.

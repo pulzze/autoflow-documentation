@@ -1,1 +1,1 @@
-This Action returns the last string in string.
+Extracts the last character in a string

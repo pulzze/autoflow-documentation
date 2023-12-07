@@ -1,3 +1,6 @@
-placeholder format
+The format for variables inside the string. Options include:
 
-Determines the format of string.
+```
+1. ${variable}
+2. <%=variable%>
+```

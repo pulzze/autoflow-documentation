@@ -1,0 +1,1 @@
+Converts the raw database result into an array of objects

@@ -1,1 +1,1 @@
-This Action returns Count the number of characters in the string.
+Determines the length of a string

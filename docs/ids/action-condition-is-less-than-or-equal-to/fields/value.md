@@ -1,1 +1,1 @@
-value
+The number which is expected to be less or equal. The variable A in the expression: `A <= B`.

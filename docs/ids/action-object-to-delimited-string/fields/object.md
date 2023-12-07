@@ -1,3 +1,1 @@
-Object
-
-Target object value
+An object to be converted into a string.

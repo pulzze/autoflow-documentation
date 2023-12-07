@@ -1,1 +1,1 @@
-Request Query.
+The request query as an object.

@@ -1,1 +1,1 @@
-Parses an RFC 3986 compliant uri string into a uri map
+Parses an RFC 3986 compliant URI string into a URI object

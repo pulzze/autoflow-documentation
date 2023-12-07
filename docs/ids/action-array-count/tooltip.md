@@ -1,1 +1,1 @@
-This Action counts the number of values in the array.
+Counts the number of items in an array

@@ -1,1 +1,1 @@
-want to take nth number.
+The position interval for items to be taken. Must be a positive integer.

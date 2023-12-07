@@ -1,1 +1,1 @@
-This Action returns new object which puts the given 'value' under 'key' unless the entry 'key 'already exists in 'object'.
+Adds a value to an object if the key does not exist

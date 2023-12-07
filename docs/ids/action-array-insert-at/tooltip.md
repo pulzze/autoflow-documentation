@@ -1,1 +1,1 @@
-This Action returns new Array with value inserted at the specified index.
+This action inserts a value at the specified index

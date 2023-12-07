@@ -1,1 +1,1 @@
-This Action returns true or false if the given input is string or not.
+Determines if a value is a string

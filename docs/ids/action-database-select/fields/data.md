@@ -1,3 +1,1 @@
-Dynamic Data
-
-Object with key value pairs of dynamic column data
+An object with key/value pairs for indicating column data

@@ -1,0 +1,1 @@
+The logic to perform for each item in the array. This can be a set of actions or simply a value.

@@ -1,2 +1,1 @@
-This Action is used to round a given floating-point number to the nearest integer.
-
+Rounds a floating-point number using variable precision

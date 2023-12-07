@@ -1,1 +1,1 @@
-Returns the filenames as absolute paths. For example: /path/to/file.txt vs file.txt
+Determines if the result should use absolute file paths. For example: `/path/to/file.txt` vs `file.txt`.

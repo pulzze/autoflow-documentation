@@ -1,1 +1,1 @@
-path of the files that you want to see.
+The folder path. If a relative path is given, the folder will be read from the application files.

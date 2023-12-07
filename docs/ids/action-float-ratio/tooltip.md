@@ -1,1 +1,1 @@
-This Action returns ration of input number.
+Determines the ratio of a floating-point number

@@ -1,1 +1,1 @@
-This Action returns the minimal element in Array.
+Returns the minimum value within an array

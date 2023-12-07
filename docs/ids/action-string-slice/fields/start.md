@@ -1,1 +1,1 @@
-start index of string
+The starting position for the slice. An empty string will be returned if the starting position is greater than the string length. A negative value will start the slice relative to the end of the string.

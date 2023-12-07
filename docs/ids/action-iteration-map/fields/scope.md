@@ -1,0 +1,1 @@
+The scope determines the name of the scope that will contain the item index and item value to be used inside the logic. Similar to using the request/input/variable scopes, this scope is a dedicated space for the item information.

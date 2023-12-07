@@ -1,1 +1,1 @@
-index number of wanting to see value in array
+The index number of the desired item. The first item is at position 0.

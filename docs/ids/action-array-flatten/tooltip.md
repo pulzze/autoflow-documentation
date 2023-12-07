@@ -1,1 +1,1 @@
-This Action returns Flattens the given Array of nested Array.
+Spread any nested arrays into a flat array

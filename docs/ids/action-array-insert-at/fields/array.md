@@ -1,1 +1,1 @@
-target array
+An array to add a new item into.

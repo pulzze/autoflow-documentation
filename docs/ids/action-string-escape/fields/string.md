@@ -1,1 +1,1 @@
-Target string value
+A string which may cause issues when used in place of a regex.

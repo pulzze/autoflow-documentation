@@ -1,1 +1,1 @@
-Create a new standard UUID
+Creates a standard UUID

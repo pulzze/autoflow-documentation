@@ -1,1 +1,1 @@
-This Action returns results base on  http/request.
+Executes an HTTP request

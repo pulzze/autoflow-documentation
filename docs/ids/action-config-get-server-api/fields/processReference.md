@@ -1,2 +1,1 @@
-Server
-
+A server reference.

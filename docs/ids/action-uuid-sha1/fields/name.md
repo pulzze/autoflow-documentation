@@ -1,1 +1,1 @@
-A valid namespace value. E.g. for dns namespace, my.domain.com
+The name of the namespace. An example for a dns namespace might be `my.domain.com`.

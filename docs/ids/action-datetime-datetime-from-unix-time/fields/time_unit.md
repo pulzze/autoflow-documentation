@@ -1,1 +1,1 @@
-Select Time Unit
+The time unit for the result: millisecond, microsecond, nanosecond, second.

@@ -1,1 +1,1 @@
-Encodes a binary into a string encoded in specified base
+Encodes a binary into a string using a specified base

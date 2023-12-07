@@ -1,1 +1,1 @@
-Returns the current time in UTC.
+Provides the current time (hh:mm:ss.millis)

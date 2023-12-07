@@ -1,3 +1,1 @@
-true : it has header
-
-false : it doesn't have header
+Indicates whether the first row of CSV data is the headers or not.

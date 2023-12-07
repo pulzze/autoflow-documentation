@@ -1,3 +1,1 @@
-Value
-
-Write integer number here to get String.
+An integer to be converted to a string.

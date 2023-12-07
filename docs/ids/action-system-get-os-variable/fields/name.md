@@ -1,1 +1,1 @@
-The name of the OS variable.
+The name of the Operating Sytem variable.

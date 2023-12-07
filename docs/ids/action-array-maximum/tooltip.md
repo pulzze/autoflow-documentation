@@ -1,1 +1,1 @@
-This Action returns the maximal element in Array.
+Returns the maximum value within an array

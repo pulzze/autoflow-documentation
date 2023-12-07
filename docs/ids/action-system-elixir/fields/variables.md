@@ -1,1 +1,1 @@
-Want to write varibles
+An object to define variables used within the elixir code. Note that the keys should use a valid variable format to be used in the code.

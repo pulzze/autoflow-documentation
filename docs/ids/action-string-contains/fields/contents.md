@@ -1,1 +1,1 @@
-Value want to check it exists within string.
+The string to search for inside the given string.

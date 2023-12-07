@@ -1,1 +1,1 @@
-Encode a map to an authorization token
+Encodes a username and password into a basic authorization string

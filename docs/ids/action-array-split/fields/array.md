@@ -1,1 +1,1 @@
-Array to be split
+An array to be split.

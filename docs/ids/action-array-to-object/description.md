@@ -1,17 +1,4 @@
-This Action returns Object type from Array.
-<br/>
-- array : Target array
-- key : key value
-<br/>
+This action can convert an array into an object in different ways.
 
-**[Example]**
-```
-[array]
-  > obejct
-    > key : autoflow
-    > string : nice
-  > string : good
-[key]
-  > string : autoflow
------------------------
--> return : {"good":"","nice":{"autoflow":"nice"}}
+1. If a key is provided, it will traverse each item in the array and add it to an object using the value for that items key. Useful for converting an array of unique objects with IDs.
+2. If no key is provided, it will expect an array of arrays where the first item is the key. Useful if you have an array of tuples.

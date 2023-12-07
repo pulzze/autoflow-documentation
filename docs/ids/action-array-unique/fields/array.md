@@ -1,1 +1,1 @@
-target array
+An array which may contain duplicates.

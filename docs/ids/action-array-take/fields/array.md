@@ -1,1 +1,1 @@
-Array
+An array of items containing the desired values.

@@ -1,1 +1,1 @@
-value to check is number or not
+A value which might be a number.

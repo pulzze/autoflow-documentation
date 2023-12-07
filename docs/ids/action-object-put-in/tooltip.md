@@ -1,1 +1,1 @@
-This action returns new object which puts the given 'value' under 'path' in 'object'
+Inserts a value into an object based on a path

@@ -1,1 +1,1 @@
-start index to slice.
+The position to start the slice. A negative integer will set the position from the end of the array. For example, -1 starts slicing from the last element.

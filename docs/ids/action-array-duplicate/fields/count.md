@@ -1,1 +1,1 @@
-Number that wants to be duplicated
+The size of the resulting array. Count should be greater than or equal to zero.

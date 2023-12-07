@@ -1,1 +1,1 @@
-Iterate over array of data mapping result to each array position
+Replaces each item in an array using a given logic

@@ -1,1 +1,1 @@
-write here each data in CSV
+An array of objects which populate each column for each row.

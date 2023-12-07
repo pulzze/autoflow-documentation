@@ -1,1 +1,1 @@
-Target string value
+The string to be upcased.

@@ -1,1 +1,1 @@
-This Action returns String represented by the ordered.
+An array of items to be converted to a string

@@ -1,0 +1,1 @@
+Item to be duplicated into an array.

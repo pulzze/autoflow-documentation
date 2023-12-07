@@ -1,1 +1,1 @@
-Write password to auth encode basic.
+The password.

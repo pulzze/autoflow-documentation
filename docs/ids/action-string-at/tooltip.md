@@ -1,1 +1,1 @@
-This Action returns the grapheme 'at' of the given string.
+Extracts a character at a specific position in a string

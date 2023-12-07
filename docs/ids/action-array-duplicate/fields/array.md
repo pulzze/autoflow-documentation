@@ -1,1 +1,0 @@
-Array to be duplicated.

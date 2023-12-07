@@ -1,1 +1,1 @@
-Add an item to the end of the array.
+Adds an item to the end of the array

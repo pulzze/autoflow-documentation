@@ -1,1 +1,1 @@
-value to check is non empty array or not
+An array that may not have any items.

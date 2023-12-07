@@ -1,1 +1,1 @@
-This action returns the value corresponding to the path value in the object.
+Extracts a value from an object using a path

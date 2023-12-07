@@ -1,1 +1,1 @@
-This Action returns the ability to parse CSV strings to separate headers and data, and to convert each row into object form.
+Converts a CSV (Comma Separated Values) string into an array of objects

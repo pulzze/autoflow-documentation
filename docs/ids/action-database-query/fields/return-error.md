@@ -1,3 +1,1 @@
-Return error message
-
-Instead of raising exception, return error and continue
+This value is used as the result in the event of an error.

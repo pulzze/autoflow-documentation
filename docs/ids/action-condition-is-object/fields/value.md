@@ -1,1 +1,1 @@
-value to check is object or not
+A value which might be an object.

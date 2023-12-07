@@ -1,3 +1,1 @@
-true : pad the output string to the nearest multiple of 8
-
-false : omit padding from the output string
+Determines whether the result should be padded to a multiple of 8.

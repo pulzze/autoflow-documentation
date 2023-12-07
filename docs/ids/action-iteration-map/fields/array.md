@@ -1,1 +1,1 @@
-Array value to be mapped
+An array which will have its items altered.

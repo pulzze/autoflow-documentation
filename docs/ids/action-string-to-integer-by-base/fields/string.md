@@ -1,1 +1,1 @@
-Target string value
+A string representation of an integer.

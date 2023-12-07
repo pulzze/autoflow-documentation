@@ -1,1 +1,1 @@
-This Action provides the ability to convert a given data structure into XML string.
+Encodes an XML string from a structured representation

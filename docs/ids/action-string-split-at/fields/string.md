@@ -1,1 +1,1 @@
-string
+A string which will be split into an array.

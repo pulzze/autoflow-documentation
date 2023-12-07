@@ -1,3 +1,1 @@
-upper : uses upper case characters
-
-lower : uses lower case characters
+Which case to use for the encoding. Either `upper` or `lower` case.

@@ -1,1 +1,1 @@
-Publish a new Kafka message
+Publishes a new Kafka message

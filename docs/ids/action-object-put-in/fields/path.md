@@ -1,3 +1,1 @@
-Path
-
-want to write new key
+An array describing where to put the new value. Each string indicates a key inside an object. Each integer indicates an index inside an array. If an object does not exist, it will be created.

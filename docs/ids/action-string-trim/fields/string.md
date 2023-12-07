@@ -1,1 +1,1 @@
-Target string value
+A string with leading and/or trailing whitespaces.

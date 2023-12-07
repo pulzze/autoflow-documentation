@@ -1,1 +1,1 @@
-Comparative array
+The array to be searched for given items.

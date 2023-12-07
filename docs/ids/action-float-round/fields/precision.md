@@ -1,3 +1,1 @@
-Precision
-
-Write precision here to get round Integer.
+The number of decimal places to keep.

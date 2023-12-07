@@ -1,3 +1,1 @@
-Write scheme here
-
-```Ex) foo```
+The scheme in `scheme://user@host:port/path?query#fragment`

@@ -1,1 +1,1 @@
-This Action returns the sum of all elements.
+Returns the sum of all values in an array
