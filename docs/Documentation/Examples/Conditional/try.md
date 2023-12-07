@@ -10,7 +10,19 @@ keywords:
   - example
 ---
 
-# Conditional Try Example
+
+import CreateApi from '@site/static/img/example/conditional/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/conditional/try/create-api-path.jpg';
+import Postman from '@site/static/img/example/conditional/try/postman.jpg';
+import Simulation from '@site/static/img/example/conditional/try/simulation.jpg';
+import CreateServer from '@site/static/img/example/conditional/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
+import ConditionalTry from '@site/static/img/example/conditional/try/conditional-try.jpg';
+import OnError from '@site/static/img/example/conditional/try/on-error.jpg';
+import StringUpcase from '@site/static/img/example/conditional/try/string-upcase.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflow-default-output.jpg';
+
+# Conditional IF Example
 
 <div class="colTwoBlock">
     <div class="colTwoLeft">
@@ -31,13 +43,9 @@ keywords:
           <h4>Example Configuration</h4>
           <a target="_blank" href="pathname:///file/sample-conditional-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
-          <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/watch?v=aiJoS3eM6Jw"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
     <div class="colTwoClearer"></div>
 </div>
-
-<!-- <img src={IfConditionFlow} alt="If Condition Flow" class="myResponsiveImg" width="800px"/> -->
 
 ## Supporting Concepts
 
@@ -75,131 +83,196 @@ Send JSON object with a key `data` with value in a string or a number over HTTP 
 { "data": "one"}
 ```
 
+#### IF Success
+
+Capitalize the value.
+
 ```json
-{ "data": 1}
+{ "data": "ONE"}
 ```
 
-The goal of the operation is to run a conditional logic:
+#### IF Error
 
-- #### Try running the logic.
-
-An action is added to perform a string upcase. 
-
-For example, if the input string is `one`, the output is
+Return a string value.
 
 ```yaml
-ONE
-```
-
-- #### on Error
-
-If the try gives exception error, **onError** returns
-
-```yaml
-Error with the input.
+Error with the input
 ```
 
 ## Content
 
+### INPUT: HTTP Request
 
-### Step 1: Create an API endpoint
+#### 1: Create an API endpoint
 
-Go to the API section and create a new API.
-- Name: `sample-conditional`
-
-:::tip Required Concepts
-Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api). 
+:::note Required Concepts
+Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api). 
 :::
 
-<!-- <img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/> -->
+<details open>
+
+<summary>Create an API</summary>
+
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
+- ID: `sample-conditional`
+
+</details>
+
+<details open>
+
+<summary>Create an API Path</summary>
+
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
 
 - Path: `/try`
 - Method: <span class="method post">POST</span>
 
-### Step 2. Create a Server Operation
+</details>
+
+#### 2. Create a Server Operation
+
 :::tip Required Concepts
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-#### Create a Server
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
+<details open>
 
+<summary>Create a Server</summary>
+
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-conditional`
-- Port Number: `1112`  Feel free to select your own port number
+- Port Number: `1113`  Feel free to select your own port number
 - Linked API: `sample-conditional`  (select the API you created above)
 
-#### Create a Server Operation
+</details>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<details open>
+
+<summary>Create a Server Operation</summary>
+
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
-### Step 3 : Create Data Simulation for the two conditions
+</details>
+
+#### 3 : Create Data Simulation using Real Data
 
 :::tip Required Concepts
 Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-#### Case 1
+We will use the "real data" to create the test simulation.
 
-- **ID**: `case-normal`
-- **Request Body**: 
+<details open>
 
-  <u>string</u>
+<summary>1. Send a HTTP request from Postman or cURL</summary>
 
-  ```js
-  "one"
-  ```
+<img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
 
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-f255076a-da4f-4635-a1f9-2b27ccf20c66?ctx=documentation)
 
-#### Case 2
+###### cURL
+```bash
+curl --location 'localhost:1113/try' \
+--header 'Content-Type: application/json' \
+--data '{
+    "data": "one"
+}'
+```
 
-- **ID**: `case-error`
-- **Request Body**: 
+</details>
 
-  <u>number</u>
+<details open>
 
-  ```js
-  1
-  ```
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+<summary>2. Check the data is received by the server endpoint</summary>
 
+API Autoflow captures the data received and it can be used to create data simulation.
 
-## Add Actions to the Flow
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
 
-### Step 4 : Add TRY Conditional
+</details>
+
+### Action(s)
 
 :::tip Required Concepts
-Learn how to create a [conditional/TRY](../../../Documentation/actions-library/flow/conditional/action-conditional-try/) . 
+Learn how to create a [Actions](../../../Documentation/Guide/Workflow/Action/). 
 :::
 
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+Add actions to transform the data.
 
-- ### value : Try this first
+#### 1. Apply condition to the input data
 
-    - ### Upcase the values
+<details open>
 
-        #### Configure String Upcase action
+<summary>Try</summary>
 
-        Upcasing the data in the variable **request**: `body`. 
+<img src={ConditionalTry} alt="Condition Try" class="myResponsiveImg" width="900px"/>
+
+##### Upcase the Value
+
+<details open>
+
+<summary>String Upcase</summary>
+
+<img src={StringUpcase} alt="String Upcase" class="myResponsiveImg" width="900px"/>
+
+###### SETTINGS
+
+> **string**: <u>data</u>
+>> [**request**: `body > data`]
+
+###### OUTPUT
+
+> **variables**: `output` <br/>
+
+</details>
+
+</details>
 
 
-        <!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+<details open>
 
+<summary>(Else): Return message</summary>
 
-- ### onError
+<img src={OnError} alt="On Error" class="myResponsiveImg" width="900px"/>
 
-  Assign the **Return** as a string value and input `Error with the input.`
+###### SETTINGS
 
+> **Return**: <u>string</u>
+>> `Error with the input`
 
-### Step 6 : Map the HTTP response with the New Variable
+###### OUTPUT
 
-Both iteration action and HTTP response body are set to **variables**: `output`, there's no change that needs to be made
+> **variables**: `output` <br/>
 
-<!-- <img src={HttpResponseCapitalized} alt="Http Response Capitalized" class="myResponsiveImg" width="400px"/> -->
+</details>
+
+### OUTPUT: HTTP Response
+
+#### 1. Create a NEW object and map the IP and Subnet
+
+Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
+
+<details open>
+
+<summary>HTTP Response</summary>
+
+###### SETTINGS
+
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="800px"/>
+
+> **body**: <u>data</u>
+>> [**variables**: `output`]
+
+</details>
 
 :::note Mapping the **action** output to the **HTTP response** output
 - Data referenced in HTTP response is what gets sent back to the client. 
@@ -209,19 +282,14 @@ NOTE: By default, the action output is set to variable **output**. If you intend
 simply rename the output location in the action's output.
 :::
 
-### Step 7 : Test the API with Postman or CURL
+#### 2. Test the API with Postman or CURL
 
-Try changing the value to be a string or other data type.
-
-For example  `{"data": "one"}`  vs `{"data": 1}`
-
-#### cURL
+###### cURL
 
 ```bash
-curl --location 'localhost:1112/try' \
+curl --location 'localhost:1113/try' \
 --header 'Content-Type: application/json' \
---data '{ "data": "one"}'
+--data '{
+    "data": "one"
+}'
 ```
-
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="600px"/> -->
-

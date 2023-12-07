@@ -9,11 +9,11 @@ keywords:
   - data transformation
 ---
 
-import CreateApi from '@site/static/img/example/create-api.jpg';
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/1-to-n/create-api-path.jpg';
 import Postman from '@site/static/img/example/data-transformation/1-to-n/postman.jpg';
 import Simulation from '@site/static/img/example/data-transformation/1-to-n/simulation.jpg';
-import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
 import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import StringSplitByNewLine from '@site/static/img/example/data-transformation/1-to-n/string-split-by-new-line.jpg';
 import IterationMap from '@site/static/img/example/data-transformation/1-to-n/iteration-map.jpg';
@@ -38,7 +38,7 @@ import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflo
           <a target="_blank" href="pathname:///file/sample-data-transformation-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
           <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/watch?v=aiJoS3eM6Jw"><button class="btnVideo">🎥 Watch Video</button></a>
+          <a target="_blank" href="https://youtu.be/ikblMzHcJwI"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
     <div class="colTwoClearer"></div>
 </div>

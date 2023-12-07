@@ -13,7 +13,17 @@ keywords:
 
 # Iteration Map Example
 
-## Overview
+import CreateApi from '@site/static/img/example/iteration/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/iteration/map/create-api-path.jpg';
+import Postman from '@site/static/img/example/iteration/map/postman.jpg';
+import Simulation from '@site/static/img/example/iteration/map/simulation.jpg';
+import CreateServer from '@site/static/img/example/iteration/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
+import IterationMap from '@site/static/img/example/iteration/map/iteration-map.jpg';
+import StringUpcase from '@site/static/img/example/iteration/map/string-upcase.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflow-default-output.jpg';
+
+# Conditional SWITCH Example
 
 <div class="colTwoBlock">
     <div class="colTwoLeft">
@@ -26,8 +36,6 @@ keywords:
           <h4>Example Configuration</h4>
           <a target="_blank" href="pathname:///file/sample-iteration-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
-          <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/watch?v=aiJoS3eM6Jw"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
     <div class="colTwoClearer"></div>
 </div>
@@ -59,7 +67,6 @@ keywords:
 
 </details>
 
-
 ## Details
 
 The HTTP request body has an array with 2 values:
@@ -80,120 +87,201 @@ The goal of the operation is to iterate over the array and create a new array:
 
 ## Content
 
+### INPUT: HTTP Request
 
-### Step 1: Create an API endpoint
+#### 1: Create an API endpoint
 
-:::tip Required Concepts
-Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api). 
+:::note Required Concepts
+Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api). 
 :::
 
-Go to the API section and create a new API.
-- Name: `sample-iteration`
+<details open>
 
-<!-- <img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/> -->
+<summary>Create an API</summary>
 
-- Path: `/iteration-map`
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
+- ID: `sample-iteration`
+
+</details>
+
+<details open>
+
+<summary>Create an API Path</summary>
+
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
+
+- Path: `/map`
 - Method: <span class="method post">POST</span>
 
-### Step 2. Create a Server Operation
+</details>
+
+#### 2. Create a Server Operation
+
 :::tip Required Concepts
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-#### Create a Server
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
+<details open>
 
+<summary>Create a Server</summary>
+
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-iteration`
 - Port Number: `1112`  Feel free to select your own port number
 - Linked API: `sample-iteration`  (select the API you created above)
 
-#### Create a Server Operation
+</details>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<details open>
+
+<summary>Create a Server Operation</summary>
+
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
-### Step 3 : Create Data Simulation using Real Data
+
+</details>
+
+#### 3 : Create Data Simulation using Real Data
 
 :::tip Required Concepts
 Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-<!-- <img src={SimulateData} alt="Simulate Data" class="myResponsiveImg" width="750px"/> -->
-
 We will use the "real data" to create the test simulation.
 
-#### 1. Send a HTTP request from Postman or CURL
+<details open>
 
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="600px"/> -->
+<summary>1. Send a HTTP request from Postman or cURL</summary>
 
-#### 2. Create a Test Simulation from the Received Data
+<img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
+
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-f255076a-da4f-4635-a1f9-2b27ccf20c66?ctx=documentation)
+
+###### cURL
+```bash
+curl --location 'localhost:1112/map' \
+--header 'Content-Type: application/json' \
+--data '[
+    "foo1",
+    "foo2"
+]'
+```
+
+</details>
+
+<details open>
+
+<summary>2. Check the data is received by the server endpoint</summary>
 
 API Autoflow captures the data received and it can be used to create data simulation.
 
-<!-- <img src={CreateSimulation} alt="Create Simulation" class="myResponsiveImg" width="450px"/> -->
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
 
-#### 3. Name the Simulation
+</details>
 
-<!-- <img src={NameSimulation} alt="Name Simulation" class="myResponsiveImg" width="400px"/> -->
+### Action(s)
 
-
-#### 4. Select "real-data" Simulation
-
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
-
-
-## Add Actions to the Flow
-
-### Step 4 : Iterate over the array
-
-#### 1. Add an Iteration Map action
-
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
-
-##### Configure Iteration Map action
-
-**Iterable**: <u>data</u> **request**: `body`
-
-- Array to iterate over
-
-**SCOPE**: <u>string</u> `loop-var`
-
-- Create a variable to store the values as the action iterates over the array.
-
-:::info
-- Array: `[ "foo1", "foo2" ]`
-- Scope `loop-var` stores each value
-  - Make the value available inside the iteration one-by-one. The 1st value is available to be used for configuration.
+:::tip Required Concepts
+Learn how to create a [Actions](../../../Documentation/Guide/Workflow/Action/). 
 :::
 
-### Step 5 : Upcase the values
+Add actions to transform the data.
 
-#### 1. Add an String Upcase action
+#### 1. Iterate over the input array.
 
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+:::tip Required Concepts
+Learn how to create a [Iteration/map](../../../Documentation/actions-library/flow/iteration/action-iteration-map/). 
+:::
 
-##### Configure String Upcase action
+<details open>
 
-We are upcasing the data in the variable **loop-var**: `value`. 
+<summary>Iteration Map</summary>
 
-:::info INDEX vs VALUE
-Note that when selecting the data to work with in the iteration, there are two key you can work with
-- INDEX: Position in the array
-- VALUE: Value in the array
-::: 
+<img src={IterationMap} alt="Iteration Map" class="myResponsiveImg" width="900px"/>
 
+###### SETTINGS
 
-### Step 6 : Map the HTTP response with the New Variable
+> **Iteration**: <u>data</u>
+>> [<b>request</b>: <code>body</code>]
+>
+> **Scope**: <u>string</u>
+>> <code>loop-var</code>
 
-Both iteration action and HTTP response body are set to **variables**: `output`, there's no change that needs to be made
+:::tip Iteration Scope
+Scope `loop-var` stores each value from the array.
+  - Makes the value available inside the iteration one-by-one. The 1st value is available to be used for configuration.
+:::
 
-<!-- <img src={HttpResponseCapitalized} alt="Http Response Capitalized" class="myResponsiveImg" width="400px"/> -->
+##### Upcase the Value
 
-### Step 7 : Test the API with Postman or CURL
+<details open>
 
-Notice that the values are upcased.
+<summary>String Upcase</summary>
 
-<!-- <img src={PostmanFinal} alt="Postman Final" class="myResponsiveImg" width="800px"/> -->
+<img src={StringUpcase} alt="String Upcase" class="myResponsiveImg" width="900px"/>
+
+###### SETTINGS
+
+> **string**: <u>data</u>
+>> [**request**: `body > value`]
+
+###### OUTPUT
+
+> **variables**: `output` <br/>
+
+</details>
+
+###### OUTPUT
+
+> **variables**: `output` <br/>
+
+</details>
+
+### OUTPUT: HTTP Response
+
+#### 1. Create a NEW object and map the IP and Subnet
+
+Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
+
+<details open>
+
+<summary>HTTP Response</summary>
+
+###### SETTINGS
+
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="800px"/>
+
+> **body**: <u>data</u>
+>> [**variables**: `output`]
+
+</details>
+
+:::note Mapping the **action** output to the **HTTP response** output
+- Data referenced in HTTP response is what gets sent back to the client. 
+- Map the output from the actions to be sent back.
+
+NOTE: By default, the action output is set to variable **output**. If you intend to keep each action's output without it being overwritten by the next action,
+simply rename the output location in the action's output.
+:::
+
+#### 2. Test the API with Postman or CURL
+
+###### cURL
+
+```bash
+curl --location 'localhost:1112/map' \
+--header 'Content-Type: application/json' \
+--data '[
+    "foo1",
+    "foo2"
+]'
+```

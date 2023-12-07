@@ -9,11 +9,11 @@ keywords:
   - Object split
 ---
 
-import CreateApi from '@site/static/img/example/create-api.jpg';
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/obj-split/create-api-path.jpg';
 import Postman from '@site/static/img/example/data-transformation/obj-split/postman.jpg';
 import Simulation from '@site/static/img/example/data-transformation/obj-split/simulation.jpg';
-import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
 import HttpOutput from '@site/static/img/example/data-transformation/obj-split/http-output.jpg';
 import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 
@@ -31,8 +31,6 @@ import CreateServerOperation from '@site/static/img/example/server-add-api-opera
           <h4>Example Configuration</h4>
           <a target="_blank" href="pathname:///file/sample-data-transformation-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
-          <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/watch?v=aiJoS3eM6Jw"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
     <div class="colTwoClearer"></div>
 </div>
@@ -68,18 +66,14 @@ The HTTP request has an input:
 The goal of the operation is to split the object and add new key:
 
 ```json
-[
-    {
-        "ChildA": {
-            "fieldA": "valueA"
-        }
+{
+    "ChildA": {
+        "fieldA": "valueA"
     },
-    {
-        "ChildB": {
-            "fieldB": "fieldB"
-        }
+    "ChildB": {
+        "fieldB": "fieldB"
     }
-]
+}
 ```
 
 ## Content

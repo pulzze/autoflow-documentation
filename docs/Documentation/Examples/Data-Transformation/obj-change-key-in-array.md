@@ -12,15 +12,15 @@ keywords:
   - array
 ---
 
-import CreateApi from '@site/static/img/example/create-api.jpg';
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/obj-change-key-in-array/create-api-path.jpg';
 import Postman from '@site/static/img/example/data-transformation/obj-change-key-in-array/postman.jpg';
 import Simulation from '@site/static/img/example/data-transformation/obj-change-key-in-array/simulation.jpg';
-import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
 import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import IterationMap from '@site/static/img/example/data-transformation/obj-change-key-in-array/iteration-map.jpg';
 import VariablesSet from '@site/static/img/example/data-transformation/obj-change-key-in-array/variables-set.jpg';
-import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflow-default-output.jpg';
+import HttpOutput from '@site/static/img/example/data-transformation/obj-change-key-in-array/http-output.jpg';
 
 # Object Key Change in Array 
 
@@ -38,7 +38,7 @@ import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflo
           <a target="_blank" href="pathname:///file/sample-data-transformation-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#configuration-management">Learn how to use</a></p>
           <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/watch?v=girmyEB2GVg"><button class="btnVideo">🎥 Watch Video</button></a>
+          <a target="_blank" href="https://youtu.be/TPonruIpYH4"><button class="btnVideo">🎥 Watch Video</button></a>
    </div>
     <div class="colTwoClearer"></div>
 </div>
@@ -305,7 +305,7 @@ Learn how to use [variable/set](../../../Documentation/actions-library/data/vari
 
 #### 1. Create a NEW object and map the IP and Subnet
 
-Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
+Since we need to respond in a JSON object with a key `users`, we can create a new object in the HTTP response.
 
 <details open>
 
@@ -313,10 +313,11 @@ Both the action's output and HTTP response body are set to **variables**: `outpu
 
 ###### SETTINGS
 
-<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="800px"/>
+<img src={HttpOutput} alt="HTTP Output" class="myResponsiveImg" width="800px"/>
 
-> **body**: <u>data</u>
->> [**variables**: `output`]
+> **body**: <u>object</u>
+>> **users**: <u>object</u>
+>>> [**variables**: `output`]
 
 </details>
 

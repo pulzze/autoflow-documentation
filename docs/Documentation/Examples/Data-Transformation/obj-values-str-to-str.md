@@ -11,11 +11,11 @@ keywords:
   - convert
 ---
 
-import CreateApi from '@site/static/img/example/create-api.jpg';
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/obj-values-str-to-str/create-api-path.jpg';
 import Postman from '@site/static/img/example/data-transformation/obj-values-str-to-str/postman.jpg';
 import Simulation from '@site/static/img/example/data-transformation/obj-values-str-to-str/simulation.jpg';
-import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
 import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import If1 from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-1.jpg';
 import If1ObjectPutIfExist from '@site/static/img/example/data-transformation/obj-values-str-to-str/if-1-object-put-if-exist.jpg';
@@ -44,7 +44,7 @@ import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflo
           <a target="_blank" href="pathname:///file/sample-data-transformation-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
           <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/watch?v=aiJoS3eM6Jw"><button class="btnVideo">🎥 Watch Video</button></a>
+          <a target="_blank" href="https://youtu.be/JWiFlNc6te8"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
     <div class="colTwoClearer"></div>
 </div>

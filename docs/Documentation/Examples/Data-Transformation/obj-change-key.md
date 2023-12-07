@@ -11,11 +11,11 @@ keywords:
   - JSON to JSON
 ---
 
-import CreateApi from '@site/static/img/example/create-api.jpg';
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/obj-change-key/create-api-path.jpg';
 import Postman from '@site/static/img/example/data-transformation/obj-change-key/postman.jpg';
 import Simulation from '@site/static/img/example/data-transformation/obj-change-key/simulation.jpg';
-import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
 import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import HttpOutput from '@site/static/img/example/data-transformation/obj-change-key/http-response.jpg';
 
@@ -36,7 +36,7 @@ import HttpOutput from '@site/static/img/example/data-transformation/obj-change-
           <a target="_blank" href="pathname:///file/sample-data-transformation-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#configuration-management">Learn how to use</a></p>
           <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/watch?v=5Dgd5Kb3-90"><button class="btnVideo">🎥 Watch Video</button></a>
+          <a target="_blank" href="https://youtu.be/pxLJqPBfpP8"><button class="btnVideo">🎥 Watch Video</button></a>
    </div>
     <div class="colTwoClearer"></div>
 </div>

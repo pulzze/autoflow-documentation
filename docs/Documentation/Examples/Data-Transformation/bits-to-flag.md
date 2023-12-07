@@ -10,11 +10,11 @@ keywords:
   - bits to flag
 ---
 
-import CreateApi from '@site/static/img/example/create-api.jpg';
+import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/create-api-path.jpg';
 import Postman from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/postman.jpg';
 import Simulation from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/simulation.jpg';
-import CreateServer from '@site/static/img/example/create-server.jpg';
+import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
 import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import IntegrationBitToFlag from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/integration-bit-to-flag.jpg';
 import VariableSetFlagTable from '@site/static/img/example/data-transformation/binary-dec-to-bit-flag/variable-set-flag-table.jpg';
@@ -40,7 +40,7 @@ import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflo
           <a target="_blank" href="pathname:///file/sample-data-transformation-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
           <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/watch?v=aiJoS3eM6Jw"><button class="btnVideo">🎥 Watch Video</button></a>
+          <a target="_blank" href="https://youtu.be/OCFCdr-czDk"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
     <div class="colTwoClearer"></div>
 </div>
@@ -200,23 +200,6 @@ API Autoflow captures the data received and it can be used to create data simula
 <img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
 
 </details>
-
-<details open>
-
-<summary>3. Name the Simulation</summary>
-
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
-
-</details>
-
-<details open>
-
-<summary>4. Select "real-data" Simulation</summary>
-
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
-
-</details>
-
 
 ### Action(s)
 

@@ -10,6 +10,17 @@ keywords:
   - example
 ---
 
+import CreateApi from '@site/static/img/example/conditional/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/conditional/if/create-api-path.jpg';
+import Postman from '@site/static/img/example/conditional/if/postman.jpg';
+import Simulation from '@site/static/img/example/conditional/if/simulation.jpg';
+import CreateServer from '@site/static/img/example/conditional/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
+import ConditionalIf from '@site/static/img/example/conditional/if/conditional-if.jpg';
+import ConditionalElse from '@site/static/img/example/conditional/if/else-if.jpg';
+import MathCalculate from '@site/static/img/example/conditional/if/math-calculate.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflow-default-output.jpg';
+
 # Conditional IF Example
 
 <div class="colTwoBlock">
@@ -17,13 +28,8 @@ keywords:
         <div class="colTwoWrapper">
           <p>Apply condition to the incoming number.</p>
           <ul>
-            <li><b>IF</b> the number is greater than <b>10</b>: multiply by <b>2</b>.</li>
+            <li><b>IF</b> the number is greater than <b>10</b>: multiply by <b>10</b>.</li>
             <li><b>ELSE</b>: reply with a message "<b>The number is not great than 10</b>".</li>
-          </ul>
-          <p>Simulate two test cases</p>
-          <ul>
-            <li><b>case1</b>: with number <code>15</code></li>
-            <li><b>case2</b>: with number <code>5</code></li>
           </ul>
         </div>
     </div>
@@ -31,8 +37,6 @@ keywords:
           <h4>Example Configuration</h4>
           <a target="_blank" href="pathname:///file/sample-conditional-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
-          <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/watch?v=aiJoS3eM6Jw"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
     <div class="colTwoClearer"></div>
 </div>
@@ -75,12 +79,12 @@ The goal of the operation is to run a conditional logic:
 
 - #### IF greater than 10
 
-An action is added to perform a math calculation of multiplying by `2`. 
+An action is added to perform a math calculation of multiplying by `10`. 
 
 For example, if the input number is `15`, the output is
 
 ```yaml
-30
+150
 ```
 
 - #### ELSE Return
@@ -95,122 +99,203 @@ The number is not great than 10.
 ## Content
 
 
-### Step 1: Create an API endpoint
 
-Go to the API section and create a new API.
-- Name: `sample-conditional`
+### INPUT: HTTP Request
 
-:::tip Required Concepts
-Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api). 
+#### 1: Create an API endpoint
+
+:::note Required Concepts
+Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api). 
 :::
 
-<!-- <img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/> -->
+<details open>
+
+<summary>Create an API</summary>
+
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
+- ID: `sample-conditional`
+
+</details>
+
+<details open>
+
+<summary>Create an API Path</summary>
+
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
 
 - Path: `/if`
 - Method: <span class="method post">POST</span>
 
-### Step 2. Create a Server Operation
+</details>
+
+#### 2. Create a Server Operation
+
 :::tip Required Concepts
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-#### Create a Server
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
+<details open>
 
+<summary>Create a Server</summary>
+
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-conditional`
-- Port Number: `1112`  Feel free to select your own port number
+- Port Number: `1113`  Feel free to select your own port number
 - Linked API: `sample-conditional`  (select the API you created above)
 
-#### Create a Server Operation
+</details>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<details open>
+
+<summary>Create a Server Operation</summary>
+
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
-### Step 3 : Create Data Simulation for the two conditions
+
+</details>
+
+#### 3 : Create Data Simulation using Real Data
 
 :::tip Required Concepts
 Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-#### Case 1
+We will use the "real data" to create the test simulation.
 
-- **ID**: `case1`
-- **Request Body**: 
-  ```js
-  { "condition": 15 }
-  ```
+<details open>
 
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+<summary>1. Send a HTTP request from Postman or cURL</summary>
 
+<img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
 
-#### Case 2
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-f255076a-da4f-4635-a1f9-2b27ccf20c66?ctx=documentation)
 
-- **ID**: `case2`
-- **Request Body**: 
-  ```js
-  { "condition": 5 }
-  ```
+###### cURL
+```bash
+curl --location 'localhost:1113/if' \
+--header 'Content-Type: application/json' \
+--data '{
+    "condition": 15
+}'
+```
 
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+</details>
 
+<details open>
 
+<summary>2. Check the data is received by the server endpoint</summary>
 
-## Add Actions to the Flow
+API Autoflow captures the data received and it can be used to create data simulation.
 
-### Step 4 : Add IF Conditional
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
+
+</details>
+
+### Action(s)
 
 :::tip Required Concepts
-Learn how to create a [conditional/IF](../../../Documentation/actions-library/flow/conditional/action-conditional-if/). 
+Learn how to create a [Actions](../../../Documentation/Guide/Workflow/Action/). 
 :::
 
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+Add actions to transform the data.
+
+#### 1. Apply condition to the input data
 
 IF condition works based on **truthy** value. There are a few options in getting the boolean result.
 
-1. Value type selector / Boolean
-2. Value type selector / Conditions
-3. Value type selector / Comparison
-4. Action / Condition
+<details open>
 
-- ### IF condition : IF greater than 10
+<summary>(IF): Greater than 10</summary>
 
-  In this example, we will use the "**Value type selector / Comparison**"  `greater-than` to compare the HTTP request body with a number "**10**".
+In this example, we will use the "**Value type selector / Comparison**"  `greater-than` to compare the HTTP request body with a number "**10**".
 
-  The two number to compare:
-  - 1st number: Data from request body `condition` field
-  - 2nd number: `10`
+The two number to compare:
+- 1st number: Data from request body `condition` field
+- 2nd number: `10`
 
-  <!-- <img src={ValueTypeSelector} alt="Value type selector" class="myResponsiveImg" width="800px"/> -->
-  <p>a</p>
+<img src={ConditionalIf} alt="Conditional IF" class="myResponsiveImg" width="900px"/>
 
-    - ### Add Math Action
+###### SETTINGS
 
-      :::tip Required Concepts
-      Learn how to create a [math/calculate](../../../Documentation/actions-library/data/math/action-math-calculate/). 
-      :::
-
-      <!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
-
-      #### Configure Math Calculate action
-
-      - **variables**: are object that can be inserted into the expression
-      - **expression**: is a string that performs the math calculation.
+> **IF**: <u>Comparison</u>
+>> <u>data</u> <br/>
+>> [<b>request</b>: <code>body > condition</code>]
+>
+> **is greater than to**:
+>> <u>number</u> <br/>
+>> <code>10</code>
 
 
+##### Multiply by 10
 
-- ### Configure ELSE condition
+<details open>
 
-  Assign the **Return** as a string value and input `The number is not great than 10.`
+<summary>Math Calculate</summary>
+
+<img src={MathCalculate} alt="Math Calculate" class="myResponsiveImg" width="900px"/>
+
+###### SETTINGS
+
+> **expression**: <u>string</u>
+>> `10 + number`
+>
+> **variables**: <u>object</u> 
+>> **number**: <u>data</u>
+>>> [**request**: `body > condition`]
+
+</details>
+
+###### OUTPUT
+
+> **variables**: `output` <br/>
+
+</details>
 
 
-### Step 6 : Map the HTTP response with the New Variable
+<details open>
 
-Both iteration action and HTTP response body are set to **variables**: `output`, there's no change that needs to be made
+<summary>(Else): Return message</summary>
 
-<!-- <img src={HttpResponseCapitalized} alt="Http Response Capitalized" class="myResponsiveImg" width="400px"/> -->
+<img src={ConditionalElse} alt="Conditional Else" class="myResponsiveImg" width="900px"/>
+
+###### SETTINGS
+
+> **Return**: <u>string</u>
+>> `Number is less than 10`
+
+###### OUTPUT
+
+> **variables**: `output` <br/>
+
+</details>
+
+### OUTPUT: HTTP Response
+
+#### 1. Create a NEW object and map the IP and Subnet
+
+Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
+
+<details open>
+
+<summary>HTTP Response</summary>
+
+###### SETTINGS
+
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="800px"/>
+
+> **body**: <u>data</u>
+>> [**variables**: `output`]
+
+</details>
 
 :::note Mapping the **action** output to the **HTTP response** output
 - Data referenced in HTTP response is what gets sent back to the client. 
@@ -220,21 +305,14 @@ NOTE: By default, the action output is set to variable **output**. If you intend
 simply rename the output location in the action's output.
 :::
 
-### Step 7 : Test the API with Postman or CURL
+#### 2. Test the API with Postman or CURL
 
-Try changing the value in the **condition** to be greater or less than `10`.
-
-For example, `5` or `20`
-
-#### cURL
+###### cURL
 
 ```bash
-curl --location 'localhost:1112/if' \
+curl --location 'localhost:1113/if' \
 --header 'Content-Type: application/json' \
 --data '{
     "condition": 15
-}
+}'
 ```
-
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="600px"/> -->
-

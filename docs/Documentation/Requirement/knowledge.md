@@ -61,7 +61,7 @@ The workflow's OUTPUT needs to be [mapped](../Guide/Workflow/Output-Mapping/) wi
 
 ## [Server](../Guide/Server/)
 
-HTTP server has request and response. Refer to [Server](../Guide/Server/) page to learn more about HTTP Server.
+HTTP server has request and response. Refer to [Server](../Guide/Server/) page to learn more.
 
 |             |             |
 | ----------- | ----------- |
@@ -71,12 +71,22 @@ HTTP server has request and response. Refer to [Server](../Guide/Server/) page t
 
 ## [Service](../Guide/Service/)
 
-Service is like a function in programming with INPUT and OUTPUT arguments. Refer to [Service](../Guide/Service/) page to learn more about Service.
+Service is like a function in programming with INPUT and OUTPUT arguments. Refer to [Service](../Guide/Service/) page to learn more.
 
 |             |             |
 | ----------- | ----------- |
 | **INPUT**   | INPUT Argument(s) |
 | **OUTPUT**  | OUTPUT Argument(S) |
+
+
+## [Kafka](../Guide/Clients/Kafka/) Subscribe
+
+Kafka subscribes to an event and "**RECEIVE**" data but does not have an output. Refer to [Kafka](../Guide/Clients/Kafka/) page to learn more.
+
+|             |             |
+| ----------- | ----------- |
+| **INPUT**   | RECEIVED |
+| **OUTPUT**  | No output |
 
 
 ## [API](../Guide/API/)

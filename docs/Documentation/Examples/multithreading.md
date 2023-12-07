@@ -1,5 +1,4 @@
 ---
-sidebar_position: 10
 title: Multithreading
 description: Leverage multithreading actions for optimized execution
 ---

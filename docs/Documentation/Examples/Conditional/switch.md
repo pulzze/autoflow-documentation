@@ -10,6 +10,18 @@ keywords:
   - example
 ---
 
+import CreateApi from '@site/static/img/example/conditional/create-api.jpg';
+import CreateApiPath from '@site/static/img/example/conditional/switch/create-api-path.jpg';
+import Postman from '@site/static/img/example/conditional/switch/postman.jpg';
+import Simulation from '@site/static/img/example/conditional/switch/simulation.jpg';
+import CreateServer from '@site/static/img/example/conditional/create-server.jpg';
+import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
+import ConditionalSwitch from '@site/static/img/example/conditional/switch/conditional-switch.jpg';
+import Case1 from '@site/static/img/example/conditional/switch/case1.jpg';
+import CaseDefault from '@site/static/img/example/conditional/switch/case-default.jpg';
+import StringUpcase from '@site/static/img/example/conditional/switch/string-upcase.jpg';
+import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflow-default-output.jpg';
+
 # Conditional SWITCH Example
 
 <div class="colTwoBlock">
@@ -19,7 +31,6 @@ keywords:
           <p><b>SWITCH</b>: HTTP Request body <code>condition</code>.</p>
           <ul>
             <li><b>Case 1</b> If the SWITCH contains <code>foo1</code>.</li>
-            <li><b>Case 2</b>: If the SWITCH contains <code>foo2</code>.</li>
             <li><b>Default</b>: reply with a message "<b>No matching condition</b>".</li>
           </ul>
         </div>
@@ -28,13 +39,9 @@ keywords:
           <h4>Example Configuration</h4>
           <a target="_blank" href="pathname:///file/sample-conditional-config.json" download><button class="btnDownload">⏬ Download</button></a>
           <p><a href="/docs/Documentation/Guide/Settings/#upload-configuration">Learn how to use</a></p>
-          <h4>Tutorial</h4>
-          <a target="_blank" href="https://www.youtube.com/watch?v=aiJoS3eM6Jw"><button class="btnVideo">🎥 Watch Video</button></a>
     </div>
     <div class="colTwoClearer"></div>
 </div>
-
-<!-- <img src={IfConditionFlow} alt="If Condition Flow" class="myResponsiveImg" width="800px"/> -->
 
 ## Supporting Concepts
 
@@ -69,145 +76,214 @@ Send JSON object with keys `condition` and `value` over HTTP request body.
 
 The goal of the operation is to run a conditional SWITCH logic:
 
-- #### SWITCH `condition` contains `foo1`
+- #### IF the **condition** contains `foo1`.
 
-```json
+```yaml
 { "condition": "foo1", "value": "bar1" }
 ```
-
-An action is added to perform **upcase** on the `value`. 
-
-For example, if the input string is `bar1`, the output is
+Capitalize the value. 
 
 ```yaml
-BAR1
-```
-
-- #### ELSE Return
-
-A string value.
-
-```yaml
-No matching condition.
+{ "condition": "FOO1", "value": "BAR1" }
 ```
 
 ## Content
 
-### Step 1: Create an API endpoint
+### INPUT: HTTP Request
 
-Go to the API section and create a new API.
-- Name: `sample-conditional`
+#### 1: Create an API endpoint
 
-:::tip Required Concepts
-Learn how to create a [API](../../../Documentation/Examples/API/#1-create-api). 
+:::note Required Concepts
+Learn how to create an [API](../../../Documentation/Examples/API/#1-create-api). 
 :::
 
-<!-- <img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/> -->
+<details open>
+
+<summary>Create an API</summary>
+
+From the **left navigation**, go to the API section and create a new API.
+
+<img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
+
+- ID: `sample-conditional`
+
+</details>
+
+<details open>
+
+<summary>Create an API Path</summary>
+
+<img src={CreateApiPath} alt="Create API Path" class="myResponsiveImg" width="500px"/>
 
 - Path: `/switch`
 - Method: <span class="method post">POST</span>
 
-### Step 2. Create a Server Operation
+</details>
+
+#### 2. Create a Server Operation
+
 :::tip Required Concepts
 Learn how to create a [Server](../../../Documentation/Examples/API/#2-create-server). 
 :::
 
-#### Create a Server
-<!-- <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/> -->
+<details open>
 
+<summary>Create a Server</summary>
+
+From the **left navigation**, go to the Server section and create a new Server.
+
+<img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
 - Server ID: `sample-conditional`
-- Port Number: `1112`  Feel free to select your own port number
+- Port Number: `1113`  Feel free to select your own port number
 - Linked API: `sample-conditional`  (select the API you created above)
 
-#### Create a Server Operation
+</details>
 
-<!-- <img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="550px"/> -->
+<details open>
+
+<summary>Create a Server Operation</summary>
+
+<img src={CreateServerOperation} alt="Create Server Operation" class="myResponsiveImg" width="900px"/>
 
 - Press the "Add API Operation"
 - Select the API endpoint created above
 
-### Step 3 : Create Data Simulation for the two conditions
+
+</details>
+
+#### 3 : Create Data Simulation using Real Data
 
 :::tip Required Concepts
 Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
 :::
 
-#### Case 1
+We will use the "real data" to create the test simulation.
 
-- **ID**: `case1`
-- **Request Body**: 
-  ```json
-  { "condition": "foo1", "value": "bar1" }
-  ```
+<details open>
 
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+<summary>1. Send a HTTP request from Postman or cURL</summary>
 
-#### Case 2
+<img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
 
-- **ID**: `case2`
-- **Request Body**: 
-  ```json
-  { "condition": "foo2", "value": "bar2" }
-  ```
+[API Autoflow Postman Collections](https://www.postman.com/interactor/workspace/api-autoflow-interactor/folder/13591115-f255076a-da4f-4635-a1f9-2b27ccf20c66?ctx=documentation)
 
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+###### cURL
+```bash
+curl --location 'localhost:1113/switch' \
+--header 'Content-Type: application/json' \
+--data '{
+    "condition": "foo1",
+    "value": "bar1"
+}'
+```
 
+</details>
 
-## Add Actions to the Flow
+<details open>
 
-### Step 4 : Add SWITCH Conditional
+<summary>2. Check the data is received by the server endpoint</summary>
+
+API Autoflow captures the data received and it can be used to create data simulation.
+
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="900px"/>
+
+</details>
+
+### Action(s)
+
+:::tip Required Concepts
+Learn how to create a [Actions](../../../Documentation/Guide/Workflow/Action/). 
+:::
+
+Add actions to transform the data.
+
+#### 1. Apply switch condition to the input data
 
 :::tip Required Concepts
 Learn how to create a [conditional/SWITCH](../../../Documentation/actions-library/flow/conditional/action-conditional-switch/). 
 :::
 
-<!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+SWITCH condition works based on **matching** the values between the **SWITCH** and **CASE**.
 
-SWITCH condition works based on **match** value. There are a few options in getting the boolean result.
+<img src={ConditionalSwitch} alt="Conditional Switch" class="myResponsiveImg" width="900px"/>
 
-- ### Case 1 : IF the switch contains `foo1`
+###### SETTINGS
 
-  <!-- <img src={ValueTypeSelector} alt="Value type selector" class="myResponsiveImg" width="800px"/> -->
+> **SWITCH**: <u>data</u>
+>> [<b>request</b>: <code>body > condition</code>]
 
-  **CASE**: `foo1`
+<details open>
 
-  <p>a</p>
+<summary>(Case 1): IF the SWITCH condition contain <code>foo1</code></summary>
 
-    ### Upcase the values
+<img src={Case1} alt="Case 1" class="myResponsiveImg" width="900px"/>
 
-    #### 1. Add an String Upcase action
+###### SETTINGS
 
+> **CASE**: <u>string</u>
+>> <u>foo1</u>
 
-    <!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+##### Upcase the Value
 
+<details open>
 
-    #### 2. Configure String Upcase action
+<summary>String Upcase</summary>
 
-    Upcasing the data in the variable **request**: `body > value`. 
+<img src={StringUpcase} alt="String Upcase" class="myResponsiveImg" width="900px"/>
 
-    <!-- <img src={SelectSimulation} alt="Select Simulation" class="myResponsiveImg" width="800px"/> -->
+###### SETTINGS
 
+> **string**: <u>data</u>
+>> [**request**: `body > value`]
 
-- ### Case 2 : IF the switch contains `foo2`
+###### OUTPUT
 
-  <!-- <img src={ValueTypeSelector} alt="Value type selector" class="myResponsiveImg" width="800px"/> -->
+> **variables**: `output` <br/>
 
-  **CASE**: `foo2`
+</details>
 
+###### OUTPUT
 
-- ### Default
+> **variables**: `output` <br/>
 
-  Assign the **Return** as a string value and input `No matching condition.`
+</details>
 
-  <!-- <img src={ValueTypeSelector} alt="Value type selector" class="myResponsiveImg" width="800px"/> -->
+<details open>
 
+<summary>(Else): Return message</summary>
 
-### Step 6 : Map the HTTP response with the New Variable
+<img src={CaseDefault} alt="Case Default" class="myResponsiveImg" width="900px"/>
 
-Both iteration action and HTTP response body are set to **variables**: `output`, there's no change that needs to be made
+###### SETTINGS
 
-<!-- <img src={HttpResponseCapitalized} alt="Http Response Capitalized" class="myResponsiveImg" width="400px"/> -->
+> **Return**: <u>string</u>
+>> `No matching condition`
+
+###### OUTPUT
+
+> **variables**: `output` <br/>
+
+</details>
+
+### OUTPUT: HTTP Response
+
+#### 1. Create a NEW object and map the IP and Subnet
+
+Both the action's output and HTTP response body are set to **variables**: `output`. There's no change that needs to be made.
+
+<details open>
+
+<summary>HTTP Response</summary>
+
+###### SETTINGS
+
+<img src={ServerWorkflowDefaultOutput} alt="Server Workflow Default Output" class="myResponsiveImg" width="800px"/>
+
+> **body**: <u>data</u>
+>> [**variables**: `output`]
+
+</details>
 
 :::note Mapping the **action** output to the **HTTP response** output
 - Data referenced in HTTP response is what gets sent back to the client. 
@@ -217,16 +293,15 @@ NOTE: By default, the action output is set to variable **output**. If you intend
 simply rename the output location in the action's output.
 :::
 
-### Step 7 : Test the API with Postman or CURL
+#### 2. Test the API with Postman or CURL
 
-Try changing the value in the **condition** to be either `foo1` or `foo2`.
-
-#### cURL
+###### cURL
 
 ```bash
-curl --location 'localhost:1112/switch' \
+curl --location 'localhost:1113/switch' \
 --header 'Content-Type: application/json' \
---data '{ "condition": "foo1", "value": "bar1" }'
+--data '{
+    "condition": "foo1",
+    "value": "bar1"
+}'
 ```
-
-<!-- <img src={SendPostmanRequest} alt="Send Postman Request" class="myResponsiveImg" width="600px"/> -->
