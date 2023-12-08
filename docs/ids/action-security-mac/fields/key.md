@@ -1,1 +1,1 @@
-The MAC key.
+The key used for generating the MAC.

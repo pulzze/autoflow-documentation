@@ -1,1 +1,1 @@
-The MAC data.
+The string data to be encrypted.

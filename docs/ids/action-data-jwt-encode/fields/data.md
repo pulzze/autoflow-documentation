@@ -1,1 +1,1 @@
-A JWT claim.
+A JWT claim object.

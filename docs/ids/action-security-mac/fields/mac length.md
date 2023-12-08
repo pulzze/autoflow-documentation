@@ -1,1 +1,1 @@
-The MAC length.
+The length of the MAC result between 1 and the max length of the chosen algorithm. If zero is chosen, the max will be used.
