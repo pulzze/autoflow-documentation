@@ -247,7 +247,7 @@ simply rename the output location in the action's output.
 
 #### 2. Test the API with Postman or CURL
 
-#### cURL
+###### cURL
 
 ```bash
 curl --location 'localhost:1114/datetime-to-unix' \

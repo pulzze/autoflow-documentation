@@ -43,6 +43,32 @@ import HttpOutput from '@site/static/img/example/data-transformation/obj-change-
     <div class="colTwoClearer"></div>
 </div>
 
+## Supporting Concepts
+
+<details>
+
+<summary>Basic concepts needed for the use case</summary>
+
+| Topic    | Description |
+| -------- | ------- |
+| [API](../../../Documentation/Examples/API/#1-create-api)  | An API in API AutoFlow is simply an OpenAPI model |
+| [Server](../../../Documentation/Examples/API/#2-create-server)  | A server accepts and handles the request and response. |
+| [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
+| [Scope](../../../Documentation/Guide/Workflow)    |  A scope is a namespace for variables.    |
+| Data Types   | Data types describe the different types or kinds of data that you are gonna store and work with.    |
+
+</details>
+
+<details open>
+
+<summary>Use case specific concepts</summary>
+
+| Topic    | Description |
+| -------- | ------- |
+| Action <br/>[iteration/map](../../../Documentation/actions-library/flow/iteration/action-iteration-map/)    | Iterate over array of data mapping result to each array position.    |
+| Action <br/>[variable/set](../../../Documentation/actions-library/data/variable/action-variable-set/)    | This Action set variable.    |
+
+</details>
 
 ### Original JSON
 
@@ -84,34 +110,6 @@ Create a new key `users` and store the value in a new object.
     ]
 }
 ```
-
-## Supporting Concepts
-
-<details>
-
-<summary>Basic concepts needed for the use case</summary>
-
-| Topic    | Description |
-| -------- | ------- |
-| [API](../../../Documentation/Examples/API/#1-create-api)  | An API in API AutoFlow is simply an OpenAPI model |
-| [Server](../../../Documentation/Examples/API/#2-create-server)  | A server accepts and handles the request and response. |
-| [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
-| [Scope](../../../Documentation/Guide/Workflow)    |  A scope is a namespace for variables.    |
-| Data Types   | Data types describe the different types or kinds of data that you are gonna store and work with.    |
-
-</details>
-
-<details open>
-
-<summary>Use case specific concepts</summary>
-
-| Topic    | Description |
-| -------- | ------- |
-| Action <br/>[iteration/map](../../../Documentation/actions-library/flow/iteration/action-iteration-map/)    | Iterate over array of data mapping result to each array position.    |
-| Action <br/>[variable/set](../../../Documentation/actions-library/data/variable/action-variable-set/)    | This Action set variable.    |
-
-</details>
-
 
 ## Details
 The HTTP request has an array of objects inputs:
@@ -192,7 +190,7 @@ From the **left navigation**, go to the Server section and create a new Server.
 </details>
 
 
-### Step 3 : Create Data Simulation using Real Data
+### 3 : Create Data Simulation using Real Data
 
 :::tip Required Concepts
 Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-Simulation/). 
@@ -200,7 +198,7 @@ Learn how to create a [Simulation](../../../Documentation/Guide/Workflow/INPUT-S
 
 We will use the "real data" to create the test simulation.
 
-#### 1. Send a HTTP request from Postman or CURL
+#### 4. Send a HTTP request from Postman or CURL
 
 <img src={Postman} alt="Send Postman Request" class="myResponsiveImg" width="600px"/>
 
