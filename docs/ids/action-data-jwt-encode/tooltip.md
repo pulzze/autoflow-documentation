@@ -1,1 +1,1 @@
-Encode claim/data into JWT
+Encodes a claim object into a JWT.
