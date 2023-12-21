@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 title: Publish data to Kakfa Broker
 sidebar_label: Publish
 description: Kafka Publish
@@ -9,11 +10,11 @@ keywords:
   - publish
 ---
 
-import CreateApi from '@site/static/img/example/data-transformation/create-api.jpg';
+import CreateApi from '@site/static/img/example/client/create-api.jpg';
 import CreateApiPath from '@site/static/img/example/client/kafka/publish/create-api-path.jpg';
 import Postman from '@site/static/img/example/client/kafka/publish/postman.jpg';
 import Simulation from '@site/static/img/example/client/kafka/publish/simulation.jpg';
-import CreateServer from '@site/static/img/example/data-transformation/create-server.jpg';
+import CreateServer from '@site/static/img/example/client/create-server.jpg';
 import CreateServerOperation from '@site/static/img/example/server-add-api-operation.jpg';
 import JsonEncode from '@site/static/img/example/client/kafka/publish/json-encode.jpg';
 import KafkaPublish from '@site/static/img/example/client/kafka/publish/kafka-publish.jpg';
@@ -39,6 +40,10 @@ import ServerWorkflowDefaultOutput from '@site/static/img/example/server-workflo
     <div class="colTwoClearer"></div>
 </div>
 <br />
+
+:::danger
+Make sure you have followed the steps to [create Kafka client](./Index.md). 
+:::
 
 ## Supporting Concepts
 
@@ -85,23 +90,13 @@ The HTTP request has 2 inputs:
   }
 ```
 
-### New Object
+### Result
 
-The goal of the operation is to create a new object:
-
-- **user**: main key that wraps the data
-  - **first_name**: key where the "first name" is stored
-  - **last_name**: key where the "last name" is stored
+Return a `Success` reply from the Kafka publish action.
 
 
-
-```js
-{
-    "user": {
-        "first_name": "joe",
-        "last_name": "blow"
-    }
-}
+```
+Success
 ```
 
 ## Content
@@ -122,7 +117,7 @@ From the **left navigation**, go to the API section and create a new API.
 
 <img src={CreateApi} alt="Create API" class="myResponsiveImg" width="500px"/>
 
-- ID: `sample-data-transformation`
+- ID: `sample-client`
 
 </details>
 
@@ -151,9 +146,9 @@ From the **left navigation**, go to the Server section and create a new Server.
 
 <img src={CreateServer} alt="Create Server" class="myResponsiveImg" width="500px"/>
 
-- Server ID: `sample-data-transformation`
-- Port Number: `1114`  Feel free to select your own port number
-- Linked API: `sample-data-transformation`  (select the API you created above)
+- Server ID: `sample-client`
+- Port Number: `1115`  Feel free to select your own port number
+- Linked API: `sample-client`  (select the API you created above)
 
 </details>
 
@@ -231,14 +226,10 @@ API Autoflow server automatically decodes the incoming JSON.  Hence we need to e
 
 ###### SETTINGS
 
-<!-- <img src={JsonEncode} alt="String Capitalize" class="myResponsiveImg" width="900px"/> -->
+<img src={JsonEncode} alt="String Capitalize" class="myResponsiveImg" width="900px"/>
 
-> **value**:<u>object</u>
->> **first_name** <u>data</u>
->>> [<b>request</b>: <code>body > data > field1</code>]
->
->> **last_name** <u>data</u>
->>> [<b>request</b>: <code>body > data > field2</code>]
+> **data**:<u>data</u>
+>> [<b>request</b>: <code>body > data</code>]
 
 ###### OUTPUT
 
@@ -260,25 +251,24 @@ You can create a new value and publish to Kakfa broker
 
 ###### SETTINGS
 
-<!-- <img src={KafkaPublish} alt="String Capitalize" class="myResponsiveImg" width="900px"/> -->
+<img src={KafkaPublish} alt="String Capitalize" class="myResponsiveImg" width="900px"/>
 
 > **processReference**: <u>ClientReference</u>
->> `consumer-group-id-1`
+>> `example-kafka`
 >
-> **key**: <u>string</u> `hello`
+> **key**: <u>string</u> `test`
 >
 > **value**:<u>data</u>
 >> **variables** <u>output</u>
 >
 > **header**: <u>object</u>
->> **test** <u>string</u> `test_header`
 >
-> **produce_api_version**: <u>number</u> `3`
+> **produce_api_version**: <u>undefined</u>
 >
 > **required_acks**: <u>undefined</u>
 >
 > **topic**: <u>string</u>
->> `topic1`
+>> `sample-topic`
 
 ###### OUTPUT
 

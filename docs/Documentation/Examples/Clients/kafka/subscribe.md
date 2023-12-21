@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 title: Kafka Subscribe
 sidebar_label: Subscribe
 description: Kafka Subscribe
@@ -8,6 +9,12 @@ keywords:
   - client
   - subscribe
 ---
+
+import AddTopic from '@site/static/img/example/client/kafka/subscribe/add-topic.jpg';
+import Simulation from '@site/static/img/example/client/kafka/subscribe/simulation.jpg';
+import SystemLog from '@site/static/img/example/client/kafka/subscribe/system-log.jpg';
+import CheckLog from '@site/static/img/example/client/kafka/subscribe/check-log.jpg';
+import Output from '@site/static/img/example/client/kafka/subscribe/output.jpg';
 
 # Kafka Subscribe
 
@@ -29,6 +36,10 @@ keywords:
 </div>
 <br />
 
+:::danger
+Make sure you have followed the steps to [create Kafka client](./Index.md). 
+:::
+
 ## Supporting Concepts
 
 <details>
@@ -37,8 +48,7 @@ keywords:
 
 | Topic    | Description |
 | -------- | ------- |
-| [API](../../../Examples/API/#1-create-api)  | An API in API AutoFlow is simply an OpenAPI model |
-| [Server](../../../Examples/API/#2-create-server)  | A server accepts and handles the request and response. |
+| [Client]](../../../Examples/Clients)  | A server accepts and handles the request and response. |
 | [Simulation](../../../Guide/Workflow/INPUT-Simulation/)  | Data simulation is a mock data simulated for the purpose of visualizing the data in every step of the workflow. <ul><li>Simulated data is NOT the real data but a sample data you create.</li><li>To use real data, use the **Transaction** feature to capture the data you send from Postman or CURL.</li></ul>  |
 | [Scope](../../../Guide/Workflow/)    |  A scope is a namespace for variables.    |
 | Data Types    | Data types describe the different types or kinds of data that you are gonna store and work with.    |
@@ -51,7 +61,7 @@ keywords:
 
 | Topic    | Description |
 | -------- | ------- |
-| Action <br/>[kafka/publish](../../../../Documentation/actions-library/call/kafka/action-kafka-publish)    | This Action returns array that divides a string into parts based on a pattern.    |
+| Action <br/>[system/log](../../../../Documentation/actions-library/call/system/action-system-log)    | Prints a log to standard output.  |
 
 </details>
 
@@ -59,37 +69,110 @@ keywords:
 ## Detail
 
 ### Original Object
-The HTTP request has 2 inputs:
-- **data**: main key that wraps the data
-  - **field1**: key where the "first name" is stored
-  - **field2**: key where the "last name" is stored
 
 ```js
-{
-    "data": {
-        "field1": "joe",
-        "field2": "blow"
-    }
-}
+  {
+      "received": ""
+  }
 ```
 
-### New Object
+### Result
 
-The goal of the operation is to create a new object:
+The log action prints out the message from Kafka event
 
-- **user**: main key that wraps the data
-  - **first_name**: key where the "first name" is stored
-  - **last_name**: key where the "last name" is stored
-
-
-
-```js
-{
-    "user": {
-        "first_name": "joe",
-        "last_name": "blow"
-    }
-}
-```
 
 ## Content
+
+### Subscribe to an Event
+
+#### 1: Event
+
+:::note Required Concepts
+Learn how to create an [Client](./Index.md). 
+:::
+
+
+From the **tab**, go to the Event.
+
+<details open>
+
+<summary>Add topic</summary>
+
+
+<img src={AddTopic} alt="Add topic" class="myResponsiveImg" width="500px"/>
+
+- ID: `sample-topic`
+
+</details>
+
+
+#### 2 : Create Data Simulation using Real Data
+
+<details open>
+
+<summary>Simulation</summary>
+
+:::tip Required Concepts
+Learn how to create a [Simulation](../../../Guide/Workflow/INPUT-Simulation/). 
+:::
+
+<summary>Manually create a test simulation</summary>
+
+<img src={Simulation} alt="Simulation" class="myResponsiveImg" width="800px"/>
+
+</details>
+
+
+### Action(s)
+
+:::tip Required Concepts
+Learn how to create a [Actions](../../../Guide/Workflow/Action/). 
+:::
+
+Add actions to transform the data.
+
+
+#### 1. System Log
+
+:::tip Required Concepts
+[system/log](../../../../Documentation/actions-library/call/system/action-system-log) 
+:::
+
+For this example, we will simply log the messages from the event.
+
+<details open>
+
+<summary>System Log</summary>
+
+###### SETTINGS
+
+<img src={SystemLog} alt="String Capitalize" class="myResponsiveImg" width="900px"/>
+
+> **label**:<u>string</u>
+>> `Kafka-event`
+>
+> **level**:<u>enum</u>
+>
+>> `info`
+>
+> **value**:<u>data</u>
+>> [<b>received</b>: ]
+
+###### OUTPUT
+
+> **variables**: `output`
+
+</details>
+
+
+
+#### 2. Check Log
+
+On the right pane, check the message in the log.
+
+<img src={CheckLog} alt="String Capitalize" class="myResponsiveImg" width="500px"/>
+
+
+### OUTPUT: Events don't have an output
+
+<img src={Output} alt="No output" class="myResponsiveImg" width="800px"/>
