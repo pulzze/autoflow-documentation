@@ -13,7 +13,7 @@ This section will demonstrate how to launch a single docker instance from a shel
 
 You may **optionally** add the following files to that folder:
 
-1. `autoflow.conf` details for this file can be found [here](https://github.com/pulzze/api-interactor/wiki/API-AutoFlow-System-Variables)
+1. `autoflow.conf` details for this file can be found [here](../../../Documentation/Guide/Settings/global-variable)
 2. `config.json` this is an exported configuration
 3. `license.json` this is your license file
 
